@@ -124,7 +124,7 @@ annotations <- rowAnnotation(
                         border = FALSE),
   "bp" = anno_barplot((assembly_size_matrix),
                       width = unit(1, "cm"),
-                      baseline = "min",
+                      baseline = c(18000000),
                       ylim = c(18000000, 44000000),
                       axis_param = list(
                         at = c(20000000, 42000000), 
@@ -133,7 +133,7 @@ annotations <- rowAnnotation(
                       gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
   "proteins" = anno_barplot((no_proteins_matrix),
                             width = unit(1, "cm"),
-                            baseline = "min",
+                            baseline = c(6000),
                             ylim = c(6000, 11000),
                             axis_param = list(
                               at = c(7000, 10000), 
@@ -242,27 +242,8 @@ attributes_hm <- Heatmap(genome_attributes_lifestyle_matrix,
 attributes_hm 
 
 
-attributes_hm + cazyme_hm + secmets_hm + merops_hm
-decorate_annotation("compl", { 
-  grid.text("Assembly", y = unit(1, "npc") + unit(18, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-decorate_annotation("compl", { 
-  grid.text("completeness", y = unit(1, "npc") + unit(13, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-
-decorate_annotation("bp", { 
-  grid.text("Mbp", y = unit(1, "npc") + unit(18, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-
-decorate_annotation("proteins", { 
-  grid.text("Predicted", y = unit(1, "npc") + unit(18, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-decorate_annotation("proteins", { 
-  grid.text("proteins", y = unit(1, "npc") + unit(13, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-
 #write to pdf
-pdf(file="~/Documents/2022_04_eukaryote_annotation/03_heatmap_annotations/absolute_values_sporothrix.pdf", width=12, height=8)
+pdf(file="figures/sporothrix_overview.pdf", width=12, height=8)
 attributes_hm + cazyme_hm + secmets_hm + merops_hm
 decorate_annotation("compl", { 
   grid.text("Assembly", y = unit(1, "npc") + unit(18, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
