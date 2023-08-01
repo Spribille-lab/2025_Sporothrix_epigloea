@@ -1,0 +1,8 @@
+Checklist	ERC000011	ENA default sample checklist					
+tax_id	scientific_name	sample_alias	sample_title	sample_description	collection date	geographic location (country and/or sea)	culture_collection
+#units		 	 	 	 	 	 
+1805982	Sporothrix thermara	Sporothrix thermara CBS 139747	Sporothrix thermara CBS 139747 culture	Sporothrix thermara isolate CBS 139747	2012-08-22	South Africa	CBS 139747
+1812306	Sporothrix eucalyptigena	Sporothrix eucalyptigena CBS 139899	Sporothrix eucalyptigena CBS 139899 culture	Sporothrix eucalyptigena isolate CBS 139899	2013-06-22	Australia	CBS 139899
+1812306	Sporothrix eucalyptigena	Sporothrix eucalyptigena CBS 140593	Sporothrix eucalyptigena CBS 140593 culture	Sporothrix eucalyptigena isolate CBS 140593	2014-06-12	South Africa	CBS 140593
+671064	Sporothrix bragantina	Sporothrix bragantina CBS 474.91	Sporothrix bragantina CBS 474.91 culture	Sporothrix bragantina isolate CBS 474.91	1993-01-01	Brazil	CBS 474.91
+1260050	Sporothrix curviconia	Sporothrix curviconia CBS 959.73	Sporothrix curviconia CBS 959.73 culture	Sporothrix curviconia isolate CBS 959.73	1973-01-01	Cote d'Ivoire	CBS 959.73

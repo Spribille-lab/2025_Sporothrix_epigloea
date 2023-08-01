@@ -1,0 +1,428 @@
+---
+title: "Metagenome analysis of fresh and senesced *Tremella mesenterica* sporocarps from the Athabasca River Basin"
+author: "Carmen Allen"
+date: "`r format(Sys.time(), '%Y %B %d')`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+    number_sections: true
+    code_folding: hide
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Sample collection, preparation and sequencing
+For whole fungal metagenomes, we collected fruiting bodies of *Tremella mesenterica* in aspen forests of Alberta between May 19 and June 17, 2022.  Research and Collection Permits were obtained from Alberta Parks when in managed lands.  Fruiting bodies were dissected from aspen branches using sterile instruments and flash frozen in liquid nitrogen.  All specimens were stored at −80°C prior to DNA extraction. Samples were ground while frozen using a combination of TissueLyser II (Qiagen, Hilden, Germany) and mortar and pestle.  We extracted DNA using the DNeasy Plant Mini Kit.  DNA libraries were prepared by the Génome Québec Centre d'expertise et de services using the NEBNext® Ultra™ II DNA Library Prep Kit for Illumina®. The libraries were sequenced at the same centre on an Illumina NovaSeq 6000 using 150-bp paired-end reads.
+
+# clean reads
+
+Metagenome libraries were filtered with the metaWRAP pipeline (v1.3.2, Uritskiy et al., 2018). Within the Read_QC module, raw reads were trimmed based on adapter content and Phred score with the default setting of Trim Galore (v0.5.0). Human reads were removed from the datasets using bmtagger (hg38) within the Read_QC module.
+
+```{bash, eval=F, echo=T, message = F}
+conda activate metawrap-env
+export PATH=$PATH:/data/ccallen/packages/metaWRAP/bin
+metawrap read_qc -1 01_RAW_READS/"sample"_1.fastq -2 01_RAW_READS/"sample"_2.fastq -t 24 -o 02_READ_QC/"sample"
+```
+
+# assembly
+
+Each sample was individually assembled using metaSPAdes 3.15.4 (in Narval)
+
+```{bash, eval=F, echo=T, message = F}
+
+#!/bin/bash
+#SBATCH --account=def-tspribi
+#SBATCH --time=3-0:0
+#SBATCH --cpus-per-task=64
+#SBATCH --mem=2000G
+#SBATCH --job-name=SPAdes
+#SBATCH --output=spades_2000G.script.logs.out
+
+module load StdEnv/2020
+module load spades/3.15.4
+
+SAMPLE="$1" #ca2022_10_bulk
+READS_1="$SAMPLE"_1.fastq.gz
+READS_2="$SAMPLE"_2.fastq.gz
+
+mkdir $SCRATCH/2023_01_Tmes_metagenomes/04_metagenome_assemblies/"$SAMPLE"
+spades.py -t ${SLURM_CPUS_PER_TASK} -m 2000 --meta --pe1-1 $SCRATCH/2023_01_Tmes_metagenomes/03_CLEAN_READS/"$READS_1" --pe1-2 $SCRATCH/2023_01_Tmes_metagenomes/03_CLEAN_READS/"$READS_2" -k 21,31,51,71,81,101,127 -o $SCRATCH/2023_01_Tmes_metagenomes/04_metagenome_assemblies/"$SAMPLE"
+```
+
+# binning
+
+The sample reads were mapped to their respective metagenome assembly using Bowtie2 2.4.4.  The outputs were processed with SAMtools 1.13 and binned using CONCOCT 1.1.0.
+
+```{bash, eval=F, echo=T, message = F}
+###################################
+#!/bin/bash
+#SBATCH --account=def-tspribi
+#SBATCH --time=2-0:0
+#SBATCH --cpus-per-task=32
+#SBATCH --job-name=mapping
+#SBATCH --mem=120G
+#SBATCH --output=mapping.script.logs.out
+#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+
+module load StdEnv/2020
+module load gcc/9.3.0
+module load bowtie2/2.4.4
+module load samtools/1.16.1
+
+sample="$1"
+reads_1=$SCRATCH/2023_01_Tmes_metagenomes/03_CLEAN_READS/"$sample"_1.fastq.gz
+reads_2=$SCRATCH/2023_01_Tmes_metagenomes/03_CLEAN_READS/"$sample"_2.fastq.gz
+contigs=$SCRATCH/2023_01_Tmes_metagenomes/04_metagenome_assemblies/"$sample"/contigs.fasta
+mapping_dir=$SCRATCH/2023_01_Tmes_metagenomes/05_mapping/"$sample"
+
+#bowtie2 version is 2.4.4
+#samtools version is 1.13
+
+mkdir "$mapping_dir"
+cd "$mapping_dir"
+bowtie2-build "$contigs" "$sample"_assembly
+bowtie2 -x "$sample"_assembly -1 "$reads_1" -2 "$reads_2" --no-unal -p 24 -S "$sample".sam
+samtools view -b -o "$sample"-raw.bam "$sample".sam
+samtools sort -o "$sample".bam "$sample"-raw.bam
+samtools index "$sample".bam
+rm "$sample".sam
+rm "$sample"-raw.bam
+
+###################################################
+
+# binning with concoct 1.1.0 (in debary)
+
+##################################################
+#!/bin/bash
+
+sample="$1"
+contigs=/data/ccallen/2023_01_Tmes_metagenomes/04_metagenome_assembles/"$sample"/"$sample".contigs.fasta
+mapping_dir=/data/ccallen/2023_01_Tmes_metagenomes/05_mapping/"$sample"
+binning_dir=/data/ccallen/2023_01_Tmes_metagenomes/06_binning/"$sample"
+
+#bowtie2 version in narval is 2.4.4
+#samtools version in narval is 1.16.1
+
+eval "$(conda shell.bash hook)"
+conda deactivate
+eval "$(conda shell.bash hook)"
+conda activate concoct-1.1.0
+
+# I had already completed the mapping in compute canada so I copied those bam files to 05_mapping
+
+# cut contigs into smaller parts
+mkdir "$binning_dir"
+cd "$binning_dir"
+cut_up_fasta.py "$contigs" -c 10000 -o 0 --merge_last -b contigs_10K.bed > contigs_10K.fa
+
+# Generate table with coverage depth information per sample and subcontig. This step assumes the directory
+# ‘mapping’ contains sorted and indexed bam files where each sample has been mapped against the original contigs
+
+concoct_coverage_table.py contigs_10K.bed "$mapping_dir"/"$sample".bam > coverage_table.tsv
+
+# run concoct
+concoct --composition_file contigs_10K.fa --coverage_file coverage_table.tsv -t 28 -b concoct_output/
+
+# Merge subcontig clustering into original contig clustering
+merge_cutup_clustering.py concoct_output/clustering_gt1000.csv > concoct_output/clustering_gt1000_merged.csv
+
+# Extract bins as individual FASTA
+mkdir concoct_output/fasta_bins
+extract_fasta_bins.py "$contigs" concoct_output/clustering_gt1000_merged.csv --output_path concoct_output/fasta_bins
+
+##################################
+
+# copy all concoct bins into a single directory and renamed
+
+cd /data/ccallen/2023_01_Tmes_metagenomes/06_binning
+for sample in $(cat samples.txt)
+do
+mkdir all_concoct_bins/"$sample"
+cd "$sample"/concoct_output/fasta_bins
+for file in *.fa
+do
+echo $file
+cp $file ../../../all_concoct_bins/"$sample"
+mv ../../../all_concoct_bins/"$sample"/$file ../../../all_concoct_bins/"$sample"_$file
+done
+cd ../../..
+rm -r all_concoct_bins/"$sample"
+done
+```
+
+Sample sequencing, assembly, and binning stats
+```{R, eval=T, echo=T, message=F}
+library(DT)
+sample_stats<-read.delim("~/Documents/2023_01_Tmes_metagenomes/04_metagenome_assemblies/assembly_stats.txt")
+datatable(sample_stats, class = 'cell-border stripe', rownames = F, filter = 'top', editable = TRUE, extensions = 'Buttons', options = list(dom = 'Bfrtip', buttons = c('copy', 'csv', 'excel', 'pdf', 'print'), pageLength = 50))
+```
+
+# bin assessment
+
+Each bin was evaluated using BUSCO (lineage selection) to estimate completeness and contamination.
+
+```{bash, eval=F, echo=T, message = F}
+# modified from script found on the lab github page https://github.com/Spribille-lab/02_metagenomic_assembly_and_binning/tree/main/scripts
+
+#!/bin/bash
+#SBATCH --account=def-tspribi
+#SBATCH --time=0-3:0
+#SBATCH --cpus-per-task=8
+#SBATCH --job-name=array
+#SBATCH --output=array_busco.%A_%a.log
+#SBATCH --array=1-4
+#SBATCH --mem=100G
+#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
+#SBATCH --mail-type=FAIL
+
+module load singularity
+
+cd $SLURM_TMPDIR
+cp $HOME/projects/def-tspribi/busco_db_2022/busco_downloads.tar.gz .
+tar -x --use-compress-program="pigz -p 8 " -f busco_downloads.tar.gz
+
+cd $SCRATCH/2023_01_Tmes_metagenomes/06_binning/all_concoct_bins
+
+file=$(ls *.fa | sed -n ${SLURM_ARRAY_TASK_ID}p)
+echo the file is $file
+genome=${file%.*}
+echo the genome is $genome
+
+singularity run --bind $(pwd):/data,$SLURM_TMPDIR/busco_downloads:/busco_downloads --pwd /data $SCRATCH/busco_v5.3.2_cv1.sif busco -i $file -o $genome -m genome --cpu 8 -f --download_path /busco_downloads --offline
+
+#cleaning
+cd "$genome"
+find . -maxdepth 1 -mindepth 1 -type d -exec tar -czf {}.tar.gz {} --remove-files \;
+```
+
+Each bin was evaluated using eukcc2 2.1.0 to estimate eukaryote completeness and contamination.
+```{bash, eval=F, echo=T, message = F}
+
+cd /data/ccallen/2023_01_Tmes_metagenomes/07_bin_QC
+for bin in $(ls ../06_binning/all_concoct_bins/)
+do
+echo working on "$bin"
+folder=${bin%.*}
+mkdir eukcc2_single/"$folder"
+eukcc single --out eukcc2_single/"$folder" --threads 28 ../06_binning/all_concoct_bins/"$bin" --db /data/databases/eukcc2_db/eukcc2_db_ver_1.1 &>> eukcc2_single/"$folder".eukcc2.out
+done
+```
+
+The %GC and the mean coverage was calculated for each bin and combined with estimates of completion, contamination, and lineage.
+```{R, eval=F, echo=T, message=F}
+
+################################################
+#!/usr/bin/env Rscript
+args <- commandArgs(trailingOnly=TRUE)
+
+sample <- args[1]
+#sample <- "ca2022_08_bulk"
+
+#This script produces t GC/coverage plots for a single metagenome.
+#As input, it uses for each metagenome: 
+#1.nucleotide assembly (contigs.fasta`)
+#2. CONCOCT-produced coverage files (coverage_table.tsv)
+#3. CONCOCT-produced binning files (clustering_gt1000_merged.csv)
+
+setwd(paste("~/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/",sample,"/", sep=""))
+#getwd()
+
+
+library(tidyverse)
+library(Biostrings)
+library(DT)
+
+#create functions
+getGC<-function(fasta){
+  #process fasta
+  contig_id<-names(fasta) #get contig names
+  nucl_freq<-alphabetFrequency(fasta)
+  nucl_freq<-as.data.frame(nucl_freq) %>% mutate(gc=100*(G+C+S)/(A+T+W+G+C+S)) #get gc content
+  dataset1<-data.frame(contig_id,nucl_freq$gc)
+  return(dataset1)
+}
+
+####DATA PROCESSING
+#load files
+depth1<-read.delim("data/coverage_table.tsv")
+cluster<-read.csv("data/clustering_gt1000_merged.csv")
+fasta<-readDNAStringSet('data/contigs.fasta')
+busco<-read.delim("data/busco_report.txt", header=FALSE) %>%
+  filter(grepl(paste(sample), V1))
+eukcc2 <- read.delim("data/eukcc2_report.txt", header = FALSE)
+colnames(eukcc2) = c("bin", "completeness", "contamination")
+eukcc2 <- eukcc2 %>% filter(grepl(paste(sample), bin))
+
+#process depth file
+colnames(depth1)<-c("contig_region","coverage")
+depth1<-transform(depth1, contig_id = sub("(.*_cov_[0-9]+\\.[0-9]+).*", "\\1", contig_region)) #depth file gives coverage for small chunks of a contig. the name of chunks follow the scheme "contig_id.1", "contig_id.2", etc. This line uses regular expression to extract the contig_id from each chunk name
+depth2<-depth1 %>% group_by(contig_id) %>% summarize(mean_contig_cov=mean(coverage)) #calculates mean coverage for each contig
+
+#combine depth and binning
+df<-left_join(depth2,cluster)
+
+#add GC content
+gc<-getGC(fasta)
+df2<-left_join(df,gc)
+
+#add contig length
+length<-data.frame(names(fasta),width(fasta))
+colnames(length)<-c("contig_id","length")
+df2<-left_join(df2,length)
+
+#save the final table
+write.table(df2,"reports/gc_cov.txt",sep='\t',quote = F,row.names = F)
+
+#calculate and save mean coverage per bin
+bin_coverage<-df2 %>% group_by(cluster_id)%>%summarize(cov=mean(mean_contig_cov))
+write.table(bin_coverage,"reports/mean_bin_coverage.txt",sep='\t',quote = F,row.names = F)
+
+#calculate and save mean GC per bin
+bin_gc<-df2 %>% group_by(cluster_id)%>%summarize(gc=mean(nucl_freq.gc))
+
+# combine mean coverage and GC
+df3<-left_join(bin_coverage,bin_gc)
+
+# process busco report
+
+busco <- busco %>% dplyr::select(V1, V2)
+colnames(busco)<-c("file_name","busco_score")
+busco <- busco %>% dplyr::mutate(cluster_id = str_replace(file_name, "(\\S*\\_)(\\d*)(\\/)(\\S*.txt)", "\\2"))
+busco$cluster_id = as.integer(busco$cluster_id)
+busco <- busco %>% dplyr::mutate(busco_lineage = str_replace(file_name, "(^.*?)(specific|generic)(\\.)(\\S*)(\\_odb10\\.\\S*)", "\\4"))
+busco <- busco %>% dplyr::mutate(busco_specificity = str_extract(file_name, "specific|generic"))
+busco <- busco %>% dplyr::mutate(busco_single_copy_completness = str_replace(busco_score, "(C:\\d+\\.\\d\\%\\[S\\:)(\\d+\\.\\d)(.+$)", "\\2"))
+busco <- select(busco, -file_name)
+busco <- busco %>% relocate (cluster_id)
+busco <- busco %>% relocate (busco_single_copy_completness, .before = busco_lineage)
+busco$busco_single_copy_completness = as.numeric(busco$busco_single_copy_completness)
+
+# add in the busco results
+
+df4<-left_join(df3, busco, by = "cluster_id")
+
+# process eukcc2 report
+eukcc2 <- eukcc2 %>% dplyr::mutate(cluster_id = str_replace(bin, "(^.*?\\_)(\\d+)(.fa)", "\\2"))
+eukcc2$cluster_id = as.integer(eukcc2$cluster_id)
+eukcc2 <- eukcc2 %>% select(-bin)
+eukcc2 <- eukcc2 %>% relocate (cluster_id)
+colnames(eukcc2) <- c("cluster_id", "eukcc2_completeness", "eukcc2_contamination")
+
+# add in the eukcc2 results
+
+df5<-left_join(df4, eukcc2, by = "cluster_id")
+write.table(df5,"reports/mean_bin_gc_cov_busco_eukcc.txt",sep='\t',quote = F,row.names = F)
+
+################################################
+```
+
+I combined the bins from all samples into one table
+```{R, eval=F, echo=T, message=F}
+setwd("~/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/")
+library(tidyverse)
+library(data.table)
+
+file_list <- list.files(".", recursive = TRUE, pattern = "mean_bin_gc_cov_busco_eukcc.txt")
+file_list
+
+bin_tables <- data.frame()
+for (i in 1:length(file_list)){
+  temp_data <- read.delim(file_list[i], stringsAsFactors = F)
+  temp_data <- temp_data %>%
+    add_column(sample = file_list[i], .before = "cluster_id") %>%
+    dplyr::mutate(sample = str_replace(sample, "(\\S*)(/reports/mean_bin_gc_cov_busco_eukcc.txt)", "\\1"))
+  bin_tables <- rbindlist(list(bin_tables, temp_data), use.names = T) #for each iteration, bind the new data to the building dataset
+}
+
+write.table(bin_tables, "~/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/bin_statistics.txt", sep='\t', quote = F, row.names = F)
+
+
+```
+
+Bin statistics are presented as an interactive table
+```{R, eval=T, echo=T, message=F}
+library(DT)
+rm(list = ls())
+bin_stats<-read.delim("/Users/carmenallen/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/bin_statistics.txt")
+datatable(bin_stats, class = 'cell-border stripe', rownames = F, filter = 'top', editable = TRUE, extensions = 'Buttons', options = list(dom = 'Bfrtip', buttons = c('copy', 'csv', 'excel', 'pdf', 'print'), pageLength = 50))
+```
+
+# eukaryote bins
+
+I pulled out the eukaryote bins (>= 10% single copy completeness) and made GC_cov plots with consistent lineage colouring.
+```{R, eval=F, echo=T, message=F}
+sample <- "ca2022_62_bulk"
+#sample <- args[1]
+
+# make gc_cov plot with contigs colored according to their bins
+library(plotly)
+library (tidyverse)
+
+setwd(paste("/Users/carmenallen/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/",sample,sep=''))
+df2<-read.delim("reports/gc_cov.txt")
+
+#######################################################
+
+# make a df of eukaryote bins with SC completeness >10%
+euk_bins <- read.delim("reports/mean_bin_gc_cov_busco_eukcc.txt") %>%
+  filter(busco_single_copy_completness > 10, busco_lineage == "eukaryota") %>%
+  select(cluster_id) 
+euk_bins # df with one column -- the list of bins
+
+euk_lineage_df <- read.delim("reports/mean_bin_gc_cov_busco_eukcc.txt")
+euk_lineage_df <- left_join(euk_bins, euk_lineage_df)
+euk_lineage_df <- euk_lineage_df %>%
+  filter(busco_specificity == "specific")
+euk_lineage_df <- left_join(euk_bins, euk_lineage_df) # now we have the eukaryote bin stats with the specific lineage selection
+
+df2 <- df2 %>% relocate(cluster_id)
+
+df2_euk <- left_join(euk_lineage_df, df2)
+
+# a very goofy way to get all the euk lineages from all the metagenomes.  I'm sure there's a better way.
+lineages <- read.delim("~/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/all_euk_lineages.txt", header = FALSE)
+add_lineages <- unique(df2_euk$busco_lineage) %>% as.data.frame()
+colnames(add_lineages) <- c("V1")
+all_lineages <- rbind(lineages, add_lineages) %>% unique()
+#write.table(all_lineages,"~/Documents/2023_01_Tmes_metagenomes/08_GC_coverage/all_euk_lineages.txt",sep='\t',quote = F,row.names = F, col.names = F)
+n_colours <- length(unique(df2_euk$cluster_id))
+n_colours
+
+colour_palette = c(    "#47306a", "#373e3c",  "#a1a7b2",    "#cab176",     "#6cd445",         "#a94de4",        "#db482b",        "#534a25",     "#5fbb8c",     "#6c9abe",       "#c74694",       "#61c2bc",     "#dd9c2b")
+names(colour_palette) = c("fungi", "nematoda", "eukaryota", "agaricales", "tremellomycetes", "basidiomycota", "chaetothyriales", "pleosporales", "hypocreales", "ascomycota", "eurotiomycetes", "agaricomycetes", "diptera")
+colour_palette
+
+gc_plot_euk<-plot_ly(data=df2_euk,x=~nucl_freq.gc,y=~mean_contig_cov,color=~as.factor(busco_lineage), colors = colour_palette, 
+                     marker=list(size=4)) %>% add_markers () %>%  
+  layout( xaxis = list(title = 'GC%', range = list(26, 76)), 
+          yaxis = list(title = 'Coverage', type="log", range = list(0.3, 3.5)))
+
+#save as html
+withr::with_dir('reports', htmlwidgets::saveWidget(as_widget(gc_plot_euk), file="gc_plot_euk.html"))
+#withr::with_dir(htmlwidgets::saveWidget(as_widget(gc_plot_euk), file="gc_plot_euk.html"))
+#file.rename("tmp.html", "target_dir/target.html"))
+
+#save_image(gc_plot_euk, "reports/gc_plot_euk.svg", width = NULL, height = NULL, scale = NULL)
+#save_image(gc_plot_euk, "reports/gc_plot_euk.png", width = NULL, height = NULL, scale = NULL)
+```
+
+
+## fresh samples
+```{html, eval=F, echo=F, message=F}
+<!--html_preserve-->
+<iframe src = "ca2022_08_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_10_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_28_bulk_gc_plot_euk.html" width="800" height="200"></iframe>
+<!--/html_preserve-->
+```
+
+## degraded samples
+```{html, eval=F, echo=F, message=F}
+<!--html_preserve-->
+<iframe src = "ca2022_38_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_50_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_51_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_58_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_60_bulk_gc_plot_euk.html" width="800" height="200"></iframe><iframe src = "ca2022_62_bulk_gc_plot_euk.html" width="800" height="200"></iframe>
+<!--/html_preserve-->
+```
