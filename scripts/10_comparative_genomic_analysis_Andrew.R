@@ -13,15 +13,17 @@ sessionInfo(package = NULL)
 # make a heatmap using complexheatmap that compares sporothrix species
 setwd("~/Documents/2023_02_Sporothrix/10_annotations/")
 
-ML_tree <- ape::read.tree("~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Restuls_Jul26/SpeciesTree_rooted_newick.txt")
+ML_tree <- ape::read.tree("~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Aug2/SpeciesTree_rooted_Newick.txt")
 ML_tree$tip.label
+ML_tree <- drop.tip(ML_tree, 24)
+str(ML_tree)
 
 ML_dend <- ReadDendrogram(textConnection(write.tree(ML_tree)))
 str(ML_dend)
 
 #ML_dend <- DECIPHER::ReadDendrogram("~/Documents/2022_04_eukaryote_annotation/05_genomic_analysis_Sporothrix/ML_tree2.txt",keepRoot = T)
 order.dendrogram(ML_dend)
-order.dendrogram(ML_dend) <- 1:26 # change the last number to the number of tips.  I'm sure there's a fancy way to put the number of tips but I'm not that fancy.
+order.dendrogram(ML_dend) <- 1:29 # change the last number to the number of tips.  I'm sure there's a fancy way to put the number of tips but I'm not that fancy.
 order.dendrogram(ML_dend)
 
 #make a dataframe of genomes.  I use this dataframe as an anchor to keep the dendrogram and the data aligned.
@@ -47,7 +49,7 @@ row.names(completeness) = completeness$genome
 completeness <- completeness %>% dplyr::select(-genome)
 completeness_matrix <- as.matrix(completeness)
 
-genome_stats <-read.csv("funannotate/funannotate_compare_20230729/stats/genome.stats.summary.csv")
+genome_stats <-read.csv("funannotate/funannotate_compare_20230809/stats/genome.stats.summary.csv")
 row.names(genome_stats) = genome_stats$X
 genome_stats <- genome_stats %>% dplyr::select(-X)
 genome_stats <- as.data.frame(t(genome_stats)) #transpose
@@ -88,7 +90,7 @@ row.names(secmets) = secmets$genome
 secmets <- secmets %>% dplyr::select(-genome)
 secmets_matrix <- as.matrix(secmets)
 
-CAZyme <- read.csv("funannotate/funannotate_compare_20230729/cazy/CAZyme.summary.results.csv")
+CAZyme <- read.csv("funannotate/funannotate_compare_20230809/cazy/CAZyme.summary.results.csv")
 row.names(CAZyme) = CAZyme$X
 CAZyme <- CAZyme %>% dplyr::select(-X)
 CAZyme <- as.data.frame(t(CAZyme)) #transpose
@@ -99,7 +101,7 @@ row.names(CAZyme) = CAZyme$genome
 CAZyme <- CAZyme %>% dplyr::select(-genome)
 CAZyme_matrix <- as.matrix(CAZyme)
 
-merops<- read.csv("funannotate/funannotate_compare_20230729/merops/MEROPS.summary.results.csv")
+merops<- read.csv("funannotate/funannotate_compare_20230809/merops/MEROPS.summary.results.csv")
 row.names(merops) = merops$X
 merops <- merops %>% dplyr::select(-X)
 merops <- as.data.frame(t(merops))

@@ -1,0 +1,178 @@
+orthofinder_input_core
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2023-08-07 12:22:29 : Starting OrthoFinder 2.5.5
+64 thread(s) for highly parallel tasks (BLAST searches etc.)
+64 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2023-08-07 12:22:31 : Creating diamond database 1 of 23
+2023-08-07 12:22:31 : Creating diamond database 2 of 23
+2023-08-07 12:22:31 : Creating diamond database 3 of 23
+2023-08-07 12:22:31 : Creating diamond database 4 of 23
+2023-08-07 12:22:31 : Creating diamond database 5 of 23
+2023-08-07 12:22:31 : Creating diamond database 6 of 23
+2023-08-07 12:22:31 : Creating diamond database 7 of 23
+2023-08-07 12:22:31 : Creating diamond database 8 of 23
+2023-08-07 12:22:31 : Creating diamond database 9 of 23
+2023-08-07 12:22:31 : Creating diamond database 10 of 23
+2023-08-07 12:22:32 : Creating diamond database 11 of 23
+2023-08-07 12:22:32 : Creating diamond database 12 of 23
+2023-08-07 12:22:32 : Creating diamond database 13 of 23
+2023-08-07 12:22:32 : Creating diamond database 14 of 23
+2023-08-07 12:22:32 : Creating diamond database 15 of 23
+2023-08-07 12:22:32 : Creating diamond database 16 of 23
+2023-08-07 12:22:32 : Creating diamond database 17 of 23
+2023-08-07 12:22:32 : Creating diamond database 18 of 23
+2023-08-07 12:22:32 : Creating diamond database 19 of 23
+2023-08-07 12:22:32 : Creating diamond database 20 of 23
+2023-08-07 12:22:32 : Creating diamond database 21 of 23
+2023-08-07 12:22:32 : Creating diamond database 22 of 23
+2023-08-07 12:22:33 : Creating diamond database 23 of 23
+
+Running diamond all-versus-all
+------------------------------
+Using 64 thread(s)
+2023-08-07 12:22:33 : This may take some time....
+2023-08-07 12:22:33 : Done 0 of 529
+2023-08-07 12:24:15 : Done 100 of 529
+2023-08-07 12:25:41 : Done 200 of 529
+2023-08-07 12:26:33 : Done 300 of 529
+2023-08-07 12:27:39 : Done 400 of 529
+2023-08-07 12:28:55 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2023-08-07 12:28:55 : Initial processing of each species
+2023-08-07 12:29:05 : Initial processing of species 5 complete
+2023-08-07 12:29:05 : Initial processing of species 6 complete
+2023-08-07 12:29:05 : Initial processing of species 4 complete
+2023-08-07 12:29:06 : Initial processing of species 17 complete
+2023-08-07 12:29:08 : Initial processing of species 21 complete
+2023-08-07 12:29:08 : Initial processing of species 15 complete
+2023-08-07 12:29:08 : Initial processing of species 18 complete
+2023-08-07 12:29:08 : Initial processing of species 13 complete
+2023-08-07 12:29:09 : Initial processing of species 20 complete
+2023-08-07 12:29:09 : Initial processing of species 1 complete
+2023-08-07 12:29:09 : Initial processing of species 10 complete
+2023-08-07 12:29:10 : Initial processing of species 19 complete
+2023-08-07 12:29:10 : Initial processing of species 9 complete
+2023-08-07 12:29:12 : Initial processing of species 2 complete
+2023-08-07 12:29:13 : Initial processing of species 11 complete
+2023-08-07 12:29:13 : Initial processing of species 3 complete
+2023-08-07 12:29:13 : Initial processing of species 16 complete
+2023-08-07 12:29:13 : Initial processing of species 22 complete
+2023-08-07 12:29:13 : Initial processing of species 0 complete
+2023-08-07 12:29:14 : Initial processing of species 14 complete
+2023-08-07 12:29:14 : Initial processing of species 12 complete
+2023-08-07 12:29:14 : Initial processing of species 8 complete
+2023-08-07 12:29:14 : Initial processing of species 7 complete
+2023-08-07 12:29:18 : Connected putative homologues
+2023-08-07 12:29:21 : Written final scores for species 6 to graph file
+2023-08-07 12:29:21 : Written final scores for species 5 to graph file
+2023-08-07 12:29:21 : Written final scores for species 4 to graph file
+2023-08-07 12:29:21 : Written final scores for species 17 to graph file
+2023-08-07 12:29:21 : Written final scores for species 15 to graph file
+2023-08-07 12:29:21 : Written final scores for species 21 to graph file
+2023-08-07 12:29:21 : Written final scores for species 13 to graph file
+2023-08-07 12:29:22 : Written final scores for species 20 to graph file
+2023-08-07 12:29:22 : Written final scores for species 18 to graph file
+2023-08-07 12:29:22 : Written final scores for species 1 to graph file
+2023-08-07 12:29:22 : Written final scores for species 19 to graph file
+2023-08-07 12:29:22 : Written final scores for species 9 to graph file
+2023-08-07 12:29:22 : Written final scores for species 10 to graph file
+2023-08-07 12:29:22 : Written final scores for species 2 to graph file
+2023-08-07 12:29:22 : Written final scores for species 16 to graph file
+2023-08-07 12:29:22 : Written final scores for species 7 to graph file
+2023-08-07 12:29:22 : Written final scores for species 11 to graph file
+2023-08-07 12:29:23 : Written final scores for species 0 to graph file
+2023-08-07 12:29:23 : Written final scores for species 3 to graph file
+2023-08-07 12:29:23 : Written final scores for species 22 to graph file
+2023-08-07 12:29:23 : Written final scores for species 12 to graph file
+2023-08-07 12:29:23 : Written final scores for species 8 to graph file
+2023-08-07 12:29:23 : Written final scores for species 14 to graph file
+2023-08-07 12:29:58 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 204706 genes (98.9% of total) to 11652 orthogroups. Fifty percent of all genes were in orthogroups with 23 or more genes (G50 was 23) and were contained in the largest 4224 orthogroups (O50 was 4224). There were 5040 orthogroups with all species present and 4521 of these consisted entirely of single-copy genes.
+
+2023-08-07 12:30:05 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+2023-08-07 12:30:05 : Starting MSA/Trees
+Species tree: Using 4521 orthogroups with minimum of 100.0% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+2023-08-07 12:30:09 : Done 0 of 4521
+2023-08-07 12:30:50 : Done 1000 of 4521
+2023-08-07 12:31:32 : Done 2000 of 4521
+2023-08-07 12:32:14 : Done 3000 of 4521
+2023-08-07 12:32:56 : Done 4000 of 4521
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+2023-08-07 12:34:09 : Done 0 of 7132
+2023-08-07 12:35:18 : Done 1000 of 7132
+2023-08-07 12:35:50 : Done 2000 of 7132
+2023-08-07 12:36:18 : Done 3000 of 7132
+2023-08-07 12:36:36 : Done 4000 of 7132
+2023-08-07 12:36:48 : Done 5000 of 7132
+2023-08-07 12:36:58 : Done 6000 of 7132
+2023-08-07 12:37:08 : Done 7000 of 7132
+2023-08-07 13:26:37 : Done MSA/Trees
+
+Best outgroup(s) for species tree
+---------------------------------
+2023-08-07 13:26:37 : Starting STRIDE
+2023-08-07 13:26:39 : Done STRIDE
+Observed 83 well-supported, non-terminal duplications. 83 support the best root and 0 contradict it.
+Best outgroup for species tree:
+  Sporothrix_epigloea_CBS119000, Sporothrix_epigloea_TF4163, Sporothrix_epigloea_CBS57363
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Sporothrix_epigloea_CBS119000, Sporothrix_epigloea_TF4163, Sporothrix_epigloea_CBS57363
+2023-08-07 13:26:39 : Starting Recon and orthologues
+2023-08-07 13:26:39 : Starting OF Orthologues
+2023-08-07 13:26:39 : Done 0 of 10323
+2023-08-07 13:26:40 : Done 1000 of 10323
+2023-08-07 13:26:40 : Done 2000 of 10323
+2023-08-07 13:26:40 : Done 3000 of 10323
+2023-08-07 13:26:41 : Done 4000 of 10323
+2023-08-07 13:26:41 : Done 5000 of 10323
+2023-08-07 13:26:41 : Done 6000 of 10323
+2023-08-07 13:26:42 : Done 7000 of 10323
+2023-08-07 13:26:42 : Done 8000 of 10323
+2023-08-07 13:26:42 : Done 9000 of 10323
+2023-08-07 13:26:43 : Done 10000 of 10323
+2023-08-07 13:26:44 : Done OF Orthologues
+
+Writing results files
+=====================
+2023-08-07 13:26:44 : Done orthologues
+
+Results:
+    /input/orthofinder_output_core_Aug7/Results_Aug07/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+orthofinder_input_core
+orthofinder_output_core_Aug7
+orthofinder_input_core
+orthofinder_output_core_Aug7

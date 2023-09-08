@@ -1,5 +1,5 @@
 
-
+# copy predict files from previous funannotate version (1.8.5) to working directory
 * 2023.07.12
 
 copy predict files from previous funannotate version (1.8.5) to working directory
@@ -24,7 +24,27 @@ cp -r /data/ccallen/2022_04_fungal_annotation/01_funannotate/"$FILENAME"/*_preds
 done
 ```
 
-# funannotate dependencies
+# Run fungal genomes through funannotate version 1.8.5 to get gene models
+* when 2023.08.02
+* where /data/ccallen/2022_04_eukaryote_annotation
+
+* how funannotate version 1.8.5 via debary fun-env
+
+```
+cd /data/ccallen/2022_04_fungal_annotation/01_funannotate
+for sample in $(cat samples.txt)
+do
+bash ../scripts/funannotate_predict_script_v2022_2.sh "$sample".fna &>> "$sample".out
+done
+
+```
+
+
+
+
+# Installed latest funannotate for annotations  
+
+* funannotate dependencies
 ```
 funannotate check --show-versions
 
@@ -167,6 +187,8 @@ rsync -arxvHu --no-g --no-p gbk ccallen@narval.computecanada.ca:/home/ccallen/sc
 
 
 # 2023.07.20
+
+```
 funannotate compare -i \
 /data/ccallen/2023_02_Sporothrix/10_annotations/funannotate/gbk/Ophiostoma_fasciatum_VPRI43845.gbk \
 /data/ccallen/2023_02_Sporothrix/10_annotations/funannotate/gbk/Sporothrix_bragantina_CBS47491.gbk \
@@ -195,3 +217,69 @@ funannotate compare -i \
 /data/ccallen/2023_02_Sporothrix/10_annotations/funannotate/gbk/Sporothrix_thermara_CBS139747.gbk \
 /data/ccallen/2023_02_Sporothrix/10_annotations/funannotate/gbk/Sporothrix_variecibatus_CBS121961.gbk \
 -o funannotate_compare_20230720 --cpus 8 &>> funannotate_compare_20230720.txt
+```
+
+* 2023.08.02 added genomes to help define core Sporothrix
+
+Leptographium_lundbergii_S_CBS138716_GCA_001455505
+Ophiostoma_ips_S_VPRI43529_GCA_019925475
+Ophiostoma_novoulmi_S_H327_GCA_000317715
+
+* this one is to see what it is
+Sporothrix_thermara_S_bin10_GCA_XXXXXXXXX
+
+* ran funannotate compare in narval with additional genomes
+
+funannotate_compare.sh
+```
+#!/bin/bash
+#SBATCH --account=def-tspribi
+#SBATCH --time=3-0:00
+#SBATCH --cpus-per-task=8
+#SBATCH --job-name=compare
+#SBATCH --output=funannotate.script.Aug4.logs.out
+#SBATCH --mem=249G
+#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+
+module load StdEnv/2020
+module load apptainer/1.1.8
+
+cd /home/ccallen/scratch/2023_02_Sporothrix/10_annotations/funannotate
+apptainer run --bind $(pwd):/input $SCRATCH/docker_builds/funannotate_latest.sif funannotate compare -i \
+/input/gbk/Leptographium_lundbergii_CBS138716.gbk \
+/input/gbk/Ophiostoma_fasciatum_VPRI43845.gbk \
+/input/gbk/Ophiostoma_ips_VPRI43529.gbk \
+/input/gbk/Ophiostoma_novoulmi_H327.gbk \
+/input/gbk/Sporothrix_bragantina_CBS47491.gbk \
+/input/gbk/Sporothrix_brasiliensis_5110.gbk \
+/input/gbk/Sporothrix_brunneoviolacea_CBS124561.gbk \
+/input/gbk/Sporothrix_curviconia_CBS95973.gbk \
+/input/gbk/Sporothrix_dimorphospora_CBS55374.gbk \
+/input/gbk/Sporothrix_epigloea_CBS119000.gbk \
+/input/gbk/Sporothrix_epigloea_CBS57363.gbk \
+/input/gbk/Sporothrix_epigloea_TF4163.gbk \
+/input/gbk/Sporothrix_eucalyptigena_CBS139899.gbk \
+/input/gbk/Sporothrix_eucalyptigena_CBS140593.gbk \
+/input/gbk/Sporothrix_euskadiensis_VPRI43754.gbk \
+/input/gbk/Sporothrix_globosa_CBS120340.gbk \
+/input/gbk/Sporothrix_humicola_CBS118129.gbk \
+/input/gbk/Sporothrix_inflata_CBS23968.gbk \
+/input/gbk/Sporothrix_insectorum_RCEF264.gbk \
+/input/gbk/Sporothrix_luriei_CBS93772.gbk \
+/input/gbk/Sporothrix_mexicana_CBS120341.gbk \
+/input/gbk/Sporothrix_nigrograna_VPRI43755.gbk \
+/input/gbk/Sporothrix_pallida_CBS13156.gbk \
+/input/gbk/Sporothrix_phasma_CBS119721.gbk \
+/input/gbk/Sporothrix_protearum_CBS116654.gbk \
+/input/gbk/Sporothrix_pseudoabietina_VPRI43531.gbk \
+/input/gbk/Sporothrix_schenckii_1099.gbk \
+/input/gbk/Sporothrix_thermara_CBS139747.gbk \
+/input/gbk/Sporothrix_variecibatus_CBS121961.gbk \
+-o /input/funannotate_compare_20230804 --cpus 8
+```
+
+
+
+

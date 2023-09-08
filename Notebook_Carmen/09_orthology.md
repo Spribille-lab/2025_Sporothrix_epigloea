@@ -1,7 +1,4 @@
 
-
-
-
 # Run fungal genomes through funannotate version 1.8.5 to get predicted proteins
 * when 2023.06.16
 * where /data/ccallen/2022_04_eukaryote_annotation
@@ -141,14 +138,20 @@ orthofinder -t 28 -f orthofinder_input
 ```
 
 * also ran orthofinder using apptainer in narval so that I can try the msa and iqtree options
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+
+did a run with just the core Sporothrix:
+
 ```
 #!/bin/bash
 #SBATCH --account=def-tspribi
-#SBATCH --time=0-1:00
-#SBATCH --cpus-per-task=8
-#SBATCH --job-name=ortho_test
-#SBATCH --output=orthofinder.script.logs.out
-#SBATCH --mem=32G
+#SBATCH --time=3-0:00
+#SBATCH --cpus-per-task=64
+#SBATCH --job-name=ortho_msa
+#SBATCH --output=orthofinder.script.core.Aug7.logs.out
+#SBATCH --mem=249G
 #SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
 #SBATCH --mail-type=BEGIN
 #SBATCH --mail-type=END
@@ -157,15 +160,52 @@ module load StdEnv/2020
 module load apptainer/1.1.8
 
 cd $SLURM_TMPDIR
-cp -r /home/ccallen/scratch/2023_02_Sporothrix/09_orthology/* .
+cp -r $SCRATCH/2023_02_Sporothrix/09_orthology/orthofinder_input_core .
 ls .
-#apptainer run --bind $(pwd):/input $SCRATCH/orthofinder_latest.sif orthofinder -o /input/orthofinder_output -f /input/orthofinder_input 
-
-apptainer run --bind $(pwd):/input $SCRATCH/orthofinder_latest.sif orthofinder -M msa -A mafft -T iqtree -o /input/orthofinder_output -f /input/orthofinder_input
+# orthofinder with iqtree installed
+apptainer run --bind $(pwd):/input $SCRATCH/docker_builds/orthofinder_latest.sif orthofinder -t 64 -a 64 -M msa -A mafft -o /input/orthofinder_output_core_Aug7 -f /input/orthofinder_input_core
+ls .
+ls $SLURM_TMPDIR
+cp -r $SLURM_TMPDIR/orthofinder_output_core_Aug7 $SCRATCH/2023_02_Sporothrix/09_orthology/.
+[ccallen@narval3 scripts]$ ls
 ```
 
+and one with all Sporothrix and friends to place them:
+
+```#!/bin/bash
+#SBATCH --account=def-tspribi
+#SBATCH --time=3-0:00
+#SBATCH --cpus-per-task=64
+#SBATCH --job-name=ortho_msa
+#SBATCH --output=orthofinder.script.Aug2.logs.out
+#SBATCH --mem=249G
+#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+
+module load StdEnv/2020
+module load apptainer/1.1.8
+
+cd $SLURM_TMPDIR
+cp -r $SCRATCH/2023_02_Sporothrix/09_orthology/orthofinder_input .
+ls .
+# orthofinder with iqtree installed
+apptainer run --bind $(pwd):/input $SCRATCH/docker_builds/orthofinder_latest.sif orthofinder -t 64 -a 64 -M msa -A mafft -o /input/orthofinder_output_Aug3 -f /input/orthofinder_input
+ls .
+ls $SLURM_TMPDIR
+cp -r $SLURM_TMPDIR/orthofinder_output_Aug3 $SCRATCH/2023_02_Sporothrix/09_orthology/.
+```
+
+used the MSA from the larger analysis to make a tree using IQtree
+
+in debary
+IQ-TREE multicore version 2.2.3 COVID-edition for Linux 64-bit built Aug 13 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+```
+cd /data/ccallen/2023_02_Sporothrix/09_orthology/orthofinder_output_Aug3/Results_Aug03/Species_Tree/iqtree2
 
 
-
-
-
+iqtree -s ../../MultipleSequenceAlignments/SpeciesTreeAlignment.fa -o Leptographium_lundbergii_CBS138716 -nt AUTO -m MFP -pre sporothrix_placement_
+```

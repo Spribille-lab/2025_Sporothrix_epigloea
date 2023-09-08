@@ -2,7 +2,9 @@
 04_assemblies/*/
 08_GC_coverage/*/
 R_markdown/*.html
-09_orthology/
+09_orthology/OrthoFinder/*/
 10_annotations/antiSMASH/
 10_annotations/dbcan3/
 10_annotations/funannotate/
+10_annotations/DeepLoc2/
+

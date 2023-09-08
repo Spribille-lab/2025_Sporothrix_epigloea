@@ -25,3 +25,6 @@ Sporothrix_pseudoabietina_VPRI43531	S_pseudoabietina	insect_associated	bark beet
 Sporothrix_schenckii_1099	S_schenckii	human_associated	human pathogenic/soil	pathogenic	0	1	1	0	0	0	Ophiostomataceae	"de beer et al., 2016, The divorce of Sporothrix and Ophiostoma: solution to a problematic relationship"	0	1	0	1	1	1	1	1
 Sporothrix_thermara_CBS139747MAG	S_thermara	insect_associated	bark beetle/hardwood	environmental	1	0	0	1	0	0	Ophiostomataceae	"de beer et al., 2016, The divorce of Sporothrix and Ophiostoma: solution to a problematic relationship"								
 Sporothrix_variecibatus_CBS121961	S_variecibatus	plant_asscociated	infructescence/mites	environmental	1	0	0	0	1	0	Ophiostomataceae	"de beer et al., 2016, The divorce of Sporothrix and Ophiostoma: solution to a problematic relationship"	1	1	1	1	1	1	1	1
+Leptographium_lundbergii_CBS138716	L_lundbergii	insect_associated	bark beetle/conifer wood	environmental	1	0	0	1	0	0	Ophiostomataceae	https://mycokeys.pensoft.net/article/39069/								
+Ophiostoma_ips_VPRI43529	O_ips	insect_associated	bark beetle/conifer wood	environmental	1	0	0	1	0	0	Ophiostomataceae	https://doi.org/10.1016/S0378-1097(03)00304-5								
+Ophiostoma_novoulmi_H327	O_novoulmi	insect_associated	bark beetle/hardwood	environmental	1	0	0	1	0	0	Ophiostomataceae	https://doi.org/10.1007/BF00462219								

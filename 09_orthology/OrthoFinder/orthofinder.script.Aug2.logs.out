@@ -1,0 +1,235 @@
+orthofinder_input
+
+OrthoFinder version 2.5.5 Copyright (C) 2014 David Emms
+
+2023-08-03 09:38:03 : Starting OrthoFinder 2.5.5
+64 thread(s) for highly parallel tasks (BLAST searches etc.)
+64 thread(s) for OrthoFinder algorithm
+
+Checking required programs are installed
+----------------------------------------
+Test can run "mcl -h" - ok
+Test can run "mafft" - ok
+Test can run "fasttree" - ok
+
+Dividing up work for BLAST for parallel processing
+--------------------------------------------------
+2023-08-03 09:38:06 : Creating diamond database 1 of 30
+2023-08-03 09:38:06 : Creating diamond database 2 of 30
+2023-08-03 09:38:07 : Creating diamond database 3 of 30
+2023-08-03 09:38:07 : Creating diamond database 4 of 30
+2023-08-03 09:38:07 : Creating diamond database 5 of 30
+2023-08-03 09:38:07 : Creating diamond database 6 of 30
+2023-08-03 09:38:07 : Creating diamond database 7 of 30
+2023-08-03 09:38:07 : Creating diamond database 8 of 30
+2023-08-03 09:38:07 : Creating diamond database 9 of 30
+2023-08-03 09:38:07 : Creating diamond database 10 of 30
+2023-08-03 09:38:07 : Creating diamond database 11 of 30
+2023-08-03 09:38:07 : Creating diamond database 12 of 30
+2023-08-03 09:38:07 : Creating diamond database 13 of 30
+2023-08-03 09:38:07 : Creating diamond database 14 of 30
+2023-08-03 09:38:07 : Creating diamond database 15 of 30
+2023-08-03 09:38:08 : Creating diamond database 16 of 30
+2023-08-03 09:38:08 : Creating diamond database 17 of 30
+2023-08-03 09:38:08 : Creating diamond database 18 of 30
+2023-08-03 09:38:08 : Creating diamond database 19 of 30
+2023-08-03 09:38:08 : Creating diamond database 20 of 30
+2023-08-03 09:38:08 : Creating diamond database 21 of 30
+2023-08-03 09:38:08 : Creating diamond database 22 of 30
+2023-08-03 09:38:08 : Creating diamond database 23 of 30
+2023-08-03 09:38:08 : Creating diamond database 24 of 30
+2023-08-03 09:38:08 : Creating diamond database 25 of 30
+2023-08-03 09:38:08 : Creating diamond database 26 of 30
+2023-08-03 09:38:08 : Creating diamond database 27 of 30
+2023-08-03 09:38:08 : Creating diamond database 28 of 30
+2023-08-03 09:38:09 : Creating diamond database 29 of 30
+2023-08-03 09:38:09 : Creating diamond database 30 of 30
+
+Running diamond all-versus-all
+------------------------------
+Using 64 thread(s)
+2023-08-03 09:38:09 : This may take some time....
+2023-08-03 09:38:09 : Done 0 of 900
+2023-08-03 09:39:52 : Done 100 of 900
+2023-08-03 09:41:14 : Done 200 of 900
+2023-08-03 09:42:10 : Done 300 of 900
+2023-08-03 09:43:20 : Done 400 of 900
+2023-08-03 09:44:18 : Done 500 of 900
+2023-08-03 09:45:15 : Done 600 of 900
+2023-08-03 09:46:13 : Done 700 of 900
+2023-08-03 09:47:00 : Done 800 of 900
+2023-08-03 09:48:03 : Done all-versus-all sequence search
+
+Running OrthoFinder algorithm
+-----------------------------
+2023-08-03 09:48:04 : Initial processing of each species
+2023-08-03 09:48:16 : Initial processing of species 9 complete
+2023-08-03 09:48:16 : Initial processing of species 10 complete
+2023-08-03 09:48:16 : Initial processing of species 11 complete
+2023-08-03 09:48:17 : Initial processing of species 2 complete
+2023-08-03 09:48:18 : Initial processing of species 23 complete
+2023-08-03 09:48:18 : Initial processing of species 1 complete
+2023-08-03 09:48:19 : Initial processing of species 0 complete
+2023-08-03 09:48:19 : Initial processing of species 27 complete
+2023-08-03 09:48:20 : Initial processing of species 21 complete
+2023-08-03 09:48:20 : Initial processing of species 24 complete
+2023-08-03 09:48:20 : Initial processing of species 28 complete
+2023-08-03 09:48:20 : Initial processing of species 19 complete
+2023-08-03 09:48:20 : Initial processing of species 3 complete
+2023-08-03 09:48:21 : Initial processing of species 5 complete
+2023-08-03 09:48:21 : Initial processing of species 26 complete
+2023-08-03 09:48:22 : Initial processing of species 15 complete
+2023-08-03 09:48:22 : Initial processing of species 18 complete
+2023-08-03 09:48:22 : Initial processing of species 25 complete
+2023-08-03 09:48:23 : Initial processing of species 14 complete
+2023-08-03 09:48:25 : Initial processing of species 7 complete
+2023-08-03 09:48:26 : Initial processing of species 4 complete
+2023-08-03 09:48:26 : Initial processing of species 8 complete
+2023-08-03 09:48:26 : Initial processing of species 6 complete
+2023-08-03 09:48:26 : Initial processing of species 16 complete
+2023-08-03 09:48:26 : Initial processing of species 22 complete
+2023-08-03 09:48:26 : Initial processing of species 29 complete
+2023-08-03 09:48:27 : Initial processing of species 17 complete
+2023-08-03 09:48:27 : Initial processing of species 20 complete
+2023-08-03 09:48:28 : Initial processing of species 12 complete
+2023-08-03 09:48:28 : Initial processing of species 13 complete
+2023-08-03 09:48:33 : Connected putative homologues
+2023-08-03 09:48:37 : Written final scores for species 10 to graph file
+2023-08-03 09:48:37 : Written final scores for species 9 to graph file
+2023-08-03 09:48:37 : Written final scores for species 11 to graph file
+2023-08-03 09:48:37 : Written final scores for species 2 to graph file
+2023-08-03 09:48:37 : Written final scores for species 23 to graph file
+2023-08-03 09:48:37 : Written final scores for species 1 to graph file
+2023-08-03 09:48:37 : Written final scores for species 21 to graph file
+2023-08-03 09:48:37 : Written final scores for species 27 to graph file
+2023-08-03 09:48:37 : Written final scores for species 0 to graph file
+2023-08-03 09:48:37 : Written final scores for species 28 to graph file
+2023-08-03 09:48:37 : Written final scores for species 24 to graph file
+2023-08-03 09:48:38 : Written final scores for species 19 to graph file
+2023-08-03 09:48:38 : Written final scores for species 3 to graph file
+2023-08-03 09:48:38 : Written final scores for species 26 to graph file
+2023-08-03 09:48:38 : Written final scores for species 25 to graph file
+2023-08-03 09:48:38 : Written final scores for species 5 to graph file
+2023-08-03 09:48:38 : Written final scores for species 15 to graph file
+2023-08-03 09:48:38 : Written final scores for species 18 to graph file
+2023-08-03 09:48:38 : Written final scores for species 14 to graph file
+2023-08-03 09:48:38 : Written final scores for species 7 to graph file
+2023-08-03 09:48:38 : Written final scores for species 29 to graph file
+2023-08-03 09:48:39 : Written final scores for species 22 to graph file
+2023-08-03 09:48:39 : Written final scores for species 4 to graph file
+2023-08-03 09:48:39 : Written final scores for species 8 to graph file
+2023-08-03 09:48:39 : Written final scores for species 16 to graph file
+2023-08-03 09:48:39 : Written final scores for species 12 to graph file
+2023-08-03 09:48:39 : Written final scores for species 13 to graph file
+2023-08-03 09:48:39 : Written final scores for species 17 to graph file
+2023-08-03 09:48:39 : Written final scores for species 6 to graph file
+2023-08-03 09:48:39 : Written final scores for species 20 to graph file
+2023-08-03 09:49:29 : Ran MCL
+
+Writing orthogroups to file
+---------------------------
+OrthoFinder assigned 262177 genes (98.7% of total) to 11813 orthogroups. Fifty percent of all genes were in orthogroups with 30 or more genes (G50 was 30) and were contained in the largest 4016 orthogroups (O50 was 4016). There were 4097 orthogroups with all species present and 3378 of these consisted entirely of single-copy genes.
+
+2023-08-03 09:49:37 : Done orthogroups
+
+Analysing Orthogroups
+=====================
+2023-08-03 09:49:38 : Starting MSA/Trees
+Species tree: Using 3378 orthogroups with minimum of 100.0% of species having single-copy genes in any orthogroup
+
+Inferring multiple sequence alignments for species tree
+-------------------------------------------------------
+2023-08-03 09:49:43 : Done 0 of 3378
+2023-08-03 09:50:51 : Done 1000 of 3378
+2023-08-03 09:51:59 : Done 2000 of 3378
+2023-08-03 09:53:07 : Done 3000 of 3378
+
+Inferring remaining multiple sequence alignments and gene trees
+---------------------------------------------------------------
+2023-08-03 09:55:02 : Done 0 of 8436
+2023-08-03 09:57:29 : Done 1000 of 8436
+2023-08-03 09:58:56 : Done 2000 of 8436
+2023-08-03 09:59:54 : Done 3000 of 8436
+2023-08-03 10:00:36 : Done 4000 of 8436
+2023-08-03 10:01:03 : Done 5000 of 8436
+2023-08-03 10:01:17 : Done 6000 of 8436
+2023-08-03 10:01:28 : Done 7000 of 8436
+2023-08-03 10:01:39 : Done 8000 of 8436
+2023-08-03 10:50:49 : Done MSA/Trees
+
+Best outgroup(s) for species tree
+---------------------------------
+2023-08-03 10:50:49 : Starting STRIDE
+2023-08-03 10:50:51 : Done STRIDE
+Observed 78 well-supported, non-terminal duplications. 78 support the best roots and 0 contradict them.
+Best outgroups for species tree:
+  Sporothrix_brunneoviolacea_CBS124561, Sporothrix_insectorum_RCEF264, Sporothrix_thermara_bin10, Leptographium_lundbergii_CBS138716, Ophiostoma_ips_VPRI43529, Ophiostoma_fasciatum_VPRI43845, Ophiostoma_novoulmi_H327
+  Sporothrix_euskadiensis_VPRI43754, Sporothrix_humicola_CBS118129, Sporothrix_pseudoabietina_VPRI43531, Sporothrix_mexicana_CBS120341, Sporothrix_protearum_CBS116654, Sporothrix_variecibatus_CBS121961, Sporothrix_pallida_CBS13156
+  Sporothrix_insectorum_RCEF264, Ophiostoma_fasciatum_VPRI43845, Leptographium_lundbergii_CBS138716
+  Sporothrix_dimorphospora_CBS55374, Sporothrix_inflata_CBS23968
+  Sporothrix_epigloea_TF4163, Sporothrix_epigloea_CBS119000, Sporothrix_epigloea_CBS57363
+  Sporothrix_epigloea_TF4163, Sporothrix_curviconia_CBS95973, Sporothrix_thermara_CBS139747MAG, Sporothrix_epigloea_CBS119000, Sporothrix_epigloea_CBS57363, Sporothrix_eucalyptigena_CBS140593, Sporothrix_bragantina_CBS47491, Sporothrix_eucalyptigena_CBS139899
+  Sporothrix_insectorum_RCEF264, Sporothrix_brunneoviolacea_CBS124561, Ophiostoma_fasciatum_VPRI43845, Leptographium_lundbergii_CBS138716
+  Sporothrix_thermara_CBS139747MAG
+  Ophiostoma_novoulmi_H327, Sporothrix_thermara_bin10
+  Sporothrix_epigloea_TF4163, Sporothrix_curviconia_CBS95973, Sporothrix_thermara_CBS139747MAG, Sporothrix_epigloea_CBS119000, Sporothrix_epigloea_CBS57363, Sporothrix_bragantina_CBS47491
+  Sporothrix_humicola_CBS118129, Sporothrix_pallida_CBS13156, Sporothrix_mexicana_CBS120341
+  Sporothrix_euskadiensis_VPRI43754, Sporothrix_schenckii_1099, Sporothrix_phasma_CBS119721, Sporothrix_humicola_CBS118129, Sporothrix_pseudoabietina_VPRI43531, Sporothrix_luriei_CBS93772, Sporothrix_brasiliensis_5110, Sporothrix_mexicana_CBS120341, Sporothrix_protearum_CBS116654, Sporothrix_variecibatus_CBS121961, Sporothrix_globosa_CBS120340, Sporothrix_pallida_CBS13156
+  Sporothrix_nigrograna_VPRI43755
+  Leptographium_lundbergii_CBS138716, Sporothrix_insectorum_RCEF264
+  Sporothrix_euskadiensis_VPRI43754, Sporothrix_pseudoabietina_VPRI43531, Sporothrix_protearum_CBS116654, Sporothrix_variecibatus_CBS121961
+  Ophiostoma_ips_VPRI43529
+  Ophiostoma_ips_VPRI43529, Ophiostoma_novoulmi_H327, Sporothrix_thermara_bin10
+  Sporothrix_bragantina_CBS47491
+  Sporothrix_protearum_CBS116654
+  Sporothrix_euskadiensis_VPRI43754, Sporothrix_pseudoabietina_VPRI43531, Sporothrix_variecibatus_CBS121961
+  Sporothrix_eucalyptigena_CBS140593, Sporothrix_eucalyptigena_CBS139899
+  Ophiostoma_fasciatum_VPRI43845
+  Sporothrix_epigloea_CBS57363, Sporothrix_epigloea_TF4163, Sporothrix_epigloea_CBS119000, Sporothrix_thermara_CBS139747MAG
+  Sporothrix_epigloea_TF4163, Sporothrix_curviconia_CBS95973, Sporothrix_thermara_CBS139747MAG, Sporothrix_nigrograna_VPRI43755, Sporothrix_epigloea_CBS119000, Sporothrix_epigloea_CBS57363, Sporothrix_eucalyptigena_CBS140593, Sporothrix_bragantina_CBS47491, Sporothrix_eucalyptigena_CBS139899
+  Sporothrix_brunneoviolacea_CBS124561
+  Sporothrix_globosa_CBS120340, Sporothrix_schenckii_1099, Sporothrix_brasiliensis_5110, Sporothrix_luriei_CBS93772
+  Sporothrix_schenckii_1099, Sporothrix_phasma_CBS119721, Sporothrix_luriei_CBS93772, Sporothrix_brasiliensis_5110, Sporothrix_globosa_CBS120340
+  Sporothrix_euskadiensis_VPRI43754, Sporothrix_schenckii_1099, Sporothrix_phasma_CBS119721, Sporothrix_humicola_CBS118129, Sporothrix_inflata_CBS23968, Sporothrix_pseudoabietina_VPRI43531, Sporothrix_luriei_CBS93772, Sporothrix_dimorphospora_CBS55374, Sporothrix_brasiliensis_5110, Sporothrix_mexicana_CBS120341, Sporothrix_protearum_CBS116654, Sporothrix_variecibatus_CBS121961, Sporothrix_globosa_CBS120340, Sporothrix_pallida_CBS13156
+  Sporothrix_curviconia_CBS95973
+  Sporothrix_curviconia_CBS95973, Sporothrix_bragantina_CBS47491
+  Sporothrix_phasma_CBS119721
+
+WARNING: Multiple potential species tree roots were identified, only one will be analyed.
+
+Reconciling gene trees and species tree
+---------------------------------------
+Outgroup: Sporothrix_brunneoviolacea_CBS124561, Sporothrix_insectorum_RCEF264, Sporothrix_thermara_bin10, Leptographium_lundbergii_CBS138716, Ophiostoma_ips_VPRI43529, Ophiostoma_fasciatum_VPRI43845, Ophiostoma_novoulmi_H327
+2023-08-03 10:50:51 : Starting Recon and orthologues
+2023-08-03 10:50:51 : Starting OF Orthologues
+2023-08-03 10:50:51 : Done 0 of 10278
+2023-08-03 10:50:52 : Done 1000 of 10278
+2023-08-03 10:50:53 : Done 2000 of 10278
+2023-08-03 10:50:53 : Done 3000 of 10278
+2023-08-03 10:50:54 : Done 4000 of 10278
+2023-08-03 10:50:54 : Done 5000 of 10278
+2023-08-03 10:50:54 : Done 6000 of 10278
+2023-08-03 10:50:55 : Done 7000 of 10278
+2023-08-03 10:50:55 : Done 8000 of 10278
+2023-08-03 10:50:56 : Done 9000 of 10278
+2023-08-03 10:50:56 : Done 10000 of 10278
+2023-08-03 10:50:57 : Done OF Orthologues
+
+Writing results files
+=====================
+2023-08-03 10:50:58 : Done orthologues
+
+Results:
+    /input/orthofinder_output_Aug3/Results_Aug03/
+
+CITATION:
+ When publishing work that uses OrthoFinder please cite:
+ Emms D.M. & Kelly S. (2019), Genome Biology 20:238
+
+ If you use the species tree in your work then please also cite:
+ Emms D.M. & Kelly S. (2017), MBE 34(12): 3267-3278
+ Emms D.M. & Kelly S. (2018), bioRxiv https://doi.org/10.1101/267914
+orthofinder_input
+orthofinder_output_Aug3
+orthofinder_input
+orthofinder_output_Aug3

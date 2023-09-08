@@ -11,6 +11,16 @@ eukcc single --out eukcc2/"$genome" --threads 8 protein_fasta/"$fasta" --db /dat
 done
 ```
 
+```
+for fasta in "Leptographium_lundbergii_S_CBS138716_GCA_001455505.proteins.fa" "Ophiostoma_ips_S_VPRI43529_GCA_019925475.proteins.fa" "Ophiostoma_novoulmi_S_H327_GCA_000317715.proteins.fa"
+do
+genome=${fasta%.proteins.fa}
+mkdir eukcc2/"$genome"
+eukcc single --out eukcc2/"$genome" --threads 8 protein_fasta/"$fasta" --db /data/databases/eukcc2_db/eukcc2_db_ver_1.1
+done
+```
+
+
 # make eukcc2 report
 ```
 for filename in */eukcc.csv

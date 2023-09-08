@@ -7,12 +7,34 @@ library(ComplexHeatmap)
 
 sessionInfo(package = "UpSetR")
 
-setwd("~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Jul02/")
+setwd("~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Aug07/")
 
 # read orthofinder output
 
 #file_list <- list.files(path="../../../orthofinder_input/")
-genome_list = c("Sporothrix_bragantina_CBS47491", "Sporothrix_brasiliensis_5110", "Sporothrix_brunneoviolacea_CBS124561", "Sporothrix_dimorphospora_CBS55374", "Sporothrix_epigloea_CBS119000", "Sporothrix_epigloea_CBS57363", "Sporothrix_epigloea_TF4163", "Sporothrix_eucalyptigena_CBS139899", "Sporothrix_eucalyptigena_CBS140593", "Sporothrix_euskadiensis_VPRI43754", "Sporothrix_globosa_CBS120340", "Sporothrix_humicola_CBS118129", "Sporothrix_inflata_CBS23968", "Sporothrix_insectorum_RCEF264", "Sporothrix_luriei_CBS93772", "Sporothrix_mexicana_CBS120341", "Sporothrix_nigrograna_VPRI43755", "Sporothrix_pallida_CBS13156", "Sporothrix_phasma_CBS119721", "Sporothrix_protearum_CBS116654", "Sporothrix_pseudoabietina_VPRI43531", "Sporothrix_schenckii_1099", "Sporothrix_thermara_CBS139747MAG", "Sporothrix_variecibatus_CBS121961")
+genome_list = c("Sporothrix_bragantina_CBS47491",
+                "Sporothrix_brasiliensis_5110",
+                "Sporothrix_curviconia_CBS95973",
+                "Sporothrix_dimorphospora_CBS55374",
+                "Sporothrix_epigloea_CBS119000",
+                "Sporothrix_epigloea_CBS57363",
+                "Sporothrix_epigloea_TF4163",
+                "Sporothrix_eucalyptigena_CBS139899",
+                "Sporothrix_eucalyptigena_CBS140593",
+                "Sporothrix_euskadiensis_VPRI43754",
+                "Sporothrix_globosa_CBS120340",
+                "Sporothrix_humicola_CBS118129",
+                "Sporothrix_inflata_CBS23968",
+                "Sporothrix_luriei_CBS93772",
+                "Sporothrix_mexicana_CBS120341",
+                "Sporothrix_nigrograna_VPRI43755",
+                "Sporothrix_pallida_CBS13156",
+                "Sporothrix_phasma_CBS119721",
+                "Sporothrix_protearum_CBS116654",
+                "Sporothrix_pseudoabietina_VPRI43531",
+                "Sporothrix_schenckii_1099",
+                "Sporothrix_thermara_CBS139747MAG",
+                "Sporothrix_variecibatus_CBS121961")
 
 for (i in 1:length(genome_list)){
   orthogroups <- read.delim("Orthogroups/Orthogroups.tsv", stringsAsFactors = F) %>%
@@ -30,7 +52,7 @@ saveRDS(orthogroup_unique_v, file = paste("Custom_results/",genome_list[i],".uni
 
 Sporothrix_bragantina_CBS47491 <- readRDS("Custom_results/Sporothrix_bragantina_CBS47491.unique.orthogroups.rds")
 Sporothrix_brasiliensis_5110 <- readRDS("Custom_results/Sporothrix_brasiliensis_5110.unique.orthogroups.rds")
-Sporothrix_brunneoviolacea_CBS124561 <- readRDS("Custom_results/Sporothrix_brunneoviolacea_CBS124561.unique.orthogroups.rds")
+Sporothrix_curviconia_CBS95973 <- readRDS("Custom_results/Sporothrix_curviconia_CBS95973.unique.orthogroups.rds")
 Sporothrix_dimorphospora_CBS55374 <- readRDS("Custom_results/Sporothrix_dimorphospora_CBS55374.unique.orthogroups.rds")
 Sporothrix_epigloea_CBS119000 <- readRDS("Custom_results/Sporothrix_epigloea_CBS119000.unique.orthogroups.rds")
 Sporothrix_epigloea_TF4163 <- readRDS("Custom_results/Sporothrix_epigloea_TF4163.unique.orthogroups.rds")
@@ -41,7 +63,6 @@ Sporothrix_euskadiensis_VPRI43754 <- readRDS("Custom_results/Sporothrix_euskadie
 Sporothrix_globosa_CBS120340 <- readRDS("Custom_results/Sporothrix_globosa_CBS120340.unique.orthogroups.rds")
 Sporothrix_humicola_CBS118129 <- readRDS("Custom_results/Sporothrix_humicola_CBS118129.unique.orthogroups.rds")
 Sporothrix_inflata_CBS23968 <- readRDS("Custom_results/Sporothrix_inflata_CBS23968.unique.orthogroups.rds")
-Sporothrix_insectorum_RCEF264 <- readRDS("Custom_results/Sporothrix_insectorum_RCEF264.unique.orthogroups.rds")
 Sporothrix_luriei_CBS93772 <- readRDS("Custom_results/Sporothrix_luriei_CBS93772.unique.orthogroups.rds")
 Sporothrix_mexicana_CBS120341 <- readRDS("Custom_results/Sporothrix_mexicana_CBS120341.unique.orthogroups.rds")
 Sporothrix_nigrograna_VPRI43755 <- readRDS("Custom_results/Sporothrix_nigrograna_VPRI43755.unique.orthogroups.rds")
@@ -71,9 +92,8 @@ sporothrix_list <- list(
                       S_epigloea_TF4163 = Sporothrix_epigloea_TF4163,
                       S_epigloea_CBS119000 = Sporothrix_epigloea_CBS119000,
                       S_epigloea_CBS57363 = Sporothrix_epigloea_CBS57363,
-                      S_insectorum = Sporothrix_insectorum_RCEF264,
+                      S_curviconia = Sporothrix_curviconia_CBS95973,
                       S_nigrograna = Sporothrix_nigrograna_VPRI43755,
-                      S_brunneoviolacea = Sporothrix_brunneoviolacea_CBS124561,
                       S_brasiliensis = Sporothrix_brasiliensis_5110,
                       S_dimorphospora = Sporothrix_dimorphospora_CBS55374,
                       S_euskadiensis = Sporothrix_euskadiensis_VPRI43754,
@@ -94,18 +114,18 @@ sporothrix_list <- list(
                       S_bragantina = Sporothrix_bragantina_CBS47491)
 
 # make dataframe for metadata
-sets = c("S_epigloea_TF4163","S_epigloea_CBS119000","S_epigloea_CBS57363","S_insectorum","S_nigrograna","S_brunneoviolacea", "S_brasiliensis", "S_dimorphospora","S_euskadiensis","S_globosa", "S_humicola", "S_inflata", "S_luriei","S_mexicana","S_pallida","S_phasma","S_protearum","S_pseudoabietina","S_schenckii","S_variecibatus", "S_thermara", "S_eucalyptigena_CBS139899", "S_eucalyptigena_CBS140593", "S_bragantina")
-group = c("epigloea", "epigloea", "epigloea", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other")
+sets = c("S_epigloea_TF4163","S_epigloea_CBS119000","S_epigloea_CBS57363","S_curviconia","S_nigrograna","S_brasiliensis","S_dimorphospora","S_euskadiensis","S_globosa", "S_humicola", "S_inflata", "S_luriei","S_mexicana","S_pallida","S_phasma","S_protearum","S_pseudoabietina","S_schenckii","S_variecibatus", "S_thermara", "S_eucalyptigena_CBS139899", "S_eucalyptigena_CBS140593", "S_bragantina")
+group = c("epigloea", "epigloea", "epigloea", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other", "other")
 metadata <- as.data.frame(cbind(sets, group))
   
   
-pdf(file="~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Jul02/figures/orthofinder_upset_sporothrix.pdf",
+pdf(file="~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Aug07/figures/orthofinder_upset_core_sporothrix.pdf",
     width=15, height=9)
 
 
 help(upset)
 upset(fromList(sporothrix_list),
-      nsets = 24,
+      nsets = 23,
       keep.order = TRUE,
       order.by = "freq",
       mainbar.y.label = "Intersection size",
@@ -156,16 +176,15 @@ upset(fromList(sporothrix_list),
          #                  list("S_nigrograna","S_epigloea_CBS119000","S_epigloea_CBS57363","S_epigloea_TF4163","S_inflata","S_dimorphospora","S_phasma","S_luriei","S_globosa","S_schenckii","S_brasiliensis","S_mexicana","S_pallida","S_humicola","S_protearum","S_variecibatus","S_euskadiensis","S_pseudoabietina"),
           #                 list("S_protearum","S_variecibatus","S_euskadiensis","S_pseudoabietina"),
          #                  list("S_brunneoviolacea")),
-      sets = c("S_insectorum",
-               "S_brunneoviolacea",
-               "S_nigrograna",
-               "S_epigloea_CBS119000",
-               "S_epigloea_CBS57363",
-               "S_epigloea_TF4163",
-               "S_eucalyptigena_CBS139899",
+      sets = c("S_nigrograna",
                "S_eucalyptigena_CBS140593",
+               "S_eucalyptigena_CBS139899",
+               "S_curviconia",
                "S_bragantina",
                "S_thermara",
+               "S_epigloea_CBS119000",
+               "S_epigloea_TF4163",
+               "S_epigloea_CBS57363",
                "S_inflata",
                "S_dimorphospora",
                "S_phasma",
@@ -174,8 +193,8 @@ upset(fromList(sporothrix_list),
                "S_schenckii",
                "S_brasiliensis",
                "S_mexicana",
-               "S_pallida",
                "S_humicola",
+               "S_pallida",
                "S_protearum",
                "S_variecibatus",
                "S_euskadiensis",
@@ -195,44 +214,43 @@ set.seed(123)
 sporothrix_comb_mat = make_comb_mat(list_to_matrix(sporothrix_list))
 sporothrix_comb_mat_t = t(sporothrix_comb_mat)
 sporothrix_comb_mat
-sporothrix_comb_mat[2:2669] #drop the largest combination set
+sporothrix_comb_mat[2:2377] #drop the largest combination set
 
 set_name(sporothrix_comb_mat)
 comb_name(sporothrix_comb_mat) 
 set_size(sporothrix_comb_mat) #The set sizes.
 comb_size(sporothrix_comb_mat) #The combination set sizes
 
-# extract orthogroups that are missing in epigloea and present in at least 20 other sporothrix genomes
-OG1 <- extract_comb(sporothrix_comb_mat, "000111111111111111111111")
-OG2 <- extract_comb(sporothrix_comb_mat, "000011111111111111111111")
-OG3 <- extract_comb(sporothrix_comb_mat, "000101111111111111111111")
-OG4 <- extract_comb(sporothrix_comb_mat, "000110111111111111111111")
-OG5 <- extract_comb(sporothrix_comb_mat, "000111011111111111111111")
-OG6 <- extract_comb(sporothrix_comb_mat, "000111101111111111111111")
-OG7 <- extract_comb(sporothrix_comb_mat, "000111110111111111111111")
-#OG8 <- extract_comb(sporothrix_comb_mat, "000111111011111111111111")
-#OG9 <- extract_comb(sporothrix_comb_mat, "000111111101111111111111")
-OG10 <- extract_comb(sporothrix_comb_mat, "000111111110111111111111")
-OG11 <- extract_comb(sporothrix_comb_mat, "000111111111011111111111")
-#OG12 <- extract_comb(sporothrix_comb_mat, "000111111111101111111111")
-#OG13 <- extract_comb(sporothrix_comb_mat, "000111111111110111111111")
-OG14 <- extract_comb(sporothrix_comb_mat, "000111111111111011111111")
-OG15 <- extract_comb(sporothrix_comb_mat, "000111111111111101111111")
-#OG16 <- extract_comb(sporothrix_comb_mat, "000111111111111110111111")
-#OG17 <- extract_comb(sporothrix_comb_mat, "000111111111111111011111")
-OG18 <- extract_comb(sporothrix_comb_mat, "000111111111111111101111")
-OG19 <- extract_comb(sporothrix_comb_mat, "000111111111111111110111")
-#OG20 <- extract_comb(sporothrix_comb_mat, "000111111111111111111011")
-OG21 <- extract_comb(sporothrix_comb_mat, "000111111111111111111101")
-OG22 <- extract_comb(sporothrix_comb_mat, "000111111111111111111110")
+# extract orthogroups that are missing in epigloea and present in at least 19 other sporothrix genomes
+OG1 <- extract_comb(sporothrix_comb_mat, "00011111111111111111111")
+OG2 <- extract_comb(sporothrix_comb_mat, "00001111111111111111111")
+OG3 <- extract_comb(sporothrix_comb_mat, "00010111111111111111111")
+OG4 <- extract_comb(sporothrix_comb_mat, "00011011111111111111111")
+OG5 <- extract_comb(sporothrix_comb_mat, "00011101111111111111111")
+OG6 <- extract_comb(sporothrix_comb_mat, "00011110111111111111111")
+OG7 <- extract_comb(sporothrix_comb_mat, "00011111011111111111111")
+#OG8 <- extract_comb(sporothrix_comb_mat, "00011111101111111111111")
+OG9 <- extract_comb(sporothrix_comb_mat, "00011111110111111111111")
+OG10 <- extract_comb(sporothrix_comb_mat, "00011111111011111111111")
+#OG11 <- extract_comb(sporothrix_comb_mat, "00011111111101111111111")
+#OG12 <- extract_comb(sporothrix_comb_mat, "00011111111110111111111")
+OG13 <- extract_comb(sporothrix_comb_mat, "00011111111111011111111")
+OG14 <- extract_comb(sporothrix_comb_mat, "00011111111111101111111")
+OG15 <- extract_comb(sporothrix_comb_mat, "00011111111111110111111")
+OG16 <- extract_comb(sporothrix_comb_mat, "00011111111111111011111")
+OG17 <- extract_comb(sporothrix_comb_mat, "00011111111111111101111")
+OG18 <- extract_comb(sporothrix_comb_mat, "00011111111111111110111")
+#OG19 <- extract_comb(sporothrix_comb_mat, "00011111111111111111011")
+OG20 <- extract_comb(sporothrix_comb_mat, "00011111111111111111101")
+OG21 <- extract_comb(sporothrix_comb_mat, "00011111111111111111110")
 
 
-OG23 <- extract_comb(sporothrix_comb_mat, "111000000000000000000000")
-OG24 <- extract_comb(sporothrix_comb_mat, "101000000000000000000000")
-OG25 <- extract_comb(sporothrix_comb_mat, "010000000000000000000000")
+OG23 <- extract_comb(sporothrix_comb_mat, "11100000000000000000000")
+OG24 <- extract_comb(sporothrix_comb_mat, "10100000000000000000000")
+OG25 <- extract_comb(sporothrix_comb_mat, "01000000000000000000000")
 
 
-lost_by_epigloea <- c(OG1, OG2, OG3, OG4, OG5, OG6, OG7, OG10, OG11, OG14, OG15, OG18, OG19, OG21, OG22)
+lost_by_epigloea <- c(OG1, OG2, OG3, OG4, OG5, OG6, OG7, OG9, OG10, OG13, OG14, OG15, OG16, OG17, OG18, OG20, OG21)
 
 gained_by_epigloea <- c(OG23, OG24, OG25)
 
