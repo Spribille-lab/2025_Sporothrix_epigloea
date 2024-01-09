@@ -122,8 +122,6 @@ metadata <- as.data.frame(cbind(sets, group))
 pdf(file="~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Aug07/figures/orthofinder_upset_core_sporothrix.pdf",
     width=15, height=9)
 
-
-help(upset)
 upset(fromList(sporothrix_list),
       nsets = 23,
       keep.order = TRUE,
@@ -215,6 +213,7 @@ sporothrix_comb_mat = make_comb_mat(list_to_matrix(sporothrix_list))
 sporothrix_comb_mat_t = t(sporothrix_comb_mat)
 sporothrix_comb_mat
 sporothrix_comb_mat[2:2377] #drop the largest combination set
+str(sporothrix_comb_mat)
 
 set_name(sporothrix_comb_mat)
 comb_name(sporothrix_comb_mat) 
@@ -382,44 +381,11 @@ epigloea_list = c("Sporothrix_epigloea_S_CBS119000_GCA_943908295",
 
 epigloea_annotations <- data.frame()
 for (i in 1:length(epigloea_list)){
-    temp_data <- read.delim(paste("~/Documents/2022_04_eukaryote_annotation/annotation_tables/",epigloea_list[i],".annotations.txt", sep = ""), stringsAsFactors = F)
-    colnames(temp_data) <-c("Gene_ID",
-                            "Transcript_ID",
-                            "Feature",
-                            "Orthogroup",
-                            "Contig",
-                            "Start",
-                            "Stop",
-                            "Strand",
-                            "Name",
-                            "Product",
-                            "Alias_Synonyms",
-                            "EC_number",
-                            "BUSCO",
-                            "PFAM",
-                            "InterPro",
-                            "EggNog",
-                            "COG",
-                            "GO_Terms",
-                            "KO",
-                            "KO_definition",
-                            "DeepLoc2_localizations",
-                            "DeepLoc2_Signals", "EffectorP_prediction",
-                            "Secreted_fun",
-                            "Membrane_fun",
-                            "Protease",
-                            "CAZyme_family_dbCAN2",
-                            "CAZyme_fun",
-                            "antiSMASH",
-                            "Notes",
-                            "gDNA",
-                            "mRNA",
-                            "CDS_transcript",
-                            "Translation")
+    temp_data <- read.delim(paste("~/Documents/2023_02_Sporothrix/10_annotations/annotation_tables_merged/",epigloea_list[i],".annotations.merged.txt", sep = ""), stringsAsFactors = F)
     temp_data <- temp_data %>%
       #select(Transcript_ID,Orthogroup,Translation) %>%
       add_column(genome = epigloea_list[i], .before = "Transcript_ID") %>%
-      dplyr::mutate(genome = str_replace(genome, "(\\S*)(.annotations.txt)", "\\1")) %>%
+      #dplyr::mutate(genome = str_replace(genome, "(\\S*)(.annotations.txt)", "\\1")) %>%
       dplyr::mutate(organism = str_replace(genome, "(\\S*)(_)(\\S*)(_)(\\S*_)(\\S*)(_)(\\S*_)(\\S*)", "\\1\\2\\3\\4\\6")) %>%
       dplyr::relocate(organism)
     epigloea_annotations <- rbindlist(list(epigloea_annotations, temp_data), use.names = T)
@@ -435,18 +401,20 @@ for (i in 1:length(gained_by_epigloea)){
 
 epigloea_annotations_faa <- epigloea_annotations_gained %>%
   select(Transcript_ID, Translation)
-#epigloea_gained <- dataframe2fas(epigloea_annotations_faa,file = "~/Documents/2022_04_eukaryote_annotation/11_orthofinder/orthofinder_output/Sepigloea_orthogroups_gained.faa")
-#write.table(epigloea_annotations_gained, "~/Documents/2022_04_eukaryote_annotation/11_orthofinder/Sepigloea_orthogroups_gained_annotations.txt", row.names = FALSE, sep = "\t", col.names = TRUE, quote = FALSE)
+epigloea_gained <- dataframe2fas(epigloea_annotations_faa,file = "gained_and_lost/epigloea_orthogroups_gained.faa")
+write.table(epigloea_annotations_gained, "gained_and_lost/epigloea_orthogroups_gained_annotations.txt", row.names = FALSE, sep = "\t", col.names = TRUE, quote = FALSE)
 
 
-others_list = c("Sporothrix_brasiliensis_S_5110_GCA_000820605",
-                "Sporothrix_brunneoviolacea_S_CBS124561_GCA_021396205",
+others_list = c("Sporothrix_bragantina_S_CBS47491_GCA_XXXXXXXXX",
+                "Sporothrix_brasiliensis_S_5110_GCA_000820605",
+                "Sporothrix_curviconia_S_CBS95973_GCA_XXXXXXXXX",
                 "Sporothrix_dimorphospora_S_CBS55374_GCA_021397985",
+                "Sporothrix_eucalyptigena_S_CBS139899_GCA_XXXXXXXXX",
+                "Sporothrix_eucalyptigena_S_CBS140593_GCA_XXXXXXXXX",
                 "Sporothrix_euskadiensis_S_VPRI43754_GCA_019925375",
                 "Sporothrix_globosa_S_CBS120340_GCA_001630435",
                 "Sporothrix_humicola_S_CBS118129_GCA_021396245",
                 "Sporothrix_inflata_S_CBS23968_GCA_021396225",
-                "Sporothrix_insectorum_S_RCEF264_GCA_001636815",
                 "Sporothrix_luriei_S_CBS93772_GCA_021398005",
                 "Sporothrix_mexicana_S_CBS120341_GCA_021396375",
                 "Sporothrix_nigrograna_S_VPRI43755_GCA_019925305",
@@ -455,45 +423,12 @@ others_list = c("Sporothrix_brasiliensis_S_5110_GCA_000820605",
                 "Sporothrix_protearum_S_CBS116654_GCA_016097115",
                 "Sporothrix_pseudoabietina_S_VPRI43531_GCA_019925295",
                 "Sporothrix_schenckii_S_1099_GCA_000961545",
+                "Sporothrix_thermara_S_CBS139747MAG_GCA_XXXXXXXXX",
                 "Sporothrix_variecibatus_S_CBS121961_GCA_021396255")
-
 
 others_annotations <- data.frame()
 for (i in 1:length(others_list)){
-  temp_data <- read.delim(paste("~/Documents/2022_04_eukaryote_annotation/annotation_tables/",others_list[i],".annotations.txt", sep = ""), stringsAsFactors = F)
-  colnames(temp_data) <-c("Gene_ID",
-                          "Transcript_ID",
-                          "Feature",
-                          "Orthogroup",
-                          "Contig",
-                          "Start",
-                          "Stop",
-                          "Strand",
-                          "Name",
-                          "Product",
-                          "Alias_Synonyms",
-                          "EC_number",
-                          "BUSCO",
-                          "PFAM",
-                          "InterPro",
-                          "EggNog",
-                          "COG",
-                          "GO_Terms",
-                          "KO",
-                          "KO_definition",
-                          "DeepLoc2_localizations",
-                          "DeepLoc2_Signals", "EffectorP_prediction",
-                          "Secreted_fun",
-                          "Membrane_fun",
-                          "Protease",
-                          "CAZyme_family_dbCAN2",
-                          "CAZyme_fun",
-                          "antiSMASH",
-                          "Notes",
-                          "gDNA",
-                          "mRNA",
-                          "CDS_transcript",
-                          "Translation")
+  temp_data <- read.delim(paste("~/Documents/2023_02_Sporothrix/10_annotations/annotation_tables_merged/",others_list[i],".annotations.merged.txt", sep = ""), stringsAsFactors = F)
   temp_data <- temp_data %>%
     #select(Transcript_ID,Orthogroup,Translation) %>%
     add_column(genome = others_list[i], .before = "Transcript_ID") %>%
@@ -512,8 +447,8 @@ for (i in 1:length(lost_by_epigloea)){
 
 others_annotations_faa <- epigloea_annotations_lost %>%
   select(Transcript_ID, Translation)
-epigloea_lost <- dataframe2fas(others_annotations_faa,file = "~/Documents/2022_04_eukaryote_annotation/11_orthofinder/Sepigloea_orthogroups_lost_relaxed.faa")
-write.table(epigloea_annotations_lost, "~/Documents/2022_04_eukaryote_annotation/11_orthofinder/Sepigloea_orthogroups_lost_relaxed_annotations.txt", row.names = FALSE, sep = "\t", col.names = TRUE, quote = FALSE)
+epigloea_lost <- dataframe2fas(others_annotations_faa,file = "gained_and_lost/epigloea_orthogroups_lost.faa")
+write.table(epigloea_annotations_lost, "gained_and_lost/epigloea_orthogroups_lost_annotations.txt", row.names = FALSE, sep = "\t", col.names = TRUE, quote = FALSE)
 
 lost_by_epigloea
 

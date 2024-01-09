@@ -1,0 +1,20 @@
+import glob
+import os
+import pandas as pd
+
+genome_df = pd.read_table('genomes.txt').set_index("genome", drop=False)
+GENOMES = list(genome_df['genome'])
+
+#SAMPLES = [line.rstrip() for line in open('mag_list.txt')]
+rule all:
+        input:
+                #expand("{sample}/{sample}.kegg.mapper.txt", sample = MAGS),
+                expand("dbcan3/{sample}_dbcan/overview.txt", sample = GENOMES)
+                #expand("pseudofinder/{sample}_pseudofinder_intact.faa", sample = MAGS),
+                #expand("antismash/{sample}/{sample}.gbk", sample = MAGS)
+        output: touch("touch")
+
+rule dbcan:
+    input: "protein_fasta/{sample}.proteins.fa"
+    output: "dbcan3/{sample}_dbcan/overview.txt"
+    shell:

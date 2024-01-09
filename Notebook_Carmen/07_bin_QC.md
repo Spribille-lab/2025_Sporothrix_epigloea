@@ -111,7 +111,7 @@ Assembly Statistics:
 	276 KB	Contigs N50
 
 
-* short_summary.specific.sordariomycetes_odb10.CBS139747_1_2_3_21_23_26_34.txt
+* short_summary.specific.sordariomycetes_odb10.CBS139747_1_2_3_21_23_26_34.txt #this is the one that we used!!
 		***** Results: *****
 
 	C:95.6%[S:95.4%,D:0.2%],F:1.2%,M:3.2%,n:3817	   

@@ -1,0 +1,326 @@
+Reference	Lopez-Mondejar_general_activity	General_Activity	origin	CAZyme_families	Main activity in the family/subfamily		Supplementary Table S3. The CAZyme families/subfamilies were grouped according the main enzymatic activities characterized in the family/subfamily into 14 different classes or general activities.
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-mannanase/mannosidase/GDE	a-fungal	GH38	_-mannosidase (EC 3.2.1.24)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-mannanase/mannosidase/GDE	a-fungal	GH47	"mannosyl-oligosaccharide _-1,2-mannosidase (EC 3.2.1.113)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-mannanase/mannosidase/GDE	a-fungal	GH76	"_-1,6-mannanase (EC 3.2.1.101)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-mannanase/mannosidase/GDE	a-fungal	GH92	_-mannosidase (EC 3.2.1.24)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-mannanase/mannosidase/GDE	a-fungal	GH99	"glycoprotein endo-_-1,2-mannosidase (EC 3.2.1.130)"		
+		Alpha-mannanase/mannosidase/GDE	a-fungal	GH125	"exo-_-1,6-mannosidase (EC 3.2.1.163)"		
+		Alpha-mannosyltransferase	a-fungal	GT71	_-mannosyltransferase (EC 2.4.1.-)		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH128	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH144	"endo-_-1,2-glucanase (EC 3.2.1.71)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH148	"_-1,3-glucanase (EC 3.2.1.-)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH149	"_-1,3-glucan phosphorylase (EC 2.4.1.97)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH152	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH157	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH158	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH16	"endo-1,6-_-glucosidase (EC 3.2.1.75); endo-1,3-_-glucanase (EC 3.2.1.39); lichenase / endo-_-1,3-1,4-glucanase (EC 3.2.1.73)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH161	"_-1,3-glucan phosphorylase (EC 2.4.1.97)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH162	"endo-_-1,2-glucanase (EC 3.2.1.71)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH17	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH30_3 	"endo-1,6-_-glucosidase (EC 3.2.1.75)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH5_47	"endo-1,3-_-glucanase (EC 3.2.1.39); endo-1,6-_-glucosidase (EC 3.2.1.75)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH55	"exo-_-1,3-glucanase (EC 3.2.1.58); endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH64	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH72	"_-1,3-glucanosyltransglycosylase (EC 2.4.1.-)"		
+López-Mondéjar	Beta-glucanases	Beta-glucanases	a-fungal	GH81	"endo-1,3-_-glucanase (EC 3.2.1.39)"		
+		Beta-glucanases	a-fungal	GH131	"endo-_-1,4-glucanase (EC 3.2.1.21); exo-_-1,3-glucanase (EC 3.2.1.58);"		
+		Beta-glucanases	a-fungal	GH132	"Activity on _-1,3-glucan (curdlan) shown for the Aspergillus fumigatus Sun4 protein; activity on laminarioligosaccharides shown for Aspergillus fumigatus Sun4 protein and Candida albicans Sun41 protein; transglycosylation activity reported in PMID 23508952; _-1,3-glucosidase (EC 3.2.1.-)"		
+		Beta-glucanases	a-fungal	GH16_1	"[retaining] _-1,3-glucanosyltransglucosidase (EC 2.4.1.-);hyaluronidase / hyaluronoglucosaminidase (EC 3.2.1.35);endo-_-1,3-glucanase / laminarinase (EC 3.2.1.39);endo-_-1,3(4)-glucanase / lichenase-laminarinase (EC 3.2.1.6);lichenase / endo-_-1,3-1,4-glucanase (EC 3.2.1.73)"		
+		Chitinases	a-fungal	GH16_18	"_-transglycosidase (EC 2.4.1.-);chitin _-1,3/1,6-glucanosyltransferase (EC 2.4.1.-);endo-_-1,3-glucanase / laminarinase (EC 3.2.1.39)"		
+		Beta-glucanases	a-fungal	GH16_21	"Endo-_ (1,3)/_ (1,4)-glucanase"		
+		Beta-glucanases	a-fungal	GH16_22	No known activity in this subfamily		
+		Beta-glucanases	a-fungal	GH16_23	No known activity in this subfamily		
+		Beta-glucanases	a-fungal	GH16_3	"endo-_-1,4-galactosidase (EC 3.2.1.-);_-glucosidase (EC 3.2.1.21);endo-_-1,3-glucanase / laminarinase (EC 3.2.1.39);endo-_-1,3(4)-glucanase / lichenase-laminarinase (EC 3.2.1.6);lichenase / endo-_-1,3-1,4-glucanase (EC 3.2.1.73)"		
+		Beta-glucanases	a-fungal	GH30_3	"_-1,6-glucosidase (EC 3.2.1.-);endo-_-1,6-glucanase (EC 3.2.1.75)"		
+		Beta-glucanases	a-fungal	GH5_15	"endo-_-1,6-glucanase (EC 3.2.1.75)"		
+		Beta-glucanases	a-fungal	GH5_9	"_-glucosidase (EC 3.2.1.21);exo-_-1,3-glucanase (EC 3.2.1.58);endo-_-1,6-glucanase (EC 3.2.1.75)"		
+		Binding beta-glucans	a-fungal	CBM43	"Modules of approx. 90-100 residues found at the C-terminus of GH17 or GH72 enzymatic modules and also sometimes isolated. CBM43 modules sometimes carry a C-terminal membrane anchor. The _-1,3-glucan binding function has been demonstrated with the olive pollen protein Ole e 10."		
+		Binding beta-glucans	a-fungal	CBM52	"Modules of approx. 60 residues attached to a few GH81 enzymes but present in other proteins. Binding to _-1,3-glucan demonstrated for Schizosaccharomyces pombe 972h- endo-1,3-_-glucanase Eng1 [Martin-Quadrado et al., Mol. Microbiol. (2008) 69:188-200 PMID:18466295]"		
+		Binds chitin	a-fungal	CBM18	"Modules of approx. 40 residues. The chitin-binding function has been demonstrated in many cases. These modules are found attached to a number of chitinase catalytic domains, but also in non-catalytic proteins either in isolation or as multiple repeats."		
+		GXM biosynthesis / Alpha-mannosyltransferase	a-fungal	GT69	"GDP-Man: _-1,3-mannosyltransferase (EC 2.4.1.-)"		
+		GXM biosynthesis / O-linked glycosylation	a-fungal	GT90	"UDP-Xyl: (mannosyl) glucuronoxylomannan/galactoxylomannan _-1,2-xylosyltransferase (EC 2.4.2.-); UDP-Glc: protein O-_-glucosyltransferase (EC 2.4.1.-); UDP-Xyl: protein O-_-xylosyltransferase (EC 2.4.2.-)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH16_10	"endo-_-1,3-galactanase (EC 3.2.1.181)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH30_5	"endo-_-1,6-galactanase (EC:3.2.1.164)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH43_24	"exo-_-1,3-galactanase (EC 3.2.1.145)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH43_37	"endo-_-1,5-L-arabinanase (EC 3.2.1.99)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH43_4	"endo-_-1,5-L-arabinanase (EC 3.2.1.99)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH43_5	"endo-_-1,5-L-arabinanase (EC 3.2.1.99)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH5_16	"endo-_-1,6-galactanase (EC:3.2.1.164)"		
+López-Mondéjar	Arabinogalactanases	Arabinogalactanases	b-plant	GH53	"endo-_-1,4-galactanase (EC 3.2.1.89)"		
+		Arabinogalactanases	b-plant	GH43_6	"[inverting] endo-_-1,5-L-arabinanase (EC 3.2.1.99)"		
+		Arabinogalactanases	b-plant	GH93	"exo-_-L-1,5-arabinanase (EC 3.2.1.-)"		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH1	_-glucosidase (EC 3.2.1.21)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH116	_-glucosidase (EC 3.2.1.21); _-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH3	_-glucosidase (EC 3.2.1.21)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH30_2	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH30_6 	_-glucosidase (EC 3.2.1.21)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH39	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH43_1	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH43_11	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH43_22	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH43_27	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH43_35	_-xylosidase (EC 3.2.1.37)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH5_22	"xylan _-1,4-xylosidase (EC 3.2.1.37);endo-_-1,4-glucanase (EC 3.2.1.4)"		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH5_43	_-glucosidase (EC 3.2.1.21)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH5_45	_-glucosidase (EC 3.2.1.21)		
+López-Mondéjar	Beta-glucosidases/beta-xylosidases	Beta-glucosidases/Beta-xylosidases	b-plant	GH52	_-xylosidase (EC 3.2.1.37)		
+		Beta-glucosidases/Beta-xylosidases	b-plant	GH43_14	"xylan _-1,4-xylosidase (EC 3.2.1.37)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH134	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH164	_-mannosidase (EC 3.2.1.25)		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH26	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_10	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_17	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_18	_-mannosidase (EC 3.2.1.25)		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_19	_-mannosidase (EC 3.2.1.25)		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_36	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_40	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_41	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_55	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_7	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Mannanases	Beta-mannanases/Beta-mannosidases	b-plant	GH5_8	"endo-_-1,4-mannanase (EC 3.2.1.78)"		
+		Beta-mannanases/Beta-mannosidases	b-plant	GH5_31	"_-1,3-mannanase (EC 3.2.1.-)"		
+		"Binding cellulose, xylans, beta-glucans"	b-plant	CBM6	"Modules of approx. 120 residues. The cellulose-binding function has been demonstrated in one case on amorphous cellulose and _-1,4-xylan. Some of these modules also bind _-1,3-glucan, _-1,3-1,4-glucan, and _-1,4-glucan."		
+		Binding fructans	b-plant	CBM66	"The CBM66 module, derived from the Bacillus subtilis exo-acting _-fructosidase SacC, targets the terminal fructoside residue of fructans."		
+		Binding other hemicelluloses	b-plant	CBM42	Modules of approx. 160 residues found mostly at the C-terminus of GH54 catalytic domains. Binding to arabinofuranose (present in arabinoxylan) has been demonstrated.		
+		Binding xylans	b-plant	CBM91	Binding to xylans (birchwood and oat spelt)		
+		Binds inulin	b-plant	CBM38	The inulin-binding function has been demonstrated in the case of the cycloinulo-oligosaccharide fructanotransferase from Paenibacillus macerans (Bacillus macerans) by Lee et al. (2004) FEMS Microbiol Lett 234:105-10. (PMID:15109727).		
+		Binds mannans and xylan	b-plant	CBM35	"Modules of approx. 130 residues. A module that is conserved in three Cellvibrio xylan-degrading enzymes binds to xylan and the interaction is calcium dependent, while a module from a Cellvibrio mannanase binds to decorated soluble mannans and mannooligosaccharides. A module in a Phanerochaete chrysosporium galactan 1,3-_-galactosidase binds to _-galactan."		
+		Binds starch	b-plant	CBM20	The granular starch-binding function has been demonstrated in several cases. Interact strongly with cyclodextrins. Often designated as starch-binding domains (SBD).		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH12	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH124	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH44	"endoglucanase (EC 3.2.1.4); endo-_-1,4-mannanase (EC 3.2.1.78)"		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH45	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH48	reducing end-acting cellobiohydrolase (EC 3.2.1.176); endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_1	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_2	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_25	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_26	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_37	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_38	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_39	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_4	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_46	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_5	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_52	"exo-_-1,4-glucanase / cellodextrinase (EC 3.2.1.74)"		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH5_53	"exo-_-1,4-glucanase / cellodextrinase (EC 3.2.1.74)"		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH6	cellobiohydrolase (EC 3.2.1.91)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH7	reducing end-acting cellobiohydrolase (EC 3.2.1.176)		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH8	"endoglucanase (EC 3.2.1.4); endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Cellulases	Cellulases	b-plant	GH9	endoglucanase (EC 3.2.1.4)		
+López-Mondéjar	Chitinases	Chitinases	a-fungal	GH18	chitinase (EC 3.2.1.14)		
+López-Mondéjar	Chitinases	Chitinases	a-fungal	GH19	chitinase (EC 3.2.1.14)		
+López-Mondéjar	Chitinases	Chitinases	a-fungal	GH20	N-acetyl _-glucosaminidase (EC 3.2.1.52)		
+López-Mondéjar	Chitinases	Chitinases	a-fungal	GH46	chitosanase (EC 3.2.1.132)		
+López-Mondéjar	Chitinases	Chitinases	a-fungal	GH5_48	N-acetyl _-glucosaminidase (EC 3.2.1.52); chitosanase (EC 3.2.1.132)		
+López-Mondéjar	Chitinases	Chitinases	a-fungal	GH75	chitosanase (EC 3.2.1.132)		
+		Chitinases	a-fungal	GH16_19	"chitin _-1,3/1,6-glucanosyltransferase (EC 2.4.1.-)"		
+		Lignocellulases	b-plant	AA3	"cellobiose dehydrogenase (EC 1.1.99.18); glucose 1-oxidase (EC 1.1.3.4); aryl alcohol oxidase (EC 1.1.3.7); alcohol oxidase (EC 1.1.3.13); pyranose oxidase (EC 1.1.3.10); glucose 1-dehydrogenase (FAD, quinone) (EC 1.1.5.9); pyranose dehydrogenase (EC 1.1.99.29); oligosaccharide dehydrogenase (FAD) (EC 1.1.5.-)"		
+		Lignocellulases	b-plant	AA3_1	cellobiose dehydrogenase (EC 1.1.99.18)		
+		Lignocellulases	b-plant	AA3_2	"ecdysone oxidase (EC 1.1.3.16);glucose 1-oxidase (EC 1.1.3.4);aryl alcohol oxidase (EC 1.1.3.7);oligosaccharide dehydrogenase (FAD) (EC 1.1.5.-);glucose 1-dehydrogenase (FAD, quinone) (EC 1.1.5.9); pyranose dehydrogenase (EC 1.1.99.29)"		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE1	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE12	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE15	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE2	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE3	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE4	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE5	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE6	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	CE7	acetyl xylan esterase (EC 3.1.1.72)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH110	_-galactosidase (EC 3.2.1.22)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH147	_-galactosidase (EC 3.2.1.23)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH165	_-galactosidase (EC 3.2.1.23)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH2	_-galactosidase (EC 3.2.1.23)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH27	_-galactosidase (EC 3.2.1.22)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH35	_-galactosidase (EC 3.2.1.23)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH36	_-galactosidase (EC 3.2.1.22)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_10	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_12	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_17	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_2 	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_26	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_34	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH43_9	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH51	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH54	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH62	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Other hemicellulases	Other hemicellulases	b-plant	GH97	_-galactosidase (EC 3.2.1.22)		
+		Other hemicellulases	b-plant	GH43_21	_-L-arabinofuranosidase (EC 3.2.1.55)		
+		Other hemicellulases	b-plant	GH43_36	_-L-arabinofuranosidase (EC 3.2.1.55)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	CE8	pectin methylesterase (EC 3.1.1.11)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH105	unsaturated rhamnogalacturonyl hydrolase (EC 3.2.1.172)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH106	_-L-rhamnosidase (EC 3.2.1.40)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH127	_-L-arabinofuranosidase (EC 3.2.1.185)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH137	_-L-arabinofuranosidase (EC 3.2.1.185) 		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH138	"rhamnogalacturonan _-1,2-galacturonohydrolase (EC 3.2.1.173)"		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH139	_-2-O-Me-L-fucosidase (EC 3.2.1.-)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH140	"_-1,2-apiosidase (EC 3.2.1.-)"		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH142	_-L-arabinofuranosidase (EC 3.2.1.185) 		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH143	2-keto-3-deoxy-D-lyxo-heptulosaric acid hydrolase (EC 3.2.1.-)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH145	"L-Rh_-_-1,4-GlcA _-L-rhamnohydrolase (EC 3.2.1.-)"		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH146	_-L-arabinofuranosidase (EC 3.2.1.185)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	GH151	_-L-fucosidase (EC 3.2.1.51)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_1	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_2	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_3	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_5	pectate lyase (EC 4.2.2.2); exo-pectate lyase (EC 4.2.2.9)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_6	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_7	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL1_8	pectin lyase (EC 4.2.2.10)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL10	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL10_1	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL10_2	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL10_3	pectate lyase (EC 4.2.2.2)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL11	rhamnogalacturonan endolyase (EC 4.2.2.23); rhamnogalacturonan exolyase (EC 4.2.2.24)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL11_1 	rhamnogalacturonan endolyase (EC 4.2.2.23); rhamnogalacturonan exolyase (EC 4.2.2.24)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL11_2	rhamnogalacturonan endolyase (EC 4.2.2.23); rhamnogalacturonan exolyase (EC 4.2.2.24)		
+López-Mondéjar	Pectinases	Pectinases	b-plant	PL26	rhamnogalacturonan exolyase (EC 4.2.2.24)		
+		Pectinases	b-plant	GH28	"polygalacturonase (EC 3.2.1.15); exo-polygalacturonase (EC 3.2.1.67); exo-polygalacturonosidase (EC 3.2.1.82); rhamnogalacturonase (EC 3.2.1.171); rhamnogalacturonan _-1,2-galacturonohydrolase (EC 3.2.1.173); xylogalacturonan hydrolase (EC 3.2.1.-)"		
+		Pectinases	b-plant	GH78	"_-L-rhamnosidase (EC 3.2.1.40); rhamnogalacturonan _-L-rhamnohydrolase (EC 3.2.1.174); L-Rhap-_-1,3-D-Apif -specific _-1,3-L-rhamnosidase (EC 3.2.1.-)"		
+		Pectinases	b-plant	PL20	"endo-_-1,4-glucuronan lyase (EC 4.2.2.14)"		
+		Pectinases	b-plant	PL3_2	pectate lyase (EC 4.2.2.2)		
+		Pectinases	b-plant	PL38	"endo-_-1,4-glucuronan lyase (EC 4.2.2.14)"		
+		Pectinases	b-plant	PL4_1	rhamnogalacturonan endolyase (EC 4.2.2.23)		
+		Pectinases	b-plant	PL4_3	rhamnogalacturonan endolyase (EC 4.2.2.23)		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH10	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH11	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH115	"xylan _-1,2-glucuronidase (EC 3.2.1.131)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH141	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH30_7	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH30_8	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH43_16	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH43_29	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH5_21	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH5_35	"endo-_-1,4-xylanase (EC 3.2.1.8)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH67	"xylan _-1,2-glucuronidase (EC 3.2.1.131)"		
+López-Mondéjar	Xylanases/xyloglucanases	Xylanases/xyloglucanases	b-plant	GH74	xyloglucanase (EC 3.2.1.151)		
+		Acetylesterase	nd	CE16	acetylesterase (EC 3.1.1.6) active on various carbohydrate acetyl esters		
+		Alpha-fucosidases	nd	GH29	"_-L-fucosidase (EC 3.2.1.51); _-1,3/1,4-L-fucosidase (EC 3.2.1.111); _-1,2-L-fucosidase (EC 3.2.1.63); _-1,6-fucosidase (EC 3.2.1.127)"		
+		Alpha-fucosidases	nd	GH95	"_-L-fucosidase (EC 3.2.1.51); _-1,2-L-fucosidase (EC 3.2.1.63); _-L-galactosidase (EC 3.2.1.-)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-galactosaminogalactanase/GDE	nd	GH135	"_-1,4-galactosaminogalactan hydrolase (EC 3.2.1.-)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-galactosaminogalactanase/GDE	nd	GH166	"_-1,4-galactosaminogalactan hydrolase (EC 3.2.1.-)"		
+		Alpha-galactosyltransferase	nd	GT8	"lipopolysaccharide _-1,3-galactosyltransferase (EC 2.4.1.44); UDP-Glc: (glucosyl)lipopolysaccharide _-1,2-glucosyltransferase (EC 2.4.1.-); lipopolysaccharide glucosyltransferase 1 (EC 2.4.1.58); glycogenin glucosyltransferase (EC 2.4.1.186); inositol 1-_-galactosyltransferase (galactinol synthase) (EC 2.4.1.123); homogalacturonan _-1,4-galacturonosyltransferase (EC 2.4.1.43); UDP-GlcA: xylan _-glucuronyltransferase (EC 2.4.1.-); UDP-Gal:glucoside _-1,3-galactosyltransferase (EC 2.4.1.-)"		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH100	_-fructofuranosidase (EC 3.2.1.26)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH119	_-amylase (EC 3.2.1.1)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH122	_-glucosidase (EC 3.2.1.20)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH126	_-amylase (EC 3.2.1.1)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH13	_-amylase (EC 3.2.1.1)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH133	"amylo-_-1,6-glucosidase (EC 3.2.1.33)"		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH14	_-amylase (EC 3.2.1.2)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH15	glucoamylase (EC 3.2.1.3)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH31	_-glucosidase (EC 3.2.1.20)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH57	_-amylase (EC 3.2.1.1); amylopullulanase (EC 3.2.1.41)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH66	dextranase (EC 3.2.1.11)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH68	levansucrase (EC 2.4.1.10); _-fructofuranosidase (EC 3.2.1.26)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH70	dextransucrase (EC 2.4.1.5)		
+López-Mondéjar	Alpha-glucanases	Alpha-glucanases	nd	GH77	amylomaltase or 4-_-glucanotransferase (EC 2.4.1.25)		
+		Alpha-glucanases	nd	GH13_1	[retaining] 4-_-glucanotransferase / amylomaltase (EC 2.4.1.25);[retaining] _-amylase (EC 3.2.1.1);[retaining] maltotriose-producing _-amylase (EC 3.2.1.116)		
+		Alpha-glucanases	nd	GH171	"_-1,3-glucanase (EC 3.2.1.59)"		
+		Alpha-glucanases	nd	GH37	"_,_-trehalase (EC 3.2.1.28)"		
+		Alpha-glucanases	nd	GH49	"dextranase (EC 3.2.1.11); isopullulanase (EC 3.2.1.57); dextran 1,6-_-isomaltotriosidase (EC 3.2.1.95); sulfated arabinan endo-1,4-_-L-arabinanase (EC 3.2.1.-)"		
+		Alpha-glucanases	nd	GH71	"_-1,3-glucanase (EC 3.2.1.59)"		
+		alpha-glucosidase/GDE	nd	GH63	"processing _-glucosidase (EC 3.2.1.106); _-1,3-glucosidase (EC 3.2.1.84); _-glucosidase (EC 3.2.1.20); mannosylglycerate _-mannosidase / mannosylglycerate hydrolase (EC 3.2.1.170); glucosylglycerate hydrolase (EC 3.2.1.208)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-N-acetylgalactosaminidase/GDE	nd	GH101	endo-_-N-acetylgalactosaminidase (EC 3.2.1.97)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-N-acetylgalactosaminidase/GDE	nd	GH109	_-N-acetylgalactosaminidase (EC 3.2.1.49)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-N-acetylgalactosaminidase/GDE	nd	GH129 	_-N-acetylgalactosaminidase (EC 3.2.1.49)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-N-acetylglucosaminidase/GDE	nd	GH89	_-N-acetylglucosaminidase (EC 3.2.1.50)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Alpha-polygalactosaminidase/GDE	nd	GH114	"endo-_-1,4-polygalactosaminidase (EC 3.2.1.109)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-arabinobiosidase/GDE	nd	GH121	_-L-arabinobiosidase (EC 3.2.1.-)		
+		Beta-fucosidases/fructosyltransferases	nd	GH32	"	invertase (EC 3.2.1.26); endo-inulinase (EC 3.2.1.7); _-2,6-fructan 6-levanbiohydrolase (EC 3.2.1.64); endo-levanase (EC 3.2.1.65); exo-inulinase (EC 3.2.1.80); fructan _-(2,1)-fructosidase/1-exohydrolase (EC 3.2.1.153); fructan _-(2,6)-fructosidase/6-exohydrolase (EC 3.2.1.154); sucrose:sucrose 1-fructosyltransferase (EC 2.4.1.99); fructan:fructan 1-fructosyltransferase (EC 2.4.1.100); sucrose:fructan 6-fructosyltransferase (EC 2.4.1.10); fructan:fructan 6G-fructosyltransferase (EC 2.4.1.243); levan fructosyltransferase (EC 2.4.1.-); [retaining] sucrose:sucrose 6-fructosyltransferase (6-SST) (EC 2.4.1.-); cycloinulo-oligosaccharide fructanotransferase (EC 2.4.1.-)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-fucosidases/GDE	nd	GH30_4 	_-fucosidase (EC 3.2.1.38)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-galactofuranosidase/GDE	nd	GH159	_-D-galactofuranosidase (EC 3.2.1.146)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-galactofuranosidase/GDE	nd	GH43_30	_-D-galactofuranosidase (EC 3.2.1.146)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-galactofuranosidase/GDE	nd	GH43_32	_-D-galactofuranosidase (EC 3.2.1.146)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-galactosidase/GDE	nd	GH160	"blood-group endo-_-1,4-galactosidase (EC 3.2.1.102); blood group A- and B-cleaving endo-_-1,4-galactosidase (EC 3.2.1.-)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-galactosidase/GDE	nd	GH98	"blood-group endo-_-1,4-galactosidase (EC 3.2.1.102); blood group A- and B-cleaving endo-_-1,4-galactosidase (EC 3.2.1.-)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-glucuronidase/GDE	nd	GH154	_-glucuronidase (3.2.1.31)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-glucuronidase/GDE	nd	GH30_9	_-glucuronidase (3.2.1.31)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-glucuronidase/GDE	nd	GH79	_-glucuronidase (EC 3.2.1.31); hyaluronoglucuronidase (EC 3.2.1.36); heparanase (EC 3.2.1.166); baicalin _-glucuronidase (EC 3.2.1.167); _-4-O-methyl-glucuronidase (EC 3.2.1.-); glycyrrhizin _-glucuronidase (EC 3.2.1.128)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-glucuronidase/GDE	nd	GH88	"d-4,5-unsaturated _-glucuronyl hydrolase (EC 3.2.1.-)"		
+		Beta-glycosidases	nd	GH5_23	"_-rutinosidase /_-L-rhamnose-(1,6)-_-D-glucosidase (EC 3.2.1.-);_-primeverosidase (EC 3.2.1.149);hesperidin 6-O-_-L-rhamnosyl-_-glucosidase (EC 3.2.1.168)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-N-acetylgalactosaminidase/GDE	nd	GH123	_-N-acetylgalactosaminidase (EC 3.2.1.53); glycosphingolipid _-N-acetylgalactosaminidase (EC 3.2.1.-)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	beta-N-acetylglucosaminidase/GDE	nd	GH111	keratan sulfate hydrolase (endo-_-N-acetylglucosaminidase) (EC 3.2.1.-)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-N-acetylglucosaminidase/GDE	nd	GH163	"endo-_-N-acetylglucosaminidase cleaving GlcNAc-_-1,2-Man (EC 3.2.1.-)"		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	Beta-N-acetylglucosaminidase/GDE	nd	GH85	endo-_-N-acetylglucosaminidase (EC 3.2.1.96)		
+		Binds alpha-glucan	nd	CBM24	"_-1,3-glucan (mutan)-binding function demonstrated in two cases (PMID:10636904)"		
+		Binds galactose and lactose	nd	CBM32	"Binding to galactose and lactose has been demonstrated for the module of Micromonospora viridifaciens sialidase (PMID: 16239725). Binding to polygalacturonic acid has been shown for a Yersinia member (PMID: 17292916). Binding to LacNAc (_-D-galactosyl-1,4-_-D-N-acetylglucosamine) has been shown for an N-acetylglucosaminidase from Clostridium perfingens (PMID: 16990278)."		
+		"Binds mannose, xylan, GalNAc"	nd	CBM13	"Modules of approx. 150 residues which always appear as a threefold internal repeat. The only apparent exception to this, xylanase II of Actinomadura sp. FC7 (GenBank U08894), is in fact not completely sequenced. These modules were first identified in several plant lectins such as ricin or agglutinin of Ricinus communis which bind galactose residues. The three-dimensional structure of a plant lectin has been determined and displays a pseudo-threefold symmetry in accord with the observed sequence threefold repeat. These modules have since been found in a number of other proteins of various functions including glycoside hydrolases and glycosyltransferases. While in the plant lectins this module binds mannose, binding to xylan has been demonstrated in the Streptomyces lividans xylanase A and arabinofuranosidase B. Binding to GalNAc has been shown for the corresponding module of GalNAc transferase 4. For the other proteins, the binding specificity of these modules has not been established. The pseudo three-fold symmetry of the CBM13 module has now been confirmed in the 3-D structure of the intact, two-domain, xylanase of Streptomyces olivaceoviridis."		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH107	"sulfated fucan endo-1,4-fucanase (EC 3.2.1.-)"		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH117	"_-1,3-L-neoagarooligosaccharide hydrolase (EC 3.2.1.-)"		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH118	_-agarase (EC 3.2.1.81)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH150	_-carrageenase (EC 3.2.1.162)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_11	_-porphyranase (EC 3.2.1.178)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_12	_-porphyranase (EC 3.2.1.178)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_13	_-carrageenase (EC 3.2.1.-)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_14	_-agarase (EC 3.2.1.81)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_15	_-agarase (EC 3.2.1.81)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_16	_-agarase (EC 3.2.1.81)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_17	_-carrageenase (EC 3.2.1.83)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH16_26	_-porphyranase (EC 3.2.1.178)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH167	_-carrageenase (EC 3.2.1.-)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH50	_-agarase (EC 3.2.1.81)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH82	_-carrageenase (EC 3.2.1.157)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH86	_-agarase (EC 3.2.1.81)		
+López-Mondéjar	Carragenases/agarases	Carragenases/Agarases	nd	GH96	_-agarase (EC 3.2.1.158)		
+		Glucooligosaccharide oxidases (GOO)	nd	AA7	glucooligosaccharide oxidase (EC 1.1.3.-); chitooligosaccharide oxidase (EC 1.1.3.-); cellooligosaccharide dehydrogenase (EC 1.1.99.-)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH136	lacto-N-biosidase (EC 3.2.1.140)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH156	sialidase or neuraminidase (EC 3.2.1.18)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH33	sialidase or neuraminidase (EC 3.2.1.18)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH34	sialidase or neuraminidase (EC 3.2.1.18)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH5_12	_-glucosylceramidase (EC 3.2.1.45)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH5_27	endoglycoceramidase (EC 3.2.1.123)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH5_28	endoglycoceramidase (EC 3.2.1.123)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH5_29	galactosylceramidase (EC 3.2.1.46)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH56	hyaluronidase (EC 3.2.1.35)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH58	endo-N-acetylneuraminidase or endo-sialidase (EC 3.2.1.129)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH59	galactocerebrosidase (EC 3.2.1.46)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH83	sialidase or neuraminidase (EC 3.2.1.18)		
+López-Mondéjar	Glycoconjugate-degrading enzymes*	GDE	nd	GH84	hyaluronidase (EC 3.2.1.35); [protein]-3-O-(GlcNAc)-L-Ser/Thr _-N-acetylglucosaminidase (EC 3.2.1.169)		
+		Iron reductase	nd	AA8	Iron reductase domain		
+		Lipopolysaccharide biosynthesis	nd	GT25	"lipopolysaccharide _-1,4-galactosyltransferase (EC 2.4.1.-); _-1,3-glucosyltransferase (EC 2.4.1.-); _-1,2-glucosyltransferase (EC 2.4.1.-); _-1,2-galactosyltransferase (EC 2.4.1.-); LPS _-1,4-galactosyltransferase (EC 2.4.1.-); occidiofungin _-xylosyltransferase (EC 2.4.2.-); UDP-Gal:procollagen _-galactosyltransferase (EC 2.4.1.50)"		
+López-Mondéjar	LPMOs	Lytic polysacchairde monooxygenases (LPMOs)	nd	AA10	lytic cellulose monooxygenase (C1-hydroxylating) (EC 1.14.99.54); lytic cellulose monooxygenase (C4-dehydrogenating)(EC 1.14.99.56); lytic chitin monooxygenase (EC 1.14.99.53)		
+		Lytic polysacchairde monooxygenases (LPMOs)	nd	AA11	AA11 proteins are copper-dependent lytic polysaccharide monooxygenases (LPMOs); cleavage of chitin chains with oxidation of C-1 has been demonstrated for a AA11 LPMO from Aspergillus oryzae;		
+		Lytic polysacchairde monooxygenases (LPMOs)	nd	AA13	AA13 proteins are copper-dependent lytic polysaccharide monooxygenases (LPMOs); cleavage of starch with oxidation of C-1 at the site of cleavage has been demonstrated for the LPMO encoded by gene NCU08746 from Neurospora crassa; lytic starch monooxygenase / starch oxidase (glycosidic bond-cleaving) (EC 1.14.99.55)		
+		Lytic polysacchairde monooxygenases (LPMOs)	nd	AA14	AA14 proteins are copper-dependent lytic polysaccharide monooxygenases (LPMOs); cleavage of xylan with oxidation of C-1 has been demonstrated for two AA14 LPMOs from Trametes coccinea (Pycnoporus coccineus); lytic xylan monooxygenase / xylan oxidase (glycosidic bond-cleaving) (EC 1.14.99.-)		
+		Lytic polysacchairde monooxygenases (LPMOs)	nd	AA16	Lytic cellulose monooxygenase (C1-hydroxylating) (EC 1.14.99.54)		
+		Lytic polysacchairde monooxygenases (LPMOs)	nd	AA9	AA9 (formerly GH61) proteins are copper-dependent lytic polysaccharide monooxygenases (LPMOs); cleavage of cellulose chains with oxidation of carbons C1 and/or C4 and C-6); lytic cellulose monooxygenase (C1-hydroxylating) (EC 1.14.99.54); lytic cellulose monooxygenase (C4-dehydrogenating) (EC 1.14.99.56)		
+		Mononuclear copper-radical oxidases (CROs)	nd	AA5	Oxidase with oxygen as acceptor (EC 1.1.3.-); galactose oxidase (EC 1.1.3.9); glyoxal oxidase (EC 1.2.3.15); alcohol oxidase (EC 1.1.3.13); raffinose oxidase (EC 1.1.3.-)		
+		Mononuclear copper-radical oxidases (CROs)	nd	AA5_1	glyoxal oxidases (EC 1.2.3.15)		
+		ND	nd	GH43_25	No known activity in this subfamily		
+		ND	nd	GH5_11	No known activity in this subfamily		
+		ND	nd	GH5_50	No known activity in this subfamily		
+		ND	nd	GH5_54	No known activity in this subfamily		
+		ND	nd	PL14_4	No known activity in this subfamily		
+		O-linked glycosylation	nd	GT61	"	_-1,2-xylosyltransferase (EC 2.4.2.38) ; protein O-_-N-acetylglucosaminyltransferase (EC 2.4.1.94) ; xylan _-1,3-arabinofuranosyltransferase (EC 2.4.2.-) ; UDP-GlcNAc: protein O-_-N-acetylglucosaminyltransferase (EC 2.4.1.255); protein O-mannose Î_-1,4-N-acetylglucosaminyltransferase (EC 2.4.1.312)"		
+		O-linked/N-linked glycosylation	nd	GT31	"N-acetyllactosaminide _-1,3-N-acetylglucosaminyltransferase (EC 2.4.1.149); Glycoprotein-N-acetylgalactosamine 3-_-galactosyltransferase (EC 2.4.1.122); fucose-specific _-1,3-N-acetylglucosaminyltransferase (EC 2.4.1.-); globotriosylceramide _-1,3-GalNAc transferase (EC 2.4.1.79); chondroitin synthase (_-1,3-GlcUA and _-1,4-GalNAc transferase (EC 2.4.1.175); chondroitin _-1,3-glucuronyltransferase (EC 2.4.1.226); chondroitin _-1,4-N-acetylgalactosaminyltransferase (EC 2.4.1.-); UDP-Gal: _-galactosylxylosylprotein _-1,3-galactosyltransferase (EC 2.4.1.134); UDP-GlcNAc: O-fucosylpeptide _-1,3-N-acetylglucosaminyltransferase (EC 2.4.1.222)"		
+		Oxidoreductase	nd	AA1	Laccase / p-diphenol:oxygen oxidoreductase / ferroxidase (EC 1.10.3.2); ; ferroxidase (EC 1.10.3.-); Laccase-like multicopper oxidase (EC 1.10.3.-)	Laccase / p-diphenol:oxygen oxidoreductase / ferroxidase (EC 1.10.3.2); ; ferroxidase (EC 1.10.3.-); Laccase-like multicopper oxidase (EC 1.10.3.-)	
+		Oxidoreductase	nd	AA1_1	laccase / p-diphenol:oxygen oxidoreductase (EC 1.10.3.2)		
+		Oxidoreductase	nd	AA1_2	laccase / p-diphenol:oxygen oxidoreductase (EC 1.10.3.2)		
+		Oxidoreductase	nd	AA1_3	[copper-containing] dihydrogeodin oxidase (EC 1.10.3.-);laccase / p-diphenol:oxygen oxidoreductase (EC 1.10.3.2)		
+		Oxidoreductase	nd	AA12	The pyrroloquinoline quinone-dependent oxidoreductase activity was demonstrated for the CC1G_09525 protein of Coprinopsis cinerea.		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	CE9	N-acetylglucosamine 6-phosphate deacetylase (EC 3.5.1.25); N-acetylglucosamine 6-phosphate deacetylase (EC 3.5.1.80)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH102	peptidoglycan lytic transglycosylase (EC 4.2.2.n1)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH103	peptidoglycan lytic transglycosylase (EC 4.2.2.n1)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH104	peptidoglycan lytic transglycosylase (EC 4.2.2.n1)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH108	lysozyme (EC 3.2.1.17)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH153	"Poly-beta-1,6-N-acetyl-D-glucosamine N-deacetylase"		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH22	lysozyme (EC 3.2.1.17)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH23	lysozyme (EC 3.2.1.17); peptidoglycan lytic transglycosylase (EC 4.2.2.n1)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH24	lysozyme (EC 3.2.1.17)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH25	lysozyme (EC 3.2.1.17)		
+López-Mondéjar	Peptidoglycanases	Peptidoglycanases	c-bacteria	GH73	lysozyme (EC 3.2.1.17)		
+		Peroxidase	nd	AA2	manganese peroxidase (EC 1.11.1.13); versatile peroxidase (EC 1.11.1.16); lignin peroxidase (EC 1.11.1.14); peroxidase (EC 1.11.1.-); cytochrome-c peroxidase (EC 1.11.1.5); ascorbate peroxidase (EC 1.11.1.11)		
+		Binds cellulose	b-plant	CBM1			
+		Acetylmannan esterase	nd	CE17	acetylmannan esterase (3.1.1.-)		
+		Alpha-glucanases	b-plant	GH13_32	"	[retaining] _-amylase (EC 3.2.1.1);[retaining] maltotriose-producing _-amylase (EC 3.2.1.116)"		
+		ND	nd	GH16_2	No known activity in this subfamily		
+		Beta-fucosidases	nd	GH30_4	_-D-fucosidase (EC 3.2.1.38)		
+		Other hemicellulases	b-plant	GH43_33	_-L-arabinofuranosidase (EC 3.2.1.55)		
+		ND	nd	GH5_30	No known activity in this subfamily		
+		Alpha-mannosyltransferase	nd	GT15	"glycolipid 2-_-mannosyltransferase (EC 2.4.1.131); GDP-Man: _-1,2-mannosyltransferase (EC 2.4.1.-)."		
+		N-acetylglucosaminyltransferase	nd	GT49	"_-1,3-N-acetylglucosaminyltransferase (EC 2.4.1.-)."		
+		Pectinases	b-plant	PL1_4	pectin lyase (EC 4.2.2.10)		
+		Pectinases	b-plant	PL14	"poly(_-mannuronate) lyase / M-specific alginate lyase (EC 4.2.2.3); exo-oligoalginate lyase (EC 4.2.2.26); _-1,4-glucuronan lyase (EC 4.2.2.14); alginate lyase (EC 4.2.2.-)"		
+		Pectinases	b-plant	PL14_5	No known activity in this subfamily		
+		Pectinases	b-plant	PL4_5	No known activity in this subfamily		
+		Pectinases	b-plant	PL42	"L-rhamnose-_-1,4-D-glucuronate lyase (EC 4.2.2.-); L-Rh_-_-1,4-GlcA _-L-rhamnohydrolase (EC 3.2.1.-)"		
+		Pectinases	b-plant	PL8_4	"exo-_-1,4-glucuronan lyase (EC 4.2.2.-);poly(_-mannuronate) lyase / M-specific alginate lyase (EC 4.2.2.3)"		

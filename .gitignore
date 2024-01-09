@@ -7,4 +7,11 @@ R_markdown/*.html
 10_annotations/dbcan3/
 10_annotations/funannotate/
 10_annotations/DeepLoc2/
-
+10_annotations/annotation_tables_funannotate/
+10_annotations/annotation_tables_merged/
+10_annotations/protein_fasta/
+10_annotations/fastas/
+10_annotations/dbcan4/
+11_LPMO_trees/*/
+12_starfish/*/
+manuscript/
