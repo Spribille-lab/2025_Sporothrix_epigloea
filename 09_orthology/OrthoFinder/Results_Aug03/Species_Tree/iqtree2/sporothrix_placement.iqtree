@@ -1,0 +1,351 @@
+IQ-TREE 2.0.7 built Mar 22 2021
+
+Input file name: ../../MultipleSequenceAlignments/SpeciesTreeAlignment.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 898140
+
+REFERENCES
+----------
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 30 sequences with 2019986 amino-acid sites
+Number of constant sites: 852303 (= 42.1935% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 852303 (= 42.1935% of all sites)
+Number of parsimony informative sites: 885033
+Number of distinct site patterns: 941554
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: JTT+F+R7
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+JTT+F+R7        -31808287.370 63616750.740 +        1 63616750.748 +        1 63617852.377 +        1
+JTT+F+R8        -31808427.300 63617034.600 - 2.29e-62 63617034.608 - 2.29e-62 63618161.274 - 8.39e-68
+JTTDCMut+F+R7   -31820328.710 63640833.420 -        0 63640833.428 -        0 63641935.057 -        0
+JTTDCMut+F+R8   -31820470.180 63641120.360 -        0 63641120.368 -        0 63642247.034 -        0
+JTT+R7          -31983301.880 63966741.760 -        0 63966741.765 -        0 63967605.543 -        0
+JTT+R8          -31983441.670 63967025.340 -        0 63967025.345 -        0 63967914.161 -        0
+JTTDCMut+R7     -31996169.080 63992476.160 -        0 63992476.165 -        0 63993339.943 -        0
+JTTDCMut+R8     -31996315.030 63992772.060 -        0 63992772.065 -        0 63993660.881 -        0
+Dayhoff+F+R7    -32062583.940 64125343.880 -        0 64125343.888 -        0 64126445.517 -        0
+Dayhoff+F+R8    -32062795.340 64125770.680 -        0 64125770.688 -        0 64126897.354 -        0
+DCMut+F+R7      -32065110.220 64130396.440 -        0 64130396.448 -        0 64131498.077 -        0
+DCMut+F+R8      -32065320.230 64130820.460 -        0 64130820.468 -        0 64131947.134 -        0
+LG+F+R7         -32073019.730 64146215.460 -        0 64146215.468 -        0 64147317.097 -        0
+LG+F+R8         -32073009.960 64146199.920 -        0 64146199.928 -        0 64147326.594 -        0
+FLU+F+R7        -32098661.140 64197498.280 -        0 64197498.288 -        0 64198599.917 -        0
+FLU+F+R8        -32098853.670 64197887.340 -        0 64197887.348 -        0 64199014.014 -        0
+WAG+F+R7        -32099863.390 64199902.780 -        0 64199902.788 -        0 64201004.417 -        0
+WAG+F+R8        -32099983.210 64200146.420 -        0 64200146.428 -        0 64201273.094 -        0
+mtMet+F+R7      -32116729.400 64233634.800 -        0 64233634.808 -        0 64234736.437 -        0
+mtMet+F+R8      -32116847.840 64233875.680 -        0 64233875.688 -        0 64235002.354 -        0
+mtInv+F+R7      -32123068.040 64246312.080 -        0 64246312.088 -        0 64247413.717 -        0
+mtInv+F+R8      -32123250.670 64246681.340 -        0 64246681.348 -        0 64247808.014 -        0
+VT+F+R7         -32159390.870 64318957.740 -        0 64318957.748 -        0 64320059.377 -        0
+VT+F+R8         -32159509.570 64319199.140 -        0 64319199.148 -        0 64320325.814 -        0
+HIVb+F+R7       -32184034.040 64368244.080 -        0 64368244.088 -        0 64369345.717 -        0
+HIVb+F+R8       -32184157.680 64368495.360 -        0 64368495.368 -        0 64369622.034 -        0
+Dayhoff+R7      -32237879.820 64475897.640 -        0 64475897.645 -        0 64476761.423 -        0
+Dayhoff+R8      -32238087.590 64476317.180 -        0 64476317.185 -        0 64477206.001 -        0
+DCMut+R7        -32241062.470 64482262.940 -        0 64482262.945 -        0 64483126.723 -        0
+DCMut+R8        -32241270.700 64482683.400 -        0 64482683.405 -        0 64483572.221 -        0
+cpREV+F+R7      -32249403.590 64498983.180 -        0 64498983.188 -        0 64500084.817 -        0
+cpREV+F+R8      -32249585.990 64499351.980 -        0 64499351.988 -        0 64500478.654 -        0
+WAG+R7          -32270718.210 64541574.420 -        0 64541574.425 -        0 64542438.203 -        0
+WAG+R8          -32270837.370 64541816.740 -        0 64541816.745 -        0 64542705.561 -        0
+mtVer+F+R7      -32285061.470 64570298.940 -        0 64570298.948 -        0 64571400.577 -        0
+mtVer+F+R8      -32285170.900 64570521.800 -        0 64570521.808 -        0 64571648.474 -        0
+rtREV+F+R7      -32290422.640 64581021.280 -        0 64581021.288 -        0 64582122.917 -        0
+rtREV+F+R8      -32290571.720 64581323.440 -        0 64581323.448 -        0 64582450.114 -        0
+mtREV+F+R7      -32336765.570 64673707.140 -        0 64673707.148 -        0 64674808.777 -        0
+mtREV+F+R8      -32336868.150 64673916.300 -        0 64673916.308 -        0 64675042.974 -        0
+LG+R8           -32385666.590 64771475.180 -        0 64771475.185 -        0 64772364.001 -        0
+LG+R7           -32385683.340 64771504.680 -        0 64771504.685 -        0 64772368.463 -        0
+LG+R9           -32385696.670 64771539.340 -        0 64771539.345 -        0 64772453.198 -        0
+LG+R6           -32385762.940 64771659.880 -        0 64771659.885 -        0 64772498.626 -        0
+LG+R5           -32385917.690 64771965.380 -        0 64771965.384 -        0 64772779.089 -        0
+LG+R4           -32389269.540 64778665.080 -        0 64778665.084 -        0 64779453.752 -        0
+VT+R7           -32399102.190 64798342.380 -        0 64798342.385 -        0 64799206.163 -        0
+VT+R8           -32399217.260 64798576.520 -        0 64798576.525 -        0 64799465.341 -        0
+LG+I+G4         -32414767.990 64829653.980 -        0 64829653.984 -        0 64830392.577 -        0
+LG+R3           -32420571.990 64841265.980 -        0 64841265.984 -        0 64842029.615 -        0
+mtZOA+F+R7      -32449999.750 64900175.500 -        0 64900175.508 -        0 64901277.137 -        0
+mtZOA+F+R8      -32450161.530 64900503.060 -        0 64900503.068 -        0 64901629.734 -        0
+LG+G4           -32457038.540 64914193.080 -        0 64914193.083 -        0 64914919.159 -        0
+PMB+F+R7        -32580977.940 65162131.880 -        0 65162131.888 -        0 65163233.517 -        0
+PMB+F+R8        -32581088.450 65162356.900 -        0 65162356.908 -        0 65163483.574 -        0
+cpREV+R7        -32608371.010 65216880.020 -        0 65216880.025 -        0 65217743.803 -        0
+cpREV+R8        -32608523.840 65217189.680 -        0 65217189.685 -        0 65218078.501 -        0
+Blosum62+F+R7   -32618405.360 65236986.720 -        0 65236986.728 -        0 65238088.357 -        0
+Blosum62+F+R8   -32618525.790 65237231.580 -        0 65237231.588 -        0 65238358.254 -        0
+LG+R2           -32665522.910 65331163.820 -        0 65331163.824 -        0 65331902.417 -        0
+mtMAM+F+R7      -32703231.080 65406638.160 -        0 65406638.168 -        0 65407739.797 -        0
+mtMAM+F+R8      -32703515.230 65407210.460 -        0 65407210.468 -        0 65408337.134 -        0
+FLU+R7          -32705337.690 65410813.380 -        0 65410813.385 -        0 65411677.163 -        0
+FLU+R8          -32705542.020 65411226.040 -        0 65411226.045 -        0 65412114.861 -        0
+HIVb+R7         -32747404.840 65494947.680 -        0 65494947.685 -        0 65495811.463 -        0
+HIVb+R8         -32747567.630 65495277.260 -        0 65495277.265 -        0 65496166.081 -        0
+rtREV+R7        -32790993.420 65582124.840 -        0 65582124.845 -        0 65582988.623 -        0
+rtREV+R8        -32791155.380 65582452.760 -        0 65582452.765 -        0 65583341.581 -        0
+HIVw+F+R7       -32876432.610 65753041.220 -        0 65753041.228 -        0 65754142.857 -        0
+HIVw+F+R8       -32876573.360 65753326.720 -        0 65753326.728 -        0 65754453.394 -        0
+PMB+R7          -32896078.390 65792294.780 -        0 65792294.785 -        0 65793158.563 -        0
+PMB+R8          -32896185.900 65792513.800 -        0 65792513.805 -        0 65793402.621 -        0
+mtART+F+R7      -32938960.450 65878096.900 -        0 65878096.908 -        0 65879198.537 -        0
+mtART+F+R8      -32939230.610 65878641.220 -        0 65878641.228 -        0 65879767.894 -        0
+Blosum62+R7     -33011287.010 66022712.020 -        0 66022712.025 -        0 66023575.803 -        0
+Blosum62+R8     -33011398.700 66022939.400 -        0 66022939.405 -        0 66023828.221 -        0
+LG+I            -33272435.430 66544986.860 -        0 66544986.863 -        0 66545712.939 -        0
+mtZOA+R7        -33532106.750 67064351.500 -        0 67064351.505 -        0 67065215.283 -        0
+mtZOA+R8        -33532301.100 67064744.200 -        0 67064744.205 -        0 67065633.021 -        0
+mtVer+R7        -33748821.720 67497781.440 -        0 67497781.445 -        0 67498645.223 -        0
+mtVer+R8        -33748970.390 67498082.780 -        0 67498082.785 -        0 67498971.601 -        0
+mtREV+R7        -33799343.770 67598825.540 -        0 67598825.545 -        0 67599689.323 -        0
+mtREV+R8        -33799448.850 67599039.700 -        0 67599039.705 -        0 67599928.521 -        0
+HIVw+R7         -33911959.450 67824056.900 -        0 67824056.905 -        0 67824920.683 -        0
+HIVw+R8         -33912117.480 67824376.960 -        0 67824376.965 -        0 67825265.781 -        0
+mtMet+R7        -33921849.700 67843837.400 -        0 67843837.405 -        0 67844701.183 -        0
+mtMet+R8        -33921969.520 67844081.040 -        0 67844081.045 -        0 67844969.861 -        0
+mtMAM+R7        -34247886.400 68495910.800 -        0 68495910.805 -        0 68496774.583 -        0
+mtMAM+R8        -34247881.580 68495905.160 -        0 68495905.165 -        0 68496793.981 -        0
+mtInv+R7        -34449275.280 68898688.560 -        0 68898688.565 -        0 68899552.343 -        0
+mtInv+R8        -34449442.340 68899026.680 -        0 68899026.685 -        0 68899915.501 -        0
+mtART+R7        -34495851.710 68991841.420 -        0 68991841.425 -        0 68992705.203 -        0
+mtART+R8        -34495946.150 68992034.300 -        0 68992034.305 -        0 68992923.121 -        0
+LG              -34929178.710 69858471.420 -        0 69858471.423 -        0 69859184.980 -        0
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JTT+F+R7
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.1079
+  pi(R) = 0.0655
+  pi(N) = 0.0341
+  pi(D) = 0.0618
+  pi(C) = 0.0089
+  pi(Q) = 0.0402
+  pi(E) = 0.0591
+  pi(G) = 0.0738
+  pi(H) = 0.0224
+  pi(I) = 0.0401
+  pi(L) = 0.0860
+  pi(K) = 0.0450
+  pi(M) = 0.0210
+  pi(F) = 0.0332
+  pi(P) = 0.0610
+  pi(S) = 0.0823
+  pi(T) = 0.0590
+  pi(W) = 0.0118
+  pi(Y) = 0.0246
+  pi(V) = 0.0624
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.3042,0.0135) (0.1715,0.1666) (0.1452,0.5223) (0.1300,1.0429) (0.1543,2.0396) (0.0819,4.1116) (0.0129,8.1084)
+
+ Category  Relative_rate  Proportion
+  1         0.0135         0.3042
+  2         0.1666         0.1715
+  3         0.5223         0.1452
+  4         1.0429         0.1300
+  5         2.0396         0.1543
+  6         4.1116         0.0819
+  7         8.1084         0.0129
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -31807988.2803 (s.e. 20187.4669)
+Unconstrained log-likelihood (without tree): -20359711.5842
+Number of free parameters (#branches + #model parameters): 88
+Akaike information criterion (AIC) score: 63616152.5606
+Corrected Akaike information criterion (AICc) score: 63616152.5684
+Bayesian information criterion (BIC) score: 63617254.1975
+
+Total tree length (sum of branch lengths): 3.6940
+Sum of internal branch lengths: 1.2380 (33.5139% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Leptographium_lundbergii_CBS138716' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++----------------------------------------------Leptographium_lundbergii_CBS138716
+|
+|      +--------------------------------Ophiostoma_fasciatum_VPRI43845
++------| (100)
+|      |                              +------------------Ophiostoma_ips_VPRI43529
+|      |      +-----------------------| (100)
+|      |      |                       |     +---------Ophiostoma_novoulmi_H327
+|      |      |                       +-----| (100)
+|      |      |                             +-------Sporothrix_thermara_bin10
+|      |  +---| (100)
+|      |  |   |                      +----Sporothrix_bragantina_CBS47491
+|      |  |   |                   +--| (100)
+|      |  |   |                   |  +-----Sporothrix_curviconia_CBS95973
+|      |  |   |                +--| (96)
+|      |  |   |                |  +-----------Sporothrix_thermara_CBS139747MAG
+|      |  |   |             +--| (100)
+|      |  |   |             |  |           +-----------Sporothrix_epigloea_CBS119000
+|      |  |   |             |  +-----------| (100)
+|      |  |   |             |              |    +--Sporothrix_epigloea_CBS57363
+|      |  |   |             |              +----| (100)
+|      |  |   |             |                   +---Sporothrix_epigloea_TF4163
+|      |  |   |          +--| (100)
+|      |  |   |          |  |       +--Sporothrix_eucalyptigena_CBS139899
+|      |  |   |          |  +-------| (100)
+|      |  |   |          |          +--Sporothrix_eucalyptigena_CBS140593
+|      |  |   |       +--| (100)
+|      |  |   |       |  +-------------------Sporothrix_nigrograna_VPRI43755
+|      |  |   +-------| (100)
+|      |  |           |                      +--Sporothrix_brasiliensis_5110
+|      |  |           |                   +--| (100)
+|      |  |           |                   |  +--Sporothrix_schenckii_1099
+|      |  |           |                +--| (100)
+|      |  |           |                |  +--Sporothrix_globosa_CBS120340
+|      |  |           |           +----| (100)
+|      |  |           |           |    +---Sporothrix_luriei_CBS93772
+|      |  |           |        +--| (100)
+|      |  |           |        |  +----------Sporothrix_phasma_CBS119721
+|      |  |           |     +--| (100)
+|      |  |           |     |  |           +--Sporothrix_euskadiensis_VPRI43754
+|      |  |           |     |  |        +--| (100)
+|      |  |           |     |  |        |  +--Sporothrix_pseudoabietina_VPRI43531
+|      |  |           |     |  |     +--| (100)
+|      |  |           |     |  |     |  +--Sporothrix_variecibatus_CBS121961
+|      |  |           |     |  |  +--| (100)
+|      |  |           |     |  |  |  +-------Sporothrix_protearum_CBS116654
+|      |  |           |     |  +--| (100)
+|      |  |           |     |     |           +--Sporothrix_humicola_CBS118129
+|      |  |           |     |     |        +--| (100)
+|      |  |           |     |     |        |  +--Sporothrix_pallida_CBS13156
+|      |  |           |     |     +--------| (100)
+|      |  |           |     |              +--Sporothrix_mexicana_CBS120341
+|      |  |           +-----| (100)
+|      |  |                 |  +--Sporothrix_dimorphospora_CBS55374
+|      |  |                 +--| (100)
+|      |  |                    +--Sporothrix_inflata_CBS23968
+|      +--| (100)
+|         +------------Sporothrix_brunneoviolacea_CBS124561
+|
++-----------------------------Sporothrix_insectorum_RCEF264
+
+Tree in newick format:
+
+(Leptographium_lundbergii_CBS138716:0.4281322016,(Ophiostoma_fasciatum_VPRI43845:0.3079034577,(((Ophiostoma_ips_VPRI43529:0.1757064367,(Ophiostoma_novoulmi_H327:0.0980948635,Sporothrix_thermara_bin10:0.0742788865)100:0.0583703053)100:0.2216022788,((((((Sporothrix_bragantina_CBS47491:0.0486875462,Sporothrix_curviconia_CBS95973:0.0611254797)100:0.0088433216,Sporothrix_thermara_CBS139747MAG:0.1090934066)96:0.0060100157,(Sporothrix_epigloea_CBS119000:0.1102529385,(Sporothrix_epigloea_CBS57363:0.0297410489,Sporothrix_epigloea_TF4163:0.0373121161)100:0.0532347190)100:0.1094409581)100:0.0362364167,(Sporothrix_eucalyptigena_CBS139899:0.0006805200,Sporothrix_eucalyptigena_CBS140593:0.0006928046)100:0.0760242915)100:0.0342477845,Sporothrix_nigrograna_VPRI43755:0.1870740084)100:0.0312162184,((((((Sporothrix_brasiliensis_5110:0.0101531493,Sporothrix_schenckii_1099:0.0115117616)100:0.0151246117,Sporothrix_globosa_CBS120340:0.0201499392)100:0.0097130243,Sporothrix_luriei_CBS93772:0.0435969275)100:0.0505411679,Sporothrix_phasma_CBS119721:0.1016325626)100:0.0237546366,((((Sporothrix_euskadiensis_VPRI43754:0.0085968686,Sporothrix_pseudoabietina_VPRI43531:0.0095241298)100:0.0246159605,Sporothrix_variecibatus_CBS121961:0.0195440803)100:0.0232985596,Sporothrix_protearum_CBS116654:0.0735129885)100:0.0325040162,((Sporothrix_humicola_CBS118129:0.0065004501,Sporothrix_pallida_CBS13156:0.0062854059)100:0.0103804868,Sporothrix_mexicana_CBS120341:0.0216009272)100:0.0900677842)100:0.0103318961)100:0.0114210163,(Sporothrix_dimorphospora_CBS55374:0.0318837784,Sporothrix_inflata_CBS23968:0.0248503048)100:0.0190785539)100:0.0591838478)100:0.0807190047)100:0.0372344587,Sporothrix_brunneoviolacea_CBS124561:0.1237498335)100:0.0341239153)100:0.0706673467,Sporothrix_insectorum_RCEF264:0.2740992929);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -31807988.237616636
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++----------------------------------------------Leptographium_lundbergii_CBS138716
+|
+|      +--------------------------------Ophiostoma_fasciatum_VPRI43845
++------| (100)
+|      |                              +------------------Ophiostoma_ips_VPRI43529
+|      |      +-----------------------| (100)
+|      |      |                       |     +---------Ophiostoma_novoulmi_H327
+|      |      |                       +-----| (100)
+|      |      |                             +-------Sporothrix_thermara_bin10
+|      |  +---| (100)
+|      |  |   |                      +----Sporothrix_bragantina_CBS47491
+|      |  |   |                   +--| (100)
+|      |  |   |                   |  +-----Sporothrix_curviconia_CBS95973
+|      |  |   |                +--| (96)
+|      |  |   |                |  +-----------Sporothrix_thermara_CBS139747MAG
+|      |  |   |             +--| (100)
+|      |  |   |             |  |           +-----------Sporothrix_epigloea_CBS119000
+|      |  |   |             |  +-----------| (100)
+|      |  |   |             |              |    +--Sporothrix_epigloea_CBS57363
+|      |  |   |             |              +----| (100)
+|      |  |   |             |                   +---Sporothrix_epigloea_TF4163
+|      |  |   |          +--| (100)
+|      |  |   |          |  |       +--Sporothrix_eucalyptigena_CBS139899
+|      |  |   |          |  +-------| (100)
+|      |  |   |          |          +--Sporothrix_eucalyptigena_CBS140593
+|      |  |   |       +--| (100)
+|      |  |   |       |  +-------------------Sporothrix_nigrograna_VPRI43755
+|      |  |   +-------| (100)
+|      |  |           |                      +--Sporothrix_brasiliensis_5110
+|      |  |           |                   +--| (100)
+|      |  |           |                   |  +--Sporothrix_schenckii_1099
+|      |  |           |                +--| (100)
+|      |  |           |                |  +--Sporothrix_globosa_CBS120340
+|      |  |           |           +----| (100)
+|      |  |           |           |    +---Sporothrix_luriei_CBS93772
+|      |  |           |        +--| (100)
+|      |  |           |        |  +----------Sporothrix_phasma_CBS119721
+|      |  |           |     +--| (100)
+|      |  |           |     |  |           +--Sporothrix_euskadiensis_VPRI43754
+|      |  |           |     |  |        +--| (100)
+|      |  |           |     |  |        |  +--Sporothrix_pseudoabietina_VPRI43531
+|      |  |           |     |  |     +--| (100)
+|      |  |           |     |  |     |  +--Sporothrix_variecibatus_CBS121961
+|      |  |           |     |  |  +--| (100)
+|      |  |           |     |  |  |  +-------Sporothrix_protearum_CBS116654
+|      |  |           |     |  +--| (100)
+|      |  |           |     |     |           +--Sporothrix_humicola_CBS118129
+|      |  |           |     |     |        +--| (100)
+|      |  |           |     |     |        |  +--Sporothrix_pallida_CBS13156
+|      |  |           |     |     +--------| (100)
+|      |  |           |     |              +--Sporothrix_mexicana_CBS120341
+|      |  |           +-----| (100)
+|      |  |                 |  +--Sporothrix_dimorphospora_CBS55374
+|      |  |                 +--| (100)
+|      |  |                    +--Sporothrix_inflata_CBS23968
+|      +--| (100)
+|         +------------Sporothrix_brunneoviolacea_CBS124561
+|
++-----------------------------Sporothrix_insectorum_RCEF264
+
+
+Consensus tree in newick format: 
+
+(Leptographium_lundbergii_CBS138716:0.4282892739,(Ophiostoma_fasciatum_VPRI43845:0.3080181551,(((Ophiostoma_ips_VPRI43529:0.1757707720,(Ophiostoma_novoulmi_H327:0.0981295508,Sporothrix_thermara_bin10:0.0743064173)100:0.0583915539)100:0.2216848457,((((((Sporothrix_bragantina_CBS47491:0.0487039707,Sporothrix_curviconia_CBS95973:0.0611464031)100:0.0088460739,Sporothrix_thermara_CBS139747MAG:0.1091309378)96:0.0060117823,(Sporothrix_epigloea_CBS119000:0.1102899832,(Sporothrix_epigloea_CBS57363:0.0297506878,Sporothrix_epigloea_TF4163:0.0373246973)100:0.0532527081)100:0.1094778481)100:0.0362489041,(Sporothrix_eucalyptigena_CBS139899:0.0006807752,Sporothrix_eucalyptigena_CBS140593:0.0006930644)100:0.0760502305)100:0.0342594535,Sporothrix_nigrograna_VPRI43755:0.1871396015)100:0.0312261819,((((((Sporothrix_brasiliensis_5110:0.0101569833,Sporothrix_schenckii_1099:0.0115161751)100:0.0151302797,Sporothrix_globosa_CBS120340:0.0201576358)100:0.0097163605,Sporothrix_luriei_CBS93772:0.0436137465)100:0.0505602888,Sporothrix_phasma_CBS119721:0.1016716779)100:0.0237633980,((((Sporothrix_euskadiensis_VPRI43754:0.0086000652,Sporothrix_pseudoabietina_VPRI43531:0.0095277021)100:0.0246252224,Sporothrix_variecibatus_CBS121961:0.0195512864)100:0.0233072020,Sporothrix_protearum_CBS116654:0.0735408971)100:0.0325160702,((Sporothrix_humicola_CBS118129:0.0065028670,Sporothrix_pallida_CBS13156:0.0062877878)100:0.0103844466,Sporothrix_mexicana_CBS120341:0.0216088863)100:0.0901023298)100:0.0103352987)100:0.0114250005,(Sporothrix_dimorphospora_CBS55374:0.0318954845,Sporothrix_inflata_CBS23968:0.0248595618)100:0.0190854660)100:0.0592055630)100:0.0807478918)100:0.0372467510,Sporothrix_brunneoviolacea_CBS124561:0.1237953713)100:0.0341328650)100:0.0706873806,Sporothrix_insectorum_RCEF264:0.2742006475);
+
+TIME STAMP
+----------
+
+Date and time: Wed Sep 27 04:48:20 2023
+Total CPU time used: 651191.2307 seconds (180h:53m:11s)
+Total wall-clock time used: 27895.03285 seconds (7h:44m:55s)

@@ -1,8 +1,15 @@
 02_READ_QC/
 04_assemblies/*/
-08_GC_coverage/*/
+08_GC_coverage/CBS47491/data/
+08_GC_coverage/CBS57363/data/
+08_GC_coverage/CBS95973/data/
+08_GC_coverage/CBS119000/data/
+08_GC_coverage/CBS139747/data/
+08_GC_coverage/CBS139899/data/
+08_GC_coverage/CBS140593/data/
 R_markdown/*.html
-09_orthology/OrthoFinder/*/
+09_orthology/OrthoFinder/Results_Aug07/gained_and_lost/*.xls
+09_orthology/OrthoFinder/Results_Aug07/gained_and_lost/KEGG/
 10_annotations/antiSMASH/
 10_annotations/dbcan3/
 10_annotations/funannotate/
@@ -15,5 +22,5 @@ R_markdown/*.html
 10_annotations/figures/
 11_LPMO_trees/*/
 12_starfish/*/
-13_dnds/*/
+13_dnds/*
 manuscript/

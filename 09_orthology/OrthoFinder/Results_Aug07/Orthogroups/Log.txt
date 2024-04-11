@@ -1,0 +1,33 @@
+2023-08-07 12:22:29 : Started OrthoFinder version 2.5.5
+Command Line: /usr/local/bin/orthofinder -t 64 -a 64 -M msa -A mafft -o /input/orthofinder_output_core_Aug7 -f /input/orthofinder_input_core
+
+WorkingDirectory_Base: /input/orthofinder_output_core_Aug7/Results_Aug07/WorkingDirectory/
+
+Species used: 
+0: Sporothrix_bragantina_CBS47491.fa
+1: Sporothrix_brasiliensis_5110.fa
+2: Sporothrix_curviconia_CBS95973.fa
+3: Sporothrix_dimorphospora_CBS55374.fa
+4: Sporothrix_epigloea_CBS119000.fa
+5: Sporothrix_epigloea_CBS57363.fa
+6: Sporothrix_epigloea_TF4163.fa
+7: Sporothrix_eucalyptigena_CBS139899.fa
+8: Sporothrix_eucalyptigena_CBS140593.fa
+9: Sporothrix_euskadiensis_VPRI43754.fa
+10: Sporothrix_globosa_CBS120340.fa
+11: Sporothrix_humicola_CBS118129.fa
+12: Sporothrix_inflata_CBS23968.fa
+13: Sporothrix_luriei_CBS93772.fa
+14: Sporothrix_mexicana_CBS120341.fa
+15: Sporothrix_nigrograna_VPRI43755.fa
+16: Sporothrix_pallida_CBS13156.fa
+17: Sporothrix_phasma_CBS119721.fa
+18: Sporothrix_protearum_CBS116654.fa
+19: Sporothrix_pseudoabietina_VPRI43531.fa
+20: Sporothrix_schenckii_1099.fa
+21: Sporothrix_thermara_CBS139747MAG.fa
+22: Sporothrix_variecibatus_CBS121961.fa
+
+FN_Orthogroups: /input/orthofinder_output_core_Aug7/Results_Aug07/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+WorkingDirectory_Trees: /input/orthofinder_output_core_Aug7/Results_Aug07/WorkingDirectory/
+2023-08-07 13:26:56 : OrthoFinder run completed
