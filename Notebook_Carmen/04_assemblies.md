@@ -18,7 +18,7 @@
 module load StdEnv/2020
 module load spades/3.15.4
 
-SAMPLE="$1" #ca2022_10_bulk
+SAMPLE="$1"
 READS_1="$SAMPLE"_1.fastq.gz
 READS_2="$SAMPLE"_2.fastq.gz
 
