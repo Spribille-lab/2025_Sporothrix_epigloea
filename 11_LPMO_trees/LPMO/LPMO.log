@@ -1,0 +1,1031 @@
+IQ-TREE multicore version 2.0-rc1 for Mac OS X 64-bit built Nov 21 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Carmens-MacBook-Pro.local (AVX2, FMA3, 16 GB RAM)
+Command: /Users/carmenallen/Programs/iqtree-2.0-rc1-MacOSX/bin/iqtree -s /Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/LPMO/LPMO_alignment_trimmed.phy -m MFP -B 1000 -pre LPMO
+Seed:    563834 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  5 14:12:27 2023
+Kernel:  AVX+FMA - 1 threads (12 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 12 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/LPMO/LPMO_alignment_trimmed.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 725 sequences with 194 columns, 194 distinct patterns
+193 parsimony-informative, 1 singleton sites, 0 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+   1  ABIH97_001005_T1_11_239_AA9                           4.12%    passed     87.32%
+   2  PCOBRFM310_004051_T1_9_237_AA9                        3.09%    passed     54.14%
+   3  PRUSEMC34_007495_T1_2_220_AA9                         6.70%    passed     50.70%
+   4  AquisqBRIP72107predictedgene_001875_T1_5_232_AA9      4.12%    passed     74.51%
+   5  Crosea671predictedgene_008805_T1_5_233_AA9            4.12%    passed     73.96%
+   6  AOLATCC24927_004209_T1_8_235_AA9                      3.61%    passed     58.62%
+   7  PRUSEMC34_013217_T1_9_167_AA9                        28.87%    passed     63.09%
+   8  PRUSEMC34_016354_T1_9_116_AA9                        49.48%    passed     62.53%
+   9  ABIH97_001535_T1_2_133_AA9                           36.60%    passed     98.53%
+  10  AOLATCC24927_000275_T1_6_226_AA9                      6.19%    passed     32.65%
+  11  ABIH97_001801_T1_11_135_AA9                          41.24%    passed     97.75%
+  12  PCOBRFM310_001720_T1_8_227_AA9                        6.19%    passed     70.38%
+  13  ABIH97_007458_T1_8_226_AA9                            7.22%    passed     80.34%
+  14  PCOBRFM310_009054_T1_8_228_AA9                        6.70%    passed     48.80%
+  15  PRUSEMC34_004108_T1_6_226_AA9                         6.70%    passed     79.67%
+  16  AOLATCC24927_008431_T1_5_221_AA9                      6.70%    passed     75.55%
+  17  AquisqBRIP72107predictedgene_007883_T1_7_224_AA9      6.70%    passed     79.24%
+  18  ASPSEMC78_008535_T1_7_219_AA9                         6.70%    passed     91.75%
+  19  AtruncCBS140778predictedgene_009619_T1_7_218_AA9      7.22%    passed     72.66%
+  20  AstygiMG137predictedgene_008607_T1_7_218_AA9          7.22%    passed     98.73%
+  21  SCUCBS95973_008612_T1_7_217_AA9                       8.76%    passed     43.20%
+  22  SEUCBS139899_001938_T1_7_221_AA9                      6.70%    passed     64.56%
+  23  SEUCBS140593_010799_T1_11_225_AA9                     6.70%    passed     64.56%
+  24  SdimorCBS55374predictedgene_009940_T1_8_216_AA9       9.28%    passed     27.91%
+  25  SinflaCBS23968predictedgene_009175_T1_8_221_AA9       6.70%    passed     34.50%
+  26  SvarieCBS121961predictedgene_010222_T1_8_221_AA9      6.70%    passed     25.39%
+  27  SeuskaVPRI43754predictedgene_008428_T1_8_221_AA9      6.70%    passed     52.09%
+  28  SgloboCBS120340predictedgene_006930_T1_9_218_AA9      8.25%    passed     64.67%
+  29  ShumicCBS118129predictedgene_010477_T1_12_222_AA9     8.76%    passed     19.22%
+  30  SpalliCBS13156predictedgene_005859_T1_12_222_AA9      8.76%    passed     28.03%
+  31  SinsecRCEF264predictedgene_005524_T1_8_221_AA9        6.70%    passed     84.34%
+  32  Crosea671predictedgene_012392_T1_8_228_AA9            7.73%    passed     87.82%
+  33  ONOH327_003413_T1_9_228_AA9                           7.73%    passed     94.21%
+  34  Sbrasi5110predictedgene_004149_T1_8_227_AA9           7.73%    passed     66.03%
+  35  SgloboCBS120340predictedgene_005985_T1_8_227_AA9      7.73%    passed     60.40%
+  36  Sschen1099predictedgene_000749_T1_8_227_AA9           7.73%    passed     75.99%
+  37  SlurieCBS93772predictedgene_007903_T1_7_226_AA9       7.73%    passed     57.14%
+  38  SmexicCBS120341predictedgene_008160_T1_9_228_AA9      7.73%    passed     93.23%
+  39  SdimorCBS55374predictedgene_007095_T1_9_228_AA9       7.73%    passed     85.79%
+  40  SinflaCBS23968predictedgene_003807_T1_9_228_AA9       7.73%    passed     85.98%
+  41  SvarieCBS121961predictedgene_003209_T1_9_228_AA9      7.73%    passed     91.93%
+  42  ShumicCBS118129predictedgene_008171_T1_9_228_AA9      7.73%    passed     91.09%
+  43  SpalliCBS13156predictedgene_009381_T1_10_228_AA9      7.73%    passed     91.09%
+  44  SBRCBS47491_003458_T1_9_228_AA9                       7.73%    passed     80.89%
+  45  SEUCBS139899_008026_T1_9_228_AA9                      7.73%    passed     92.11%
+  46  SEUCBS140593_005855_T1_9_228_AA9                      7.73%    passed     92.11%
+  47  SCUCBS95973_001397_T1_9_228_AA9                       7.73%    passed     93.27%
+  48  SbrunnCBS124561predictedgene_005490_T1_9_228_AA9      7.73%    passed     91.65%
+  49  SinsecRCEF264predictedgene_007769_T1_8_229_AA9        7.22%    passed     98.70%
+  50  AquisqBRIP72107predictedgene_001276_T1_5_227_AA9      4.64%    passed     51.23%
+  51  Crosea671predictedgene_007242_T1_6_225_AA9            4.64%    passed     54.96%
+  52  ASPSEMC78_003501_T1_12_233_AA9                        5.15%    passed     23.20%
+  53  AtruncCBS140778predictedgene_001772_T1_13_233_AA9     5.15%    passed     80.97%
+  54  Sbrasi5110predictedgene_008458_T1_10_234_AA9          4.64%    passed     26.66%
+  55  Sschen1099predictedgene_006895_T1_10_234_AA9          4.64%    passed      8.86%
+  56  SBRCBS47491_007213_T1_8_233_AA9                       4.64%    passed     35.71%
+  57  SCUCBS95973_008585_T1_28_198_AA9                     19.07%    passed     43.45%
+  58  SdimorCBS55374predictedgene_007876_T1_32_207_AA9     18.56%    passed     75.16%
+  59  SinflaCBS23968predictedgene_002952_T1_32_207_AA9     18.56%    passed     71.45%
+  60  ShumicCBS118129predictedgene_003798_T1_10_234_AA9     4.64%    passed     61.73%
+  61  SpalliCBS13156predictedgene_003599_T1_32_207_AA9     18.56%    passed     77.46%
+  62  SmexicCBS120341predictedgene_007524_T1_32_207_AA9    18.56%    passed     67.67%
+  63  SvarieCBS121961predictedgene_005413_T1_11_234_AA9     4.64%    passed     73.15%
+  64  SEUCBS139899_000154_T1_32_207_AA9                    18.56%    passed     80.12%
+  65  SEUCBS140593_005939_T1_9_233_AA9                      4.64%    passed     64.54%
+  66  SgloboCBS120340predictedgene_004438_T1_9_234_AA9      4.64%    passed     33.69%
+  67  SinsecRCEF264predictedgene_007056_T1_11_234_AA9       4.64%    passed     56.51%
+  68  SeuskaVPRI43754predictedgene_004462_T1_9_233_AA9      5.15%    passed     82.10%
+  69  SpseudVPRI43531predictedgene_003317_T1_15_236_AA9     6.19%    passed     77.26%
+  70  SlurieCBS93772predictedgene_006947_T1_9_233_AA9       4.64%    passed     52.85%
+  71  SbrunnCBS124561predictedgene_003297_T1_28_206_AA9    19.07%    passed     83.34%
+  72  SphasmCBS119721predictedgene_000987_T1_10_234_AA9     4.64%    passed     37.57%
+  73  ASPSEMC78_007163_T1_10_234_AA9                        3.61%    passed     68.91%
+  74  AtruncCBS140778predictedgene_010522_T1_10_234_AA9     3.61%    passed     65.08%
+  75  AstygiMG137predictedgene_010639_T1_10_234_AA9         3.61%    passed     72.84%
+  76  TatrovIMI206040predictedgene_006214_T1_10_233_AA9     4.12%    passed     21.31%
+  77  TharziCBS22695predictedgene_010355_T1_9_233_AA9       4.12%    failed      3.65%
+  78  TvirenSpredictedgene_008723_T1_10_233_AA9             4.12%    passed     62.63%
+  79  TpararCBS125925predictedgene_000434_T1_10_233_AA9     4.12%    passed     10.07%
+  80  TreeseQM6apredictedgene_000136_T1_10_233_AA9          4.12%    passed     10.07%
+  81  Crosea671predictedgene_002571_T1_9_234_AA9            3.61%    passed     55.00%
+  82  LLUCBS138716_005874_T1_7_232_AA9                      3.61%    passed     80.37%
+  83  OIPVPRI43529_005776_T1_7_232_AA9                      5.15%    passed     77.98%
+  84  ONOH327_006947_T1_7_232_AA9                           5.15%    passed     82.24%
+  85  Crosea671predictedgene_005445_T1_9_229_AA9            5.67%    failed      0.21%
+  86  Crosea671predictedgene_010102_T1_9_230_AA9            5.67%    passed     69.46%
+  87  AstygiMG137predictedgene_002041_T1_10_236_AA9         3.61%    passed     78.42%
+  88  Crosea671predictedgene_006405_T1_7_233_AA9            3.61%    passed     15.83%
+  89  AquisqBRIP72107predictedgene_003864_T1_10_234_AA9     5.67%    passed      5.06%
+  90  ASPSEMC78_001519_T1_10_237_AA9                        6.19%    passed     74.36%
+  91  AtruncCBS140778predictedgene_002894_T1_10_237_AA9     6.19%    passed     69.92%
+  92  AstygiMG137predictedgene_002655_T1_10_237_AA9         6.19%    passed     50.91%
+  93  Crosea671predictedgene_001336_T1_6_230_AA9            5.15%    passed     91.09%
+  94  Crosea671predictedgene_007316_T1_8_229_AA9            6.19%    passed     57.35%
+  95  Crosea671predictedgene_011740_T1_13_235_AA9           5.15%    passed     92.13%
+  96  TatrovIMI206040predictedgene_010261_T1_10_236_AA9     6.19%    passed     78.76%
+  97  TharziCBS22695predictedgene_011176_T1_7_233_AA9       6.19%    passed     87.70%
+  98  TvirenSpredictedgene_009157_T1_11_236_AA9             6.19%    passed     60.21%
+  99  TpararCBS125925predictedgene_006187_T1_8_234_AA9      6.19%    passed     58.17%
+ 100  TreeseQM6apredictedgene_002840_T1_8_234_AA9           6.19%    passed     58.17%
+ 101  AquisqBRIP72107predictedgene_002718_T1_10_232_AA9     4.64%    passed     94.72%
+ 102  Crosea671predictedgene_009532_T1_12_228_AA9           6.19%    passed     52.38%
+ 103  Crosea671predictedgene_008504_T1_10_233_AA9           5.15%    passed     75.39%
+ 104  ASPSEMC78_008014_T1_7_229_AA9                         7.22%    passed     17.67%
+ 105  AtruncCBS140778predictedgene_007519_T1_7_221_AA9     11.34%    passed     14.26%
+ 106  AstygiMG137predictedgene_008894_T1_79_302_AA9         6.70%    passed     12.68%
+ 107  Sbrasi5110predictedgene_004157_T1_17_245_AA9          6.19%    passed     38.21%
+ 108  Sschen1099predictedgene_000758_T1_17_245_AA9          6.19%    passed     34.55%
+ 109  SgloboCBS120340predictedgene_005976_T1_17_245_AA9     6.19%    passed     31.05%
+ 110  SBRCBS47491_003480_T1_8_239_AA9                       6.19%    passed     11.60%
+ 111  SCUCBS95973_001411_T1_6_238_AA9                       6.19%    passed     14.41%
+ 112  SEUCBS139899_008011_T1_8_240_AA9                      6.19%    passed     13.34%
+ 113  SEUCBS140593_005840_T1_9_240_AA9                      6.19%    passed     19.26%
+ 114  SdimorCBS55374predictedgene_005056_T1_11_239_AA9      6.19%    passed     32.66%
+ 115  SinflaCBS23968predictedgene_003787_T1_11_239_AA9      6.19%    passed     25.00%
+ 116  SvarieCBS121961predictedgene_003222_T1_14_242_AA9     6.19%    passed     28.47%
+ 117  ShumicCBS118129predictedgene_008210_T1_10_239_AA9     6.19%    passed     34.19%
+ 118  SpalliCBS13156predictedgene_009137_T1_10_232_AA9      9.79%    passed     28.85%
+ 119  SmexicCBS120341predictedgene_005297_T1_10_239_AA9     6.19%    passed     29.50%
+ 120  SlurieCBS93772predictedgene_007455_T1_11_239_AA9      6.19%    failed      0.52%
+ 121  SbrunnCBS124561predictedgene_009279_T1_8_239_AA9      6.19%    passed     26.51%
+ 122  SeuskaVPRI43754predictedgene_002846_T1_309_417_AA9   51.03%    passed     18.97%
+ 123  SinsecRCEF264predictedgene_008286_T1_9_240_AA9        6.19%    passed     18.04%
+ 124  SpseudVPRI43531predictedgene_005601_T1_309_417_AA9   51.03%    failed      1.82%
+ 125  AOLATCC24927_008058_T1_8_230_AA9                      5.15%    passed     94.14%
+ 126  AquisqBRIP72107predictedgene_000001_T1_10_229_AA9     6.70%    passed     57.23%
+ 127  AquisqBRIP72107predictedgene_002655_T1_6_227_AA9      7.73%    passed     87.98%
+ 128  Crosea671predictedgene_011765_T1_6_228_AA9            7.73%    passed     89.13%
+ 129  AOLATCC24927_003448_T1_9_226_AA9                      5.15%    passed     39.46%
+ 130  AOLATCC24927_005555_T1_7_223_AA9                      5.67%    failed      0.02%
+ 131  AOLATCC24927_005673_T1_7_225_AA9                      7.73%    passed     24.21%
+ 132  ABIH97_008745_T1_7_223_AA9                            8.25%    passed     91.47%
+ 133  ABIH97_008747_T1_7_225_AA9                            6.70%    passed     23.88%
+ 134  PCOBRFM310_008548_T1_12_230_AA9                       6.70%    passed     97.07%
+ 135  PCOBRFM310_010049_T1_8_221_AA9                        8.76%    passed     91.73%
+ 136  PCOBRFM310_008560_T1_9_225_AA9                        7.22%    passed     98.22%
+ 137  PCOBRFM310_008567_T1_10_231_AA9                       7.22%    passed     99.34%
+ 138  PRUSEMC34_008689_T1_47_261_AA9                       11.34%    passed     99.05%
+ 139  PRUSEMC34_011857_T1_7_150_AA9                        45.88%    passed     84.15%
+ 140  PRUSEMC34_014229_T1_2_124_AA9                        42.78%    passed     97.91%
+ 141  PRUSEMC34_016996_T1_6_222_AA9                         8.25%    passed     85.82%
+ 142  PRUSEMC34_016410_T1_8_224_AA9                         9.28%    passed     84.83%
+ 143  ASPSEMC78_004805_T1_8_244_AA9                         4.64%    passed     47.27%
+ 144  AtruncCBS140778predictedgene_003031_T1_8_244_AA9      4.64%    passed     29.36%
+ 145  AstygiMG137predictedgene_001970_T1_8_244_AA9          4.64%    passed     64.56%
+ 146  HCOJCM1743_001606_T1_15_227_AA9                       5.67%    passed     63.96%
+ 147  HCOJCM1743_002857_T1_12_225_AA9                       5.15%    passed     92.54%
+ 148  HCOJCM1743_002845_T1_12_230_AA9                       3.61%    passed     47.48%
+ 149  HCOJCM1743_006120_T1_14_238_AA9                       9.79%    passed     97.16%
+ 150  Crosea671predictedgene_010227_T1_6_236_AA9            4.12%    passed     50.61%
+ 151  PCOBRFM310_001572_T1_11_169_AA9                      34.54%    passed     71.06%
+ 152  Crosea671predictedgene_014043_T1_11_225_AA9          12.37%    passed     66.57%
+ 153  ABIH97_003367_T1_9_160_AA9                           31.96%    passed     82.12%
+ 154  PCOBRFM310_008206_T1_7_224_AA9                        1.55%    passed     92.61%
+ 155  ABIH97_005071_T1_10_230_AA9                           6.70%    passed     34.94%
+ 156  PCOBRFM310_001196_T1_8_228_AA9                        1.03%    passed     95.02%
+ 157  PRUSEMC34_009992_T1_267_471_AA9                       7.73%    passed     65.36%
+ 158  PRUSEMC34_009992_T1_33_254_AA9                        0.52%    passed     96.28%
+ 159  PCOBRFM310_005771_T1_9_228_AA9                        0.52%    passed     61.33%
+ 160  AquisqBRIP72107predictedgene_003478_T1_10_254_AA9     1.03%    passed     99.89%
+ 161  AOLATCC24927_006290_T1_7_227_AA9                      1.55%    passed     99.38%
+ 162  AOLATCC24927_010589_T1_8_227_AA9                      1.55%    passed     97.93%
+ 163  AOLATCC24927_006231_T1_7_225_AA9                      2.06%    passed     61.06%
+ 164  PCOBRFM310_001196_T1_349_543_AA9                      9.79%    passed     59.12%
+ 165  AOLATCC24927_002027_T1_8_224_AA9                      1.55%    passed     19.10%
+ 166  ASPSEMC78_002825_T1_6_224_AA9                         0.52%    passed     58.06%
+ 167  AstygiMG137predictedgene_006978_T1_6_223_AA9          1.03%    passed     56.64%
+ 168  AtruncCBS140778predictedgene_005470_T1_6_223_AA9      1.03%    passed     72.21%
+ 169  ONOH327_003797_T1_5_225_AA9                           0.52%    passed     49.07%
+ 170  Sbrasi5110predictedgene_007249_T1_9_226_AA9           0.52%    passed     50.11%
+ 171  SgloboCBS120340predictedgene_006348_T1_6_226_AA9      0.52%    passed     63.62%
+ 172  Sschen1099predictedgene_000400_T1_6_226_AA9           0.52%    passed     65.77%
+ 173  SlurieCBS93772predictedgene_000028_T1_6_226_AA9       0.52%    passed     64.36%
+ 174  SBRCBS47491_006906_T1_7_228_AA9                       0.52%    passed     72.07%
+ 175  SdimorCBS55374predictedgene_002672_T1_7_227_AA9       0.52%    passed     55.98%
+ 176  SinflaCBS23968predictedgene_005700_T1_7_227_AA9       0.52%    passed     52.79%
+ 177  SvarieCBS121961predictedgene_003065_T1_7_226_AA9      0.52%    passed     37.86%
+ 178  SEUCBS139899_005504_T1_7_227_AA9                      0.52%    passed     31.64%
+ 179  SEUCBS140593_004209_T1_7_227_AA9                      0.52%    passed     31.64%
+ 180  SCUCBS95973_005183_T1_7_227_AA9                       1.03%    passed     36.33%
+ 181  SbrunnCBS124561predictedgene_004355_T1_6_227_AA9      0.52%    passed     54.52%
+ 182  ShumicCBS118129predictedgene_001703_T1_5_224_AA9      0.52%    passed     65.33%
+ 183  SpalliCBS13156predictedgene_001585_T1_5_224_AA9       0.52%    passed     87.83%
+ 184  SmexicCBS120341predictedgene_002947_T1_5_224_AA9      0.52%    passed     87.42%
+ 185  SphasmCBS119721predictedgene_006107_T1_6_227_AA9      0.52%    passed     52.85%
+ 186  SinsecRCEF264predictedgene_000700_T1_5_224_AA9        1.03%    passed     91.52%
+ 187  AOLATCC24927_009637_T1_4_116_AA9                     43.81%    passed     91.68%
+ 188  AquisqBRIP72107predictedgene_000656_T1_6_199_AA9      6.70%    passed     95.76%
+ 189  ASPSEMC78_002705_T1_7_222_AA9                         1.03%    passed     77.89%
+ 190  AtruncCBS140778predictedgene_005595_T1_7_222_AA9      1.03%    passed     91.57%
+ 191  AstygiMG137predictedgene_007160_T1_7_222_AA9          1.03%    passed     75.88%
+ 192  SinsecRCEF264predictedgene_003748_T1_8_225_AA9        0.52%    passed     81.46%
+ 193  Crosea671predictedgene_012034_T1_4_220_AA9            1.03%    passed     69.28%
+ 194  ASPSEMC78_002601_T1_8_242_AA9                         2.06%    passed     75.03%
+ 195  AtruncCBS140778predictedgene_005325_T1_8_221_AA9      2.06%    passed     69.33%
+ 196  AtruncCBS140778predictedgene_011019_T1_8_221_AA9      2.06%    passed     69.33%
+ 197  AstygiMG137predictedgene_005458_T1_8_221_AA9          2.06%    passed     82.32%
+ 198  SBRCBS47491_008809_T1_4_219_AA9                       1.55%    passed     57.37%
+ 199  SCUCBS95973_004156_T1_2_172_AA9                      20.10%    passed     60.89%
+ 200  SEUCBS139899_006857_T1_4_219_AA9                      1.55%    passed     74.71%
+ 201  SEUCBS140593_003708_T1_4_219_AA9                      1.55%    passed     75.57%
+ 202  SdimorCBS55374predictedgene_006603_T1_7_220_AA9       2.58%    passed     83.55%
+ 203  SinflaCBS23968predictedgene_003571_T1_7_220_AA9       2.58%    passed     87.09%
+ 204  SvarieCBS121961predictedgene_002210_T1_1_117_AA9     42.27%    passed     34.45%
+ 205  ShumicCBS118129predictedgene_009537_T1_43_167_AA9    38.14%    passed     52.92%
+ 206  SpalliCBS13156predictedgene_000586_T1_12_227_AA9      2.58%    passed     76.96%
+ 207  SmexicCBS120341predictedgene_006857_T1_2_128_AA9     37.11%    passed     52.78%
+ 208  ASPSEMC78_008216_T1_7_221_AA9                         2.06%    passed     83.73%
+ 209  AtruncCBS140778predictedgene_008193_T1_6_221_AA9      2.06%    passed     78.78%
+ 210  AstygiMG137predictedgene_000111_T1_7_221_AA9          2.06%    passed     65.40%
+ 211  Crosea671predictedgene_013650_T1_7_223_AA9            1.55%    passed     99.32%
+ 212  AOLATCC24927_002641_T1_9_226_AA9                      3.09%    passed     42.77%
+ 213  AOLATCC24927_007409_T1_4_190_AA9                     15.46%    passed     90.33%
+ 214  Crosea671predictedgene_010448_T1_32_192_AA9          28.35%    passed     82.11%
+ 215  Crosea671predictedgene_016032_T1_13_148_AA9          36.60%    passed     91.13%
+ 216  ONOH327_004296_T1_15_169_AA9                         35.05%    passed     42.06%
+ 217  Sbrasi5110predictedgene_001121_T1_9_234_AA9           5.15%    passed     99.53%
+ 218  Sschen1099predictedgene_007661_T1_39_218_AA9         25.77%    passed     88.97%
+ 219  SgloboCBS120340predictedgene_001135_T1_30_208_AA9    26.29%    passed     97.41%
+ 220  SlurieCBS93772predictedgene_003191_T1_8_235_AA9       5.15%    passed     99.32%
+ 221  SdimorCBS55374predictedgene_003611_T1_8_234_AA9       5.15%    passed     99.88%
+ 222  SinflaCBS23968predictedgene_004157_T1_8_234_AA9       5.15%    passed     99.86%
+ 223  SproteCBS116654predictedgene_000293_T1_9_233_AA9      5.67%    passed     99.80%
+ 224  SvarieCBS121961predictedgene_001260_T1_5_203_AA9     15.98%    passed     99.83%
+ 225  ShumicCBS118129predictedgene_007487_T1_65_274_AA9    13.40%    passed     97.89%
+ 226  SpalliCBS13156predictedgene_008479_T1_8_245_AA9       1.55%    passed     98.56%
+ 227  SmexicCBS120341predictedgene_006423_T1_8_245_AA9      1.55%    passed     98.96%
+ 228  SphasmCBS119721predictedgene_001940_T1_5_204_AA9     15.46%    passed     92.29%
+ 229  SBRCBS47491_003895_T1_9_238_AA9                       5.15%    passed     99.89%
+ 230  SCUCBS95973_001633_T1_9_237_AA9                       5.15%    passed     99.11%
+ 231  SEUCBS139899_010033_T1_10_234_AA9                     6.70%    passed     98.17%
+ 232  SEUCBS140593_008592_T1_10_234_AA9                     6.70%    passed     98.17%
+ 233  SbrunnCBS124561predictedgene_006364_T1_16_213_AA9    16.49%    passed     87.56%
+ 234  SinsecRCEF264predictedgene_006954_T1_12_235_AA9       7.73%    passed     77.81%
+ 235  ASPSEMC78_009985_T1_4_190_AA9                        18.04%    passed     88.24%
+ 236  AstygiMG137predictedgene_001007_T1_4_190_AA9         18.04%    passed     80.98%
+ 237  AtruncCBS140778predictedgene_002119_T1_14_149_AA9    39.69%    passed     89.51%
+ 238  Sbrasi5110predictedgene_007666_T1_7_235_AA9           5.15%    passed     79.00%
+ 239  Sschen1099predictedgene_007504_T1_7_235_AA9           5.15%    passed     81.51%
+ 240  SgloboCBS120340predictedgene_001873_T1_7_200_AA9     17.01%    passed     79.35%
+ 241  SlurieCBS93772predictedgene_007216_T1_7_234_AA9       5.15%    passed     59.14%
+ 242  SdimorCBS55374predictedgene_008390_T1_14_215_AA9     12.37%    passed     98.66%
+ 243  SinflaCBS23968predictedgene_009112_T1_24_215_AA9     17.01%    passed     82.57%
+ 244  SvarieCBS121961predictedgene_006930_T1_7_235_AA9      5.15%    passed     63.39%
+ 245  ShumicCBS118129predictedgene_005663_T1_24_216_AA9    17.01%    passed     77.04%
+ 246  SpalliCBS13156predictedgene_006917_T1_13_216_AA9     12.37%    passed     75.67%
+ 247  SmexicCBS120341predictedgene_007942_T1_7_232_AA9      7.22%    passed     88.55%
+ 248  SBRCBS47491_009556_T1_7_237_AA9                       5.15%    passed     46.39%
+ 249  SCUCBS95973_007411_T1_7_245_AA9                       4.64%    passed     51.34%
+ 250  SEUCBS139899_000498_T1_13_209_AA9                    17.01%    passed     92.20%
+ 251  SEUCBS140593_003029_T1_7_238_AA9                      5.15%    passed     80.55%
+ 252  SbrunnCBS124561predictedgene_009959_T1_7_232_AA9      5.15%    passed     85.46%
+ 253  SinsecRCEF264predictedgene_005896_T1_6_241_AA9        4.64%    passed     82.18%
+ 254  ASPSEMC78_003592_T1_5_218_AA9                         4.12%    passed     87.52%
+ 255  AtruncCBS140778predictedgene_003303_T1_5_218_AA9      4.12%    passed     97.16%
+ 256  AstygiMG137predictedgene_004480_T1_5_224_AA9          4.12%    passed     97.41%
+ 257  AquisqBRIP72107predictedgene_001651_T1_5_223_AA9      2.58%    passed     71.91%
+ 258  PCOBRFM310_003148_T1_6_221_AA9                        3.61%    passed     88.75%
+ 259  PRUSEMC34_010192_T1_7_242_AA9                         3.61%    passed     75.69%
+ 260  PRUSEMC34_010193_T1_7_221_AA9                         3.61%    passed     92.46%
+ 261  AquisqBRIP72107predictedgene_000086_T1_6_214_AA9      4.12%    passed     77.00%
+ 262  ABIH97_006826_T1_8_225_AA9                            2.58%    passed     60.09%
+ 263  PCOBRFM310_006852_T1_6_215_AA9                        2.58%    passed     95.27%
+ 264  PCOBRFM310_008412_T1_6_213_AA9                        3.61%    passed     60.24%
+ 265  PRUSEMC34_000228_T1_6_218_AA9                         2.06%    passed     79.23%
+ 266  PRUSEMC34_014594_T1_6_216_AA9                         2.58%    passed     63.26%
+ 267  PRUSEMC34_003915_T1_6_218_AA9                         2.06%    passed     48.95%
+ 268  AOLATCC24927_002645_T1_7_176_AA9                     17.01%    passed     97.57%
+ 269  ASPSEMC78_006294_T1_6_215_AA9                         2.06%    passed     98.07%
+ 270  AstygiMG137predictedgene_010241_T1_5_215_AA9          2.06%    passed     96.58%
+ 271  AtruncCBS140778predictedgene_010853_T1_6_215_AA9      2.06%    passed     96.72%
+ 272  AquisqBRIP72107predictedgene_008359_T1_484_660_AA9   14.95%    passed     78.80%
+ 273  ASPSEMC78_002105_T1_1_120_AA9                        41.75%    passed     83.86%
+ 274  AtruncCBS140778predictedgene_000842_T1_8_223_AA9      4.12%    passed     79.77%
+ 275  AstygiMG137predictedgene_005236_T1_1_120_AA9         41.75%    passed     91.98%
+ 276  Sbrasi5110predictedgene_002305_T1_4_210_AA9           4.64%    passed     96.50%
+ 277  Sschen1099predictedgene_003721_T1_4_210_AA9           4.64%    passed     96.50%
+ 278  SlurieCBS93772predictedgene_004451_T1_4_210_AA9       4.64%    passed     93.96%
+ 279  SgloboCBS120340predictedgene_005193_T1_4_210_AA9      4.64%    passed     94.50%
+ 280  SBRCBS47491_003247_T1_5_213_AA9                       3.61%    passed     94.05%
+ 281  SCUCBS95973_000961_T1_5_213_AA9                       3.61%    passed     98.46%
+ 282  SEUCBS139899_002761_T1_5_213_AA9                      3.61%    passed     98.54%
+ 283  SEUCBS140593_008792_T1_5_213_AA9                      3.61%    passed     98.54%
+ 284  SdimorCBS55374predictedgene_009433_T1_6_211_AA9       3.61%    passed     95.13%
+ 285  SinflaCBS23968predictedgene_006140_T1_6_211_AA9       3.61%    passed     95.80%
+ 286  ShumicCBS118129predictedgene_001527_T1_5_211_AA9      3.61%    passed     79.91%
+ 287  SmexicCBS120341predictedgene_001026_T1_5_211_AA9      3.61%    passed     82.10%
+ 288  SpalliCBS13156predictedgene_002635_T1_6_211_AA9       3.61%    passed     82.38%
+ 289  SproteCBS116654predictedgene_006255_T1_6_212_AA9      3.61%    passed     91.69%
+ 290  SvarieCBS121961predictedgene_004411_T1_6_214_AA9      3.61%    passed     94.17%
+ 291  SinsecRCEF264predictedgene_000465_T1_5_213_AA9        3.61%    passed     99.77%
+ 292  SbrunnCBS124561predictedgene_005267_T1_5_213_AA9      3.61%    passed     99.71%
+ 293  ONOH327_000635_T1_7_206_AA9                           6.19%    passed     98.69%
+ 294  Sbrasi5110predictedgene_000225_T1_7_214_AA9           2.06%    passed     96.80%
+ 295  Sschen1099predictedgene_005201_T1_7_214_AA9           2.06%    passed     98.72%
+ 296  SgloboCBS120340predictedgene_000227_T1_7_214_AA9      2.06%    passed     92.08%
+ 297  SlurieCBS93772predictedgene_000319_T1_7_214_AA9       2.06%    passed     95.58%
+ 298  SBRCBS47491_003771_T1_5_214_AA9                       2.06%    passed     99.27%
+ 299  SCUCBS95973_005016_T1_6_214_AA9                       2.06%    passed     99.17%
+ 300  SEUCBS139899_003488_T1_7_214_AA9                      2.06%    passed     98.30%
+ 301  SEUCBS140593_000389_T1_7_214_AA9                      2.06%    passed     98.30%
+ 302  SdimorCBS55374predictedgene_002161_T1_7_214_AA9       2.06%    passed     81.35%
+ 303  SinflaCBS23968predictedgene_000049_T1_6_214_AA9       2.06%    passed     82.75%
+ 304  ShumicCBS118129predictedgene_007349_T1_5_214_AA9      2.06%    passed     99.48%
+ 305  SpalliCBS13156predictedgene_005248_T1_5_214_AA9       2.06%    passed     99.27%
+ 306  SmexicCBS120341predictedgene_000620_T1_6_214_AA9      2.06%    passed     99.59%
+ 307  SvarieCBS121961predictedgene_006431_T1_6_214_AA9      2.06%    passed     99.36%
+ 308  SbrunnCBS124561predictedgene_000170_T1_9_204_AA9      7.22%    passed     99.28%
+ 309  SinsecRCEF264predictedgene_005009_T1_6_215_AA9        2.06%    passed     97.40%
+ 310  ONOH327_002962_T1_5_214_AA9                           2.06%    passed     94.66%
+ 311  Sbrasi5110predictedgene_003391_T1_6_215_AA9           2.06%    passed     86.59%
+ 312  Sschen1099predictedgene_002115_T1_6_215_AA9           2.06%    passed     79.03%
+ 313  SgloboCBS120340predictedgene_003597_T1_6_215_AA9      2.06%    passed     71.18%
+ 314  SlurieCBS93772predictedgene_008206_T1_6_215_AA9       2.06%    passed     63.77%
+ 315  SBRCBS47491_005362_T1_6_215_AA9                       2.06%    passed     75.82%
+ 316  SvarieCBS121961predictedgene_006540_T1_6_215_AA9      2.06%    passed     82.65%
+ 317  SCUCBS95973_002798_T1_6_215_AA9                       2.06%    passed     79.53%
+ 318  SEUCBS139899_010838_T1_6_215_AA9                      2.06%    passed     66.47%
+ 319  SEUCBS140593_010532_T1_6_215_AA9                      2.06%    passed     66.47%
+ 320  SinflaCBS23968predictedgene_007372_T1_6_215_AA9       2.06%    passed     58.34%
+ 321  SdimorCBS55374predictedgene_004461_T1_6_216_AA9       2.06%    passed     83.06%
+ 322  SinsecRCEF264predictedgene_004144_T1_8_217_AA9        2.06%    passed     86.00%
+ 323  ShumicCBS118129predictedgene_001025_T1_5_214_AA9      2.58%    passed     81.77%
+ 324  SpalliCBS13156predictedgene_000629_T1_5_214_AA9       2.58%    passed     77.28%
+ 325  SmexicCBS120341predictedgene_008057_T1_5_214_AA9      2.58%    passed     65.13%
+ 326  SproteCBS116654predictedgene_001964_T1_7_206_AA9      8.76%    passed     80.31%
+ 327  SbrunnCBS124561predictedgene_008113_T1_7_215_AA9      2.06%    passed     90.69%
+ 328  ASPSEMC78_008316_T1_5_212_AA9                         2.58%    passed     55.13%
+ 329  AstygiMG137predictedgene_011238_T1_4_212_AA9          2.58%    passed     54.64%
+ 330  AOLATCC24927_007956_T1_7_218_AA9                      3.09%    passed     83.47%
+ 331  ASPSEMC78_006313_T1_6_212_AA9                         5.15%    passed     87.14%
+ 332  AtruncCBS140778predictedgene_010830_T1_4_212_AA9      5.15%    passed     87.68%
+ 333  AstygiMG137predictedgene_008800_T1_5_212_AA9          5.15%    passed     64.84%
+ 334  Sbrasi5110predictedgene_006976_T1_4_216_AA9           4.64%    passed      5.76%
+ 335  Sschen1099predictedgene_000138_T1_4_216_AA9           4.64%    passed      7.95%
+ 336  SgloboCBS120340predictedgene_006626_T1_5_218_AA9      4.64%    passed     12.38%
+ 337  SdimorCBS55374predictedgene_001359_T1_7_214_AA9       4.64%    passed     69.90%
+ 338  SinflaCBS23968predictedgene_000547_T1_4_211_AA9       4.64%    passed     69.55%
+ 339  SvarieCBS121961predictedgene_008880_T1_4_211_AA9      4.64%    passed     76.12%
+ 340  ShumicCBS118129predictedgene_007731_T1_4_212_AA9      4.64%    passed     87.87%
+ 341  SpalliCBS13156predictedgene_007973_T1_4_212_AA9       4.64%    passed     87.90%
+ 342  SmexicCBS120341predictedgene_007043_T1_4_212_AA9      4.64%    passed     61.34%
+ 343  SlurieCBS93772predictedgene_002697_T1_5_215_AA9       6.70%    failed      2.62%
+ 344  SBRCBS47491_001734_T1_7_213_AA9                       4.64%    passed     67.26%
+ 345  SCUCBS95973_001115_T1_6_213_AA9                       4.64%    passed     69.87%
+ 346  SbrunnCBS124561predictedgene_001406_T1_5_214_AA9      5.15%    passed     12.47%
+ 347  SinsecRCEF264predictedgene_006413_T1_7_215_AA9        5.15%    passed      6.03%
+ 348  ASPSEMC78_006892_T1_4_212_AA9                         4.12%    passed     44.86%
+ 349  AstygiMG137predictedgene_006433_T1_3_212_AA9          4.12%    passed     71.08%
+ 350  AtruncCBS140778predictedgene_006863_T1_4_212_AA9      4.12%    passed     38.39%
+ 351  Sbrasi5110predictedgene_006939_T1_25_218_AA9          9.79%    passed     43.91%
+ 352  Sschen1099predictedgene_000103_T1_5_213_AA9           4.12%    passed     24.25%
+ 353  SgloboCBS120340predictedgene_006666_T1_5_152_AA9     27.84%    passed     10.19%
+ 354  SlurieCBS93772predictedgene_004818_T1_6_213_AA9       4.12%    passed      7.88%
+ 355  SdimorCBS55374predictedgene_001396_T1_6_213_AA9       4.12%    passed     21.23%
+ 356  SinflaCBS23968predictedgene_006983_T1_6_199_AA9       9.79%    passed     34.81%
+ 357  SvarieCBS121961predictedgene_008841_T1_6_213_AA9      4.12%    passed     35.96%
+ 358  ShumicCBS118129predictedgene_008971_T1_6_213_AA9      4.12%    passed     20.07%
+ 359  SpalliCBS13156predictedgene_007398_T1_6_213_AA9       4.12%    passed     24.80%
+ 360  SmexicCBS120341predictedgene_008689_T1_6_213_AA9      4.12%    passed     27.96%
+ 361  SEUCBS139899_009697_T1_6_213_AA9                      4.12%    passed     56.56%
+ 362  SEUCBS140593_007417_T1_6_213_AA9                      4.12%    passed     56.56%
+ 363  SBRCBS47491_001609_T1_6_216_AA9                       4.12%    passed     19.99%
+ 364  SCUCBS95973_001209_T1_6_216_AA9                       4.12%    passed     15.99%
+ 365  SbrunnCBS124561predictedgene_008775_T1_5_212_AA9      4.12%    passed     41.64%
+ 366  SinsecRCEF264predictedgene_001108_T1_6_212_AA9        4.12%    passed      6.93%
+ 367  SinflaCBS23968predictedgene_008059_T1_56_192_AA9     33.51%    passed     24.33%
+ 368  PCOBRFM310_006181_T1_7_206_AA9                        6.70%    passed     62.88%
+ 369  AOLATCC24927_000716_T1_11_207_AA9                     6.70%    passed     67.09%
+ 370  AquisqBRIP72107predictedgene_002005_T1_9_208_AA9      5.67%    passed     72.20%
+ 371  ASPSEMC78_000570_T1_8_210_AA9                         5.15%    passed     98.42%
+ 372  AtruncCBS140778predictedgene_005988_T1_8_210_AA9      5.15%    passed     96.92%
+ 373  AstygiMG137predictedgene_004755_T1_8_210_AA9          5.15%    passed     92.60%
+ 374  ONOH327_005375_T1_8_210_AA9                           5.15%    passed     96.51%
+ 375  Sbrasi5110predictedgene_002978_T1_10_210_AA9          5.15%    passed     80.79%
+ 376  Sschen1099predictedgene_001704_T1_10_210_AA9          5.15%    passed     80.79%
+ 377  SdimorCBS55374predictedgene_005543_T1_10_210_AA9      5.15%    passed     61.79%
+ 378  SinflaCBS23968predictedgene_004260_T1_10_210_AA9      5.15%    passed     86.94%
+ 379  SvarieCBS121961predictedgene_009100_T1_10_210_AA9     5.15%    passed     86.91%
+ 380  ShumicCBS118129predictedgene_009995_T1_10_210_AA9     5.15%    passed     78.03%
+ 381  SpalliCBS13156predictedgene_008798_T1_10_210_AA9      5.15%    passed     78.03%
+ 382  SmexicCBS120341predictedgene_002734_T1_10_207_AA9     6.19%    passed     83.57%
+ 383  SgloboCBS120340predictedgene_003173_T1_10_207_AA9     6.19%    passed     92.76%
+ 384  SlurieCBS93772predictedgene_001541_T1_10_210_AA9      5.15%    passed     88.30%
+ 385  SproteCBS116654predictedgene_007548_T1_9_211_AA9      5.15%    passed     91.01%
+ 386  SBRCBS47491_010071_T1_8_209_AA9                       5.15%    passed     90.22%
+ 387  SCUCBS95973_008155_T1_8_209_AA9                       5.15%    passed     94.58%
+ 388  SEUCBS139899_008120_T1_11_210_AA9                     5.15%    passed     92.14%
+ 389  SEUCBS140593_007843_T1_11_210_AA9                     5.15%    passed     92.14%
+ 390  SinsecRCEF264predictedgene_001050_T1_1_112_AA9       44.33%    passed     73.81%
+ 391  SbrunnCBS124561predictedgene_002324_T1_455_547_AA9   53.61%    passed     83.02%
+ 392  ASPSEMC78_007944_T1_7_209_AA9                         5.15%    passed     92.78%
+ 393  AstygiMG137predictedgene_004078_T1_7_209_AA9          5.15%    passed     90.81%
+ 394  AtruncCBS140778predictedgene_009395_T1_8_209_AA9      5.15%    passed     94.55%
+ 395  Crosea671predictedgene_011355_T1_7_211_AA9            4.12%    passed     88.76%
+ 396  AOLATCC24927_001743_T1_2_170_AA9                     18.56%    passed     75.25%
+ 397  AOLATCC24927_009095_T1_3_195_AA9                      9.79%    passed     26.69%
+ 398  Crosea671predictedgene_011210_T1_10_222_AA9           2.58%    passed     85.04%
+ 399  Crosea671predictedgene_016149_T1_2_168_AA9           19.07%    passed     55.79%
+ 400  AquisqBRIP72107predictedgene_002736_T1_9_219_AA9      6.19%    passed     95.72%
+ 401  AstygiMG137predictedgene_009473_T1_7_229_AA9          6.19%    passed     13.82%
+ 402  ABIH97_007412_T1_7_204_AA9                            7.22%    passed     93.41%
+ 403  Crosea671predictedgene_001513_T1_6_208_AA9            4.12%    passed     90.02%
+ 404  AOLATCC24927_005361_T1_10_205_AA9                     7.73%    passed     83.94%
+ 405  AquisqBRIP72107predictedgene_009284_T1_7_209_AA9      5.67%    passed     90.32%
+ 406  AstygiMG137predictedgene_008623_T1_6_209_AA9          5.15%    passed     82.86%
+ 407  AOLATCC24927_007857_T1_10_223_AA9                     4.64%    failed      2.78%
+ 408  AOLATCC24927_009385_T1_1_123_AA9                     42.78%    passed     57.99%
+ 409  Crosea671predictedgene_007891_T1_5_217_AA9            3.61%    failed      0.02%
+ 410  AOLATCC24927_007751_T1_5_229_AA9                      2.58%    passed     45.87%
+ 411  Crosea671predictedgene_006814_T1_5_228_AA9            3.09%    passed     93.68%
+ 412  Crosea671predictedgene_015310_T1_6_227_AA9            3.61%    passed     71.97%
+ 413  Crosea671predictedgene_001543_T1_6_228_AA9            2.58%    passed     91.74%
+ 414  Crosea671predictedgene_010053_T1_10_226_AA9           2.58%    passed     46.35%
+ 415  ASPSEMC78_008880_T1_10_221_AA9                        6.70%    failed      3.15%
+ 416  AstygiMG137predictedgene_008656_T1_10_219_AA9         7.22%    failed      2.51%
+ 417  AtruncCBS140778predictedgene_009637_T1_10_219_AA9     7.22%    failed      1.70%
+ 418  AOLATCC24927_006642_T1_7_154_AA9                     37.63%    passed     91.17%
+ 419  AquisqBRIP72107predictedgene_005201_T1_7_224_AA9      3.61%    passed     80.78%
+ 420  ASPSEMC78_006163_T1_2_222_AA9                         5.15%    passed     77.63%
+ 421  AtruncCBS140778predictedgene_002673_T1_11_231_AA9     5.15%    passed     88.42%
+ 422  AstygiMG137predictedgene_002443_T1_13_231_AA9         5.67%    passed     98.24%
+ 423  CprotrCCMJ2080predictedgene_005214_T1_5_225_AA9       5.15%    passed     61.97%
+ 424  HperniHP10predictedgene_002294_T1_7_226_AA9           5.15%    passed     96.50%
+ 425  TatrovIMI206040predictedgene_002107_T1_9_231_AA9      4.64%    passed     36.20%
+ 426  TharziCBS22695predictedgene_000474_T1_9_231_AA9       4.64%    passed     79.58%
+ 427  TvirenSpredictedgene_000498_T1_9_230_AA9              4.64%    passed     16.61%
+ 428  TpararCBS125925predictedgene_004978_T1_11_232_AA9     4.64%    passed     22.00%
+ 429  TreeseQM6apredictedgene_003363_T1_8_229_AA9           4.64%    passed     17.67%
+ 430  Eweberstrainpredictedgene_003312_T1_4_224_AA9         5.15%    passed     75.56%
+ 431  Crosea671predictedgene_000185_T1_5_227_AA9            5.15%    passed     87.89%
+ 432  LLUCBS138716_000895_T1_1_175_AA9                     21.65%    passed     83.55%
+ 433  Sbrasi5110predictedgene_002711_T1_9_233_AA9           2.06%    passed     88.00%
+ 434  Sschen1099predictedgene_004123_T1_9_234_AA9           1.55%    passed     85.73%
+ 435  SgloboCBS120340predictedgene_004771_T1_10_236_AA9     1.55%    passed     87.80%
+ 436  SlurieCBS93772predictedgene_000395_T1_9_235_AA9       1.55%    passed     89.09%
+ 437  SphasmCBS119721predictedgene_002801_T1_8_231_AA9      1.55%    passed     80.17%
+ 438  SdimorCBS55374predictedgene_000185_T1_8_231_AA9       1.55%    passed     49.17%
+ 439  SinflaCBS23968predictedgene_007319_T1_8_231_AA9       1.55%    passed     61.22%
+ 440  SeuskaVPRI43754predictedgene_002279_T1_8_231_AA9      1.55%    passed     82.43%
+ 441  SpseudVPRI43531predictedgene_002545_T1_8_231_AA9      1.55%    passed     83.57%
+ 442  SvarieCBS121961predictedgene_004728_T1_8_231_AA9      1.55%    passed     36.35%
+ 443  SproteCBS116654predictedgene_005085_T1_8_231_AA9      1.55%    passed     69.95%
+ 444  SnigroVPRI43755predictedgene_004063_T1_8_231_AA9      1.55%    passed     40.51%
+ 445  SBRCBS47491_003088_T1_7_233_AA9                       1.55%    passed     54.24%
+ 446  STHCBS139747_000970_T1_17_205_AA9                    16.49%    passed     88.28%
+ 447  SCUCBS95973_003511_T1_7_235_AA9                       1.55%    passed     61.40%
+ 448  SEUCBS139899_005688_T1_8_235_AA9                      1.55%    passed     29.39%
+ 449  SEUCBS140593_001159_T1_8_235_AA9                      1.55%    passed     34.96%
+ 450  SbrunnCBS124561predictedgene_002412_T1_3_241_AA9      1.55%    passed     92.89%
+ 451  ShumicCBS118129predictedgene_000925_T1_8_233_AA9      1.55%    passed     37.39%
+ 452  SmexicCBS120341predictedgene_002195_T1_8_233_AA9      1.55%    passed     40.63%
+ 453  SpalliCBS13156predictedgene_007329_T1_8_233_AA9       1.55%    passed     62.71%
+ 454  SinsecRCEF264predictedgene_000576_T1_7_242_AA9        1.55%    passed     90.50%
+ 455  OFAVPRI43845_006254_T1_7_253_AA9                      0.52%    passed      8.29%
+ 456  OIPVPRI43529_002312_T1_7_256_AA9                      1.55%    passed     60.58%
+ 457  ONOH327_000540_T1_10_252_AA9                          1.03%    passed     69.82%
+ 458  AquisqBRIP72107predictedgene_008263_T1_9_134_AA9     44.85%    passed     41.61%
+ 459  AquisqBRIP72107predictedgene_000498_T1_6_213_AA9      9.28%    passed     23.43%
+ 460  AquisqBRIP72107predictedgene_004766_T1_6_219_AA9      9.28%    passed     47.32%
+ 461  Sbrasi5110predictedgene_005342_T1_7_238_AA9           5.15%    passed     66.40%
+ 462  Sschen1099predictedgene_002861_T1_7_238_AA9           5.15%    passed     65.91%
+ 463  SgloboCBS120340predictedgene_007941_T1_7_236_AA9      6.19%    passed     56.69%
+ 464  SCUCBS95973_006172_T1_8_236_AA9                       6.19%    passed     65.82%
+ 465  SEUCBS139899_003585_T1_8_238_AA9                      5.15%    passed     72.88%
+ 466  SEUCBS140593_006851_T1_8_238_AA9                      5.15%    passed     72.88%
+ 467  SvarieCBS121961predictedgene_008484_T1_9_236_AA9      6.70%    passed     34.21%
+ 468  SinflaCBS23968predictedgene_008988_T1_7_238_AA9       5.15%    passed     22.37%
+ 469  SbrunnCBS124561predictedgene_005910_T1_8_244_AA9      5.15%    passed     70.97%
+ 470  SinsecRCEF264predictedgene_004660_T1_8_229_AA9        9.28%    passed     80.50%
+ 471  ShumicCBS118129predictedgene_010465_T1_21_209_AA9    19.07%    passed     61.43%
+ 472  SpalliCBS13156predictedgene_010553_T1_21_209_AA9     19.07%    passed     55.95%
+ 473  SproteCBS116654predictedgene_008403_T1_7_214_AA9     13.40%    passed     25.68%
+ 474  Crosea671predictedgene_008422_T1_6_221_AA9            7.22%    passed     70.96%
+ 475  ABIH97_007700_T1_10_194_AA9                          14.95%    failed      0.30%
+ 476  HCOJCM1743_002873_T1_8_228_AA9                        8.25%    passed     90.90%
+ 477  AquisqBRIP72107predictedgene_000495_T1_9_255_AA9      3.09%    passed     94.05%
+ 478  Crosea671predictedgene_005169_T1_17_234_AA9          12.89%    passed     94.35%
+ 479  Crosea671predictedgene_015741_T1_8_246_AA9            8.76%    passed     50.55%
+ 480  AOLATCC24927_006079_T1_21_218_AA11                   18.04%    passed     72.12%
+ 481  ASPSEMC78_005853_T1_19_215_AA11                      17.01%    passed     61.62%
+ 482  AtruncCBS140778predictedgene_004397_T1_19_215_AA11   17.01%    passed     47.35%
+ 483  AstygiMG137predictedgene_000439_T1_19_214_AA11       17.01%    passed     44.89%
+ 484  CprotrCCMJ2080predictedgene_007762_T1_18_214_AA11    17.01%    passed     84.76%
+ 485  HperniHP10predictedgene_008564_T1_18_214_AA11        17.01%    passed     84.09%
+ 486  TatrovIMI206040predictedgene_001503_T1_18_216_AA11   17.01%    passed     78.23%
+ 487  TharziCBS22695predictedgene_003163_T1_18_216_AA11    17.01%    passed     89.37%
+ 488  TvirenSpredictedgene_009269_T1_18_216_AA11           17.01%    passed     98.06%
+ 489  TpararCBS125925predictedgene_001521_T1_18_217_AA11   16.49%    passed     89.15%
+ 490  TreeseQM6apredictedgene_003814_T1_18_219_AA11        16.49%    passed     93.51%
+ 491  Crosea671predictedgene_003919_T1_18_210_AA11         17.53%    passed     40.34%
+ 492  Crosea671predictedgene_016028_T1_18_211_AA11         17.53%    passed      9.27%
+ 493  LLUCBS138716_002666_T1_17_213_AA11                   16.49%    passed     70.28%
+ 494  OFAVPRI43845_006088_T1_19_215_AA11                   16.49%    passed     91.55%
+ 495  Sbrasi5110predictedgene_005399_T1_19_216_AA11        16.49%    passed     57.07%
+ 496  SgloboCBS120340predictedgene_004296_T1_19_216_AA11   16.49%    passed     52.84%
+ 497  Sschen1099predictedgene_002805_T1_19_216_AA11        16.49%    passed     59.25%
+ 498  SdimorCBS55374predictedgene_003857_T1_19_215_AA11    16.49%    passed     54.41%
+ 499  SeuskaVPRI43754predictedgene_005642_T1_19_216_AA11   16.49%    passed     37.39%
+ 500  SinflaCBS23968predictedgene_001478_T1_19_216_AA11    16.49%    passed     23.53%
+ 501  SvarieCBS121961predictedgene_003914_T1_19_216_AA11   16.49%    passed     26.19%
+ 502  SpseudVPRI43531predictedgene_005935_T1_19_216_AA11   16.49%    passed     33.80%
+ 503  SproteCBS116654predictedgene_002237_T1_19_216_AA11   16.49%    passed     29.39%
+ 504  SlurieCBS93772predictedgene_002073_T1_19_216_AA11    16.49%    passed     33.73%
+ 505  SBRCBS47491_006557_T1_19_216_AA11                    16.49%    passed     55.89%
+ 506  SbrunnCBS124561predictedgene_003871_T1_18_214_AA11   16.49%    passed     29.66%
+ 507  SEUCBS139899_003886_T1_19_215_AA11                   16.49%    passed     44.20%
+ 508  SEUCBS140593_005062_T1_19_215_AA11                   16.49%    passed     44.20%
+ 509  SnigroVPRI43755predictedgene_003826_T1_19_215_AA11   16.49%    passed     15.53%
+ 510  SphasmCBS119721predictedgene_004567_T1_19_216_AA11   16.49%    passed     37.31%
+ 511  SCUCBS95973_002768_T1_19_217_AA11                    16.49%    passed     53.88%
+ 512  SinsecRCEF264predictedgene_000836_T1_19_216_AA11     16.49%    passed     33.74%
+ 513  STHCBS139747_001456_T1_19_215_AA11                   17.53%    passed     89.62%
+ 514  SEPCBS119000_006055_T1_19_216_AA11                   17.01%    passed     24.14%
+ 515  SEPCBS57363_005375_T1_19_216_AA11                    17.01%    passed     57.52%
+ 516  SEPTF4163_003082_T1_19_216_AA11                      17.01%    passed     37.03%
+ 517  ShumicCBS118129predictedgene_004475_T1_19_213_AA11   17.53%    passed     30.10%
+ 518  SpalliCBS13156predictedgene_005365_T1_19_213_AA11    17.53%    passed     30.10%
+ 519  SmexicCBS120341predictedgene_000512_T1_19_213_AA11   17.53%    passed     35.75%
+ 520  ONOH327_000120_T1_17_213_AA11                        16.49%    passed     49.36%
+ 521  OIPVPRI43529_003943_T1_17_209_AA11                   18.56%    passed     78.28%
+ 522  AquisqBRIP72107predictedgene_002399_T1_11_204_AA11   18.56%    passed      7.00%
+ 523  AquisqBRIP72107predictedgene_008388_T1_20_201_AA11   23.20%    passed     78.14%
+ 524  ASPSEMC78_010659_T1_20_219_AA11                      22.16%    passed     77.03%
+ 525  AstygiMG137predictedgene_005035_T1_20_219_AA11       22.16%    passed     84.69%
+ 526  AtruncCBS140778predictedgene_009867_T1_20_219_AA11   22.16%    passed     80.57%
+ 527  LLUCBS138716_006645_T1_22_222_AA11                   19.59%    passed     38.41%
+ 528  OFAVPRI43845_004323_T1_20_229_AA11                   19.07%    passed     27.07%
+ 529  Sbrasi5110predictedgene_002825_T1_22_226_AA11        20.62%    passed     57.10%
+ 530  Sschen1099predictedgene_004237_T1_22_226_AA11        20.62%    passed     62.20%
+ 531  SgloboCBS120340predictedgene_004654_T1_22_224_AA11   20.10%    passed     41.35%
+ 532  SlurieCBS93772predictedgene_007254_T1_22_219_AA11    20.10%    passed     72.39%
+ 533  SBRCBS47491_007323_T1_25_234_AA11                    19.07%    passed      6.09%
+ 534  STHCBS139747_003202_T1_25_242_AA11                   19.07%    passed     41.15%
+ 535  SCUCBS95973_006452_T1_25_233_AA11                    19.59%    failed      1.99%
+ 536  SdimorCBS55374predictedgene_000359_T1_22_241_AA11    19.07%    passed     22.79%
+ 537  SinflaCBS23968predictedgene_006668_T1_22_228_AA11    19.59%    passed     12.47%
+ 538  SEUCBS139899_008592_T1_22_228_AA11                   19.59%    passed      6.12%
+ 539  SEUCBS140593_008315_T1_22_228_AA11                   19.59%    passed      6.12%
+ 540  SeuskaVPRI43754predictedgene_002412_T1_23_234_AA11   20.10%    passed     23.71%
+ 541  SvarieCBS121961predictedgene_008445_T1_23_234_AA11   20.10%    passed     34.42%
+ 542  SpseudVPRI43531predictedgene_003953_T1_23_239_AA11   20.10%    passed     31.89%
+ 543  SproteCBS116654predictedgene_003711_T1_23_239_AA11   19.59%    passed     26.18%
+ 544  ShumicCBS118129predictedgene_006185_T1_22_222_AA11   20.62%    passed     60.59%
+ 545  SpalliCBS13156predictedgene_003156_T1_22_223_AA11    20.62%    passed     60.59%
+ 546  SmexicCBS120341predictedgene_008286_T1_24_228_AA11   20.10%    passed     60.93%
+ 547  SnigroVPRI43755predictedgene_004928_T1_22_224_AA11   20.10%    passed     35.11%
+ 548  SbrunnCBS124561predictedgene_005260_T1_22_229_AA11   20.10%    passed     22.33%
+ 549  SphasmCBS119721predictedgene_000793_T1_22_228_AA11   20.62%    passed     46.46%
+ 550  SEPCBS57363_002220_T1_21_227_AA11                    19.59%    failed      4.98%
+ 551  SEPTF4163_000414_T1_21_227_AA11                      19.59%    failed      3.78%
+ 552  OIPVPRI43529_000930_T1_1_204_AA11                    19.59%    failed      0.84%
+ 553  ONOH327_001488_T1_1_203_AA11                         19.59%    failed      0.69%
+ 554  SinsecRCEF264predictedgene_000470_T1_22_231_AA11     19.07%    passed     63.92%
+ 555  ASPSEMC78_010771_T1_19_221_AA11                      18.56%    passed     41.57%
+ 556  AtruncCBS140778predictedgene_001396_T1_19_221_AA11   18.56%    passed     58.73%
+ 557  AstygiMG137predictedgene_001492_T1_19_220_AA11       18.56%    passed     27.38%
+ 558  CprotrCCMJ2080predictedgene_004544_T1_20_214_AA11    18.56%    passed     38.49%
+ 559  Eweberstrainpredictedgene_001742_T1_21_249_AA11      18.56%    failed      4.96%
+ 560  HperniHP10predictedgene_002586_T1_20_212_AA11        18.56%    passed     16.70%
+ 561  TharziCBS22695predictedgene_001958_T1_21_214_AA11    18.56%    passed     89.30%
+ 562  TpararCBS125925predictedgene_008934_T1_21_213_AA11   18.56%    passed     77.00%
+ 563  TreeseQM6apredictedgene_002479_T1_21_214_AA11        18.04%    passed     76.46%
+ 564  TvirenSpredictedgene_006373_T1_21_215_AA11           18.56%    passed     42.55%
+ 565  Crosea671predictedgene_001604_T1_20_212_AA11         19.07%    passed      5.32%
+ 566  Crosea671predictedgene_008041_T1_20_213_AA11         20.10%    passed     48.84%
+ 567  Crosea671predictedgene_015717_T1_20_230_AA11         20.62%    passed      8.96%
+ 568  CprotrCCMJ2080predictedgene_004921_T1_36_213_AA11    27.32%    passed     68.92%
+ 569  TatrovIMI206040predictedgene_002620_T1_35_210_AA11   28.87%    passed     79.43%
+ 570  TharziCBS22695predictedgene_000963_T1_37_211_AA11    27.84%    passed     88.20%
+ 571  TvirenSpredictedgene_010411_T1_36_212_AA11           27.84%    passed     81.97%
+ 572  HperniHP10predictedgene_002914_T1_22_200_AA11        27.32%    passed     98.29%
+ 573  TpararCBS125925predictedgene_007437_T1_1_169_AA11    28.87%    passed      5.19%
+ 574  TreeseQM6apredictedgene_001378_T1_41_213_AA11        28.87%    passed      5.19%
+ 575  Eweberstrainpredictedgene_003008_T1_19_168_AA11      32.99%    passed     20.20%
+ 576  ONOH327_004430_T1_2_174_AA11                         29.38%    passed     83.55%
+ 577  Sbrasi5110predictedgene_007768_T1_33_218_AA11        24.74%    passed     83.37%
+ 578  SgloboCBS120340predictedgene_008502_T1_33_218_AA11   24.74%    passed     80.33%
+ 579  Sschen1099predictedgene_008452_T1_33_218_AA11        24.74%    passed     82.88%
+ 580  SlurieCBS93772predictedgene_002132_T1_33_214_AA11    26.80%    passed     87.46%
+ 581  SvarieCBS121961predictedgene_008920_T1_33_226_AA11   24.23%    passed     94.34%
+ 582  SdimorCBS55374predictedgene_008305_T1_33_223_AA11    24.23%    passed     95.87%
+ 583  SinflaCBS23968predictedgene_001925_T1_33_223_AA11    24.23%    passed     93.54%
+ 584  ShumicCBS118129predictedgene_000306_T1_18_222_AA11   17.53%    passed     94.89%
+ 585  SpalliCBS13156predictedgene_010459_T1_18_222_AA11    17.53%    passed     94.89%
+ 586  SmexicCBS120341predictedgene_003377_T1_18_222_AA11   17.53%    passed     96.55%
+ 587  SBRCBS47491_003830_T1_16_210_AA11                    24.74%    passed     94.63%
+ 588  SCUCBS95973_007553_T1_8_214_AA11                     19.59%    passed     96.05%
+ 589  SEUCBS139899_005998_T1_18_229_AA11                   17.53%    passed     82.24%
+ 590  SEUCBS140593_009473_T1_18_229_AA11                   17.53%    passed     82.24%
+ 591  SbrunnCBS124561predictedgene_008614_T1_19_223_AA11   17.53%    passed     27.11%
+ 592  SproteCBS116654predictedgene_006347_T1_18_225_AA11   19.59%    passed     25.94%
+ 593  SinsecRCEF264predictedgene_007879_T1_49_248_AA11     25.77%    passed     46.60%
+ 594  CgattiWM276predictedgene_004103_T1_37_209_AA11       29.38%    passed     66.67%
+ 595  CneofoV31predictedgene_005023_T1_35_208_AA11         28.35%    passed     11.14%
+ 596  HCOJCM1743_006918_T1_15_185_AA11                     28.87%    passed     62.92%
+ 597  Tfuciftr26predictedgene_006617_T1_38_211_AA11        29.90%    passed     89.72%
+ 598  TFUNBRC9317_001181_T1_37_210_AA11                    29.38%    passed     85.29%
+ 599  TFUSEMC49_001915_T1_37_211_AA11                      29.38%    passed     85.29%
+ 600  TYONBRC100148_002459_T1_77_229_AA11                  37.63%    passed     98.28%
+ 601  TMESEMC45_004186_T1_39_228_AA11                      28.87%    passed     50.46%
+ 602  TmesenATCC28783predictedgene_000315_T1_25_180_AA11   40.21%    passed     75.02%
+ 603  TmesenDSM1558predictedgene_005709_T1_40_221_AA11     30.93%    passed     72.35%
+ 604  AstygiMG137predictedgene_010330_T1_2_172_AA11        34.54%    passed     52.38%
+ 605  AtruncCBS140778predictedgene_006406_T1_22_240_AA11   13.40%    passed     60.67%
+ 606  AquisqBRIP72107predictedgene_003614_T1_18_219_AA11   19.59%    passed     44.02%
+ 607  AOLATCC24927_008014_T1_3_178_AA11                    24.74%    passed     14.32%
+ 608  AOLATCC24927_010719_T1_3_159_AA11                    35.57%    passed     98.06%
+ 609  AquisqBRIP72107predictedgene_009288_T1_7_138_AA11    56.19%    passed     35.30%
+ 610  AquisqBRIP72107predictedgene_001335_T1_65_186_AA11   45.36%    passed     41.09%
+ 611  ABIH97_003209_T1_17_285_AA14                         12.89%    passed     31.63%
+ 612  ASPSEMC78_008126_T1_20_177_AA14                      50.52%    passed     97.77%
+ 613  AtruncCBS140778predictedgene_010579_T1_20_177_AA14   50.52%    passed     99.07%
+ 614  AstygiMG137predictedgene_010173_T1_20_294_AA14       11.86%    passed     55.29%
+ 615  CprotrCCMJ2080predictedgene_010340_T1_18_284_AA14    12.37%    passed     10.68%
+ 616  TatrovIMI206040predictedgene_006201_T1_18_286_AA14   12.37%    passed     11.34%
+ 617  TharziCBS22695predictedgene_010450_T1_18_285_AA14    12.37%    passed     65.81%
+ 618  TpararCBS125925predictedgene_000587_T1_18_285_AA14   12.37%    passed     48.03%
+ 619  TreeseQM6apredictedgene_002638_T1_18_285_AA14        12.37%    passed     48.03%
+ 620  TvirenSpredictedgene_009646_T1_18_286_AA14           12.37%    passed     67.58%
+ 621  HperniHP10predictedgene_009641_T1_18_289_AA14        11.86%    passed     34.28%
+ 622  CprotrCCMJ2080predictedgene_004813_T1_17_292_AA14    11.86%    passed     27.28%
+ 623  Crosea671predictedgene_008663_T1_18_292_AA14         11.86%    passed     46.74%
+ 624  SEPCBS119000_003998_T1_17_172_AA14                   50.52%    failed      4.36%
+ 625  SEPCBS119000_004001_T1_17_291_AA14                   11.86%    failed      1.39%
+ 626  SEPCBS119000_004000_T1_17_291_AA14                   11.86%    failed      1.22%
+ 627  SEPCBS119000_006086_T1_17_291_AA14                   11.86%    failed      3.76%
+ 628  SEPCBS119000_006698_T1_17_291_AA14                   11.86%    failed      0.40%
+ 629  SEPCBS57363_006798_T1_7_167_AA14                     45.88%    passed     38.89%
+ 630  SEPTF4163_004982_T1_17_290_AA14                      11.86%    passed     21.28%
+ 631  SEPTF4163_006711_T1_17_172_AA14                      50.52%    passed     22.27%
+ 632  ABIH97_004062_T1_863_1124_AA14                       12.89%    passed      7.62%
+ 633  PCOBRFM310_007444_T1_1_127_AA14                      55.15%    passed     90.97%
+ 634  PCOBRFM310_007446_T1_1_255_AA14                      15.46%    passed      6.46%
+ 635  PCOBRFM310_007454_T1_19_281_AA14                     13.40%    failed      2.80%
+ 636  PRUSEMC34_004091_T1_21_283_AA14                      13.40%    passed      5.83%
+ 637  PRUSEMC34_004092_T1_19_281_AA14                      13.40%    passed      8.04%
+ 638  PCOBRFM310_001991_T1_22_284_AA14                     13.40%    failed      3.51%
+ 639  PRUSEMC34_000324_T1_1_259_AA14                       13.92%    failed      5.00%
+ 640  PRUSEMC34_012454_T1_21_286_AA14                      11.86%    failed      0.48%
+ 641  CgattiWM276predictedgene_000949_T1_20_277_AA14       14.95%    passed     75.20%
+ 642  CneofoV31predictedgene_000132_T1_20_277_AA14         14.95%    passed     32.71%
+ 643  Tfuciftr26predictedgene_004055_T1_24_275_AA14        15.46%    passed     73.42%
+ 644  TFUNBRC9317_002271_T1_24_275_AA14                    15.46%    passed     67.34%
+ 645  TFUSEMC49_000639_T1_24_275_AA14                      15.46%    passed     67.34%
+ 646  TYONBRC100148_001237_T1_24_275_AA14                  15.46%    passed     56.04%
+ 647  HCOJCM1743_004749_T1_19_270_AA14                     16.49%    passed     84.92%
+ 648  TMESEMC45_003358_T1_20_274_AA14                      15.46%    passed     46.93%
+ 649  TmesenATCC28783predictedgene_006932_T1_20_274_AA14   15.46%    passed     15.95%
+ 650  TmesenDSM1558predictedgene_002888_T1_20_274_AA14     15.46%    passed     15.95%
+ 651  Tfuciftr26predictedgene_003872_T1_20_290_AA14        13.40%    passed     51.08%
+ 652  TFUNBRC9317_003942_T1_302_571_AA14                   13.40%    passed     44.47%
+ 653  TFUSEMC49_000083_T1_844_1113_AA14                    13.40%    passed     44.47%
+ 654  TYONBRC100148_003196_T1_228_497_AA14                 13.40%    passed     40.41%
+ 655  Tfuciftr26predictedgene_003873_T1_9_261_AA14         19.07%    failed      4.64%
+ 656  TFUNBRC9317_003942_T1_3_261_AA14                     16.49%    passed      9.35%
+ 657  TFUSEMC49_000083_T1_536_804_AA14                     13.40%    passed      8.30%
+ 658  TYONBRC100148_003196_T1_4_188_AA14                   37.11%    passed      8.71%
+ 659  TMESEMC45_002104_T1_18_282_AA14                      14.43%    passed     11.36%
+ 660  TmesenATCC28783predictedgene_005285_T1_19_251_AA14   21.65%    passed      7.94%
+ 661  TmesenDSM1558predictedgene_001497_T1_19_282_AA14     14.43%    passed      5.75%
+ 662  AOLATCC24927_007218_T1_111_285_AA9                   32.47%    passed     40.47%
+ 663  CgattiWM276predictedgene_001908_T1_4_250_AA9         18.04%    passed      9.44%
+ 664  CneofoV31predictedgene_002023_T1_5_251_AA9           18.04%    passed     54.16%
+ 665  ABIH97_007862_T1_20_191_AA16                         38.14%    passed     62.51%
+ 666  AquisqBRIP72107predictedgene_001765_T1_18_190_AA16   37.11%    passed     69.27%
+ 667  ASPSEMC78_002180_T1_18_192_AA16                      36.08%    passed     48.16%
+ 668  AtruncCBS140778predictedgene_000764_T1_18_192_AA16   36.08%    passed     49.69%
+ 669  AstygiMG137predictedgene_005158_T1_18_192_AA16       36.08%    passed     72.22%
+ 670  ONOH327_001515_T1_19_187_AA16                        39.18%    passed     89.59%
+ 671  Sbrasi5110predictedgene_002296_T1_18_187_AA16        38.14%    passed     69.76%
+ 672  Sschen1099predictedgene_003712_T1_18_187_AA16        38.14%    passed     73.64%
+ 673  SgloboCBS120340predictedgene_005202_T1_18_187_AA16   38.14%    passed     87.71%
+ 674  SlurieCBS93772predictedgene_004444_T1_18_187_AA16    38.14%    passed     78.32%
+ 675  SdimorCBS55374predictedgene_009420_T1_18_187_AA16    38.14%    passed     77.50%
+ 676  SinflaCBS23968predictedgene_002693_T1_18_187_AA16    38.14%    passed     40.85%
+ 677  ShumicCBS118129predictedgene_001517_T1_18_187_AA16   38.14%    passed     19.21%
+ 678  SpalliCBS13156predictedgene_002644_T1_18_187_AA16    38.14%    passed     20.25%
+ 679  SmexicCBS120341predictedgene_001034_T1_18_187_AA16   38.14%    passed     19.68%
+ 680  SvarieCBS121961predictedgene_004401_T1_18_187_AA16   38.14%    passed     48.78%
+ 681  SEUCBS139899_002743_T1_18_184_AA16                   39.69%    passed     30.65%
+ 682  SEUCBS140593_002993_T1_18_184_AA16                   39.69%    passed     30.65%
+ 683  SbrunnCBS124561predictedgene_005284_T1_22_188_AA16   39.69%    passed     39.14%
+ 684  SBRCBS47491_003265_T1_18_185_AA16                    39.18%    passed     95.05%
+ 685  SCUCBS95973_000978_T1_595_762_AA16                   39.18%    passed     83.56%
+ 686  SinsecRCEF264predictedgene_000455_T1_19_184_AA16     39.69%    passed     42.59%
+ 687  SproteCBS116654predictedgene_006246_T1_18_149_AA16   48.45%    passed      9.18%
+ 688  AquisqBRIP72107predictedgene_005137_T1_20_185_AA16   41.75%    passed     65.71%
+ 689  Crosea671predictedgene_015746_T1_17_183_AA16         40.21%    passed     51.22%
+ 690  LLUCBS138716_006949_T1_19_189_AA16                   38.14%    passed     75.53%
+ 691  HperniHP10predictedgene_005648_T1_18_180_AA16        42.78%    passed     44.85%
+ 692  Sbrasi5110predictedgene_002580_T1_23_188_AA16        41.24%    passed     75.90%
+ 693  SgloboCBS120340predictedgene_004904_T1_23_188_AA16   41.24%    passed     65.63%
+ 694  SlurieCBS93772predictedgene_005286_T1_23_188_AA16    41.24%    passed     77.62%
+ 695  Sschen1099predictedgene_003994_T1_69_176_AA16        61.86%    passed     49.95%
+ 696  SBRCBS47491_007775_T1_19_184_AA16                    41.24%    passed     91.49%
+ 697  SCUCBS95973_003094_T1_23_188_AA16                    41.24%    passed     95.64%
+ 698  SEUCBS139899_004474_T1_23_188_AA16                   41.24%    passed     90.49%
+ 699  SEUCBS140593_003620_T1_23_188_AA16                   41.24%    passed     90.49%
+ 700  SdimorCBS55374predictedgene_006890_T1_23_188_AA16    41.24%    passed     83.45%
+ 701  SinflaCBS23968predictedgene_001370_T1_23_188_AA16    41.24%    passed     93.49%
+ 702  SvarieCBS121961predictedgene_007873_T1_3_151_AA16    45.88%    passed     78.23%
+ 703  SbrunnCBS124561predictedgene_008830_T1_23_188_AA16   41.24%    passed     89.82%
+ 704  SeuskaVPRI43754predictedgene_008712_T1_3_151_AA16    45.88%    passed     67.80%
+ 705  ShumicCBS118129predictedgene_008078_T1_23_188_AA16   41.24%    passed     81.98%
+ 706  SpalliCBS13156predictedgene_005439_T1_23_188_AA16    41.24%    passed     81.98%
+ 707  SmexicCBS120341predictedgene_001959_T1_23_188_AA16   41.24%    passed     91.70%
+ 708  SpseudVPRI43531predictedgene_001483_T1_7_103_AA16    62.37%    passed     59.35%
+ 709  SinsecRCEF264predictedgene_002457_T1_23_188_AA16     41.24%    passed     81.23%
+ 710  PRUSEMC34_001230_T1_21_187_AA16                      40.72%    passed     43.15%
+ 711  CprotrCCMJ2080predictedgene_007053_T1_13_276_AA14    15.98%    failed      1.12%
+ 712  TatrovIMI206040predictedgene_004141_T1_25_287_AA14   15.98%    passed     24.07%
+ 713  TharziCBS22695predictedgene_003080_T1_24_286_AA14    15.98%    passed     10.99%
+ 714  TvirenSpredictedgene_003033_T1_25_287_AA14           15.98%    passed     19.64%
+ 715  TpararCBS125925predictedgene_002265_T1_25_287_AA14   15.98%    passed     13.96%
+ 716  Crosea671predictedgene_010899_T1_23_287_AA14         15.98%    passed     13.36%
+ 717  AOLATCC24927_009090_T1_2_215_AA13                    32.99%    passed     97.11%
+ 718  Crosea671predictedgene_000684_T1_18_246_AA13         27.32%    passed     97.25%
+ 719  ASPSEMC78_001424_T1_19_248_AA13                      27.32%    passed     89.39%
+ 720  AtruncCBS140778predictedgene_004957_T1_19_248_AA13   27.32%    passed     93.78%
+ 721  AstygiMG137predictedgene_008075_T1_19_248_AA13       27.32%    passed     62.23%
+ 722  ONOH327_008446_T1_17_248_AA13                        27.32%    passed     79.28%
+ 723  SdimorCBS55374predictedgene_001507_T1_16_247_AA13    27.32%    passed     65.26%
+ 724  SmexicCBS120341predictedgene_009861_T1_12_243_AA13   27.32%    passed     88.64%
+ 725  CprotrCCMJ2080predictedgene_007510_T1_19_246_AA13    27.84%    passed     90.16%
+WARNING: 11 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                13.24%  29 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: SEUCBS140593_010799_T1_11_225_AA9 is identical to SEUCBS139899_001938_T1_7_221_AA9 but kept for subsequent analysis
+NOTE: SpalliCBS13156predictedgene_009381_T1_10_228_AA9 is identical to ShumicCBS118129predictedgene_008171_T1_9_228_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_005855_T1_9_228_AA9 is identical to SEUCBS139899_008026_T1_9_228_AA9 but kept for subsequent analysis
+NOTE: TreeseQM6apredictedgene_000136_T1_10_233_AA9 is identical to TpararCBS125925predictedgene_000434_T1_10_233_AA9 but kept for subsequent analysis
+NOTE: TreeseQM6apredictedgene_002840_T1_8_234_AA9 is identical to TpararCBS125925predictedgene_006187_T1_8_234_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_004209_T1_7_227_AA9 is identical to SEUCBS139899_005504_T1_7_227_AA9 but kept for subsequent analysis
+NOTE: AtruncCBS140778predictedgene_011019_T1_8_221_AA9 is identical to AtruncCBS140778predictedgene_005325_T1_8_221_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_008592_T1_10_234_AA9 is identical to SEUCBS139899_010033_T1_10_234_AA9 but kept for subsequent analysis
+NOTE: Sschen1099predictedgene_003721_T1_4_210_AA9 is identical to Sbrasi5110predictedgene_002305_T1_4_210_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_008792_T1_5_213_AA9 is identical to SEUCBS139899_002761_T1_5_213_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_000389_T1_7_214_AA9 is identical to SEUCBS139899_003488_T1_7_214_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_010532_T1_6_215_AA9 is identical to SEUCBS139899_010838_T1_6_215_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_007417_T1_6_213_AA9 is identical to SEUCBS139899_009697_T1_6_213_AA9 but kept for subsequent analysis
+NOTE: SpalliCBS13156predictedgene_008798_T1_10_210_AA9 is identical to ShumicCBS118129predictedgene_009995_T1_10_210_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_007843_T1_11_210_AA9 is identical to SEUCBS139899_008120_T1_11_210_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_006851_T1_8_238_AA9 is identical to SEUCBS139899_003585_T1_8_238_AA9 but kept for subsequent analysis
+NOTE: SEUCBS140593_005062_T1_19_215_AA11 is identical to SEUCBS139899_003886_T1_19_215_AA11 but kept for subsequent analysis
+NOTE: SpalliCBS13156predictedgene_005365_T1_19_213_AA11 is identical to ShumicCBS118129predictedgene_004475_T1_19_213_AA11 but kept for subsequent analysis
+NOTE: SEUCBS140593_008315_T1_22_228_AA11 is identical to SEUCBS139899_008592_T1_22_228_AA11 but kept for subsequent analysis
+NOTE: SpalliCBS13156predictedgene_003156_T1_22_223_AA11 is identical to ShumicCBS118129predictedgene_006185_T1_22_222_AA11 but kept for subsequent analysis
+NOTE: TreeseQM6apredictedgene_001378_T1_41_213_AA11 is identical to TpararCBS125925predictedgene_007437_T1_1_169_AA11 but kept for subsequent analysis
+NOTE: SpalliCBS13156predictedgene_010459_T1_18_222_AA11 is identical to ShumicCBS118129predictedgene_000306_T1_18_222_AA11 but kept for subsequent analysis
+NOTE: SEUCBS140593_009473_T1_18_229_AA11 is identical to SEUCBS139899_005998_T1_18_229_AA11 but kept for subsequent analysis
+NOTE: TFUSEMC49_001915_T1_37_211_AA11 is identical to TFUNBRC9317_001181_T1_37_210_AA11 but kept for subsequent analysis
+NOTE: TreeseQM6apredictedgene_002638_T1_18_285_AA14 is identical to TpararCBS125925predictedgene_000587_T1_18_285_AA14 but kept for subsequent analysis
+NOTE: TFUSEMC49_000639_T1_24_275_AA14 is identical to TFUNBRC9317_002271_T1_24_275_AA14 but kept for subsequent analysis
+NOTE: TmesenDSM1558predictedgene_002888_T1_20_274_AA14 is identical to TmesenATCC28783predictedgene_006932_T1_20_274_AA14 but kept for subsequent analysis
+NOTE: TFUSEMC49_000083_T1_844_1113_AA14 is identical to TFUNBRC9317_003942_T1_302_571_AA14 but kept for subsequent analysis
+NOTE: SEUCBS140593_002993_T1_18_184_AA16 is identical to SEUCBS139899_002743_T1_18_184_AA16 but kept for subsequent analysis
+NOTE: SEUCBS140593_003620_T1_23_188_AA16 is identical to SEUCBS139899_004474_T1_23_188_AA16 but kept for subsequent analysis
+NOTE: SpalliCBS13156predictedgene_005439_T1_23_188_AA16 is identical to ShumicCBS118129predictedgene_008078_T1_23_188_AA16 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.272 seconds
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -84276.030
+Optimal log-likelihood: -84276.007
+Gamma shape alpha: 2.152
+Parameters optimization took 1 rounds (0.721 sec)
+Time for fast ML tree search: 10.837 seconds
+
+NOTE: ModelFinder requires 242 MB RAM!
+ModelFinder will test up to 462 protein models (sample size: 194) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            86189.364    1447 175272.727   4365784.727  180001.318
+  2  LG+G4         84276.219    1448 171448.437   4367752.437  176180.296
+  3  LG+R2         84707.110    1449 172312.221   4374412.221  177047.347
+  4  LG+R3         84358.861    1451 171619.723   4385323.723  176361.385
+  5  LG+R4         84226.603    1453 171359.205   4396683.205  176107.403
+  6  LG+R5         84159.848    1455 171229.696   4408189.696  175984.430
+  7  LG+R6         84130.024    1457 171174.048   4419786.048  175935.317
+  8  LG+R7         84122.805    1459 171163.610   4431443.610  175931.415
+WARNING: Log-likelihood -84127 of LG+R8 worse than LG+R7 -84122.8
+  9  LG+R8         84126.961    1461 171175.923   4443139.923  175950.264
+ 18  LG+F+R6       84298.916    1476 171549.831   4531653.831  176373.190
+ 19  LG+F+R7       84295.526    1478 171547.052   4543471.052  176376.946
+ 29  WAG+R6        83965.476    1457 170844.953   4419456.953  175606.222
+ 30  WAG+R7        83960.915    1459 170839.829   4431119.829  175607.634
+ 40  WAG+F+R6      83942.372    1476 170836.744   4530940.744  175660.103
+ 41  WAG+F+R7      83938.472    1478 170832.945   4542756.945  175662.839
+ 51  JTT+R6        85340.673    1457 173595.347   4422207.347  178356.616
+ 52  JTT+R7        85328.128    1459 173574.255   4433854.255  178342.060
+ 62  JTT+F+R6      85654.178    1476 174260.355   4534364.355  179083.714
+ 63  JTT+F+R7      85645.692    1478 174247.385   4546171.385  179077.279
+ 73  JTTDCMut+R6   85287.430    1457 173488.861   4422100.861  178250.130
+ 74  JTTDCMut+R7   85275.716    1459 173469.432   4433749.432  178237.237
+ 84  JTTDCMut+F+R6 85598.504    1476 174149.008   4534253.008  178972.366
+ 85  JTTDCMut+F+R7 85590.729    1478 174137.458   4546061.458  178967.352
+ 95  DCMut+R6      85007.622    1457 172929.244   4421541.244  177690.513
+ 96  DCMut+R7      84991.718    1459 172901.436   4433181.436  177669.241
+106  DCMut+F+R6    85212.108    1476 173376.217   4533480.217  178199.576
+107  DCMut+F+R7    85195.264    1478 173346.529   4545270.529  178176.423
+117  VT+R6         84347.509    1457 171609.019   4420221.019  176370.288
+118  VT+R7         84341.996    1459 171601.992   4431881.992  176369.797
+128  VT+F+R6       84476.162    1476 171904.323   4532008.323  176727.682
+129  VT+F+R7       84472.174    1478 171900.348   4543824.348  176730.243
+139  PMB+R6        84834.650    1457 172583.300   4421195.300  177344.569
+140  PMB+R7        84830.547    1459 172579.095   4432859.095  177346.900
+150  PMB+F+R6      84451.764    1476 171855.528   4531959.528  176678.887
+151  PMB+F+R7      84449.109    1478 171854.218   4543778.218  176684.113
+161  Blosum62+R6   84795.691    1457 172505.382   4421117.382  177266.651
+162  Blosum62+R7   84786.054    1459 172490.108   4432770.108  177257.913
+172  Blosum62+F+R6 84444.992    1476 171841.984   4531945.984  176665.343
+173  Blosum62+F+R7 84439.673    1478 171835.345   4543759.345  176665.240
+183  Dayhoff+R6    85011.169    1457 172936.337   4421548.337  177697.607
+184  Dayhoff+R7    84995.194    1459 172908.388   4433188.388  177676.193
+194  Dayhoff+F+R6  85216.929    1476 173385.858   4533489.858  178209.217
+195  Dayhoff+F+R7  85199.984    1478 173355.967   4545279.967  178185.862
+205  mtREV+R6      89374.214    1457 181662.428   4430274.428  186423.698
+206  mtREV+R7      89364.488    1459 181646.976   4441926.976  186414.781
+216  mtREV+F+R6    87055.588    1476 177063.176   4537167.176  181886.534
+217  mtREV+F+R7    87047.036    1478 177050.071   4548974.071  181879.966
+227  mtART+R6      90715.769    1457 184345.537   4432957.537  189106.806
+228  mtART+R7      90676.220    1459 184270.440   4444550.440  189038.245
+238  mtART+F+R6    88358.662    1476 179669.325   4539773.325  184492.683
+239  mtART+F+R7    88345.274    1478 179646.549   4551570.549  184476.443
+249  mtZOA+R6      88693.580    1457 180301.160   4428913.160  185062.429
+250  mtZOA+R7      88666.698    1459 180251.396   4440531.396  185019.201
+260  mtZOA+F+R6    87111.758    1476 177175.516   4537279.516  181998.875
+261  mtZOA+F+R7    87099.138    1478 177154.277   4549078.277  181984.171
+271  mtMet+R6      89707.488    1457 182328.976   4430940.976  187090.246
+272  mtMet+R7      89692.623    1459 182303.246   4442583.246  187071.051
+282  mtMet+F+R6    87730.295    1476 178412.591   4538516.591  183235.949
+283  mtMet+F+R7    87721.631    1478 178399.262   4550323.262  183229.157
+293  mtVer+R6      90691.644    1457 184297.287   4432909.287  189058.557
+294  mtVer+R7      90679.431    1459 184276.863   4444556.863  189044.668
+304  mtVer+F+R6    89023.956    1476 180999.913   4541103.913  185823.271
+305  mtVer+F+R7    89014.457    1478 180984.913   4552908.913  185814.808
+315  mtInv+R6      89479.393    1457 181872.786   4430484.786  186634.055
+316  mtInv+R7      89466.852    1459 181851.705   4442131.705  186619.510
+326  mtInv+F+R6    86500.052    1476 175952.105   4536056.105  180775.463
+327  mtInv+F+R7    86491.439    1478 175938.877   4547862.877  180768.772
+337  mtMAM+R6      92853.209    1457 188620.417   4437232.417  193381.687
+338  mtMAM+R7      92839.010    1459 188596.019   4448876.019  193363.824
+348  mtMAM+F+R6    90328.182    1476 183608.364   4543712.364  188431.723
+349  mtMAM+F+R7    90320.052    1478 183596.104   4555520.104  188425.998
+359  HIVb+R6       88640.658    1457 180195.317   4428807.317  184956.586
+360  HIVb+R7       88633.912    1459 180185.823   4440465.823  184953.628
+370  HIVb+F+R6     88322.561    1476 179597.122   4539701.122  184420.480
+371  HIVb+F+R7     88313.726    1478 179583.453   4551507.453  184413.347
+381  HIVw+R6       91852.316    1457 186618.632   4435230.632  191379.902
+382  HIVw+R7       91833.601    1459 186585.202   4446865.202  191353.007
+392  HIVw+F+R6     90738.549    1476 184429.098   4544533.098  189252.457
+393  HIVw+F+R7     90706.115    1478 184368.231   4556292.231  189198.125
+403  FLU+R6        86668.632    1457 176251.264   4424863.264  181012.533
+404  FLU+R7        86654.302    1459 176226.604   4436506.604  180994.409
+414  FLU+F+R6      86092.221    1476 175136.443   4535240.443  179959.801
+415  FLU+F+R7      86083.051    1478 175122.101   4547046.101  179951.996
+425  rtREV+R6      84718.707    1457 172351.414   4420963.414  177112.683
+426  rtREV+R7      84711.400    1459 172340.800   4432620.800  177108.605
+436  rtREV+F+R6    84710.707    1476 172373.414   4532477.414  177196.773
+437  rtREV+F+R7    84704.201    1478 172364.401   4544288.401  177194.295
+447  cpREV+R6      85100.989    1457 173115.977   4421727.977  177877.247
+448  cpREV+R7      85084.095    1459 173086.190   4433366.190  177853.995
+458  cpREV+F+R6    84750.971    1476 172453.941   4532557.941  177277.300
+459  cpREV+F+R7    84740.122    1478 172436.244   4544360.244  177266.138
+Akaike Information Criterion:           WAG+F+R7
+Corrected Akaike Information Criterion: LG
+Bayesian Information Criterion:         WAG+R6
+Best-fit model: WAG+R6 chosen according to BIC
+
+All model information printed to LPMO.model.gz
+CPU time for ModelFinder: 2496.923 seconds (0h:41m:36s)
+Wall-clock time for ModelFinder: 2522.815 seconds (0h:42m:2s)
+Generating 1000 samples for ultrafast bootstrap (seed: 563834)...
+
+NOTE: 146 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -83965.476
+Optimal log-likelihood: -83965.472
+Site proportion and rates:  (0.061,0.122) (0.083,0.317) (0.154,0.587) (0.245,0.878) (0.295,1.243) (0.162,1.813)
+Parameters optimization took 1 rounds (2.968 sec)
+Computing ML distances based on estimated model parameters... 78.202 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.703 seconds
+Log-likelihood of BIONJ tree: -85518.012
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 28.280 second
+Computing log-likelihood of 98 initial trees ... 36.665 seconds
+Current best score: -83965.472
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -83938.622
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -83933.862
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -83931.255
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -83896.481
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -83865.778
+Iteration 10 / LogL: -83944.406 / Time: 0h:5m:1s
+Iteration 20 / LogL: -83915.337 / Time: 0h:7m:0s
+Finish initializing candidate tree set (20)
+Current best tree score: -83865.778 / CPU time: 333.755
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -83858.044
+Iteration 30 / LogL: -83908.733 / Time: 0h:8m:59s (0h:29m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 35: -83856.072
+Iteration 40 / LogL: -83901.194 / Time: 0h:11m:3s (0h:26m:57s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 45: -83852.368
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -83837.672
+Iteration 50 / LogL: -83837.672 / Time: 0h:13m:12s (0h:26m:57s left)
+Log-likelihood cutoff on original alignment: -84019.595
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -83834.601
+Iteration 60 / LogL: -83868.701 / Time: 0h:15m:12s (0h:23m:58s left)
+Iteration 70 / LogL: -84442.445 / Time: 0h:16m:57s (0h:20m:23s left)
+Iteration 80 / LogL: -83848.413 / Time: 0h:18m:45s (0h:17m:20s left)
+Iteration 90 / LogL: -83871.083 / Time: 0h:20m:39s (0h:14m:37s left)
+Iteration 100 / LogL: -83975.184 / Time: 0h:22m:30s (0h:12m:2s left)
+Log-likelihood cutoff on original alignment: -83976.915
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+Iteration 110 / LogL: -83867.016 / Time: 0h:24m:17s (0h:20m:3s left)
+Iteration 120 / LogL: -83851.802 / Time: 0h:26m:13s (0h:17m:38s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 124: -83825.597
+Iteration 130 / LogL: -83844.667 / Time: 0h:28m:6s (0h:20m:29s left)
+Iteration 140 / LogL: -83878.891 / Time: 0h:30m:10s (0h:18m:13s left)
+Iteration 150 / LogL: -83909.344 / Time: 0h:31m:59s (0h:15m:53s left)
+Log-likelihood cutoff on original alignment: -83976.915
+Iteration 160 / LogL: -83910.056 / Time: 0h:33m:50s (0h:13m:37s left)
+Iteration 170 / LogL: -83827.072 / Time: 0h:35m:45s (0h:11m:25s left)
+Iteration 180 / LogL: -83845.977 / Time: 0h:37m:40s (0h:9m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 187: -83821.836
+Iteration 190 / LogL: -83944.554 / Time: 0h:39m:40s (0h:20m:21s left)
+Iteration 200 / LogL: -84012.836 / Time: 0h:41m:37s (0h:18m:11s left)
+Log-likelihood cutoff on original alignment: -83976.915
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Iteration 210 / LogL: -83912.754 / Time: 0h:43m:34s (0h:18m:45s left)
+Iteration 220 / LogL: -83973.016 / Time: 0h:45m:34s (0h:16m:38s left)
+Iteration 230 / LogL: -83842.974 / Time: 0h:47m:33s (0h:14m:32s left)
+Iteration 240 / LogL: -83853.310 / Time: 0h:49m:34s (0h:12m:26s left)
+Iteration 250 / LogL: -83848.377 / Time: 0h:51m:16s (0h:10m:17s left)
+Log-likelihood cutoff on original alignment: -83976.915
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 254: -83819.776
+Iteration 260 / LogL: -83864.750 / Time: 0h:53m:6s (0h:19m:16s left)
+Iteration 270 / LogL: -84010.143 / Time: 0h:54m:45s (0h:17m:5s left)
+Iteration 280 / LogL: -83911.210 / Time: 0h:56m:30s (0h:14m:59s left)
+Iteration 290 / LogL: -83861.133 / Time: 0h:58m:13s (0h:12m:53s left)
+Iteration 300 / LogL: -83870.894 / Time: 0h:59m:58s (0h:10m:49s left)
+Log-likelihood cutoff on original alignment: -83974.321
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+Iteration 310 / LogL: -83921.928 / Time: 1h:1m:42s (0h:17m:58s left)
+Iteration 320 / LogL: -83835.444 / Time: 1h:3m:24s (0h:15m:54s left)
+Iteration 330 / LogL: -83868.276 / Time: 1h:5m:3s (0h:13m:50s left)
+Iteration 340 / LogL: -83867.932 / Time: 1h:6m:46s (0h:11m:49s left)
+Iteration 350 / LogL: -83865.199 / Time: 1h:8m:25s (0h:9m:48s left)
+Log-likelihood cutoff on original alignment: -83974.321
+TREE SEARCH COMPLETED AFTER 355 ITERATIONS / Time: 1h:9m:20s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -83819.776
+2. Current log-likelihood: -83819.755
+Optimal log-likelihood: -83819.744
+Site proportion and rates:  (0.062,0.120) (0.085,0.323) (0.135,0.573) (0.241,0.852) (0.307,1.217) (0.171,1.811)
+Parameters optimization took 2 rounds (3.050 sec)
+BEST SCORE FOUND : -83819.744
+Creating bootstrap support values...
+Split supports printed to NEXUS file LPMO.splits.nex
+Total tree length: 135.792
+
+Total number of iterations: 355
+CPU time used for tree search: 4038.176 sec (1h:7m:18s)
+Wall-clock time used for tree search: 4073.259 sec (1h:7m:53s)
+Total CPU time used: 4130.895 sec (1h:8m:50s)
+Total wall-clock time used: 4166.940 sec (1h:9m:26s)
+
+Computing bootstrap consensus tree...
+Reading input file LPMO.splits.nex...
+725 taxa and 3589 splits.
+Consensus tree written to LPMO.contree
+Reading input trees file LPMO.contree
+Log-likelihood of consensus tree: -83816.847
+
+Analysis results written to: 
+  IQ-TREE report:                LPMO.iqtree
+  Maximum-likelihood tree:       LPMO.treefile
+  Likelihood distances:          LPMO.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          LPMO.splits.nex
+  Consensus tree:                LPMO.contree
+  Screen log file:               LPMO.log
+
+Date and Time: Thu Oct  5 16:04:01 2023

@@ -1,0 +1,3 @@
+LEGEND_SHAPES	1	1	1
+LEGEND_COLORS	#3182BD	#9ECAE1	#DEEBF7
+LEGEND_LABELS	Ascomycota	Basidiomycota	Mucoromycota
