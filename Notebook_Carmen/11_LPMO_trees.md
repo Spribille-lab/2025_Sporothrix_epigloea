@@ -135,3 +135,68 @@ cd /Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/Sordariomycetes
 ```
 
 
+# re-do March 2024
+need to use blastp this time.  Also using an S. epigloea AA14 as the query
+
+
+## AA14 tree
+
+2024.03.07
+/Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/AA14/Fungi_March2024
+
+query: original AA14 characterized AUM86167.1
+run tree in debary with iqtree2.2.3
+blastp to the new experimental database nr_clustered
+evalue cutoff of 1e-25
+1308 blastp hits, 59 from genome annotations
+
+
+* renamed fasta file 
+
+rename fasta headers in sublime
+
+(^>\S+\.\d)(.+)(\[)(\S+)(\s)(\S+)(\s*)(\S*)(\])
+\1_\4_\6_\8
+
+(^>\S+\.\d)(.+)(\[)(\S+)(\s)(\S+)(\s*)(\S*)(\s*)(\S*)(\])
+\1_\4_\6_\8$10
+
+(^>\S+\.\d)(.+)(\_$)
+\1\2
+
+
+* combined fastas from blastp hits with annotated genomes
+
+```
+cd /Users/carmenallen/Documents/2023_02_Sporothrix/
+cat 11_LPMO_trees/AA14/Fungi_March2024/blastp/blastp_results.fa 10_annotations/dbcan4/summarized_outputs/allgenomes.cazy_aa14.renamed.fa > 11_LPMO_trees/AA14/Fungi_March2024/Fungi_AA14.fa
+```
+
+aligned using geneious
+Geneious Prime® 2024.0.2 Build 2024-02-14 15:15 Java Version 11.0.20.1+1 (64 bit)
+MAFFT v7.450 algorithm auto, Scoring matrix BLOSUM62 Gap open penalty 1.53 Offset value 0.123
+
+* exported phylip format (relaxed)
+* trim
+
+```
+cd /Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/AA14/Fungi_March2024
+conda activate trimal_1.4.1 
+trimal -in Fungi_AA14_alignment.phy -out Fungi_AA14_alignment_trimmed.phy -gappyout
+
+```
+* tree
+```
+conda activate iqtree2-env
+cd /data/ccallen/2023_02_Sporothrix/11_LPMO_trees/AA14/Fungi_March2024
+iqtree -s Fungi_AA14_alignment_trimmed.phy -nt AUTO -m MFP -B 1000 -pre AA14_Fungi
+```
+
+* extracted taxonomic information using taxize 0.9.100
+2024.03.13
+
+11_taxize.R
+
+* used itol to visualize the tree
+annotation text files are in:
+/Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/AA14/Fungi_March2024/itol 

@@ -121,6 +121,7 @@ metadata <- as.data.frame(cbind(sets, group))
   
 pdf(file="~/Documents/2023_02_Sporothrix/09_orthology/OrthoFinder/Results_Aug07/figures/orthofinder_upset_core_sporothrix.pdf",
     width=15, height=9)
+help("upset")
 
 upset(fromList(sporothrix_list),
       nsets = 23,
@@ -128,7 +129,8 @@ upset(fromList(sporothrix_list),
       order.by = "freq",
       mainbar.y.label = "Intersection size",
       sets.x.label = "Unique orthogroups",
-      #mainbar.y.max = 5000,
+      scale.intersections = "identity",
+      #mainbar.y.max = 500,
       set.metadata = list(data = metadata,
                           plots = list(list(type = "matrix_rows",
                                             column = "group",

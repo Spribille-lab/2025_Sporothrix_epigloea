@@ -174,7 +174,7 @@ annotations <- rowAnnotation(
                         at = c(0, 15), 
                         labels = c("0", "15")),
                       border = FALSE,
-                      gp = gpar(fill = "#D88782", col = "#D88782", lineend = "round")),
+                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
   "YR" = anno_barplot((YR_matrix),
                       width = unit(1, "cm"),
                       baseline = c(0),
@@ -183,9 +183,42 @@ annotations <- rowAnnotation(
                         at = c(0, 10), 
                         labels = c("0", "10")),
                       border = FALSE,
-                      gp = gpar(fill = "#D88782", col = "#D88782", lineend = "round")),
+                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
   gap = unit(3, "mm"),
   show_annotation_name = FALSE)
+
+row_labels = genome
+row_labels
+names(row_labels) = c("S. euskadiensis VPRI43754",
+                      "S. pseudoabietina VPRI43531",
+                      "S. variecibatus CBS 121961",
+                      "S. protearum CBS 116654",
+                      "S. humicola CBS 118129",
+                      "S. pallida CBS 131.56",
+                      "S. mexicana CBS 120341",
+                      "S. brasiliensis 5110",
+                      "S. schenckii 1099",
+                      "S. globosa CBS 120340",
+                      "S. luriei CBS 937.72",
+                      "S. phasma CBS 119721",
+                      "S. dimorphospora CBS 553.74",
+                      "S. inflata CBS 239.68",
+                      "S. bragantina CBS 474.91",
+                      "S. curviconia CBS 959.73",
+                      "S. thermara CBS 139747MAG",
+                      "S. epigloea CBS 573.63",
+                      "S. epigloea TF4163MAG",
+                      "S. epigloea CBS 119000",
+                      "S. eucalyptigena CBS 139899",
+                      "S. eucalyptigena CBS 140593",
+                      "S. nigrograna VPRI43755",
+                      "O. novo-ulmi H327",
+                      "O. ips VPRI43529",
+                      "S. brunneoviolacea CBS 124561",
+                      "O. fasciatum VPRI43845",
+                      "S. insectorum RCEF264",
+                      "L. lundbergii CBS 138716")
+names(row_labels)
 
 library(circlize)
 col_fun = colorRamp2(c(0, max(unlist(CAZyme_matrix))), c("white", "darkorchid"))
@@ -199,9 +232,11 @@ cazyme_hm <- Heatmap(CAZyme_matrix,
                      row_dend_width = unit(2, "cm"),
                      column_names_gp = grid::gpar(fontsize = 8),
                      row_names_side = "left",
+                     row_labels = names(row_labels),
                      row_names_gp = grid::gpar(fontsize = 8),
                      width = unit(3, "cm"),
                      height = unit(8, "cm"),
+                     show_column_dend = FALSE,
                      left_annotation = annotations,
                      #left_annotation = rowAnnotation(
                      #pathogen = genome_attributes_matrix[,"mammal_pathogen"],
@@ -238,11 +273,13 @@ secmets_hm <- Heatmap(secmets_matrix,
                       row_dend_width = unit(2, "cm"),
                       column_names_gp = grid::gpar(fontsize = 8),
                       row_names_side = "left",
+                      row_labels = names(row_labels),
                       row_names_gp = grid::gpar(fontsize = 8),
                       width = unit(3.5, "cm"),
                       height = unit(8, "cm"),
                       #right_annotation = annotations,
                       show_heatmap_legend = FALSE,
+                      show_column_dend = FALSE,
                       cell_fun = function(j, i, x, y, width, height, fill) {
                         grid.text(secmets_matrix[i, j], x, y, gp = gpar(fontsize = 6))})
 secmets_hm
@@ -257,11 +294,13 @@ merops_hm <- Heatmap(merops_matrix,
                      row_dend_width = unit(2, "cm"),
                      column_names_gp = grid::gpar(fontsize = 8),
                      row_names_side = "left",
+                     row_labels = names(row_labels),
                      row_names_gp = grid::gpar(fontsize = 8),
                      width = unit(4.5, "cm"),
                      height = unit(8, "cm"),
                      #right_annotation = annotations,
                      show_heatmap_legend = FALSE,
+                     show_column_dend = FALSE,
                      cell_fun = function(j, i, x, y, width, height, fill) {
                        grid.text(merops_matrix[i, j], x, y, gp = gpar(fontsize = 6))})
 merops_hm
@@ -279,10 +318,12 @@ attributes_hm <- Heatmap(genome_attributes_lifestyle_matrix,
                          row_dend_width = unit(2, "cm"),
                          column_names_gp = grid::gpar(fontsize = 8),
                          row_names_side = "left",
+                         row_labels = names(row_labels),
                          row_names_gp = grid::gpar(fontsize = 8),
                          width = unit(3, "cm"),
                          height = unit(8, "cm"),
-                         show_heatmap_legend = FALSE)
+                         show_heatmap_legend = FALSE,
+                         show_column_dend = FALSE)
 attributes_hm 
 
 

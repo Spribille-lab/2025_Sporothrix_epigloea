@@ -1,0 +1,8 @@
+Checklist	ERC000011	ENA default sample checklist						
+tax_id	scientific_name	sample_alias	sample_title	sample_description	collection date	geographic location (country and/or sea)	culture_collection	strain
+#units	 	 	 	 	 	 	 	 
+1758741	Tremella yokohamensis	Tremella yokohamensis CBS 18117	Tremella yokohamensis isolate CBS 18117	Tremella yokohamensis isolate CBS 18117	2021-08	USA	CBS 18117	CBS 18117
+327058	Annulohypoxylon annulatum	Annulohypoxylon annulatum CBS 149473	Annulohypoxylon annulatum isolate CBS 149473	Annulohypoxylon annulatum isolate CBS 149473	2021-08	USA	CBS 149473	CBS 149473
+5217	Tremella mesenterica	Tremella mesenterica CBS 18116	Tremella mesenterica isolate CBS 18116	Tremella mesenterica isolate CBS 18116	2021-10	Canada	CBS 18116	CBS 18116
+55356	Peniophora rufa	Peniophora rufa CBS 149472	Tremella mesenterica isolate CBS 18116	Tremella mesenterica isolate CBS 18116	2021-10	Canada	CBS 149472	CBS 149472
+								

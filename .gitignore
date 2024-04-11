@@ -12,6 +12,8 @@ R_markdown/*.html
 10_annotations/protein_fasta/
 10_annotations/fastas/
 10_annotations/dbcan4/
+10_annotations/figures/
 11_LPMO_trees/*/
 12_starfish/*/
+13_dnds/*/
 manuscript/
