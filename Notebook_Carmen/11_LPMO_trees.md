@@ -136,7 +136,7 @@ cd /Users/carmenallen/Documents/2023_02_Sporothrix/11_LPMO_trees/Sordariomycetes
 
 
 # re-do March 2024
-need to use blastp this time.  Also using an S. epigloea AA14 as the query
+need to use blastp this time
 
 
 ## AA14 tree

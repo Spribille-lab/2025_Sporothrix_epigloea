@@ -35,6 +35,7 @@ Isolates:
 * *Sporothrix thermara* CBS 139747
 * *Annulohypoxylon annulatum* CBS 149473
 * *Tremella yokohamensis* CBS 18117
+
 Environmental sample:
 * *Tremella yokohamensis* sporocarp TF4-1
 
@@ -168,8 +169,9 @@ sed -n -e '/^\tC:/p' $filename >> busco_report.txt
 done
 ```
 
-* For CBS 139747 I combined bins 1, 2, 3, 21, 23, 26, and 34
+For CBS 139747 I combined bins 1, 2, 3, 21, 23, 26, and 34
     * C:95.6%[S:95.4%,D:0.2%],F:1.2%,M:3.2%,n:3817 (sordariomycetes_odb10)
+
 For TF4-1 I extracted bin 63
     * C:98.0%[S:98.0%,D:0.0%],F:1.6%,M:0.4%,n:255 (fungi_odb10)
 
@@ -262,7 +264,8 @@ Software used:
 * starfish v1.0.0 (Gluck-Thaler & Vogan, 2023)
     * metaeuk (Karin et al., 2020)
 
-### 5.1 ran funannotate pipeline with script `scripts/funannotate_annotate_script_v2023_1.sh`
+### 5.1 ran funannotate pipeline
+script `scripts/funannotate_annotate_script_v2023_1.sh`
 
 ```
 FILENAME="${1##*/}" #Tremella_mesenterica_S_ATCC28783_GCA_004117975.fna
@@ -360,19 +363,222 @@ done
 
 ## 6. Genome comparisons
 * compare utility of funannotate
+* OrthoFinder 2.5.5 (Emms & Kelly, 2019)
 * custom R scripts
     * ComplexHeatmap v2.13.2 package (Gu, 2022; Gu et al., 2016)
     * ape v5.6-2 (Paradis & Schliep, 2019)
     * DECIPHER v2.25.2 (Wright, 2016)
     * tidyverse v1.3.2 (Wickham et al., 2019)
-* OrthoFinder 2.5.5 (Emms & Kelly, 2019)
-* UpSetR v1.4.0 (Conway et al., 2017)
+    * UpSetR v1.4.0 (Conway et al., 2017)
 * IQ-TREE 2.0.7 (Minh et al., 2020)
     * ModelFinder (Kalyaanamoorthy et al., 2017)
-    * 1000 ultrafast bootstrap replicates (Hoang et al., 2017)
+    * ultrafast bootstraps (Hoang et al., 2017)
 
-### 6.1 comparisons
-### 6.2 orthogroup inference
-### 6.3 tree (show MSA)
 
-## gene trees
+### 6.1 Species tree construction of *Sporothrix*, *Ophiostoma*, and *Leptographium* genomes
+
+* orthogroup inference `scripts/09_orthofinder_docker_for_tree.sh`
+* results found in `09_orthology/OrthoFinder/Results_Aug03/`
+```
+orthofinder \
+-t 64 \
+-a 64 \
+-M msa \
+-A mafft \
+-o /input/orthofinder_output_Aug3 \
+-f /input/orthofinder_input
+```
+
+* run IQ-TREE on MSA from orthofinder output using `scripts/09_iqtreesh.sh`
+* MSA input can be found in `09_orthology/OrthoFinder/Results_Aug03/MultipleSequenceAlignments/`
+* results can be found in `09_orthology/OrthoFinder/Results_Aug03/Species_Tree/iqtree2`
+
+```
+iqtree2 -s Results_Aug03/MultipleSequenceAlignments/SpeciesTreeAlignment.fa \
+-o Leptographium_lundbergii_CBS138716 \
+-nt 29 \
+-m MFP \
+-B 1000 \
+-pre sporothrix_placement
+```
+
+### 6.2 Orthogroup inference of *Sporothrix* *sensu stricto* genomes
+* using `scripts/09_orthofinder_core_docker.sh`
+* results found in `09_orthology/OrthoFinder/Results_Aug07/`
+
+```
+orthofinder \
+-t 64 \
+-a 64 \
+-M msa \
+-A mafft \
+-o /input/orthofinder_output_core_Aug7 \
+-f /input/orthofinder_input_core
+```
+* visualized the orthogroup overlaps using `scripts/09_Sporothrix_orthofinder.R`
+
+### 6.3 Comparisons using funannotate
+
+* used compare utility of funannotate to compare annotations
+```
+funannotate compare -i \
+<list gbk files> \
+--num_orthos 1 --cpus 32 -o funannotate_compare_notree
+```
+
+### 6.4 merge annotations from funannotate, DeepLoc, and Orthofinder
+
+* merged annotations using `scripts/10_merge_annotations.R`
+
+
+
+
+## 7. LPMO gene trees
+
+* used dbCAN 4.0.0 (dbCAN HMMdb release 12.0) to annotate CAZymes from 10 *de novo* genome assemblies and 58 additional downloaded assemblies 
+
+Agaricus_bisporus_S_H97_GCA_000300575
+Ampelomyces_quisqualis_S_BRIP72107_GCA_018398575
+Annulohypoxylon_annulatum_S_SEMC78_GCA_944038255
+Annulohypoxylon_stygium_S_MG137_GCA_003049155
+Annulohypoxylon_truncatum_S_CBS140778_GCA_902805465
+Arthrobotrys_oligospora_S_ATCC24927_GCA_000225545
+Cladobotryum_protrusum_S_CCMJ2080_GCA_004303015
+Clonostachys_rosea_S_671_GCA_000963775
+Cryptococcus_gattii_S_WM276_GCA_000185945
+Cryptococcus_neoformans_S_V31_GCA_002215745
+Escovopsis_weberi_S_strain_GCA_001278495
+Holtermannia_corniformis_S_JCM1743_GCA_001599935
+Hypomyces_perniciosus_S_HP10_GCA_008477525
+Leptographium_lundbergii_S_CBS138716_GCA_001455505
+Ophiostoma_fasciatum_S_VPRI43845_GCA_019925495
+Ophiostoma_ips_S_VPRI43529_GCA_019925475
+Ophiostoma_novoulmi_S_H327_GCA_000317715
+Parasitella_parasitica_S_CBS41266_GCA_000938895
+Pseudozyma_flocculosa_S_PF1_GCA_000417875
+Pycnoporus_coccineus_S_BRFM310_GCA_002092935
+Sporothrix_bragantina_S_CBS47491_GCA_XXXXXXXXX
+Sporothrix_brasiliensis_S_5110_GCA_000820605
+Sporothrix_brunneoviolacea_S_CBS124561_GCA_021396205
+Sporothrix_curviconia_S_CBS95973_GCA_XXXXXXXXX
+Sporothrix_dimorphospora_S_CBS55374_GCA_021397985
+Sporothrix_epigloea_S_CBS119000_GCA_943908295
+Sporothrix_epigloea_S_CBS57363_GCA_943900835
+Sporothrix_epigloea_S_TF4163_GCA_944036445
+Sporothrix_eucalyptigena_S_CBS139899_GCA_XXXXXXXXX
+Sporothrix_eucalyptigena_S_CBS140593_GCA_XXXXXXXXX
+Sporothrix_euskadiensis_S_VPRI43754_GCA_019925375
+Sporothrix_globosa_S_CBS120340_GCA_001630435
+Sporothrix_humicola_S_CBS118129_GCA_021396245
+Sporothrix_inflata_S_CBS23968_GCA_021396225
+Sporothrix_insectorum_S_RCEF264_GCA_001636815
+Sporothrix_luriei_S_CBS93772_GCA_021398005
+Sporothrix_mexicana_S_CBS120341_GCA_021396375
+Sporothrix_nigrograna_S_VPRI43755_GCA_019925305
+Sporothrix_pallida_S_CBS13156_GCA_021396235
+Sporothrix_phasma_S_CBS119721_GCA_011037845
+Sporothrix_protearum_S_CBS116654_GCA_016097115
+Sporothrix_pseudoabietina_S_VPRI43531_GCA_019925295
+Sporothrix_schenckii_S_1099_GCA_000961545
+Sporothrix_thermara_S_CBS139747_GCA_XXXXXXXXX
+Sporothrix_variecibatus_S_CBS121961_GCA_021396255
+Tremella_fuciformis_S_NBRC9317_GCA_024343405
+Tremella_yokohamensis_S_SEMC49_GCA_944472115
+Tremella_fuciformis_S_tr26_GCA_000987905
+Tremella_mesenterica_S_ATCC28783_GCA_004117975
+Tremella_mesenterica_S_DSM1558_GCA_000271645
+Tremella_yokohamensis_S_NBRC100148_GCA_024343385
+Trichoderma_atroviride_S_IMI206040_GCA_000171015
+Trichoderma_harzianum_S_CBS22695_GCA_003025095
+Trichoderma_parareesei_S_CBS125925_GCA_001050175
+Trichoderma_reesei_S_QM6a_GCA_000167675
+Trichoderma_virens_S_Gv298_GCA_000170995
+Kockovaella_imperatae_S_NRRLY17943_GCA_002102565
+Melampsora_medusae_S_Mmd05TRE539_GCA_002157035
+Ophiocordyceps_australis_S_Map64_GCA_002591415
+Rhizopus_arrhizus_S_971192_GCA_000697195
+Saccharomyces_cerevisiae_S_S288C_GCA_000146045
+Schizosaccharomyces_japonicus_S_yFS275_GCA_000149845
+Sclerotinia_sclerotiorum_S_1980_GCA_000146945
+Talaromyces_cellulolyticus_S_NA01_GCA_009805475
+Tuber_melanosporum_S_Mel28_GCA_000151645
+Ustilago_maydis_S_521_GCA_000328475
+Xylaria_hypoxylon_S_CBS122620_GCA_902806585
+Xylographa_opegraphella_S_Spribille41601_GCA_022813865
+
+```
+run_dbcan {input} protein \
+--out_dir dbcan4/{wildcards.sample}_dbcan \
+--db_dir /data/ccallen/bin/run_dbcan_4.0.0/db/ \
+--use_signalP True
+```
+* processed the outputs and generated a table of lpmo and AA14 coordinates using `scripts/10_process_dbcan.R`
+
+* extracted LPMO sequences from predicted proteomes
+
+```
+cd 10_annotations/dbcan4
+while IFS=$'\t' read -r v1 v2 v3 v4; do samtools faidx ../protein_fasta_dbcan/"$v1".proteins.fa $v2:$v3-$v4 >> summarized_outputs/allgenomes.cazy_aa14.fa; done < summarized_outputs/AA14_coordinates.txt
+while IFS=$'\t' read -r v1 v2 v3 v4; do samtools faidx ../protein_fasta_dbcan/"$v1".proteins.fa $v2:$v3-$v4 >> summarized_outputs/allgenomes.cazy_lpmo.fa; done < summarized_outputs/lpmo_coordinates.txt
+```
+
+### 7.1 LPMO tree
+
+* aligned LPMO sequences with MAFFT v7.450 (within Geneious Prime® 2023.2.1) and trimmed with trimal v1.4.1
+
+```
+trimal -in LPMO_alignment.phy -out LPMO_alignment_trimmed.phy -gappyout
+```
+
+* generated a maximum likelihood tree of LPMOs with IQ-TREE 2.0-rc1 using ModelFinder and 1000 ultrafast bootstrap replicates
+
+```
+iqtree \
+-s 11_LPMO_trees/LPMO/LPMO_alignment_trimmed.phy \
+-m MFP \
+-B 1000 \
+-pre LPMO
+```
+
+* alignment and results in `11_LPMO_trees/LPMO`
+
+### 7.2 AA14 tree
+
+* used blastp to search the nr_clustered database
+* accessed 2024.03.07
+* query: original AA14 characterized AUM86167.1
+* evalue cutoff of 1e-25
+* 1308 blastp hits
+
+* combined with 59 AA14 protein sequences from dbCAN 4.0.0 genome annotations
+```
+cat 11_LPMO_trees/AA14/Fungi_March2024/blastp/blastp_results.fa 10_annotations/dbcan4/summarized_outputs/allgenomes.cazy_aa14.renamed.fa > 11_LPMO_trees/AA14/Fungi_March2024/Fungi_AA14.fa
+```
+
+* aligned AA14 sequences with MAFFT v7.450 (within Geneious Prime® 2023.2.1) and trimmed with trimal v1.4.1
+
+```
+trimal -in Fungi_AA14_alignment.phy -out Fungi_AA14_alignment_trimmed.phy -gappyout
+```
+
+* generated a maximum likelihood tree of AA14s with IQ-TREE 2.0-rc1 using ModelFinder and 1000 ultrafast bootstrap replicates
+
+```
+cd 11_LPMO_trees/AA14/Fungi_March2024
+iqtree \
+-s Fungi_AA14_alignment_trimmed.phy \
+-nt auto \
+-m MFP \
+-B 1000 \
+-pre AA14_Fungi
+```
+
+* alignment and results in `11_LPMO_trees/AA14/Fungi_March2024`
+
+* used `scripts/11_taxize.R` to pull taxonomy for each tip and generate helper files for iTOL (Letunic & Bork 2019).
+* text files used to annotate tree in `11_LPMO_trees/AA14/Fungi_March2024/itol`
+
+
+
+
+

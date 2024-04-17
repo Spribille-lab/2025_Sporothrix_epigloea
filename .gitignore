@@ -23,6 +23,6 @@ R_markdown/*.html
 11_LPMO_trees/AA14/Fungi/
 11_LPMO_trees/AA14/Fungi_March2024/itol/just_Hypocreales/
 11_LPMO_trees/AA14/Sordariomycetes/
-12_starfish/*/
+12_starfish/gff3/
 13_dnds/*
 manuscript/
