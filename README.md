@@ -351,7 +351,7 @@ mv iprscan_* "$DIRNAME"/.
 ### 5.2 Deeploc
 
 ```
-cd "$project_directory"/10_annotations/DeepLoc2
+cd 10_annotations/DeepLoc2
 conda activate deeploc-2.0
 for sample in $(cat samples.txt)
 do
@@ -360,6 +360,32 @@ done
 ```
 
 ### 5.3 starfish v1.0.0
+
+
+```
+cd 12_starfish
+```
+* create ome2*.txt files detailing the absolute path to each genome's gff3 and assembly
+```
+realpath assembly/*.final.fasta | perl -pe 's/^(.+?([^\/]+?).contigs.final.fasta)$/\2\t\1/' > ome2assembly.txt
+realpath gff3/*.final.gff3 | perl -pe 's/^(.+?([^\/]+?).final.gff3)$/\2\t\1/' > ome2gff.txt
+```
+
+* concatenate all assembly files and make a blastn database:
+```
+mkdir blastdb
+cut -f2 ome2assembly.txt | xargs cat > blastdb/spor29.assemblies.fna
+makeblastdb -in blastdb/spor29.assemblies.fna -out blastdb/spor29.assemblies -parse_seqids -dbtype nucl
+```
+
+* *de novo* annotate tyrs with the provided YR HMM and amino acid queries
+```
+mkdir geneFinder
+starfish annotate -T 28 -x spor29_tyr -a ome2assembly.txt -g ome2gff.txt -p /data/ccallen/bin/starfish/database/YRsuperfams.p1-512.hmm -P /data/ccallen/bin/starfish/database/YRsuperfamRefs.faa -i tyr -o geneFinder/
+```
+
+* results in `12_starfish`
+
 
 ## 6. Genome comparisons
 * compare utility of funannotate
@@ -416,6 +442,7 @@ orthofinder \
 -f /input/orthofinder_input_core
 ```
 * visualized the orthogroup overlaps using `scripts/09_Sporothrix_orthofinder.R`
+* extracted orthogroups gained by *S. epigloea* and undetected in *S. epigloea* using `scripts/09_Sporothrix_orthofinder.R`
 
 ### 6.3 Comparisons using funannotate
 
@@ -426,12 +453,14 @@ funannotate compare -i \
 --num_orthos 1 --cpus 32 -o funannotate_compare_notree
 ```
 
-### 6.4 merge annotations from funannotate, DeepLoc, and Orthofinder
+### 6.4 merged annotations from funannotate, DeepLoc, and Orthofinder
 
 * merged annotations using `scripts/10_merge_annotations.R`
 
 
+### 6.5 visualize annotations
 
+* visualized the genome comparisons using `scripts/10_comparative_genomic_analysis.R`
 
 ## 7. LPMO gene trees
 
@@ -574,7 +603,6 @@ iqtree \
 ```
 
 * alignment and results in `11_LPMO_trees/AA14/Fungi_March2024`
-
 * used `scripts/11_taxize.R` to pull taxonomy for each tip and generate helper files for iTOL (Letunic & Bork 2019).
 * text files used to annotate tree in `11_LPMO_trees/AA14/Fungi_March2024/itol`
 
