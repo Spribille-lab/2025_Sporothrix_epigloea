@@ -2,7 +2,7 @@
 args <- commandArgs(trailingOnly=TRUE)
 
 input_file <- args[1]
-input_file <- "Sporothrix_thermara_S_CBS139747MAG_GCA_XXXXXXXXX"
+input_file <- "Sporothrix_epigloea_S_TF4163MAG_GCA_944036445"
 input_file_short <- stringr::str_replace(input_file, "(\\S+)(_S)(_\\S+)(_GCA\\S+)", "\\1\\3")
 
 # in the command line run as for example:
@@ -13,9 +13,10 @@ input_file_short <- stringr::str_replace(input_file, "(\\S+)(_S)(_\\S+)(_GCA\\S+
 ## dir.create("dir1", showWarnings = FALSE)
 ## dir.create("dir1/subdir1_1", showWarnings = FALSE)
 
-library(seqRFLP)
+#library(seqRFLP)
 library(tidyverse)
 library(stringr)
+library(data.table)
 
 setwd("~/Documents/2023_02_Sporothrix/10_annotations/")
 
@@ -57,37 +58,7 @@ colnames(deeploc) = c("Gene_ID", "Localizations_DeepLoc2", "Signals_DeepLoc2")
 
 # merge DeepLoc and funannotate annotations
 
-annotations2 <- dplyr::left_join(annotations, deeploc) %>%
-  select(Gene_ID,
-         Transcript_ID,
-         Feature,
-         Contig,
-         Start,
-         Stop,
-         Strand,
-         Name,
-         Product,
-         Alias_Synonyms,
-         EC_number,
-         BUSCO,
-         PFAM,
-         InterPro,
-         EggNog,
-         COG,
-         GO_Terms,
-         Secreted,
-         Membrane,
-         Localizations_DeepLoc2,
-         Signals_DeepLoc2,
-         Protease,
-         CAZyme,
-         antiSMASH,
-         Notes,
-         gDNA,
-         mRNA,
-         CDS_transcript,
-         Translation)
-
+annotations2 <- dplyr::left_join(annotations, deeploc)
 
 # read in the output from OrthoFinder
 
@@ -95,7 +66,22 @@ orthogroups <- read.delim(paste("../09_orthology/OrthoFinder/Results_Aug07/Custo
   dplyr::mutate(Gene_ID = str_replace(Protein_ID, "(\\S*)(-T1)", "\\1")) %>%
   dplyr::select(Gene_ID, Orthogroup)
 
-annotations3 <- dplyr::left_join(annotations2, orthogroups) %>%
+annotations3 <- dplyr::left_join(annotations2, orthogroups) 
+#write.table(annotations3, paste("annotation_tables_merged/",input_file,".annotations.merged.txt", sep=""), sep='\t', quote = F, row.names = F)
+
+# read in KEGG IDs from KoFamScan
+
+#kodesc <- data.table::fread("https://rest.kegg.jp/list/ko", sep = "\t", header=FALSE)
+#colnames(kodesc) <- c("KEGG_ID", "KEGG_descr")
+kegg_mapper <- read.delim(paste("kegg/kegg_output/",input_file,"/",input_file,".kegg.mapper.txt", sep=""), header = F, na.strings='')
+colnames(kegg_mapper) <- c("Transcript_ID", "KEGG_ID")
+#kegg_mapper <- kegg_mapper %>% left_join(kodesc, by = "KEGG_ID")
+
+kegg_mapper <- kegg_mapper %>%
+  group_by(Transcript_ID) %>%
+  summarize(KEGG_ID = paste(KEGG_ID, collapse = ';'))
+
+annotations4 <- dplyr::left_join(annotations3, kegg_mapper) %>%
   select(Gene_ID,
          Transcript_ID,
          Feature,
@@ -108,6 +94,7 @@ annotations3 <- dplyr::left_join(annotations2, orthogroups) %>%
          Product,
          Alias_Synonyms,
          EC_number,
+         KEGG_ID,
          BUSCO,
          PFAM,
          InterPro,
@@ -126,8 +113,7 @@ annotations3 <- dplyr::left_join(annotations2, orthogroups) %>%
          mRNA,
          CDS_transcript,
          Translation)
-
-write.table(annotations3, paste("annotation_tables_merged/",input_file,".annotations.merged.txt", sep=""), sep='\t', quote = F, row.names = F)
+write.table(annotations4, paste("annotation_tables_merged/",input_file,".annotations.merged.txt", sep=""), sep='\t', quote = F, row.names = F)
 
 
 ##################################

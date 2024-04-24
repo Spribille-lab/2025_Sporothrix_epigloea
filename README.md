@@ -263,6 +263,8 @@ Software used:
 * DeepLoc 2.0 (Thumuluri et al., 2022)
 * starfish v1.0.0 (Gluck-Thaler & Vogan, 2023)
     * metaeuk (Karin et al., 2020)
+* kofamscan v1.3.0 (Aramaki et al., 2019)
+* ggkegg 1.1.18 (Sato et al., 2023)
 
 ### 5.1 ran funannotate pipeline
 script `scripts/funannotate_annotate_script_v2023_1.sh`
@@ -359,8 +361,7 @@ deeploc2 -f ../protein_fasta/"$sample".proteins.fa -o "$sample" --model Accurate
 done
 ```
 
-### 5.3 starfish v1.0.0
-
+### 5.3 starfish
 
 ```
 cd 12_starfish
@@ -375,19 +376,55 @@ realpath gff3/*.final.gff3 | perl -pe 's/^(.+?([^\/]+?).final.gff3)$/\2\t\1/' > 
 ```
 mkdir blastdb
 cut -f2 ome2assembly.txt | xargs cat > blastdb/spor29.assemblies.fna
-makeblastdb -in blastdb/spor29.assemblies.fna -out blastdb/spor29.assemblies -parse_seqids -dbtype nucl
+makeblastdb \
+-in blastdb/spor29.assemblies.fna \
+-out blastdb/spor29.assemblies \
+-parse_seqids \
+-dbtype nucl
 ```
 
 * *de novo* annotate tyrs with the provided YR HMM and amino acid queries
 ```
 mkdir geneFinder
-starfish annotate -T 28 -x spor29_tyr -a ome2assembly.txt -g ome2gff.txt -p /data/ccallen/bin/starfish/database/YRsuperfams.p1-512.hmm -P /data/ccallen/bin/starfish/database/YRsuperfamRefs.faa -i tyr -o geneFinder/
+starfish annotate \
+-T 28 \
+-x spor29_tyr \
+-a ome2assembly.txt \
+-g ome2gff.txt \
+-p /data/ccallen/bin/starfish/database/YRsuperfams.p1-512.hmm \
+-P /data/ccallen/bin/starfish/database/YRsuperfamRefs.faa \
+-i tyr \
+-o geneFinder/
 ```
 
 * results in `12_starfish`
 
+### 5.4 KEGG ortholog assignment
+
+* get the list of KEGG modules
+```
+cd /Users/carmenallen/Documents/2023_02_Sporothrix/10_annotations/kegg
+wget https://rest.kegg.jp/list/module
+```
+
+* get the module files from the KEGG API
+```
+cd mf
+while IFS=$'\t' read -r v1 v2; do wget https://rest.kegg.jp/get/"$v1"; sleep 1; done < ../module
+```
+
+* run kofamscan
+```
+/data/ccallen/bin/kofam_scan/exec_annotation -o kegg/{sample}/{sample}.ko.txt protein_fasta/{sample}.proteins.fa -f detail-tsv --tmp-dir tmp_d_{wildcards.sample}
+/data/ccallen/bin/kofam_scan/exec_annotation -o kegg/{sample}/{sample}.kegg.mapper.txt protein_fasta/{sample}.proteins.fa -f mapper --tmp-dir tmp_m_{wildcards.sample}
+```
+* counted the number of KOs per genome using `scripts/10_KEGG_count_identifiers.R`
+* calculate kegg module completeness and create heatmap and wordcloud annotations using ggkegg `scripts/10_ggkegg.R`
+* results in `10_annotations/kegg`
+
 
 ## 6. Genome comparisons
+Software used:
 * compare utility of funannotate
 * OrthoFinder 2.5.5 (Emms & Kelly, 2019)
 * custom R scripts
@@ -399,7 +436,6 @@ starfish annotate -T 28 -x spor29_tyr -a ome2assembly.txt -g ome2gff.txt -p /dat
 * IQ-TREE 2.0.7 (Minh et al., 2020)
     * ModelFinder (Kalyaanamoorthy et al., 2017)
     * ultrafast bootstraps (Hoang et al., 2017)
-
 
 ### 6.1 Species tree construction of *Sporothrix*, *Ophiostoma*, and *Leptographium* genomes
 
@@ -453,16 +489,20 @@ funannotate compare -i \
 --num_orthos 1 --cpus 32 -o funannotate_compare_notree
 ```
 
-### 6.4 merged annotations from funannotate, DeepLoc, and Orthofinder
+### 6.4 merged annotations from funannotate, DeepLoc, Orthofinder, and KEGG
 
 * merged annotations using `scripts/10_merge_annotations.R`
-
 
 ### 6.5 visualize annotations
 
 * visualized the genome comparisons using `scripts/10_comparative_genomic_analysis.R`
 
 ## 7. LPMO gene trees
+Software used:
+* dbCAN 4.0.0 (Zheng et al., 2023)
+* MAFFT v7.450 (Katoh & Standley, 2013)
+* trimal v1.4.1 (Capella-Gutierrez et al., 2009)
+* IQ-TREE 2.0 (Minh et al., 2020)
 
 * used dbCAN 4.0.0 (dbCAN HMMdb release 12.0) to annotate CAZymes from 10 *de novo* genome assemblies and 58 additional downloaded assemblies 
 
