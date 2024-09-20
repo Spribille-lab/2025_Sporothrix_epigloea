@@ -6,9 +6,8 @@ genome <- args[1]
 ## This assumes a fixed dir structure
 
 library(tidyverse)
-library(dplyr)
 
-#genome = "Sporothrix_bragantina_S_CBS47491_GCA_XXXXXXXXX"
+#genome = "Tremella_yokohamensis_S_CBS18117_GCA_963924285"
 
 setwd(paste0("~/Documents/2023_02_Sporothrix/10_annotations/kegg/kegg_output/",genome, sep=""))
 getwd()

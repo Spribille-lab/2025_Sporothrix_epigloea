@@ -1,0 +1,452 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="IDX" type="string" />
+      <attribute id="1" title="TAXON" type="string" />
+      <attribute id="2" title="compare" type="string" />
+      <attribute id="3" title="protein_count" type="long" />
+    </attributes>
+    <nodes>
+      <node id="Sporothrix_bragantina_CBS47491" label="Sporothrix_bragantina_CBS47491">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="Sporothrix_bragantina_CBS47491" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10045" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_brasiliensis_5110" label="Sporothrix_brasiliensis_5110">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="Sporothrix_brasiliensis_5110" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8566" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_curviconia_CBS95973" label="Sporothrix_curviconia_CBS95973">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="Sporothrix_curviconia_CBS95973" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="9816" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_dimorphospora_CBS55374" label="Sporothrix_dimorphospora_CBS55374">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="Sporothrix_dimorphospora_CBS55374" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10207" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_epigloea_CBS119000" label="Sporothrix_epigloea_CBS119000">
+        <attvalues>
+          <attvalue for="0" value="4" />
+          <attvalue for="1" value="Sporothrix_epigloea_CBS119000" />
+          <attvalue for="2" value="epigloea" />
+          <attvalue for="3" value="6636" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_epigloea_CBS57363" label="Sporothrix_epigloea_CBS57363">
+        <attvalues>
+          <attvalue for="0" value="5" />
+          <attvalue for="1" value="Sporothrix_epigloea_CBS57363" />
+          <attvalue for="2" value="epigloea" />
+          <attvalue for="3" value="6637" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_epigloea_TF4163" label="Sporothrix_epigloea_TF4163">
+        <attvalues>
+          <attvalue for="0" value="6" />
+          <attvalue for="1" value="Sporothrix_epigloea_TF4163" />
+          <attvalue for="2" value="epigloea" />
+          <attvalue for="3" value="6595" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_eucalyptigena_CBS139899" label="Sporothrix_eucalyptigena_CBS139899">
+        <attvalues>
+          <attvalue for="0" value="7" />
+          <attvalue for="1" value="Sporothrix_eucalyptigena_CBS139899" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10720" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_eucalyptigena_CBS140593" label="Sporothrix_eucalyptigena_CBS140593">
+        <attvalues>
+          <attvalue for="0" value="8" />
+          <attvalue for="1" value="Sporothrix_eucalyptigena_CBS140593" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10648" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_euskadiensis_VPRI43754" label="Sporothrix_euskadiensis_VPRI43754">
+        <attvalues>
+          <attvalue for="0" value="9" />
+          <attvalue for="1" value="Sporothrix_euskadiensis_VPRI43754" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8975" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_globosa_CBS120340" label="Sporothrix_globosa_CBS120340">
+        <attvalues>
+          <attvalue for="0" value="10" />
+          <attvalue for="1" value="Sporothrix_globosa_CBS120340" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8712" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_humicola_CBS118129" label="Sporothrix_humicola_CBS118129">
+        <attvalues>
+          <attvalue for="0" value="11" />
+          <attvalue for="1" value="Sporothrix_humicola_CBS118129" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10406" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_inflata_CBS23968" label="Sporothrix_inflata_CBS23968">
+        <attvalues>
+          <attvalue for="0" value="12" />
+          <attvalue for="1" value="Sporothrix_inflata_CBS23968" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10695" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_luriei_CBS93772" label="Sporothrix_luriei_CBS93772">
+        <attvalues>
+          <attvalue for="0" value="13" />
+          <attvalue for="1" value="Sporothrix_luriei_CBS93772" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8257" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_mexicana_CBS120341" label="Sporothrix_mexicana_CBS120341">
+        <attvalues>
+          <attvalue for="0" value="14" />
+          <attvalue for="1" value="Sporothrix_mexicana_CBS120341" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10909" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_nigrograna_VPRI43755" label="Sporothrix_nigrograna_VPRI43755">
+        <attvalues>
+          <attvalue for="0" value="15" />
+          <attvalue for="1" value="Sporothrix_nigrograna_VPRI43755" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="7747" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_pallida_CBS13156" label="Sporothrix_pallida_CBS13156">
+        <attvalues>
+          <attvalue for="0" value="16" />
+          <attvalue for="1" value="Sporothrix_pallida_CBS13156" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10461" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_phasma_CBS119721" label="Sporothrix_phasma_CBS119721">
+        <attvalues>
+          <attvalue for="0" value="17" />
+          <attvalue for="1" value="Sporothrix_phasma_CBS119721" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="7182" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_protearum_CBS116654" label="Sporothrix_protearum_CBS116654">
+        <attvalues>
+          <attvalue for="0" value="18" />
+          <attvalue for="1" value="Sporothrix_protearum_CBS116654" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8343" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_pseudoabietina_VPRI43531" label="Sporothrix_pseudoabietina_VPRI43531">
+        <attvalues>
+          <attvalue for="0" value="19" />
+          <attvalue for="1" value="Sporothrix_pseudoabietina_VPRI43531" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8875" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_schenckii_1099" label="Sporothrix_schenckii_1099">
+        <attvalues>
+          <attvalue for="0" value="20" />
+          <attvalue for="1" value="Sporothrix_schenckii_1099" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="8488" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_thermara_CBS139747MAG" label="Sporothrix_thermara_CBS139747MAG">
+        <attvalues>
+          <attvalue for="0" value="21" />
+          <attvalue for="1" value="Sporothrix_thermara_CBS139747MAG" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="7861" />
+        </attvalues>
+      </node>
+      <node id="Sporothrix_variecibatus_CBS121961" label="Sporothrix_variecibatus_CBS121961">
+        <attvalues>
+          <attvalue for="0" value="22" />
+          <attvalue for="1" value="Sporothrix_variecibatus_CBS121961" />
+          <attvalue for="2" value="other" />
+          <attvalue for="3" value="10156" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_brasiliensis_5110" weight="2685" />
+      <edge id="1" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_curviconia_CBS95973" weight="3415" />
+      <edge id="2" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_dimorphospora_CBS55374" weight="3461" />
+      <edge id="3" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_eucalyptigena_CBS139899" weight="3773" />
+      <edge id="4" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_eucalyptigena_CBS140593" weight="3759" />
+      <edge id="5" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_euskadiensis_VPRI43754" weight="2944" />
+      <edge id="6" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_globosa_CBS120340" weight="2837" />
+      <edge id="7" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_humicola_CBS118129" weight="3529" />
+      <edge id="8" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_inflata_CBS23968" weight="3571" />
+      <edge id="9" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_luriei_CBS93772" weight="2344" />
+      <edge id="10" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_mexicana_CBS120341" weight="3536" />
+      <edge id="11" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_pallida_CBS13156" weight="3569" />
+      <edge id="12" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_protearum_CBS116654" weight="2429" />
+      <edge id="13" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_pseudoabietina_VPRI43531" weight="2899" />
+      <edge id="14" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_schenckii_1099" weight="2719" />
+      <edge id="15" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_variecibatus_CBS121961" weight="3594" />
+      <edge id="16" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_nigrograna_VPRI43755" weight="2055" />
+      <edge id="17" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_thermara_CBS139747MAG" weight="2279" />
+      <edge id="18" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_epigloea_CBS57363" weight="1081" />
+      <edge id="19" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_epigloea_TF4163" weight="1052" />
+      <edge id="20" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_phasma_CBS119721" weight="1772" />
+      <edge id="21" source="Sporothrix_bragantina_CBS47491" target="Sporothrix_epigloea_CBS119000" weight="990" />
+      <edge id="22" source="Sporothrix_brasiliensis_5110" target="Sporothrix_curviconia_CBS95973" weight="2679" />
+      <edge id="23" source="Sporothrix_brasiliensis_5110" target="Sporothrix_dimorphospora_CBS55374" weight="2864" />
+      <edge id="24" source="Sporothrix_brasiliensis_5110" target="Sporothrix_eucalyptigena_CBS139899" weight="2777" />
+      <edge id="25" source="Sporothrix_brasiliensis_5110" target="Sporothrix_eucalyptigena_CBS140593" weight="2764" />
+      <edge id="26" source="Sporothrix_brasiliensis_5110" target="Sporothrix_euskadiensis_VPRI43754" weight="2493" />
+      <edge id="27" source="Sporothrix_brasiliensis_5110" target="Sporothrix_globosa_CBS120340" weight="2923" />
+      <edge id="28" source="Sporothrix_brasiliensis_5110" target="Sporothrix_humicola_CBS118129" weight="2878" />
+      <edge id="29" source="Sporothrix_brasiliensis_5110" target="Sporothrix_inflata_CBS23968" weight="2929" />
+      <edge id="30" source="Sporothrix_brasiliensis_5110" target="Sporothrix_luriei_CBS93772" weight="2576" />
+      <edge id="31" source="Sporothrix_brasiliensis_5110" target="Sporothrix_mexicana_CBS120341" weight="2888" />
+      <edge id="32" source="Sporothrix_brasiliensis_5110" target="Sporothrix_pallida_CBS13156" weight="2886" />
+      <edge id="33" source="Sporothrix_brasiliensis_5110" target="Sporothrix_protearum_CBS116654" weight="2203" />
+      <edge id="34" source="Sporothrix_brasiliensis_5110" target="Sporothrix_pseudoabietina_VPRI43531" weight="2466" />
+      <edge id="35" source="Sporothrix_brasiliensis_5110" target="Sporothrix_schenckii_1099" weight="2996" />
+      <edge id="36" source="Sporothrix_brasiliensis_5110" target="Sporothrix_variecibatus_CBS121961" weight="2843" />
+      <edge id="37" source="Sporothrix_brasiliensis_5110" target="Sporothrix_nigrograna_VPRI43755" weight="1785" />
+      <edge id="38" source="Sporothrix_brasiliensis_5110" target="Sporothrix_thermara_CBS139747MAG" weight="1870" />
+      <edge id="39" source="Sporothrix_brasiliensis_5110" target="Sporothrix_epigloea_CBS57363" weight="907" />
+      <edge id="40" source="Sporothrix_brasiliensis_5110" target="Sporothrix_epigloea_TF4163" weight="895" />
+      <edge id="41" source="Sporothrix_brasiliensis_5110" target="Sporothrix_phasma_CBS119721" weight="1688" />
+      <edge id="42" source="Sporothrix_brasiliensis_5110" target="Sporothrix_epigloea_CBS119000" weight="840" />
+      <edge id="43" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_dimorphospora_CBS55374" weight="3334" />
+      <edge id="44" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_eucalyptigena_CBS139899" weight="3493" />
+      <edge id="45" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_eucalyptigena_CBS140593" weight="3476" />
+      <edge id="46" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_euskadiensis_VPRI43754" weight="2905" />
+      <edge id="47" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_globosa_CBS120340" weight="2806" />
+      <edge id="48" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_humicola_CBS118129" weight="3371" />
+      <edge id="49" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_inflata_CBS23968" weight="3447" />
+      <edge id="50" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_luriei_CBS93772" weight="2362" />
+      <edge id="51" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_mexicana_CBS120341" weight="3329" />
+      <edge id="52" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_pallida_CBS13156" weight="3380" />
+      <edge id="53" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_protearum_CBS116654" weight="2435" />
+      <edge id="54" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_pseudoabietina_VPRI43531" weight="2869" />
+      <edge id="55" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_schenckii_1099" weight="2689" />
+      <edge id="56" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_variecibatus_CBS121961" weight="3391" />
+      <edge id="57" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_nigrograna_VPRI43755" weight="2090" />
+      <edge id="58" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_thermara_CBS139747MAG" weight="2290" />
+      <edge id="59" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_epigloea_CBS57363" weight="1095" />
+      <edge id="60" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_epigloea_TF4163" weight="1074" />
+      <edge id="61" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_phasma_CBS119721" weight="1772" />
+      <edge id="62" source="Sporothrix_curviconia_CBS95973" target="Sporothrix_epigloea_CBS119000" weight="1021" />
+      <edge id="63" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_eucalyptigena_CBS139899" weight="3656" />
+      <edge id="64" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_eucalyptigena_CBS140593" weight="3652" />
+      <edge id="65" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_euskadiensis_VPRI43754" weight="3059" />
+      <edge id="66" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_globosa_CBS120340" weight="3029" />
+      <edge id="67" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_humicola_CBS118129" weight="3652" />
+      <edge id="68" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_inflata_CBS23968" weight="4009" />
+      <edge id="69" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_luriei_CBS93772" weight="2507" />
+      <edge id="70" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_mexicana_CBS120341" weight="3667" />
+      <edge id="71" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_pallida_CBS13156" weight="3660" />
+      <edge id="72" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_protearum_CBS116654" weight="2538" />
+      <edge id="73" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_pseudoabietina_VPRI43531" weight="3049" />
+      <edge id="74" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_schenckii_1099" weight="2905" />
+      <edge id="75" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_variecibatus_CBS121961" weight="3728" />
+      <edge id="76" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_nigrograna_VPRI43755" weight="2132" />
+      <edge id="77" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_thermara_CBS139747MAG" weight="2206" />
+      <edge id="78" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_epigloea_CBS57363" weight="1048" />
+      <edge id="79" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_epigloea_TF4163" weight="1032" />
+      <edge id="80" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_phasma_CBS119721" weight="1841" />
+      <edge id="81" source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_epigloea_CBS119000" weight="977" />
+      <edge id="82" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_epigloea_CBS57363" weight="1029" />
+      <edge id="83" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_epigloea_TF4163" weight="1029" />
+      <edge id="84" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_eucalyptigena_CBS139899" weight="1034" />
+      <edge id="85" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_eucalyptigena_CBS140593" weight="1028" />
+      <edge id="86" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_euskadiensis_VPRI43754" weight="994" />
+      <edge id="87" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_globosa_CBS120340" weight="875" />
+      <edge id="88" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_humicola_CBS118129" weight="986" />
+      <edge id="89" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_inflata_CBS23968" weight="1006" />
+      <edge id="90" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_luriei_CBS93772" weight="672" />
+      <edge id="91" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_nigrograna_VPRI43755" weight="708" />
+      <edge id="92" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_protearum_CBS116654" weight="807" />
+      <edge id="93" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_pseudoabietina_VPRI43531" weight="995" />
+      <edge id="94" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_schenckii_1099" weight="841" />
+      <edge id="95" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_variecibatus_CBS121961" weight="1025" />
+      <edge id="96" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_mexicana_CBS120341" weight="968" />
+      <edge id="97" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_pallida_CBS13156" weight="985" />
+      <edge id="98" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_thermara_CBS139747MAG" weight="897" />
+      <edge id="99" source="Sporothrix_epigloea_CBS119000" target="Sporothrix_phasma_CBS119721" weight="738" />
+      <edge id="100" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_epigloea_TF4163" weight="1175" />
+      <edge id="101" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_eucalyptigena_CBS140593" weight="1098" />
+      <edge id="102" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_euskadiensis_VPRI43754" weight="1068" />
+      <edge id="103" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_globosa_CBS120340" weight="954" />
+      <edge id="104" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_humicola_CBS118129" weight="1052" />
+      <edge id="105" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_inflata_CBS23968" weight="1069" />
+      <edge id="106" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_luriei_CBS93772" weight="741" />
+      <edge id="107" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_mexicana_CBS120341" weight="1032" />
+      <edge id="108" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_nigrograna_VPRI43755" weight="772" />
+      <edge id="109" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_pallida_CBS13156" weight="1054" />
+      <edge id="110" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_phasma_CBS119721" weight="805" />
+      <edge id="111" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_protearum_CBS116654" weight="871" />
+      <edge id="112" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_pseudoabietina_VPRI43531" weight="1068" />
+      <edge id="113" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_schenckii_1099" weight="909" />
+      <edge id="114" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_thermara_CBS139747MAG" weight="962" />
+      <edge id="115" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_variecibatus_CBS121961" weight="1100" />
+      <edge id="116" source="Sporothrix_epigloea_CBS57363" target="Sporothrix_eucalyptigena_CBS139899" weight="1114" />
+      <edge id="117" source="Sporothrix_epigloea_TF4163" target="Sporothrix_eucalyptigena_CBS140593" weight="1079" />
+      <edge id="118" source="Sporothrix_epigloea_TF4163" target="Sporothrix_euskadiensis_VPRI43754" weight="1056" />
+      <edge id="119" source="Sporothrix_epigloea_TF4163" target="Sporothrix_globosa_CBS120340" weight="935" />
+      <edge id="120" source="Sporothrix_epigloea_TF4163" target="Sporothrix_humicola_CBS118129" weight="1037" />
+      <edge id="121" source="Sporothrix_epigloea_TF4163" target="Sporothrix_inflata_CBS23968" weight="1059" />
+      <edge id="122" source="Sporothrix_epigloea_TF4163" target="Sporothrix_luriei_CBS93772" weight="726" />
+      <edge id="123" source="Sporothrix_epigloea_TF4163" target="Sporothrix_mexicana_CBS120341" weight="1019" />
+      <edge id="124" source="Sporothrix_epigloea_TF4163" target="Sporothrix_nigrograna_VPRI43755" weight="760" />
+      <edge id="125" source="Sporothrix_epigloea_TF4163" target="Sporothrix_pallida_CBS13156" weight="1039" />
+      <edge id="126" source="Sporothrix_epigloea_TF4163" target="Sporothrix_phasma_CBS119721" weight="800" />
+      <edge id="127" source="Sporothrix_epigloea_TF4163" target="Sporothrix_protearum_CBS116654" weight="862" />
+      <edge id="128" source="Sporothrix_epigloea_TF4163" target="Sporothrix_pseudoabietina_VPRI43531" weight="1056" />
+      <edge id="129" source="Sporothrix_epigloea_TF4163" target="Sporothrix_schenckii_1099" weight="897" />
+      <edge id="130" source="Sporothrix_epigloea_TF4163" target="Sporothrix_thermara_CBS139747MAG" weight="954" />
+      <edge id="131" source="Sporothrix_epigloea_TF4163" target="Sporothrix_variecibatus_CBS121961" weight="1090" />
+      <edge id="132" source="Sporothrix_epigloea_TF4163" target="Sporothrix_eucalyptigena_CBS139899" weight="1092" />
+      <edge id="133" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_eucalyptigena_CBS140593" weight="4581" />
+      <edge id="134" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_euskadiensis_VPRI43754" weight="3077" />
+      <edge id="135" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_globosa_CBS120340" weight="2950" />
+      <edge id="136" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_humicola_CBS118129" weight="3713" />
+      <edge id="137" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_inflata_CBS23968" weight="3806" />
+      <edge id="138" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_luriei_CBS93772" weight="2429" />
+      <edge id="139" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_mexicana_CBS120341" weight="3697" />
+      <edge id="140" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_pallida_CBS13156" weight="3750" />
+      <edge id="141" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_protearum_CBS116654" weight="2512" />
+      <edge id="142" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_pseudoabietina_VPRI43531" weight="3037" />
+      <edge id="143" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_schenckii_1099" weight="2826" />
+      <edge id="144" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_variecibatus_CBS121961" weight="3794" />
+      <edge id="145" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_nigrograna_VPRI43755" weight="2163" />
+      <edge id="146" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_thermara_CBS139747MAG" weight="2304" />
+      <edge id="147" source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_phasma_CBS119721" weight="1807" />
+      <edge id="148" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_euskadiensis_VPRI43754" weight="3061" />
+      <edge id="149" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_globosa_CBS120340" weight="2927" />
+      <edge id="150" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_humicola_CBS118129" weight="3694" />
+      <edge id="151" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_inflata_CBS23968" weight="3782" />
+      <edge id="152" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_luriei_CBS93772" weight="2412" />
+      <edge id="153" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_mexicana_CBS120341" weight="3676" />
+      <edge id="154" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_pallida_CBS13156" weight="3731" />
+      <edge id="155" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_protearum_CBS116654" weight="2493" />
+      <edge id="156" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_pseudoabietina_VPRI43531" weight="3025" />
+      <edge id="157" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_schenckii_1099" weight="2805" />
+      <edge id="158" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_variecibatus_CBS121961" weight="3771" />
+      <edge id="159" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_nigrograna_VPRI43755" weight="2157" />
+      <edge id="160" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_thermara_CBS139747MAG" weight="2286" />
+      <edge id="161" source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_phasma_CBS119721" weight="1803" />
+      <edge id="162" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_globosa_CBS120340" weight="2622" />
+      <edge id="163" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_humicola_CBS118129" weight="3115" />
+      <edge id="164" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_inflata_CBS23968" weight="3170" />
+      <edge id="165" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_luriei_CBS93772" weight="2170" />
+      <edge id="166" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_mexicana_CBS120341" weight="3117" />
+      <edge id="167" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_pallida_CBS13156" weight="3123" />
+      <edge id="168" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_protearum_CBS116654" weight="2431" />
+      <edge id="169" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_pseudoabietina_VPRI43531" weight="3320" />
+      <edge id="170" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_schenckii_1099" weight="2496" />
+      <edge id="171" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_variecibatus_CBS121961" weight="3315" />
+      <edge id="172" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_nigrograna_VPRI43755" weight="2067" />
+      <edge id="173" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_thermara_CBS139747MAG" weight="2109" />
+      <edge id="174" source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_phasma_CBS119721" weight="1780" />
+      <edge id="175" source="Sporothrix_globosa_CBS120340" target="Sporothrix_humicola_CBS118129" weight="3019" />
+      <edge id="176" source="Sporothrix_globosa_CBS120340" target="Sporothrix_inflata_CBS23968" weight="3085" />
+      <edge id="177" source="Sporothrix_globosa_CBS120340" target="Sporothrix_luriei_CBS93772" weight="2582" />
+      <edge id="178" source="Sporothrix_globosa_CBS120340" target="Sporothrix_mexicana_CBS120341" weight="3036" />
+      <edge id="179" source="Sporothrix_globosa_CBS120340" target="Sporothrix_pallida_CBS13156" weight="3040" />
+      <edge id="180" source="Sporothrix_globosa_CBS120340" target="Sporothrix_protearum_CBS116654" weight="2281" />
+      <edge id="181" source="Sporothrix_globosa_CBS120340" target="Sporothrix_pseudoabietina_VPRI43531" weight="2587" />
+      <edge id="182" source="Sporothrix_globosa_CBS120340" target="Sporothrix_schenckii_1099" weight="2958" />
+      <edge id="183" source="Sporothrix_globosa_CBS120340" target="Sporothrix_variecibatus_CBS121961" weight="2998" />
+      <edge id="184" source="Sporothrix_globosa_CBS120340" target="Sporothrix_nigrograna_VPRI43755" weight="1858" />
+      <edge id="185" source="Sporothrix_globosa_CBS120340" target="Sporothrix_thermara_CBS139747MAG" weight="1947" />
+      <edge id="186" source="Sporothrix_globosa_CBS120340" target="Sporothrix_phasma_CBS119721" weight="1738" />
+      <edge id="187" source="Sporothrix_humicola_CBS118129" target="Sporothrix_inflata_CBS23968" weight="3805" />
+      <edge id="188" source="Sporothrix_humicola_CBS118129" target="Sporothrix_luriei_CBS93772" weight="2526" />
+      <edge id="189" source="Sporothrix_humicola_CBS118129" target="Sporothrix_mexicana_CBS120341" weight="3992" />
+      <edge id="190" source="Sporothrix_humicola_CBS118129" target="Sporothrix_pallida_CBS13156" weight="4413" />
+      <edge id="191" source="Sporothrix_humicola_CBS118129" target="Sporothrix_protearum_CBS116654" weight="2564" />
+      <edge id="192" source="Sporothrix_humicola_CBS118129" target="Sporothrix_pseudoabietina_VPRI43531" weight="3071" />
+      <edge id="193" source="Sporothrix_humicola_CBS118129" target="Sporothrix_schenckii_1099" weight="2908" />
+      <edge id="194" source="Sporothrix_humicola_CBS118129" target="Sporothrix_variecibatus_CBS121961" weight="3825" />
+      <edge id="195" source="Sporothrix_humicola_CBS118129" target="Sporothrix_nigrograna_VPRI43755" weight="2135" />
+      <edge id="196" source="Sporothrix_humicola_CBS118129" target="Sporothrix_thermara_CBS139747MAG" weight="2218" />
+      <edge id="197" source="Sporothrix_humicola_CBS118129" target="Sporothrix_phasma_CBS119721" weight="1858" />
+      <edge id="198" source="Sporothrix_inflata_CBS23968" target="Sporothrix_luriei_CBS93772" weight="2556" />
+      <edge id="199" source="Sporothrix_inflata_CBS23968" target="Sporothrix_mexicana_CBS120341" weight="3777" />
+      <edge id="200" source="Sporothrix_inflata_CBS23968" target="Sporothrix_pallida_CBS13156" weight="3817" />
+      <edge id="201" source="Sporothrix_inflata_CBS23968" target="Sporothrix_protearum_CBS116654" weight="2610" />
+      <edge id="202" source="Sporothrix_inflata_CBS23968" target="Sporothrix_pseudoabietina_VPRI43531" weight="3141" />
+      <edge id="203" source="Sporothrix_inflata_CBS23968" target="Sporothrix_schenckii_1099" weight="2962" />
+      <edge id="204" source="Sporothrix_inflata_CBS23968" target="Sporothrix_variecibatus_CBS121961" weight="3913" />
+      <edge id="205" source="Sporothrix_inflata_CBS23968" target="Sporothrix_nigrograna_VPRI43755" weight="2183" />
+      <edge id="206" source="Sporothrix_inflata_CBS23968" target="Sporothrix_thermara_CBS139747MAG" weight="2268" />
+      <edge id="207" source="Sporothrix_inflata_CBS23968" target="Sporothrix_phasma_CBS119721" weight="1869" />
+      <edge id="208" source="Sporothrix_luriei_CBS93772" target="Sporothrix_mexicana_CBS120341" weight="2515" />
+      <edge id="209" source="Sporothrix_luriei_CBS93772" target="Sporothrix_pallida_CBS13156" weight="2532" />
+      <edge id="210" source="Sporothrix_luriei_CBS93772" target="Sporothrix_protearum_CBS116654" weight="1949" />
+      <edge id="211" source="Sporothrix_luriei_CBS93772" target="Sporothrix_pseudoabietina_VPRI43531" weight="2134" />
+      <edge id="212" source="Sporothrix_luriei_CBS93772" target="Sporothrix_schenckii_1099" weight="2550" />
+      <edge id="213" source="Sporothrix_luriei_CBS93772" target="Sporothrix_variecibatus_CBS121961" weight="2474" />
+      <edge id="214" source="Sporothrix_luriei_CBS93772" target="Sporothrix_nigrograna_VPRI43755" weight="1553" />
+      <edge id="215" source="Sporothrix_luriei_CBS93772" target="Sporothrix_thermara_CBS139747MAG" weight="1601" />
+      <edge id="216" source="Sporothrix_luriei_CBS93772" target="Sporothrix_phasma_CBS119721" weight="1481" />
+      <edge id="217" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_pallida_CBS13156" weight="3998" />
+      <edge id="218" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_protearum_CBS116654" weight="2566" />
+      <edge id="219" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_pseudoabietina_VPRI43531" weight="3082" />
+      <edge id="220" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_schenckii_1099" weight="2915" />
+      <edge id="221" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_variecibatus_CBS121961" weight="3757" />
+      <edge id="222" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_nigrograna_VPRI43755" weight="2145" />
+      <edge id="223" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_thermara_CBS139747MAG" weight="2227" />
+      <edge id="224" source="Sporothrix_mexicana_CBS120341" target="Sporothrix_phasma_CBS119721" weight="1852" />
+      <edge id="225" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_pallida_CBS13156" weight="2146" />
+      <edge id="226" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_protearum_CBS116654" weight="1696" />
+      <edge id="227" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_pseudoabietina_VPRI43531" weight="2056" />
+      <edge id="228" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_schenckii_1099" weight="1787" />
+      <edge id="229" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_thermara_CBS139747MAG" weight="1651" />
+      <edge id="230" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_variecibatus_CBS121961" weight="2126" />
+      <edge id="231" source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_phasma_CBS119721" weight="1377" />
+      <edge id="232" source="Sporothrix_pallida_CBS13156" target="Sporothrix_protearum_CBS116654" weight="2563" />
+      <edge id="233" source="Sporothrix_pallida_CBS13156" target="Sporothrix_pseudoabietina_VPRI43531" weight="3085" />
+      <edge id="234" source="Sporothrix_pallida_CBS13156" target="Sporothrix_schenckii_1099" weight="2921" />
+      <edge id="235" source="Sporothrix_pallida_CBS13156" target="Sporothrix_variecibatus_CBS121961" weight="3842" />
+      <edge id="236" source="Sporothrix_pallida_CBS13156" target="Sporothrix_thermara_CBS139747MAG" weight="2222" />
+      <edge id="237" source="Sporothrix_pallida_CBS13156" target="Sporothrix_phasma_CBS119721" weight="1869" />
+      <edge id="238" source="Sporothrix_phasma_CBS119721" target="Sporothrix_protearum_CBS116654" weight="1624" />
+      <edge id="239" source="Sporothrix_phasma_CBS119721" target="Sporothrix_pseudoabietina_VPRI43531" weight="1778" />
+      <edge id="240" source="Sporothrix_phasma_CBS119721" target="Sporothrix_schenckii_1099" weight="1692" />
+      <edge id="241" source="Sporothrix_phasma_CBS119721" target="Sporothrix_thermara_CBS139747MAG" weight="1485" />
+      <edge id="242" source="Sporothrix_phasma_CBS119721" target="Sporothrix_variecibatus_CBS121961" weight="1865" />
+      <edge id="243" source="Sporothrix_protearum_CBS116654" target="Sporothrix_pseudoabietina_VPRI43531" weight="2401" />
+      <edge id="244" source="Sporothrix_protearum_CBS116654" target="Sporothrix_schenckii_1099" weight="2201" />
+      <edge id="245" source="Sporothrix_protearum_CBS116654" target="Sporothrix_variecibatus_CBS121961" weight="2655" />
+      <edge id="246" source="Sporothrix_protearum_CBS116654" target="Sporothrix_thermara_CBS139747MAG" weight="1786" />
+      <edge id="247" source="Sporothrix_pseudoabietina_VPRI43531" target="Sporothrix_schenckii_1099" weight="2466" />
+      <edge id="248" source="Sporothrix_pseudoabietina_VPRI43531" target="Sporothrix_variecibatus_CBS121961" weight="3287" />
+      <edge id="249" source="Sporothrix_pseudoabietina_VPRI43531" target="Sporothrix_thermara_CBS139747MAG" weight="2100" />
+      <edge id="250" source="Sporothrix_schenckii_1099" target="Sporothrix_variecibatus_CBS121961" weight="2883" />
+      <edge id="251" source="Sporothrix_schenckii_1099" target="Sporothrix_thermara_CBS139747MAG" weight="1883" />
+      <edge id="252" source="Sporothrix_thermara_CBS139747MAG" target="Sporothrix_variecibatus_CBS121961" weight="2250" />
+    </edges>
+  </graph>
+</gexf>

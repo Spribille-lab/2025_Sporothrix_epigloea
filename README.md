@@ -422,17 +422,22 @@ while IFS=$'\t' read -r v1 v2; do wget https://rest.kegg.jp/get/"$v1"; sleep 1; 
 * calculate kegg module completeness and create heatmap and wordcloud annotations using ggkegg `scripts/10_ggkegg.R`
 * results in `10_annotations/kegg`
 
+### 5.5 merged annotations from funannotate, DeepLoc, Orthofinder, and KEGG
+
+* merged annotations using `scripts/10_merge_annotations.R`
 
 ## 6. Genome comparisons
 Software used:
 * compare utility of funannotate
 * OrthoFinder 2.5.5 (Emms & Kelly, 2019)
+* KinFin 1.1.1 (Laetsch & Blaxter, 2017)
 * custom R scripts
     * ComplexHeatmap v2.13.2 package (Gu, 2022; Gu et al., 2016)
     * ape v5.6-2 (Paradis & Schliep, 2019)
     * DECIPHER v2.25.2 (Wright, 2016)
     * tidyverse v1.3.2 (Wickham et al., 2019)
     * UpSetR v1.4.0 (Conway et al., 2017)
+    * phylotools v0.2.2 (Zhang et al.)
 * IQ-TREE 2.0.7 (Minh et al., 2020)
     * ModelFinder (Kalyaanamoorthy et al., 2017)
     * ultrafast bootstraps (Hoang et al., 2017)
@@ -477,8 +482,34 @@ orthofinder \
 -o /input/orthofinder_output_core_Aug7 \
 -f /input/orthofinder_input_core
 ```
-* visualized the orthogroup overlaps using `scripts/09_Sporothrix_orthofinder.R`
-* extracted orthogroups gained by *S. epigloea* and undetected in *S. epigloea* using `scripts/09_Sporothrix_orthofinder.R`
+
+* used KinFin to produce representative annotation per orthogroup.
+
+```
+cd "$project_dir"/09_orthology/orthofinder_input_core
+cat *.fa > all_Sporothrix_proteins.fa
+
+#run InterProScan
+conda activate funannotate-1.8.15-env #to get java to work
+cd "$project_dir"/09_orthology/KinFin
+/data/databases/interproscan-5.63-95.0/interproscan.sh -i "$project_dir"/09_orthology/orthofinder_input_core/all_Sporothrix_proteins.fa -d out/ -dp -t p --goterms -appl Pfam -f TSV
+conda deactivate
+
+#covert to table readable by KinFin
+conda activate kinfin
+kinfin/scripts/iprs2table.py -i out/all_Sporothrix_proteins.fa.tsv
+
+#run KinFin
+kinfin -g Orthogroups.txt -c config.txt -s SequenceIDs.txt -p SpeciesIDs.txt -f functional_annotation.txt -a protein_fasta/
+kinfin/scripts/functional_annotation_of_clusters.py all -f kinfin_results/cluster_domain_annotation.IPR.txt -c kinfin_results/cluster_counts_by_taxon.txt --domain_protein_cov 0.3 --domain_taxon_cov 0.02 -o IPR
+kinfin/scripts/functional_annotation_of_clusters.py all -f kinfin_results/cluster_domain_annotation.GO.txt -c kinfin_results/cluster_counts_by_taxon.txt --domain_protein_cov 0.3 --domain_taxon_cov 0.02 -o GO
+kinfin/scripts/functional_annotation_of_clusters.py all -f kinfin_results/cluster_domain_annotation.Pfam.txt -c kinfin_results/cluster_counts_by_taxon.txt --domain_protein_cov 0.3 --domain_taxon_cov 0.02 -o Pfam
+```
+
+* visualized the orthogroup overlaps using `scripts/09_Sporothrix_orthofinder_KinFin_results.R`
+* extracted orthogroups unique to *S. epigloea* and undetected in *S. epigloea* using `scripts/09_Sporothrix_orthofinder_KinFin_results.R`
+* manually categorized the InterPro annotations and added a KEGG annotation if at least 2 (for those unique to *S. epigloea*) or 5 proteins (for those not found in *S. epigloea*) in the orthogroup contained that annotation  `09_orthology/KinFin/OrthoFinder/combined_cluster_functional_annotation.gained.p30.x2.xls` and `09_orthology/KinFin/OrthoFinder/combined_cluster_functional_annotation.lost.p30.x2.xls`
+* visualized the orthogroup annotations using `scripts/09_Sporothrix_orthofinder_KinFin_results.R`
 
 ### 6.3 Comparisons using funannotate
 
@@ -489,11 +520,7 @@ funannotate compare -i \
 --num_orthos 1 --cpus 32 -o funannotate_compare_notree
 ```
 
-### 6.4 merged annotations from funannotate, DeepLoc, Orthofinder, and KEGG
-
-* merged annotations using `scripts/10_merge_annotations.R`
-
-### 6.5 visualize annotations
+### 6.4 visualize annotations
 
 * visualized the genome comparisons using `scripts/10_comparative_genomic_analysis.R`
 

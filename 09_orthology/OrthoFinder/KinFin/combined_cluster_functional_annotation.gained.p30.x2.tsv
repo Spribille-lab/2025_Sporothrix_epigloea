@@ -1,0 +1,28 @@
+cluster_id	protein_count	taxon_count	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+OG0008125	15	3	GO:0003676;GO:0008270	nucleic acid binding ;zinc ion binding 	IPR001878	Domain Zinc finger, CCHC-type	PF00098	Zinc knuckle
+OG0008993	10	3	None	None	None	None	None	None
+OG0009145	9	3	None	None	None	None	None	None
+OG0009296	8	3	None	None	None	None	None	None
+OG0009481	7	3	None	None	IPR024752	Domain Myb/SANT-like domain	PF12776	Myb/SANT-like DNA-binding domain
+OG0009727	6	3	None	None	None	None	None	None
+OG0009935	5	3	None	None	None	None	None	None
+OG0009936	5	3	None	None	None	None	None	None
+OG0010189	4	3	None	None	None	None	None	None
+OG0010190	4	3	None	None	None	None	None	None
+OG0010505	3	3	None	None	None	None	None	None
+OG0010508	3	3	None	None	None	None	None	None
+OG0010510	3	3	None	None	None	None	None	None
+OG0010511	3	3	None	None	None	None	None	None
+OG0010513	3	3	GO:0003677;GO:0006351;GO:0006807;GO:0008270;GO:0036361	DNA binding ;DNA-templated transcription ;N/A;zinc ion binding ;racemase activity, acting on amino acids and derivatives 	IPR015942;IPR007219	Family Asp/Glu/hydantoin racemase;Domain Transcription factor domain, fungi	PF01177;PF04082	Asp/Glu/Hydantoin racemase;Fungal specific transcription factor domain 
+OG0010514	3	3	None	None	None	None	None	None
+OG0010516	3	3	None	None	None	None	None	None
+OG0010517	3	3	None	None	IPR014942	Family Nucleotidyl transferase AbiEii toxin, Type IV TA system	PF08843	Nucleotidyl transferase AbiEii toxin, Type IV TA system
+OG0010518	3	3	None	None	None	None	None	None
+OG0010519	3	3	None	None	None	None	None	None
+OG0010520	3	3	None	None	None	None	None	None
+OG0010524	3	3	GO:0004842	ubiquitin-protein transferase activity 	IPR000569	Domain HECT domain	PF00632	HECT-domain (ubiquitin-transferase)
+OG0010525	3	3	None	None	None	None	None	None
+OG0010526	3	3	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups 	IPR000182	Domain GNAT domain	PF00583	Acetyltransferase (GNAT) family
+OG0010528	3	3	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0010529	3	3	None	None	IPR015069	Domain 2H-phosphodiesterase-like, Domain of unknown function DUF1868	PF08975	Domain of unknown function (DUF1868)
+OG0010535	3	3	GO:0003676;GO:0008270	nucleic acid binding ;zinc ion binding 	IPR001878	Domain Zinc finger, CCHC-type	PF00098	Zinc knuckle

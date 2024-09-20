@@ -36,6 +36,7 @@ genome_list = c("Sporothrix_bragantina_CBS47491",
                 "Sporothrix_thermara_CBS139747MAG",
                 "Sporothrix_variecibatus_CBS121961")
 
+# grab the Orthogroups.tsv file from orthofinder, write a table for each genome, write each vector to file.  I can't quite remember why I wrote everythng to a file and then imported it again.
 for (i in 1:length(genome_list)){
   orthogroups <- read.delim("Orthogroups/Orthogroups.tsv", stringsAsFactors = F) %>%
   select(Orthogroup, paste(genome_list[i]))
@@ -50,6 +51,7 @@ orthogroup_unique_v = unique(orthogroup_v)
 saveRDS(orthogroup_unique_v, file = paste("Custom_results/",genome_list[i],".unique.orthogroups.rds", sep=""))
 }
 
+# make an object for each vector of orthogroups. I wrote this before I knew how to write functions.  Don't judge me.
 Sporothrix_bragantina_CBS47491 <- readRDS("Custom_results/Sporothrix_bragantina_CBS47491.unique.orthogroups.rds")
 Sporothrix_brasiliensis_5110 <- readRDS("Custom_results/Sporothrix_brasiliensis_5110.unique.orthogroups.rds")
 Sporothrix_curviconia_CBS95973 <- readRDS("Custom_results/Sporothrix_curviconia_CBS95973.unique.orthogroups.rds")

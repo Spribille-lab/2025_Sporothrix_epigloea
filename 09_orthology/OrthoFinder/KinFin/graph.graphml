@@ -1,0 +1,909 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d5" />
+  <key attr.name="protein_count" attr.type="long" for="node" id="d4" />
+  <key attr.name="compare" attr.type="string" for="node" id="d3" />
+  <key attr.name="TAXON" attr.type="string" for="node" id="d2" />
+  <key attr.name="IDX" attr.type="string" for="node" id="d1" />
+  <key attr.name="name" attr.type="string" for="graph" id="d0" />
+  <graph edgedefault="undirected">
+    <data key="d0">Graph</data>
+    <node id="Sporothrix_bragantina_CBS47491">
+      <data key="d1">0</data>
+      <data key="d2">Sporothrix_bragantina_CBS47491</data>
+      <data key="d3">other</data>
+      <data key="d4">10045</data>
+    </node>
+    <node id="Sporothrix_brasiliensis_5110">
+      <data key="d1">1</data>
+      <data key="d2">Sporothrix_brasiliensis_5110</data>
+      <data key="d3">other</data>
+      <data key="d4">8566</data>
+    </node>
+    <node id="Sporothrix_curviconia_CBS95973">
+      <data key="d1">2</data>
+      <data key="d2">Sporothrix_curviconia_CBS95973</data>
+      <data key="d3">other</data>
+      <data key="d4">9816</data>
+    </node>
+    <node id="Sporothrix_dimorphospora_CBS55374">
+      <data key="d1">3</data>
+      <data key="d2">Sporothrix_dimorphospora_CBS55374</data>
+      <data key="d3">other</data>
+      <data key="d4">10207</data>
+    </node>
+    <node id="Sporothrix_epigloea_CBS119000">
+      <data key="d1">4</data>
+      <data key="d2">Sporothrix_epigloea_CBS119000</data>
+      <data key="d3">epigloea</data>
+      <data key="d4">6636</data>
+    </node>
+    <node id="Sporothrix_epigloea_CBS57363">
+      <data key="d1">5</data>
+      <data key="d2">Sporothrix_epigloea_CBS57363</data>
+      <data key="d3">epigloea</data>
+      <data key="d4">6637</data>
+    </node>
+    <node id="Sporothrix_epigloea_TF4163">
+      <data key="d1">6</data>
+      <data key="d2">Sporothrix_epigloea_TF4163</data>
+      <data key="d3">epigloea</data>
+      <data key="d4">6595</data>
+    </node>
+    <node id="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d1">7</data>
+      <data key="d2">Sporothrix_eucalyptigena_CBS139899</data>
+      <data key="d3">other</data>
+      <data key="d4">10720</data>
+    </node>
+    <node id="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d1">8</data>
+      <data key="d2">Sporothrix_eucalyptigena_CBS140593</data>
+      <data key="d3">other</data>
+      <data key="d4">10648</data>
+    </node>
+    <node id="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d1">9</data>
+      <data key="d2">Sporothrix_euskadiensis_VPRI43754</data>
+      <data key="d3">other</data>
+      <data key="d4">8975</data>
+    </node>
+    <node id="Sporothrix_globosa_CBS120340">
+      <data key="d1">10</data>
+      <data key="d2">Sporothrix_globosa_CBS120340</data>
+      <data key="d3">other</data>
+      <data key="d4">8712</data>
+    </node>
+    <node id="Sporothrix_humicola_CBS118129">
+      <data key="d1">11</data>
+      <data key="d2">Sporothrix_humicola_CBS118129</data>
+      <data key="d3">other</data>
+      <data key="d4">10406</data>
+    </node>
+    <node id="Sporothrix_inflata_CBS23968">
+      <data key="d1">12</data>
+      <data key="d2">Sporothrix_inflata_CBS23968</data>
+      <data key="d3">other</data>
+      <data key="d4">10695</data>
+    </node>
+    <node id="Sporothrix_luriei_CBS93772">
+      <data key="d1">13</data>
+      <data key="d2">Sporothrix_luriei_CBS93772</data>
+      <data key="d3">other</data>
+      <data key="d4">8257</data>
+    </node>
+    <node id="Sporothrix_mexicana_CBS120341">
+      <data key="d1">14</data>
+      <data key="d2">Sporothrix_mexicana_CBS120341</data>
+      <data key="d3">other</data>
+      <data key="d4">10909</data>
+    </node>
+    <node id="Sporothrix_nigrograna_VPRI43755">
+      <data key="d1">15</data>
+      <data key="d2">Sporothrix_nigrograna_VPRI43755</data>
+      <data key="d3">other</data>
+      <data key="d4">7747</data>
+    </node>
+    <node id="Sporothrix_pallida_CBS13156">
+      <data key="d1">16</data>
+      <data key="d2">Sporothrix_pallida_CBS13156</data>
+      <data key="d3">other</data>
+      <data key="d4">10461</data>
+    </node>
+    <node id="Sporothrix_phasma_CBS119721">
+      <data key="d1">17</data>
+      <data key="d2">Sporothrix_phasma_CBS119721</data>
+      <data key="d3">other</data>
+      <data key="d4">7182</data>
+    </node>
+    <node id="Sporothrix_protearum_CBS116654">
+      <data key="d1">18</data>
+      <data key="d2">Sporothrix_protearum_CBS116654</data>
+      <data key="d3">other</data>
+      <data key="d4">8343</data>
+    </node>
+    <node id="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d1">19</data>
+      <data key="d2">Sporothrix_pseudoabietina_VPRI43531</data>
+      <data key="d3">other</data>
+      <data key="d4">8875</data>
+    </node>
+    <node id="Sporothrix_schenckii_1099">
+      <data key="d1">20</data>
+      <data key="d2">Sporothrix_schenckii_1099</data>
+      <data key="d3">other</data>
+      <data key="d4">8488</data>
+    </node>
+    <node id="Sporothrix_thermara_CBS139747MAG">
+      <data key="d1">21</data>
+      <data key="d2">Sporothrix_thermara_CBS139747MAG</data>
+      <data key="d3">other</data>
+      <data key="d4">7861</data>
+    </node>
+    <node id="Sporothrix_variecibatus_CBS121961">
+      <data key="d1">22</data>
+      <data key="d2">Sporothrix_variecibatus_CBS121961</data>
+      <data key="d3">other</data>
+      <data key="d4">10156</data>
+    </node>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_brasiliensis_5110">
+      <data key="d5">2685</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_curviconia_CBS95973">
+      <data key="d5">3415</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_dimorphospora_CBS55374">
+      <data key="d5">3461</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">3773</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">3759</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">2944</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">2837</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3529</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3571</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2344</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3536</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3569</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2429</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2899</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_schenckii_1099">
+      <data key="d5">2719</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3594</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2055</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2279</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_epigloea_CBS57363">
+      <data key="d5">1081</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_epigloea_TF4163">
+      <data key="d5">1052</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1772</data>
+    </edge>
+    <edge source="Sporothrix_bragantina_CBS47491" target="Sporothrix_epigloea_CBS119000">
+      <data key="d5">990</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_curviconia_CBS95973">
+      <data key="d5">2679</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_dimorphospora_CBS55374">
+      <data key="d5">2864</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">2777</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">2764</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">2493</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">2923</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">2878</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">2929</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2576</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">2888</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">2886</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2203</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2466</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_schenckii_1099">
+      <data key="d5">2996</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2843</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">1785</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1870</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_epigloea_CBS57363">
+      <data key="d5">907</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_epigloea_TF4163">
+      <data key="d5">895</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1688</data>
+    </edge>
+    <edge source="Sporothrix_brasiliensis_5110" target="Sporothrix_epigloea_CBS119000">
+      <data key="d5">840</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_dimorphospora_CBS55374">
+      <data key="d5">3334</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">3493</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">3476</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">2905</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">2806</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3371</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3447</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2362</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3329</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3380</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2435</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2869</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_schenckii_1099">
+      <data key="d5">2689</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3391</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2090</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2290</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_epigloea_CBS57363">
+      <data key="d5">1095</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_epigloea_TF4163">
+      <data key="d5">1074</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1772</data>
+    </edge>
+    <edge source="Sporothrix_curviconia_CBS95973" target="Sporothrix_epigloea_CBS119000">
+      <data key="d5">1021</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">3656</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">3652</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">3059</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">3029</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3652</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">4009</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2507</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3667</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3660</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2538</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3049</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_schenckii_1099">
+      <data key="d5">2905</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3728</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2132</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2206</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_epigloea_CBS57363">
+      <data key="d5">1048</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_epigloea_TF4163">
+      <data key="d5">1032</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1841</data>
+    </edge>
+    <edge source="Sporothrix_dimorphospora_CBS55374" target="Sporothrix_epigloea_CBS119000">
+      <data key="d5">977</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_epigloea_CBS57363">
+      <data key="d5">1029</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_epigloea_TF4163">
+      <data key="d5">1029</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">1034</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">1028</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">994</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">875</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">986</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">1006</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">672</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">708</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">807</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">995</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_schenckii_1099">
+      <data key="d5">841</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">1025</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">968</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">985</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">897</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS119000" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">738</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_epigloea_TF4163">
+      <data key="d5">1175</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">1098</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">1068</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">954</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">1052</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">1069</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">741</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">1032</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">772</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">1054</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">805</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">871</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">1068</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_schenckii_1099">
+      <data key="d5">909</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">962</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">1100</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_CBS57363" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">1114</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">1079</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">1056</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">935</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">1037</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">1059</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">726</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">1019</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">760</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">1039</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">800</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">862</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">1056</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_schenckii_1099">
+      <data key="d5">897</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">954</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">1090</data>
+    </edge>
+    <edge source="Sporothrix_epigloea_TF4163" target="Sporothrix_eucalyptigena_CBS139899">
+      <data key="d5">1092</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_eucalyptigena_CBS140593">
+      <data key="d5">4581</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">3077</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">2950</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3713</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3806</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2429</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3697</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3750</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2512</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3037</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_schenckii_1099">
+      <data key="d5">2826</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3794</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2163</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2304</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS139899" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1807</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_euskadiensis_VPRI43754">
+      <data key="d5">3061</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">2927</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3694</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3782</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2412</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3676</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3731</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2493</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3025</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_schenckii_1099">
+      <data key="d5">2805</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3771</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2157</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2286</data>
+    </edge>
+    <edge source="Sporothrix_eucalyptigena_CBS140593" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1803</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_globosa_CBS120340">
+      <data key="d5">2622</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3115</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3170</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2170</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3117</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3123</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2431</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3320</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_schenckii_1099">
+      <data key="d5">2496</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3315</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2067</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2109</data>
+    </edge>
+    <edge source="Sporothrix_euskadiensis_VPRI43754" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1780</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_humicola_CBS118129">
+      <data key="d5">3019</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3085</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2582</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3036</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3040</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2281</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2587</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_schenckii_1099">
+      <data key="d5">2958</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2998</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">1858</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1947</data>
+    </edge>
+    <edge source="Sporothrix_globosa_CBS120340" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1738</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_inflata_CBS23968">
+      <data key="d5">3805</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2526</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3992</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">4413</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2564</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3071</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_schenckii_1099">
+      <data key="d5">2908</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3825</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2135</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2218</data>
+    </edge>
+    <edge source="Sporothrix_humicola_CBS118129" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1858</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_luriei_CBS93772">
+      <data key="d5">2556</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">3777</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3817</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2610</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3141</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_schenckii_1099">
+      <data key="d5">2962</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3913</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2183</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2268</data>
+    </edge>
+    <edge source="Sporothrix_inflata_CBS23968" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1869</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_mexicana_CBS120341">
+      <data key="d5">2515</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">2532</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">1949</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2134</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_schenckii_1099">
+      <data key="d5">2550</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2474</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">1553</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1601</data>
+    </edge>
+    <edge source="Sporothrix_luriei_CBS93772" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1481</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">3998</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2566</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3082</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_schenckii_1099">
+      <data key="d5">2915</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3757</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_nigrograna_VPRI43755">
+      <data key="d5">2145</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2227</data>
+    </edge>
+    <edge source="Sporothrix_mexicana_CBS120341" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1852</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_pallida_CBS13156">
+      <data key="d5">2146</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">1696</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2056</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_schenckii_1099">
+      <data key="d5">1787</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1651</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2126</data>
+    </edge>
+    <edge source="Sporothrix_nigrograna_VPRI43755" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1377</data>
+    </edge>
+    <edge source="Sporothrix_pallida_CBS13156" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">2563</data>
+    </edge>
+    <edge source="Sporothrix_pallida_CBS13156" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">3085</data>
+    </edge>
+    <edge source="Sporothrix_pallida_CBS13156" target="Sporothrix_schenckii_1099">
+      <data key="d5">2921</data>
+    </edge>
+    <edge source="Sporothrix_pallida_CBS13156" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3842</data>
+    </edge>
+    <edge source="Sporothrix_pallida_CBS13156" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2222</data>
+    </edge>
+    <edge source="Sporothrix_pallida_CBS13156" target="Sporothrix_phasma_CBS119721">
+      <data key="d5">1869</data>
+    </edge>
+    <edge source="Sporothrix_phasma_CBS119721" target="Sporothrix_protearum_CBS116654">
+      <data key="d5">1624</data>
+    </edge>
+    <edge source="Sporothrix_phasma_CBS119721" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">1778</data>
+    </edge>
+    <edge source="Sporothrix_phasma_CBS119721" target="Sporothrix_schenckii_1099">
+      <data key="d5">1692</data>
+    </edge>
+    <edge source="Sporothrix_phasma_CBS119721" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1485</data>
+    </edge>
+    <edge source="Sporothrix_phasma_CBS119721" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">1865</data>
+    </edge>
+    <edge source="Sporothrix_protearum_CBS116654" target="Sporothrix_pseudoabietina_VPRI43531">
+      <data key="d5">2401</data>
+    </edge>
+    <edge source="Sporothrix_protearum_CBS116654" target="Sporothrix_schenckii_1099">
+      <data key="d5">2201</data>
+    </edge>
+    <edge source="Sporothrix_protearum_CBS116654" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2655</data>
+    </edge>
+    <edge source="Sporothrix_protearum_CBS116654" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1786</data>
+    </edge>
+    <edge source="Sporothrix_pseudoabietina_VPRI43531" target="Sporothrix_schenckii_1099">
+      <data key="d5">2466</data>
+    </edge>
+    <edge source="Sporothrix_pseudoabietina_VPRI43531" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">3287</data>
+    </edge>
+    <edge source="Sporothrix_pseudoabietina_VPRI43531" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">2100</data>
+    </edge>
+    <edge source="Sporothrix_schenckii_1099" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2883</data>
+    </edge>
+    <edge source="Sporothrix_schenckii_1099" target="Sporothrix_thermara_CBS139747MAG">
+      <data key="d5">1883</data>
+    </edge>
+    <edge source="Sporothrix_thermara_CBS139747MAG" target="Sporothrix_variecibatus_CBS121961">
+      <data key="d5">2250</data>
+    </edge>
+  </graph>
+</graphml>

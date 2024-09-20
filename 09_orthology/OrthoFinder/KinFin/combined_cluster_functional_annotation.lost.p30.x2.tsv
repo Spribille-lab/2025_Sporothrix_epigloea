@@ -1,0 +1,417 @@
+cluster_id	protein_count	taxon_count	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+OG0000037	54	20	GO:0016491;GO:0050660	oxidoreductase activity ;flavin adenine dinucleotide binding 	IPR012951;IPR006094	Domain Berberine/berberine-like;Domain FAD linked oxidase, N-terminal	PF08031;PF01565	Berberine and berberine like ;FAD binding domain 
+OG0000040	53	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0000042	53	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000050	49	20	GO:0004499;GO:0050660;GO:0050661	N,N-dimethylaniline monooxygenase activity ;flavin adenine dinucleotide binding ;NADP binding 	IPR020946	Family Flavin monooxygenase-like	PF00743	Flavin-binding monooxygenase-like
+OG0000054	48	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR010573	Family Major facilitator transporter Str1/Tri12-like	PF06609	Fungal trichothecene efflux pump (TRI12)
+OG0000067	46	20	GO:0005507;GO:0016491	copper ion binding ;oxidoreductase activity 	IPR011706;IPR011707;IPR001117	Domain Multicopper oxidase, C-terminal;Domain Multicopper oxidase-like, N-terminal;Domain Multicopper oxidase, second cupredoxin domain	PF07731;PF07732;PF00394	Multicopper oxidase;Multicopper oxidase;Multicopper oxidase
+OG0000077	43	20	GO:0016787	hydrolase activity 	IPR013094	Domain Alpha/beta hydrolase fold-3	PF07859	alpha/beta hydrolase fold
+OG0000107	39	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000112	38	20	None	None	IPR013154	Domain Alcohol dehydrogenase-like, N-terminal	PF08240	Alcohol dehydrogenase GroES-like domain
+OG0000114	38	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000130	37	20	GO:0004553;GO:0071704	hydrolase activity, hydrolyzing O-glycosyl compounds ;N/A	IPR001547	Domain Glycoside hydrolase, family 5	PF00150	Cellulase (glycosyl hydrolase family 5)
+OG0000140	36	20	None	None	IPR025110;IPR000873	Domain AMP-binding enzyme, C-terminal domain;Domain AMP-dependent synthetase/ligase domain	PF13193;PF00501	AMP-binding enzyme C-terminal domain;AMP-binding enzyme
+OG0000145	35	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000150	35	20	None	None	None	None	None	None
+OG0000156	35	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000171	34	20	None	None	IPR021833	Family Protein of unknown function DUF3425	PF11905	Domain of unknown function (DUF3425)
+OG0000179	34	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000180	34	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000202	33	20	GO:0016787	hydrolase activity 	IPR013094	Domain Alpha/beta hydrolase fold-3	PF07859	alpha/beta hydrolase fold
+OG0000226	31	20	GO:0008270;GO:0003677;GO:0006351	zinc ion binding ;DNA binding ;DNA-templated transcription 	IPR033121;IPR007219	Domain Peptidase family A1 domain;Domain Transcription factor domain, fungi	PF00026;PF04082	Eukaryotic aspartyl protease;Fungal specific transcription factor domain 
+OG0000232	31	20	GO:0016491	oxidoreductase activity 	IPR015590	Domain Aldehyde dehydrogenase domain	PF00171	Aldehyde dehydrogenase family
+OG0000234	31	20	None	None	None	None	None	None
+OG0000247	30	20	GO:0016614;GO:0050660	oxidoreductase activity, acting on CH-OH group of donors ;flavin adenine dinucleotide binding 	IPR007867;IPR000172	Domain Glucose-methanol-choline oxidoreductase, C-terminal;Domain Glucose-methanol-choline oxidoreductase, N-terminal	PF05199;PF00732	GMC oxidoreductase;GMC oxidoreductase
+OG0000276	29	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000318	28	20	GO:0016491	oxidoreductase activity 	IPR015590	Domain Aldehyde dehydrogenase domain	PF00171	Aldehyde dehydrogenase family
+OG0000347	27	20	None	None	IPR013097	Domain Stress responsive alpha-beta barrel	PF07876	Stress responsive A/B Barrel Domain
+OG0000351	27	20	None	None	IPR021858	Family Fungal transcription factor	PF11951	Fungal specific transcription factor domain
+OG0000376	26	20	GO:0003824;GO:0005506;GO:0006725;GO:0008199;GO:0009712;GO:0018576	catalytic activity ;iron ion binding ;N/A;ferric iron binding ;catechol-containing compound metabolic process ;catechol 1,2-dioxygenase activity 	IPR007535;IPR000627	Domain Catechol dioxygenase, N-terminal;Domain Intradiol ring-cleavage dioxygenase, C-terminal	PF04444;PF00775	Catechol dioxygenase N terminus;Dioxygenase
+OG0000439	25	20	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups 	IPR020616;IPR020617	Domain Thiolase, N-terminal;Domain Thiolase, C-terminal	PF00108;PF02803	Thiolase, N-terminal domain;Thiolase, C-terminal domain
+OG0000442	25	20	None	None	IPR008030	Domain NmrA-like domain	PF05368	NmrA-like family
+OG0000448	25	20	None	None	IPR013149;IPR013154	Domain Alcohol dehydrogenase-like, C-terminal;Domain Alcohol dehydrogenase-like, N-terminal	PF00107;PF08240	Zinc-binding dehydrogenase;Alcohol dehydrogenase GroES-like domain
+OG0000462	25	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000463	25	20	None	None	None	None	None	None
+OG0000489	25	20	GO:0016836	hydro-lyase activity 	IPR000581	Family Dihydroxy-acid/6-phosphogluconate dehydratase	PF00920	Dehydratase family
+OG0000515	24	20	GO:0035673	oligopeptide transmembrane transporter activity 	IPR004813	Family Oligopeptide transporter, OPT superfamily	PF03169	OPT oligopeptide transporter protein
+OG0000550	24	20	GO:0018580	nitronate monooxygenase activity 	IPR004136	Domain Nitronate monooxygenase	PF03060	Nitronate monooxygenase
+OG0000671	24	20	None	None	IPR013120;IPR000873;IPR009081	Domain Fatty acyl-coenzyme A reductase-like, NAD-binding domain;Domain AMP-dependent synthetase/ligase domain;Domain Phosphopantetheine binding ACP domain	PF07993;PF00501;PF00550	Male sterility protein;AMP-binding enzyme;Phosphopantetheine attachment site
+OG0000727	24	20	GO:0004499;GO:0050660;GO:0050661	N,N-dimethylaniline monooxygenase activity ;flavin adenine dinucleotide binding ;NADP binding 	IPR020946	Family Flavin monooxygenase-like	PF13450;PF00743	NAD(P)-binding Rossmann-like domain;Flavin-binding monooxygenase-like
+OG0000747	24	20	None	None	None	None	None	None
+OG0000834	24	20	GO:0051287	NAD binding 	IPR006140	Domain D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	PF02826	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+OG0001809	23	20	GO:0020037;GO:0016491	heme binding ;oxidoreductase activity 	IPR000971;IPR001433	Domain Globin;Domain Oxidoreductase FAD/NAD(P)-binding	PF00042;PF00175	Globin;Oxidoreductase NAD-binding domain 
+OG0002207	23	20	GO:0008270;GO:0000981;GO:0006355;GO:0003677;GO:0006351	zinc ion binding ;DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;DNA binding ;DNA-templated transcription 	IPR001138;IPR007219	Domain Zn(2)Cys(6) fungal-type DNA-binding domain;Domain Transcription factor domain, fungi	PF00172;PF04082	Fungal Zn(2)-Cys(6) binuclear cluster domain;Fungal specific transcription factor domain 
+OG0002595	23	20	None	None	IPR023631;IPR000868	Domain Amidase signature domain;Domain Isochorismatase-like	PF01425;PF00857	Amidase;Isochorismatase family
+OG0002663	23	20	None	None	None	None	None	None
+OG0003218	23	20	GO:0071949	FAD binding 	IPR002938	Domain FAD-binding domain	PF01494	FAD binding domain
+OG0005389	23	20	GO:0015079;GO:0016020;GO:0071805	potassium ion transmembrane transporter activity ;membrane ;potassium ion transmembrane transport 	IPR003855	Family Potassium transporter	PF02705	K+ potassium transporter integral membrane domain
+OG0005555	22	20	GO:0016788	hydrolase activity, acting on ester bonds 	IPR007312	Family Phosphoesterase	PF04185	Phosphoesterase family
+OG0005615	22	20	None	None	IPR001932	Domain PPM-type phosphatase-like domain	PF00481	Protein phosphatase 2C
+OG0005676	22	20	None	None	None	None	PF02458	Transferase family
+OG0005701	22	20	None	None	None	None	None	None
+OG0005740	22	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0005752	22	20	None	None	IPR000073	Domain Alpha/beta hydrolase fold-1	PF12697	Alpha/beta hydrolase family
+OG0005760	22	20	None	None	IPR008030	Domain NmrA-like domain	PF05368	NmrA-like family
+OG0005922	22	20	GO:0005515	protein binding 	IPR001810	Domain F-box domain	PF00646	F-box domain
+OG0005924	22	20	None	None	None	None	None	None
+OG0005925	22	20	GO:0003871;GO:0008270;GO:0009086	5-methyltetrahydropteroyltriglutamate-homocysteine S-methyltransferase activity ;zinc ion binding ;methionine biosynthetic process 	IPR002629	Domain Cobalamin-independent methionine synthase MetE, C-terminal/archaeal	PF01717	Cobalamin-independent synthase, Catalytic domain
+OG0005967	22	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006062	21	20	GO:0016491	oxidoreductase activity 	IPR003819	Domain TauD/TfdA-like domain	PF02668	Taurine catabolism dioxygenase TauD, TfdA family
+OG0006063	21	20	GO:0008484	sulfuric ester hydrolase activity 	IPR000917	Domain Sulfatase, N-terminal	PF00884	Sulfatase
+OG0006073	21	20	None	None	None	None	None	None
+OG0006075	21	20	None	None	IPR013658	Domain SMP-30/Gluconolactonase/LRE-like region	PF08450	SMP-30/Gluconolactonase/LRE-like region
+OG0006078	21	20	None	None	IPR023210	Domain NADP-dependent oxidoreductase domain	PF00248	Aldo/keto reductase family
+OG0006083	21	20	None	None	None	None	None	None
+OG0006089	21	20	None	None	IPR021986	Family Spherulation-specific family 4	PF12138	Spherulation-specific family 4
+OG0006091	21	20	GO:0050661;GO:0051287	NADP binding ;NAD binding 	IPR029154;IPR006115	Domain 3-hydroxyisobutyrate dehydrogenase-like, NAD-binding domain;Domain 6-phosphogluconate dehydrogenase, NADP-binding	PF14833;PF03446	NAD-binding of NADP-dependent 3-hydroxyisobutyrate dehydrogenase;NAD binding domain of 6-phosphogluconate dehydrogenase
+OG0006092	21	20	GO:0005975;GO:0008270;GO:0016832	carbohydrate metabolic process ;zinc ion binding ;aldehyde-lyase activity 	IPR000771	Family Fructose-bisphosphate aldolase, class-II	PF01116	Fructose-bisphosphate aldolase class-II
+OG0006095	21	20	None	None	None	None	None	None
+OG0006097	21	20	None	None	None	None	None	None
+OG0006098	21	20	None	None	IPR008427	Domain Extracellular membrane protein, CFEM domain	PF05730	CFEM domain
+OG0006099	21	20	GO:0003824	catalytic activity 	IPR001544	Family Aminotransferase class IV	PF01063	Amino-transferase class IV
+OG0006106	21	20	None	None	IPR031818	Family Protein Hri1	PF16815	Protein HRI1
+OG0006109	21	20	None	None	IPR023210	Domain NADP-dependent oxidoreductase domain	PF00248	Aldo/keto reductase family
+OG0006115	21	20	GO:0016020	membrane 	IPR000791	Family Acetate transporter GPR1/Ato2/SatP-like	PF01184	GPR1/FUN34/yaaH family
+OG0006118	21	20	None	None	IPR029036;IPR028939	Domain Pyrroline-5-carboxylate reductase, dimerisation domain;Domain Pyrroline-5-carboxylate reductase, catalytic, N-terminal	PF14748;PF03807	Pyrroline-5-carboxylate reductase dimerisation;NADP oxidoreductase coenzyme F420-dependent
+OG0006119	21	20	None	None	None	None	None	None
+OG0006129	21	20	GO:0005524;GO:0016887	ATP binding ;ATP hydrolysis activity 	IPR003959	Domain ATPase, AAA-type, core	PF00004	ATPase family associated with various cellular activities (AAA)
+OG0006131	21	20	None	None	None	None	None	None
+OG0006142	21	20	GO:0004553;GO:0005975	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process 	IPR006710	Family Glycoside hydrolase, family 43	PF04616	Glycosyl hydrolases family 43
+OG0006146	21	20	None	None	None	None	None	None
+OG0006147	21	20	None	None	IPR013341;IPR029065	Domain Mandelate racemase/muconate lactonizing enzyme, N-terminal domain;Domain Enolase C-terminal domain-like	PF02746;PF13378	Mandelate racemase / muconate lactonizing enzyme, N-terminal domain;Enolase C-terminal domain-like
+OG0006151	21	20	None	None	IPR013149;IPR013154	Domain Alcohol dehydrogenase-like, C-terminal;Domain Alcohol dehydrogenase-like, N-terminal	PF00107;PF08240	Zinc-binding dehydrogenase;Alcohol dehydrogenase GroES-like domain
+OG0006152	21	20	None	None	IPR023631	Domain Amidase signature domain	PF01425	Amidase
+OG0006157	21	20	GO:0004096;GO:0020037	catalase activity ;heme binding 	IPR011614	Domain Catalase core domain	PF00199	Catalase
+OG0006158	21	20	None	None	IPR021858	Family Fungal transcription factor	PF11951	Fungal specific transcription factor domain
+OG0006159	21	20	GO:0004089;GO:0008270	carbonate dehydratase activity ;zinc ion binding 	IPR001765	Family Carbonic anhydrase	PF00484	Carbonic anhydrase
+OG0006160	21	20	GO:0003824	catalytic activity 	IPR005000	Domain HpcH/HpaI aldolase/citrate lyase domain	PF03328	HpcH/HpaI aldolase/citrate lyase family
+OG0006170	21	20	GO:0003677;GO:0006351;GO:0008270	DNA binding ;DNA-templated transcription ;zinc ion binding 	IPR007219	Domain Transcription factor domain, fungi	PF04082	Fungal specific transcription factor domain 
+OG0006173	21	20	None	None	None	None	None	None
+OG0006174	21	20	None	None	None	None	None	None
+OG0006182	21	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006187	21	20	None	None	None	None	None	None
+OG0006204	21	20	None	None	IPR024747	Family Pyridoxamine 5'-phosphate oxidase-related	PF12900	Pyridoxamine 5'-phosphate oxidase
+OG0006210	21	20	GO:0043386	mycotoxin biosynthetic process 	IPR021765	Family Mycotoxin biosynthesis protein UstYa-like	PF11807	Mycotoxin biosynthesis protein UstYa
+OG0006220	21	20	None	None	IPR023631	Domain Amidase signature domain	PF01425	Amidase
+OG0006227	21	20	GO:0004553;GO:0005975;GO:0004565;GO:0009341	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process ;beta-galactosidase activity ;beta-galactosidase complex 	IPR006103;IPR006102;IPR004199;IPR006104;IPR032312	Domain Glycoside hydrolase family 2, catalytic domain;Domain Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich;Domain Beta galactosidase small chain/ domain 5;Domain Glycosyl hydrolases family 2, sugar binding domain;Domain Beta-galactosidase, domain 4	PF02836;PF00703;PF02929;PF02837;PF16353	Glycosyl hydrolases family 2, TIM barrel domain;Glycosyl hydrolases family 2;Beta galactosidase small chain;Glycosyl hydrolases family 2, sugar binding domain;Beta-galactosidase, domain 4
+OG0006232	21	20	None	None	IPR006068;IPR004014	Domain Cation-transporting P-type ATPase, C-terminal;Domain Cation-transporting P-type ATPase, N-terminal	PF00702;PF00689;PF00122;PF00690;PF13246	haloacid dehalogenase-like hydrolase;Cation transporting ATPase, C-terminus;E1-E2 ATPase;Cation transporter/ATPase, N-terminus;Cation transport ATPase (P-type)
+OG0006237	21	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006244	21	20	None	None	IPR037401	Domain SnoaL-like domain	PF13577	SnoaL-like domain
+OG0006260	21	20	GO:0000166	nucleotide binding 	IPR000683;IPR004104	Domain Gfo/Idh/MocA-like oxidoreductase, N-terminal;Domain Gfo/Idh/MocA-like oxidoreductase, C-terminal	PF01408;PF02894	Oxidoreductase family, NAD-binding Rossmann fold;Oxidoreductase family, C-terminal alpha/beta domain
+OG0006261	21	20	None	None	None	None	None	None
+OG0006263	21	20	None	None	IPR044861;IPR026992	Domain Isopenicillin N synthase-like, Fe(2+) 2OG dioxygenase domain;Domain Non-haem dioxygenase N-terminal domain	PF03171;PF14226	2OG-Fe(II) oxygenase superfamily;non-haem dioxygenase in morphine synthesis N-terminal
+OG0006269	21	20	None	None	None	None	None	None
+OG0006270	21	20	GO:0004650;GO:0005975	polygalacturonase activity ;carbohydrate metabolic process 	IPR000743	Family Glycoside hydrolase, family 28	PF00295	Glycosyl hydrolases family 28
+OG0006272	21	20	None	None	IPR006683	Domain Thioesterase domain	PF03061	Thioesterase superfamily
+OG0006273	21	20	GO:0005515	protein binding 	IPR001810	Domain F-box domain	PF00646	F-box domain
+OG0006278	21	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR021858;IPR001138	Family Fungal transcription factor;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF11951;PF00172	Fungal specific transcription factor domain;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006283	21	20	None	None	IPR021889	Family Protein of unknown function DUF3500	PF12006	Protein of unknown function (DUF3500)
+OG0006287	21	20	None	None	None	None	None	None
+OG0006293	21	20	GO:0008168	methyltransferase activity 	IPR001525	Family C-5 cytosine methyltransferase	PF00145	C-5 cytosine-specific DNA methylase
+OG0006305	21	20	GO:0016627;GO:0050660	oxidoreductase activity, acting on the CH-CH group of donors ;flavin adenine dinucleotide binding 	IPR009075;IPR013786;IPR006091	Domain Acyl-CoA dehydrogenase/oxidase, C-terminal;Domain Acyl-CoA dehydrogenase/oxidase, N-terminal;Domain Acyl-CoA oxidase/dehydrogenase, middle domain	PF00441;PF02771;PF02770	Acyl-CoA dehydrogenase, C-terminal domain;Acyl-CoA dehydrogenase, N-terminal domain;Acyl-CoA dehydrogenase, middle domain
+OG0006307	21	20	None	None	None	None	None	None
+OG0006308	21	20	GO:0043531	ADP binding 	IPR002182	Domain NB-ARC	PF13424;PF00931	Tetratricopeptide repeat;NB-ARC domain
+OG0006323	20	20	GO:0004553;GO:0005975	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process 	IPR026891;IPR002772;IPR011658;IPR001764	Domain Fibronectin type III-like domain;Domain Glycoside hydrolase family 3 C-terminal domain;Domain PA14 domain;Domain Glycoside hydrolase, family 3, N-terminal	PF14310;PF01915;PF07691;PF00933	Fibronectin type III-like domain;Glycosyl hydrolase family 3 C-terminal domain;PA14 domain;Glycosyl hydrolase family 3 N terminal domain
+OG0006325	20	20	None	None	None	None	None	None
+OG0006326	20	20	None	None	None	None	None	None
+OG0006327	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0006328	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006329	20	20	None	None	None	None	None	None
+OG0006330	20	20	None	None	IPR015920	Domain Cellobiose dehydrogenase, cytochrome domain	PF16010	Cytochrome domain of cellobiose dehydrogenase
+OG0006331	20	20	GO:0005524;GO:0006040;GO:0009254;GO:0016773	ATP binding ;amino sugar metabolic process ;peptidoglycan turnover ;phosphotransferase activity, alcohol group as acceptor 	IPR005338	Family Anhydro-N-acetylmuramic acid kinase	PF03702	Anhydro-N-acetylmuramic acid kinase
+OG0006332	20	20	None	None	IPR006683	Domain Thioesterase domain	PF03061	Thioesterase superfamily
+OG0006333	20	20	None	None	IPR002018	Domain Carboxylesterase, type B	PF00135	Carboxylesterase family
+OG0006335	20	20	None	None	None	None	None	None
+OG0006337	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106;PF13561	short chain dehydrogenase;Enoyl-(Acyl carrier protein) reductase
+OG0006339	20	20	None	None	None	None	PF13668	Ferritin-like domain
+OG0006340	20	20	None	None	None	None	None	None
+OG0006341	20	20	GO:0005515	protein binding 	IPR000210	Domain BTB/POZ domain	PF00651	BTB/POZ domain
+OG0006343	20	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR002293	Family Amino acid/polyamine transporter I	PF13520	Amino acid permease
+OG0006344	20	20	GO:0043386	mycotoxin biosynthetic process 	IPR021765	Family Mycotoxin biosynthesis protein UstYa-like	PF11807	Mycotoxin biosynthesis protein UstYa
+OG0006345	20	20	None	None	IPR007484	Domain Peptidase M28	PF04389	Peptidase family M28
+OG0006347	20	20	GO:0016491;GO:0050660	oxidoreductase activity ;flavin adenine dinucleotide binding 	IPR012951;IPR006094	Domain Berberine/berberine-like;Domain FAD linked oxidase, N-terminal	PF08031;PF01565	Berberine and berberine like ;FAD binding domain 
+OG0006349	20	20	None	None	IPR006598	Domain Glycosyl transferase CAP10 domain	PF05686	Glycosyl transferase family 90
+OG0006351	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006352	20	20	None	None	IPR010856	Family Gig2-like	PF07350	Gig2-like
+OG0006353	20	20	GO:0004784;GO:0006801;GO:0046872	superoxide dismutase activity ;superoxide metabolic process ;metal ion binding 	IPR019832;IPR019831	Domain Manganese/iron superoxide dismutase, C-terminal;Domain Manganese/iron superoxide dismutase, N-terminal	PF02777;PF00081	Iron/manganese superoxide dismutases, C-terminal domain;Iron/manganese superoxide dismutases, alpha-hairpin domain
+OG0006354	20	20	GO:0008236;GO:0006508	serine-type peptidase activity ;proteolysis 	IPR015366;IPR000209	Domain Peptidase S53, activation domain;Domain Peptidase S8/S53 domain	PF09286;PF00082	Pro-kumamolisin, activation domain ;Subtilase family
+OG0006355	20	20	None	None	IPR018815	Family Increased loss of mitochondrial DNA protein 1	PF10311	Increased loss of mitochondrial DNA protein 1
+OG0006356	20	20	None	None	IPR011058	Domain Cyanovirin-N	PF08881	CVNH domain
+OG0006357	20	20	GO:0016829	lyase activity 	IPR002220	Family DapA-like	PF00701	Dihydrodipicolinate synthetase family
+OG0006360	20	20	None	None	None	None	None	None
+OG0006361	20	20	None	None	None	None	None	None
+OG0006363	20	20	None	None	None	None	None	None
+OG0006364	20	20	None	None	None	None	None	None
+OG0006366	20	20	GO:0016787	hydrolase activity 	IPR000246	Family Peptidase T2, asparaginase 2	PF01112	Asparaginase
+OG0006367	20	20	None	None	None	None	None	None
+OG0006368	20	20	GO:0008171	O-methyltransferase activity 	IPR002935	Family Class I-like SAM-dependent O-methyltransferase	PF01596	O-methyltransferase
+OG0006369	20	20	None	None	None	None	None	None
+OG0006370	20	20	None	None	None	None	None	None
+OG0006371	20	20	None	None	IPR002539	Domain MaoC-like dehydratase domain	PF01575	MaoC like domain
+OG0006372	20	20	GO:0000166	nucleotide binding 	IPR000683	Domain Gfo/Idh/MocA-like oxidoreductase, N-terminal	PF01408	Oxidoreductase family, NAD-binding Rossmann fold
+OG0006373	20	20	None	None	IPR023631	Domain Amidase signature domain	PF01425	Amidase
+OG0006374	20	20	GO:0003824;GO:1990817	catalytic activity ;poly(A) RNA polymerase activity 	IPR007012;IPR040459;IPR005135	Domain Poly(A) polymerase, central domain;Domain MJ1316 RNA cyclic group end recognition domain;Domain Endonuclease/exonuclease/phosphatase	PF04928;PF13563;PF04457;PF03372	Poly(A) polymerase central domain;2'-5' RNA ligase superfamily;MJ1316 RNA cyclic group end recognition domain;Endonuclease/Exonuclease/phosphatase family
+OG0006375	20	20	None	None	None	None	PF13854	Kelch motif
+OG0006376	20	20	None	None	None	None	None	None
+OG0006377	20	20	GO:0051287	NAD binding 	IPR006140	Domain D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	PF02826	D-isomer specific 2-hydroxyacid dehydrogenase, NAD binding domain
+OG0006380	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006381	20	20	None	None	None	None	None	None
+OG0006382	20	20	None	None	None	None	None	None
+OG0006383	20	20	GO:0016491	oxidoreductase activity 	IPR000262;IPR001199	Domain FMN-dependent dehydrogenase;Domain Cytochrome b5-like heme/steroid binding domain	PF01070;PF00173	FMN-dependent dehydrogenase;Cytochrome b5-like Heme/Steroid binding domain
+OG0006385	20	20	None	None	IPR000073	Domain Alpha/beta hydrolase fold-1	PF00561	alpha/beta hydrolase fold
+OG0006387	20	20	GO:0003824;GO:0005506;GO:0006725;GO:0008199;GO:0009712;GO:0018576	catalytic activity ;iron ion binding ;N/A;ferric iron binding ;catechol-containing compound metabolic process ;catechol 1,2-dioxygenase activity 	IPR000627;IPR007535	Domain Intradiol ring-cleavage dioxygenase, C-terminal;Domain Catechol dioxygenase, N-terminal	PF00775;PF04444	Dioxygenase;Catechol dioxygenase N terminus
+OG0006388	20	20	None	None	IPR022124	Repeat Protein of unknown function DUF3659	PF12396	Protein of unknown function (DUF3659) 
+OG0006389	20	20	None	None	None	None	None	None
+OG0006392	20	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0006393	20	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0006395	20	20	GO:0006508;GO:0008236	proteolysis ;serine-type peptidase activity 	IPR001375	Domain Peptidase S9, prolyl oligopeptidase, catalytic domain	PF00326	Prolyl oligopeptidase family
+OG0006396	20	20	None	None	None	None	None	None
+OG0006397	20	20	None	None	IPR022025	Family Putative amidoligase enzyme	PF12224	Putative amidoligase enzyme
+OG0006399	20	20	None	None	None	None	None	None
+OG0006400	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006401	20	20	None	None	None	None	None	None
+OG0006403	20	20	None	None	None	None	None	None
+OG0006407	20	20	None	None	None	None	None	None
+OG0006408	20	20	None	None	None	None	PF13489	Methyltransferase domain
+OG0006410	20	20	GO:0004386	helicase activity 	IPR041677;IPR041679	Domain DNA2/NAM7 helicase, helicase domain;Domain DNA2/NAM7 helicase-like, C-terminal	PF13086;PF13087	AAA domain;AAA domain
+OG0006411	20	20	GO:0008236	serine-type peptidase activity 	IPR015366	Domain Peptidase S53, activation domain	PF09286	Pro-kumamolisin, activation domain 
+OG0006412	20	20	None	None	IPR023631	Domain Amidase signature domain	PF01425	Amidase
+OG0006413	20	20	None	None	None	None	None	None
+OG0006416	20	20	None	None	None	None	None	None
+OG0006417	20	20	None	None	None	None	None	None
+OG0006419	20	20	None	None	IPR013149	Domain Alcohol dehydrogenase-like, C-terminal	PF00107	Zinc-binding dehydrogenase
+OG0006421	20	20	None	None	IPR001466	Domain Beta-lactamase-related	PF00144	Beta-lactamase
+OG0006422	20	20	GO:0005515	protein binding 	IPR000210	Domain BTB/POZ domain	PF00651	BTB/POZ domain
+OG0006423	20	20	GO:0016491	oxidoreductase activity 	IPR023753	Domain FAD/NAD(P)-binding domain	PF07992	Pyridine nucleotide-disulphide oxidoreductase
+OG0006424	20	20	None	None	IPR016624	Family Uncharacterised conserved protein UCP014753	PF10022	Uncharacterized protein conserved in bacteria (DUF2264)
+OG0006425	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0006426	20	20	None	None	IPR024535	Domain Rhamnogalacturonase A/B/Epimerase-like, pectate lyase domain	PF12708	Pectate lyase superfamily protein
+OG0006427	20	20	None	None	IPR008775	Family Phytanoyl-CoA dioxygenase-like	PF05721	Phytanoyl-CoA dioxygenase (PhyH)
+OG0006428	20	20	None	None	IPR008313	Family Metal-independent alpha-mannosidase	PF06824	Metal-independent alpha-mannosidase (GH125)
+OG0006429	20	20	None	None	IPR012312	Domain Hemerythrin-like	PF01814	Hemerythrin HHE cation binding domain
+OG0006432	20	20	GO:0005975;GO:0016853	carbohydrate metabolic process ;isomerase activity 	IPR008183	Family Aldose 1-/Glucose-6-phosphate 1-epimerase	PF01263	Aldose 1-epimerase
+OG0006433	20	20	GO:0016020	membrane 	IPR008253	Domain Marvel domain	PF01284	Membrane-associating domain
+OG0006435	20	20	None	None	IPR005103	Domain Auxiliary Activity family 9, catalytic domain	PF03443	Auxiliary Activity family 9 (formerly GH61)
+OG0006436	20	20	None	None	IPR012942	Domain SRR1-like domain	PF07985	SRR1 domain
+OG0006437	20	20	GO:0003855;GO:0004764	3-dehydroquinate dehydratase activity ;shikimate 3-dehydrogenase (NADP+) activity 	IPR001381;IPR006151;IPR013708;IPR031322	Family 3-dehydroquinate dehydratase type I;Domain Quinate/shikimate 5-dehydrogenase/glutamyl-tRNA reductase;Domain Shikimate dehydrogenase substrate binding, N-terminal;Family Shikimate kinase/gluconokinase	PF01487;PF01488;PF08501;PF01202	Type I 3-dehydroquinase;Shikimate / quinate 5-dehydrogenase;Shikimate dehydrogenase substrate binding domain;Shikimate kinase
+OG0006438	20	20	None	None	None	None	None	None
+OG0006439	20	20	None	None	None	None	None	None
+OG0006440	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006441	20	20	None	None	IPR033121	Domain Peptidase family A1 domain	PF00026	Eukaryotic aspartyl protease
+OG0006443	20	20	None	None	None	None	None	None
+OG0006444	20	20	None	None	None	None	None	None
+OG0006445	20	20	None	None	None	None	None	None
+OG0006446	20	20	None	None	IPR019436	Family Steryl acetyl hydrolase 1-like	PF10340	Steryl acetyl hydrolase
+OG0006448	20	20	None	None	None	None	PF02353	Mycolic acid cyclopropane synthetase
+OG0006450	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR021858;IPR001138	Family Fungal transcription factor;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF11951;PF00172	Fungal specific transcription factor domain;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006451	20	20	GO:0005524;GO:0016887	ATP binding ;ATP hydrolysis activity 	IPR003959	Domain ATPase, AAA-type, core	PF00004	ATPase family associated with various cellular activities (AAA)
+OG0006455	20	20	None	None	None	None	None	None
+OG0006457	20	20	None	None	None	None	None	None
+OG0006460	20	20	None	None	None	None	None	None
+OG0006463	20	20	None	None	IPR024319	Family ATPase expression protein 2, mitochondrial	PF12921	Mitochondrial ATPase expression
+OG0006464	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR021858;IPR001138	Family Fungal transcription factor;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF11951;PF00172	Fungal specific transcription factor domain;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006466	20	20	None	None	IPR007123	Domain Gelsolin-like domain	PF00626	Gelsolin repeat
+OG0006467	20	20	None	None	None	None	None	None
+OG0006468	20	20	None	None	IPR000873;IPR025110	Domain AMP-dependent synthetase/ligase domain;Domain AMP-binding enzyme, C-terminal domain	PF00501;PF13193	AMP-binding enzyme;AMP-binding enzyme C-terminal domain
+OG0006469	20	20	None	None	IPR002539	Domain MaoC-like dehydratase domain	PF01575	MaoC like domain
+OG0006470	20	20	None	None	IPR001753	Family Enoyl-CoA hydratase/isomerase	PF00378	Enoyl-CoA hydratase/isomerase
+OG0006472	20	20	None	None	IPR000873;IPR025110	Domain AMP-dependent synthetase/ligase domain;Domain AMP-binding enzyme, C-terminal domain	PF00501;PF13193	AMP-binding enzyme;AMP-binding enzyme C-terminal domain
+OG0006473	20	20	None	None	IPR022025	Family Putative amidoligase enzyme	PF12224	Putative amidoligase enzyme
+OG0006474	20	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR000109	Family Proton-dependent oligopeptide transporter family	PF00854	POT family
+OG0006475	20	20	None	None	None	None	None	None
+OG0006478	20	20	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups 	IPR020616;IPR020617	Domain Thiolase, N-terminal;Domain Thiolase, C-terminal	PF00108;PF02803	Thiolase, N-terminal domain;Thiolase, C-terminal domain
+OG0006479	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF13561;PF00106	Enoyl-(Acyl carrier protein) reductase;short chain dehydrogenase
+OG0006480	20	20	None	None	IPR018535	Domain Domain of unknown function DUF1996	PF09362	Domain of unknown function (DUF1996)
+OG0006481	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006482	20	20	None	None	None	None	None	None
+OG0006483	20	20	GO:0004061;GO:0019441	arylformamidase activity ;tryptophan catabolic process to kynurenine 	IPR007325	Family Kynurenine formamidase/cyclase-like	PF04199	Putative cyclase
+OG0006484	20	20	None	None	IPR023210	Domain NADP-dependent oxidoreductase domain	PF00248	Aldo/keto reductase family
+OG0006485	20	20	None	None	IPR000873	Domain AMP-dependent synthetase/ligase domain	PF00501	AMP-binding enzyme
+OG0006486	20	20	None	None	IPR005198	Family Glycoside hydrolase, family 76	PF03663	Glycosyl hydrolase family 76 
+OG0006487	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0006488	20	20	None	None	None	None	None	None
+OG0006489	20	20	GO:0016627;GO:0050660	oxidoreductase activity, acting on the CH-CH group of donors ;flavin adenine dinucleotide binding 	IPR006091;IPR009075;IPR013786	Domain Acyl-CoA oxidase/dehydrogenase, middle domain;Domain Acyl-CoA dehydrogenase/oxidase, C-terminal;Domain Acyl-CoA dehydrogenase/oxidase, N-terminal	PF02770;PF00441;PF02771	Acyl-CoA dehydrogenase, middle domain;Acyl-CoA dehydrogenase, C-terminal domain;Acyl-CoA dehydrogenase, N-terminal domain
+OG0006490	20	20	GO:0003677;GO:0006351;GO:0008270;GO:0000981;GO:0006355	DNA binding ;DNA-templated transcription ;zinc ion binding ;DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription 	IPR007219;IPR001138	Domain Transcription factor domain, fungi;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF04082;PF00172	Fungal specific transcription factor domain ;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006492	20	20	None	None	IPR010775	Family Protein of unknown function DUF1365	PF07103	Protein of unknown function (DUF1365)
+OG0006493	20	20	GO:0015098;GO:0015689;GO:0016020	molybdate ion transmembrane transporter activity ;molybdate ion transport ;membrane 	IPR008509	Family Molybdate-anion transporter	PF05631	Sugar-tranasporters, 12 TM
+OG0006494	20	20	GO:0005507;GO:0016491	copper ion binding ;oxidoreductase activity 	IPR011706;IPR011707;IPR001117	Domain Multicopper oxidase, C-terminal;Domain Multicopper oxidase-like, N-terminal;Domain Multicopper oxidase, second cupredoxin domain	PF07731;PF07732;PF00394	Multicopper oxidase;Multicopper oxidase;Multicopper oxidase
+OG0006495	20	20	None	None	None	None	None	None
+OG0006496	20	20	GO:0005515	protein binding 	IPR002110	Repeat Ankyrin repeat	PF12796;PF13606	Ankyrin repeats (3 copies);Ankyrin repeat
+OG0006497	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138	Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006498	20	20	GO:0006801;GO:0046872	superoxide metabolic process ;metal ion binding 	IPR001424	Domain Superoxide dismutase, copper/zinc binding domain	PF00080	Copper/zinc superoxide dismutase (SODC)
+OG0006499	20	20	None	None	IPR013022	Domain Xylose isomerase-like, TIM barrel domain	PF01261	Xylose isomerase-like TIM barrel
+OG0006501	20	20	None	None	None	None	PF05462	Slime mold cyclic AMP receptor
+OG0006502	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006503	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006504	20	20	None	None	IPR007074	Domain LicD/FKTN/FKRP, nucleotidyltransferase domain	PF04991	LicD family
+OG0006505	20	20	GO:0005515	protein binding 	IPR001810	Domain F-box domain	PF00646	F-box domain
+OG0006506	20	20	None	None	None	None	None	None
+OG0006507	20	20	None	None	None	None	None	None
+OG0006508	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006510	20	20	GO:0000166	nucleotide binding 	IPR000683;IPR004104	Domain Gfo/Idh/MocA-like oxidoreductase, N-terminal;Domain Gfo/Idh/MocA-like oxidoreductase, C-terminal	PF01408;PF02894	Oxidoreductase family, NAD-binding Rossmann fold;Oxidoreductase family, C-terminal alpha/beta domain
+OG0006511	20	20	None	None	IPR046530	Domain Copper acquisition factor BIM1-like domain	PF20238	Copper acquisition factor BIM1-like
+OG0006512	20	20	None	None	None	None	None	None
+OG0006514	20	20	None	None	IPR006461	Family PLAC8 motif-containing protein	PF04749	PLAC8 family
+OG0006516	20	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR001248	Family Purine-cytosine permease	PF02133	Permease for cytosine/purines, uracil, thiamine, allantoin
+OG0006517	20	20	None	None	IPR000868	Domain Isochorismatase-like	PF00857	Isochorismatase family
+OG0006518	20	20	None	None	IPR046452;IPR046451	Domain Homogentisate 1,2-dioxygenase, N-terminal domain;Domain Homogentisate 1,2-dioxygenase, C-terminal domain	PF20510;PF04209	Homogentisate 1,2-dioxygenase N-terminal;Homogentisate 1,2-dioxygenase C-terminal
+OG0006520	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138	Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006521	20	20	GO:0004499;GO:0050660;GO:0050661	N,N-dimethylaniline monooxygenase activity ;flavin adenine dinucleotide binding ;NADP binding 	IPR020946	Family Flavin monooxygenase-like	PF00743;PF13450	Flavin-binding monooxygenase-like;NAD(P)-binding Rossmann-like domain
+OG0006522	20	20	None	None	IPR000560	Family Histidine phosphatase superfamily, clade-2	PF00328	Histidine phosphatase superfamily (branch 2)
+OG0006523	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0006524	20	20	None	None	IPR000073	Domain Alpha/beta hydrolase fold-1	PF00561	alpha/beta hydrolase fold
+OG0006526	20	20	None	None	None	None	None	None
+OG0006527	20	20	None	None	None	None	None	None
+OG0006528	20	20	None	None	None	None	None	None
+OG0006530	20	20	GO:0000981;GO:0003677;GO:0006351;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;DNA binding ;DNA-templated transcription ;regulation of DNA-templated transcription ;zinc ion binding 	IPR007219;IPR001138	Domain Transcription factor domain, fungi;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF04082;PF00172	Fungal specific transcription factor domain ;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006531	20	20	None	None	None	None	None	None
+OG0006532	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138	Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006534	20	20	None	None	None	None	None	None
+OG0006535	20	20	GO:0005507;GO:0016491	copper ion binding ;oxidoreductase activity 	IPR001117;IPR011707;IPR011706	Domain Multicopper oxidase, second cupredoxin domain;Domain Multicopper oxidase-like, N-terminal;Domain Multicopper oxidase, C-terminal	PF00394;PF07732;PF07731	Multicopper oxidase;Multicopper oxidase;Multicopper oxidase
+OG0006536	20	20	GO:0016788	hydrolase activity, acting on ester bonds 	IPR007312	Family Phosphoesterase	PF04185	Phosphoesterase family
+OG0006538	20	20	None	None	IPR013149;IPR013154	Domain Alcohol dehydrogenase-like, C-terminal;Domain Alcohol dehydrogenase-like, N-terminal	PF00107;PF08240	Zinc-binding dehydrogenase;Alcohol dehydrogenase GroES-like domain
+OG0006539	20	20	None	None	None	None	None	None
+OG0006541	20	20	None	None	IPR021858	Family Fungal transcription factor	PF11951	Fungal specific transcription factor domain
+OG0006542	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0006544	20	20	None	None	None	None	None	None
+OG0006545	20	20	None	None	None	None	PF13561	Enoyl-(Acyl carrier protein) reductase
+OG0006547	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006549	20	20	None	None	None	None	None	None
+OG0006551	20	20	None	None	IPR000994	Domain Peptidase M24	PF00557	Metallopeptidase family M24
+OG0006554	20	20	GO:0004553;GO:0005975	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process 	IPR041542;IPR006710	Domain Beta-xylosidase, C-terminal Concanavalin A-like domain;Family Glycoside hydrolase, family 43	PF17851;PF04616	Beta xylosidase C-terminal Concanavalin A-like domain ;Glycosyl hydrolases family 43
+OG0006556	20	20	None	None	None	None	None	None
+OG0006557	20	20	None	None	None	None	None	None
+OG0006558	20	20	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups 	IPR000182	Domain GNAT domain	PF00583	Acetyltransferase (GNAT) family
+OG0006559	20	20	None	None	None	None	None	None
+OG0006561	20	20	GO:0008270	zinc ion binding 	IPR008913	Domain Zinc finger, CHY-type	PF05495	CHY zinc finger
+OG0006562	20	20	None	None	None	None	None	None
+OG0006563	20	20	GO:0031083	BLOC-1 complex 	IPR009395	Family Biogenesis of lysosome-related organelles complex 1 subunit 1	PF06320	GCN5-like protein 1 (GCN5L1)
+OG0006565	20	20	None	None	None	None	None	None
+OG0006566	20	20	None	None	None	None	PF02353	Mycolic acid cyclopropane synthetase
+OG0006567	20	20	None	None	None	None	None	None
+OG0006568	20	20	None	None	IPR001509	Domain NAD-dependent epimerase/dehydratase	PF01370	NAD dependent epimerase/dehydratase family
+OG0006571	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138	Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006572	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006574	20	20	None	None	IPR021476	Family Egh16-like virulence factor	PF11327	Egh16-like virulence factor
+OG0006575	20	20	GO:0005524;GO:0140658	ATP binding ;ATP-dependent chromatin remodeler activity 	IPR000330;IPR001650	Domain SNF2, N-terminal;Domain Helicase, C-terminal domain-like	PF00176;PF00271	SNF2-related domain;Helicase conserved C-terminal domain
+OG0006576	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006577	20	20	None	None	IPR026992;IPR044861	Domain Non-haem dioxygenase N-terminal domain;Domain Isopenicillin N synthase-like, Fe(2+) 2OG dioxygenase domain	PF14226;PF03171	non-haem dioxygenase in morphine synthesis N-terminal;2OG-Fe(II) oxygenase superfamily
+OG0006578	20	20	GO:0003677;GO:0006351;GO:0008270;GO:0000981;GO:0006355	DNA binding ;DNA-templated transcription ;zinc ion binding ;DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription 	IPR007219;IPR001138	Domain Transcription factor domain, fungi;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF04082;PF00172	Fungal specific transcription factor domain ;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006579	20	20	None	None	IPR016624	Family Uncharacterised conserved protein UCP014753	PF10022	Uncharacterized protein conserved in bacteria (DUF2264)
+OG0006580	20	20	GO:0004499;GO:0050660;GO:0050661	N,N-dimethylaniline monooxygenase activity ;flavin adenine dinucleotide binding ;NADP binding 	IPR020946	Family Flavin monooxygenase-like	PF00743	Flavin-binding monooxygenase-like
+OG0006581	20	20	GO:0016829	lyase activity 	IPR002220	Family DapA-like	PF00701	Dihydrodipicolinate synthetase family
+OG0006582	20	20	None	None	None	None	None	None
+OG0006583	20	20	None	None	None	None	None	None
+OG0006584	20	20	None	None	IPR033121	Domain Peptidase family A1 domain	PF00026	Eukaryotic aspartyl protease
+OG0006585	20	20	None	None	None	None	None	None
+OG0006586	20	20	None	None	IPR004045;IPR004046	Domain Glutathione S-transferase, N-terminal;Domain Glutathione S-transferase, C-terminal	PF02798;PF00043	Glutathione S-transferase, N-terminal domain;Glutathione S-transferase, C-terminal domain
+OG0006587	20	20	GO:0004571;GO:0005509;GO:0016020	mannosyl-oligosaccharide 1,2-alpha-mannosidase activity ;calcium ion binding ;membrane 	IPR001382	Family Glycoside hydrolase family 47	PF01532	Glycosyl hydrolase family 47
+OG0006589	20	20	None	None	None	None	None	None
+OG0006590	20	20	GO:0016491;GO:0046872	oxidoreductase activity ;metal ion binding 	IPR001670	Domain Alcohol dehydrogenase, iron-type/glycerol dehydrogenase GldA	PF00465	Iron-containing alcohol dehydrogenase 
+OG0006591	20	20	GO:0005524;GO:0016887;GO:0005515	ATP binding ;ATP hydrolysis activity ;protein binding 	IPR015415;IPR003959;IPR000261;IPR041569	Domain Spastin/Vps4, C-terminal;Domain ATPase, AAA-type, core;Domain EH domain;Domain AAA ATPase, AAA+ lid domain	PF09336;PF00004;PF12763;PF17862	Vps4 C terminal oligomerisation domain;ATPase family associated with various cellular activities (AAA);Cytoskeletal-regulatory complex EF hand;AAA+ lid domain
+OG0006592	20	20	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0006595	20	20	None	None	None	None	None	None
+OG0006596	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138	Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006598	20	20	None	None	IPR011021	Domain Arrestin-like, N-terminal	PF00339	Arrestin (or S-antigen), N-terminal domain
+OG0006601	20	20	None	None	None	None	PF13854	Kelch motif
+OG0006602	20	20	None	None	IPR046623	Domain Domain of unknown function DUF6536	PF20163	Family of unknown function (DUF6536)
+OG0006603	20	20	None	None	None	None	None	None
+OG0006604	20	20	None	None	IPR008427	Domain Extracellular membrane protein, CFEM domain	PF05730	CFEM domain
+OG0006607	20	20	None	None	IPR046530	Domain Copper acquisition factor BIM1-like domain	PF20238	Copper acquisition factor BIM1-like
+OG0006608	20	20	GO:0005524;GO:0016887	ATP binding ;ATP hydrolysis activity 	IPR003959	Domain ATPase, AAA-type, core	PF00004	ATPase family associated with various cellular activities (AAA)
+OG0006609	20	20	GO:0016020;GO:0055085	membrane ;transmembrane transport 	IPR004837	Domain Sodium/calcium exchanger membrane region	PF01699	Sodium/calcium exchanger protein
+OG0006610	20	20	None	None	None	None	None	None
+OG0006611	20	20	GO:0008270;GO:0003677;GO:0006351;GO:0000981;GO:0006355	zinc ion binding ;DNA binding ;DNA-templated transcription ;DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription 	IPR007219;IPR001138	Domain Transcription factor domain, fungi;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF04082;PF00172	Fungal specific transcription factor domain ;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006615	20	20	None	None	None	None	None	None
+OG0006618	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138	Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF00172	Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006620	20	20	None	None	IPR000873;IPR025110	Domain AMP-dependent synthetase/ligase domain;Domain AMP-binding enzyme, C-terminal domain	PF00501;PF13193	AMP-binding enzyme;AMP-binding enzyme C-terminal domain
+OG0006621	20	20	None	None	None	None	None	None
+OG0006622	20	20	GO:0004553;GO:0005975	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process 	IPR001764;IPR002772;IPR026891	Domain Glycoside hydrolase, family 3, N-terminal;Domain Glycoside hydrolase family 3 C-terminal domain;Domain Fibronectin type III-like domain	PF00933;PF01915;PF14310	Glycosyl hydrolase family 3 N terminal domain;Glycosyl hydrolase family 3 C-terminal domain;Fibronectin type III-like domain
+OG0006623	20	20	None	None	None	None	None	None
+OG0006624	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0006625	20	20	None	None	None	None	None	None
+OG0006626	20	20	GO:0003824	catalytic activity 	IPR003673	Family CoA-transferase family III	PF02515	CoA-transferase family III
+OG0006627	20	20	GO:0003824;GO:0005506;GO:0006725;GO:0008199;GO:0009712;GO:0018576	catalytic activity ;iron ion binding ;N/A;ferric iron binding ;catechol-containing compound metabolic process ;catechol 1,2-dioxygenase activity 	IPR000627;IPR007535	Domain Intradiol ring-cleavage dioxygenase, C-terminal;Domain Catechol dioxygenase, N-terminal	PF00775;PF04444	Dioxygenase;Catechol dioxygenase N terminus
+OG0006629	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006630	20	20	None	None	None	None	None	None
+OG0006631	20	20	None	None	IPR019787	Domain Zinc finger, PHD-finger	PF00628	PHD-finger
+OG0006632	20	20	None	None	None	None	None	None
+OG0006633	20	20	None	None	IPR046536	Family Protein of unknown function DUF6601	PF20246	Family of unknown function (DUF6601)
+OG0006635	20	20	None	None	None	None	None	None
+OG0006636	20	20	None	None	None	None	None	None
+OG0006637	20	20	GO:0016747	acyltransferase activity, transferring groups other than amino-acyl groups 	IPR020616;IPR020617	Domain Thiolase, N-terminal;Domain Thiolase, C-terminal	PF00108;PF02803	Thiolase, N-terminal domain;Thiolase, C-terminal domain
+OG0006638	20	20	None	None	None	None	None	None
+OG0006639	20	20	GO:0006032;GO:0008061	chitin catabolic process ;chitin binding 	IPR005089	Domain Carbohydrate-binding module family 19	PF03427	Carbohydrate binding domain (family 19)
+OG0006641	20	20	None	None	None	None	None	None
+OG0006643	20	20	GO:0006355	regulation of DNA-templated transcription 	IPR012479	Family SAP30-binding protein	PF07818	HCNGP-like protein
+OG0006644	20	20	None	None	IPR032800;IPR010308	Domain ML-like domain;Domain TRP, C-terminal	PF14558;PF06011	ML-like domain;Transient receptor potential (TRP) ion channel
+OG0006645	20	20	None	None	None	None	None	None
+OG0006647	20	20	GO:0003677;GO:0006351;GO:0008270	DNA binding ;DNA-templated transcription ;zinc ion binding 	IPR007219	Domain Transcription factor domain, fungi	PF04082	Fungal specific transcription factor domain 
+OG0006648	20	20	None	None	IPR024084	Domain Isopropylmalate dehydrogenase-like domain	PF00180	Isocitrate/isopropylmalate dehydrogenase
+OG0006649	20	20	None	None	None	None	PF13561	Enoyl-(Acyl carrier protein) reductase
+OG0006650	20	20	None	None	IPR001753	Family Enoyl-CoA hydratase/isomerase	PF00378	Enoyl-CoA hydratase/isomerase
+OG0006651	20	20	None	None	IPR040771	Domain Thiolase-like protein type 1, additional C-terminal domain	PF18313	Thiolase-like protein type 1 additional C-terminal domain
+OG0006653	20	20	None	None	None	None	None	None
+OG0006654	20	20	GO:0003824	catalytic activity 	IPR003673	Family CoA-transferase family III	PF02515	CoA-transferase family III
+OG0006655	20	20	None	None	None	None	None	None
+OG0006657	20	20	None	None	None	None	None	None
+OG0006659	20	20	None	None	None	None	None	None
+OG0006661	20	20	GO:0004553;GO:0005975	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process 	IPR026891;IPR001764;IPR002772	Domain Fibronectin type III-like domain;Domain Glycoside hydrolase, family 3, N-terminal;Domain Glycoside hydrolase family 3 C-terminal domain	PF14310;PF00933;PF01915	Fibronectin type III-like domain;Glycosyl hydrolase family 3 N terminal domain;Glycosyl hydrolase family 3 C-terminal domain
+OG0006662	20	20	None	None	IPR019576;IPR011576	Domain Pyridoxine 5'-phosphate oxidase, dimerisation, C-terminal;Domain Pyridoxamine 5'-phosphate oxidase, putative	PF10590;PF01243	Pyridoxine 5'-phosphate oxidase C-terminal dimerisation region;Pyridoxamine 5'-phosphate oxidase
+OG0006663	20	20	None	None	None	None	None	None
+OG0006665	20	20	None	None	None	None	None	None
+OG0006667	20	20	None	None	None	None	None	None
+OG0006668	20	20	GO:0003824	catalytic activity 	IPR005811;IPR003781	Domain ATP-citrate synthase/succinyl-CoA ligase, C-terminal domain;Domain CoA-binding	PF00549;PF02629	CoA-ligase;CoA binding domain
+OG0006669	20	20	None	None	None	None	None	None
+OG0006672	20	20	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006676	20	20	None	None	None	None	None	None
+OG0006677	20	20	None	None	None	None	None	None
+OG0006679	20	20	GO:0016788	hydrolase activity, acting on ester bonds 	IPR001087	Family GDSL lipase/esterase	PF00657	GDSL-like Lipase/Acylhydrolase
+OG0006680	20	20	None	None	IPR014044	Domain CAP domain	PF00188	Cysteine-rich secretory protein family
+OG0006681	20	20	None	None	IPR000873;IPR025110	Domain AMP-dependent synthetase/ligase domain;Domain AMP-binding enzyme, C-terminal domain	PF00501;PF13193	AMP-binding enzyme;AMP-binding enzyme C-terminal domain
+OG0006682	20	20	None	None	IPR023797	Domain RNA 3'-terminal phosphate cyclase domain	PF01137	RNA 3'-terminal phosphate cyclase
+OG0006683	20	20	None	None	IPR012816	Domain NADAR	PF08719	NADAR domain
+OG0006685	20	20	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106;PF13561	short chain dehydrogenase;Enoyl-(Acyl carrier protein) reductase
+OG0006686	20	20	None	None	None	None	None	None
+OG0006687	20	20	None	None	IPR010856	Family Gig2-like	PF07350	Gig2-like
+OG0006688	20	20	GO:0016846	carbon-sulfur lyase activity 	IPR006913	Domain CENP-V/GFA domain	PF04828	Glutathione-dependent formaldehyde-activating enzyme
+OG0006689	20	20	None	None	None	None	None	None
+OG0006690	20	20	GO:0016020	membrane 	IPR007248	Family Mpv17/PMP22	PF04117	Mpv17 / PMP22 family 
+OG0006692	20	20	None	None	IPR013108	Domain Amidohydrolase 3	PF07969	Amidohydrolase family
+OG0006695	20	20	None	None	None	None	PF02458	Transferase family
+OG0006696	20	20	None	None	IPR019371	Domain KxDL domain	PF10241	Uncharacterized conserved protein
+OG0006697	20	20	None	None	IPR019405	Family Lactonase, 7-bladed beta propeller	PF10282	Lactonase, 7-bladed beta-propeller
+OG0006700	20	20	GO:0006812;GO:0015297;GO:0016020;GO:0055085;GO:1902600	monoatomic cation transport ;antiporter activity ;membrane ;transmembrane transport ;proton transmembrane transport 	IPR006153	Domain Cation/H+ exchanger	PF00999	Sodium/hydrogen exchanger family
+OG0006701	20	20	None	None	None	None	None	None
+OG0006702	20	20	GO:0005975	carbohydrate metabolic process 	IPR001223	Domain Glycoside hydrolase family 18, catalytic domain	PF00704	Glycosyl hydrolases family 18
+OG0006704	20	20	None	None	None	None	None	None
+OG0006705	20	20	None	None	IPR028012	Domain Transcription regulator Rua1, C-terminal	PF14616	Transcription regulator Rua1, C-terminal
+OG0006707	20	20	None	None	IPR000560	Family Histidine phosphatase superfamily, clade-2	PF00328	Histidine phosphatase superfamily (branch 2)
+OG0006708	20	20	GO:0000981;GO:0006355;GO:0008270	DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;zinc ion binding 	IPR001138;IPR021858	Domain Zn(2)Cys(6) fungal-type DNA-binding domain;Family Fungal transcription factor	PF00172;PF11951	Fungal Zn(2)-Cys(6) binuclear cluster domain;Fungal specific transcription factor domain
+OG0006709	20	20	None	None	None	None	None	None
+OG0006714	20	20	GO:0003677;GO:0006351;GO:0008270	DNA binding ;DNA-templated transcription ;zinc ion binding 	IPR007219	Domain Transcription factor domain, fungi	PF04082	Fungal specific transcription factor domain 
+OG0006715	20	20	None	None	IPR026841	Domain Inositolphosphotransferase Aur1/Ipt1	PF14378	PAP2 superfamily
+OG0006720	20	20	None	None	None	None	None	None
+OG0006723	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006725	20	20	None	None	None	None	PF13489	Methyltransferase domain
+OG0006726	20	20	None	None	None	None	PF19086	Terpene synthase family 2, C-terminal metal binding
+OG0006727	20	20	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0006728	20	20	None	None	None	None	None	None
+OG0006732	20	20	None	None	IPR025676	Domain Clr5 domain	PF14420	Clr5 domain
+OG0006735	20	20	GO:0008270;GO:0003677;GO:0006351;GO:0000981;GO:0006355	zinc ion binding ;DNA binding ;DNA-templated transcription ;DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription 	IPR007219;IPR001138	Domain Transcription factor domain, fungi;Domain Zn(2)Cys(6) fungal-type DNA-binding domain	PF04082;PF00172	Fungal specific transcription factor domain ;Fungal Zn(2)-Cys(6) binuclear cluster domain
+OG0006736	20	20	GO:0008483;GO:0030170	transaminase activity ;pyridoxal phosphate binding 	IPR005814	Family Aminotransferase class-III	PF00202	Aminotransferase class-III
+OG0006738	20	20	None	None	IPR012312	Domain Hemerythrin-like	PF01814	Hemerythrin HHE cation binding domain
+OG0006739	20	20	GO:0008270;GO:0000981;GO:0006355;GO:0003677;GO:0006351	zinc ion binding ;DNA-binding transcription factor activity, RNA polymerase II-specific ;regulation of DNA-templated transcription ;DNA binding ;DNA-templated transcription 	IPR001138;IPR007219	Domain Zn(2)Cys(6) fungal-type DNA-binding domain;Domain Transcription factor domain, fungi	PF00172;PF04082	Fungal Zn(2)-Cys(6) binuclear cluster domain;Fungal specific transcription factor domain 
+OG0006740	20	20	None	None	None	None	None	None
+OG0006743	20	20	None	None	None	None	None	None
+OG0006744	20	20	None	None	None	None	None	None
+OG0006745	20	20	GO:0004601;GO:0006979;GO:0020037	peroxidase activity ;response to oxidative stress ;heme binding 	IPR002016	Domain Haem peroxidase	PF00141	Peroxidase
+OG0006746	20	20	GO:0016787	hydrolase activity 	IPR013094	Domain Alpha/beta hydrolase fold-3	PF07859	alpha/beta hydrolase fold
+OG0006747	20	20	None	None	IPR000873;IPR025110	Domain AMP-dependent synthetase/ligase domain;Domain AMP-binding enzyme, C-terminal domain	PF00501;PF13193	AMP-binding enzyme;AMP-binding enzyme C-terminal domain
+OG0006749	20	20	None	None	None	None	None	None
+OG0006751	20	20	None	None	IPR002018	Domain Carboxylesterase, type B	PF00135	Carboxylesterase family
+OG0006752	20	20	None	None	None	None	None	None
+OG0006754	20	20	None	None	None	None	None	None
+OG0006756	20	20	None	None	None	None	None	None
+OG0006757	20	20	None	None	None	None	None	None
+OG0006758	20	20	None	None	None	None	None	None
