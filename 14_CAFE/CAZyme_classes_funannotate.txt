@@ -1,0 +1,8 @@
+Desc	Family ID	Leptographium_lundbergii_CBS138716	Ophiostoma_fasciatum_VPRI43845	Ophiostoma_ips_VPRI43529	Ophiostoma_novoulmi_H327	Sporothrix_bragantina_CBS47491	Sporothrix_brasiliensis_5110	Sporothrix_brunneoviolacea_CBS124561	Sporothrix_curviconia_CBS95973	Sporothrix_dimorphospora_CBS55374	Sporothrix_epigloea_CBS119000	Sporothrix_epigloea_CBS57363	Sporothrix_epigloea_TF4163	Sporothrix_eucalyptigena_CBS139899	Sporothrix_eucalyptigena_CBS140593	Sporothrix_euskadiensis_VPRI43754	Sporothrix_globosa_CBS120340	Sporothrix_humicola_CBS118129	Sporothrix_inflata_CBS23968	Sporothrix_insectorum_RCEF264	Sporothrix_luriei_CBS93772	Sporothrix_mexicana_CBS120341	Sporothrix_nigrograna_VPRI43755	Sporothrix_pallida_CBS13156	Sporothrix_phasma_CBS119721	Sporothrix_protearum_CBS116654	Sporothrix_pseudoabietina_VPRI43531	Sporothrix_schenckii_1099	Sporothrix_thermara_CBS139747MAG	Sporothrix_variecibatus_CBS121961
+(null)	AA	52	25	36	53	92	72	85	91	89	19	19	20	97	96	48	71	86	90	72	70	89	34	85	35	51	50	71	34	88
+(null)	CBM	7	5	9	14	23	11	18	17	24	4	4	4	26	27	13	12	17	22	10	11	22	9	17	4	8	15	13	10	17
+(null)	CE	13	7	9	14	42	19	33	32	30	7	5	6	39	40	15	25	32	30	27	17	36	10	35	12	16	12	21	12	34
+(null)	GH	114	86	108	147	265	182	220	210	227	70	71	70	256	257	151	183	233	239	168	171	253	112	245	115	154	149	188	126	239
+(null)	GT	69	63	59	61	75	68	71	73	70	62	61	62	69	70	65	71	70	71	63	68	70	62	69	61	60	64	69	66	68
+(null)	PL	5	1	4	3	2	1	2	1	2	1	1	1	2	2	1	1	2	2	1	1	2	1	2	0	2	1	1	1	1
+

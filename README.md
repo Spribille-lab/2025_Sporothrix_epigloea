@@ -431,6 +431,8 @@ Software used:
 * compare utility of funannotate
 * OrthoFinder 2.5.5 (Emms & Kelly, 2019)
 * KinFin 1.1.1 (Laetsch & Blaxter, 2017)
+* CAFE5 1.1 (Mendes et al., 2020)
+* CafePlotter (https://github.com/moshi4/CafePlotter)
 * custom R scripts
     * ComplexHeatmap v2.13.2 package (Gu, 2022; Gu et al., 2016)
     * ape v5.6-2 (Paradis & Schliep, 2019)
@@ -438,6 +440,10 @@ Software used:
     * tidyverse v1.3.2 (Wickham et al., 2019)
     * UpSetR v1.4.0 (Conway et al., 2017)
     * phylotools v0.2.2 (Zhang et al.)
+    * ggtree 3.10.1 (Xu et al., 2022)
+    * phytools 2.3-0 (Revell, 2024)
+    * treeio 1.26.0 (Wang et al., 2020)
+    * tidytree 0.4.6 (Yu, 2022)
 * IQ-TREE 2.0.7 (Minh et al., 2020)
     * ModelFinder (Kalyaanamoorthy et al., 2017)
     * ultrafast bootstraps (Hoang et al., 2017)
@@ -523,6 +529,66 @@ funannotate compare -i \
 ### 6.4 visualize annotations
 
 * visualized the genome comparisons using `scripts/10_comparative_genomic_analysis.R`
+
+### 6.5 Gene family expansion and contraction analysis
+
+* Coerced phylogenomic tree into ultrametric tree using `scripts/14_CAFE.R`
+* trimmed phylogenomic tree for orthogroups using `scripts/14_CAFE.R`
+* prepared CAZyme data for CAFE using `scripts/10_process_dbcanV12.R`
+* prepared protease, BGCs, and orthogroup data for CAFE using `scripts/14_CAFE.R`
+
+
+* test for the number of discrete rate categories (*K*) that produces the greatest likelihood
+```
+category=cazymefamily
+
+tree="$project_dir"/09_orthology/Results_Aug03/Species_Tree/iqtree2/sporothrix_placement.rerooted.ultrametric.contree
+input="$project_dir"/10_annotations/dbcan4/summarized_outputs/cazy_summarized_CAFE.txt
+
+# run CAFE5
+for n in {1..10}
+do
+output=cazymefamily_singlelambda_k"$n"
+mkdir "$output"
+/data/ccallen/bin/CAFE5/bin/cafe5 -t "$tree" -i "$input" -p -k "$n" -o "$output" &>> "$output"/cafe.log
+done
+```
+
+* compile -lnL for each into one document
+```
+for n in {1..10}
+do
+echo "$category"_singlelambda_k"$n" >> "$category"_discrete_rate_categories.txt
+grep "Model" "$category"_singlelambda_k"$n"/Base_results.txt >> "$category"_discrete_rate_categories.txt
+grep "Model" "$category"_singlelambda_k"$n"/Gamma_results.txt >> "$category"_discrete_rate_categories.txt
+done
+```
+
+* count significant families at the p=0.05 threshold
+```
+for n in {1..10}
+do
+echo "$category"_singlelambda_k"$n" >> "$category"_significant_families_count.txt
+grep -c "y" "$category"_singlelambda_k"$n"/*_family_results.txt >> "$category"_significant_families_count.txt
+done
+```
+
+* results are found in `14_CAFE/`
+
+Due to failure of convergence with the gamma models the Base model was used (*K* = 1)
+
+CAZyme families, Model Base Final Likelihood (-lnL): 4159.66, Lambda: 0.92955594638637
+Protease families, Model Base Final Likelihood (-lnL): 2676.62, Lambda: 0.60118488521017
+BGCs, Model Base Final Likelihood (-lnL): 280.253, Lambda: 0.99761242999222
+Orthogroups, Model Base Final Likelihood (-lnL): 115429, Lambda: 0.57113146703192
+
+* visualized using CafePlotter
+
+```
+cafeplotter -i $cafe_folder -o $output --format png --fig_width 20 --fig_height 0.4 --count_label_size 10
+```
+* also visualized the results with a custom R script found at `scripts/14_CAFE.R`
+* the significant expansion and contraction events at the *S. epigloea* tips and two transition nodes were parsed in `scripts/14_CAFE.R` and presented in Supplementary Tables S5 and S6.
 
 ## 7. LPMO gene trees
 Software used:
@@ -673,7 +739,10 @@ iqtree \
 * used `scripts/11_taxize.R` to pull taxonomy for each tip and generate helper files for iTOL (Letunic & Bork 2019).
 * text files used to annotate tree in `11_LPMO_trees/AA14/Fungi_March2024/itol`
 
+## 8. Phenotype arrays
 
+* custom R scripts
+    * tidyverse v1.3.2 (Wickham et al., 2019)
+    * cowplot v1.1.3 (Wilke et al., 2024)
 
-
-
+* visualized the orthogroup overlaps using `scripts/phenotype_arrays_Sporothrix.R`

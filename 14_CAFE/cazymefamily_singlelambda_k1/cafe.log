@@ -1,0 +1,159 @@
+
+Command line: /data/ccallen/bin/CAFE5/bin/cafe5 -t /data/ccallen/2023_02_Sporothrix/09_orthology/Results_Aug03/Species_Tree/iqtree2/sporothrix_placement.rerooted.ultrametric.contree -i /data/ccallen/2023_02_Sporothrix/10_annotations/dbcan4/summarized_outputs/cazy_summarized_CAFE.txt -p -k 1 -o cazymefamily_singlelambda_k1_2 
+
+Filtering families not present at the root from: 283 to 110
+
+Estimating Poisson root distribution from gene families
+
+Optimizer strategy: Nelder-Mead with similarity cutoff
+Iterations: 300
+Expansion: 2
+Reflection: 1
+
+Starting Search for Initial Parameter Values
+
+Completed 27 iterations
+Time: 0H 0M 0S
+Best match is: 2.0436098311988
+Final -lnL: 7026.4320649411
+
+Empirical Prior Estimation Result : (27 iterations)
+Poisson lambda: 2.0436098311988 &  Score: 7026.4320649411
+
+Optimizer strategy: Nelder-Mead with similarity cutoff
+Iterations: 300
+Expansion: 2
+Reflection: 1
+
+Starting Search for Initial Parameter Values
+Lambda: 0.1637955860306
+Score (-lnL): 5178.9703614668
+Lambda: 0.1637955860306
+Score (-lnL): 5178.9703614668
+Lambda: 0.17198536533213
+Score (-lnL): 5126.5191896143
+Lambda: 0.18017514463366
+Score (-lnL): 5077.4592385393
+Lambda: 0.18836492393519
+Score (-lnL): 5031.4751993087
+Lambda: 0.20474448253825
+Score (-lnL): 4947.6698297493
+Lambda: 0.22112404114131
+Score (-lnL): 4873.2814211544
+Lambda: 0.25388315834743
+Score (-lnL): 4747.3372566788
+Lambda: 0.28664227555355
+Score (-lnL): 4645.2838902193
+Lambda: 0.35216050996579
+Score (-lnL):  4491.352037934
+Lambda: 0.41767874437804
+Score (-lnL): 4383.8861302702
+Lambda: 0.54871521320252
+Score (-lnL): 4253.2683439951
+Lambda:  0.679751682027
+Score (-lnL):  4190.193452875
+Lambda: 0.94182461967596
+Score (-lnL): 4159.7330664728
+Lambda: 1.2038975573249
+Score (-lnL):             inf
+Lambda: 1.2038975573249
+Score (-lnL):             inf
+Lambda: 1.0728610885004
+Score (-lnL):             inf
+Lambda: 0.81078815085148
+Score (-lnL): 4165.1771257045
+Lambda: 1.0728610885004
+Score (-lnL):             inf
+Lambda: 1.0073428540882
+Score (-lnL):             inf
+Lambda: 0.87630638526372
+Score (-lnL): 4160.6051067523
+Lambda: 1.0073428540882
+Score (-lnL):             inf
+Lambda: 0.97458373688208
+Score (-lnL): 4160.6424408928
+Lambda: 0.90906550246984
+Score (-lnL): 4159.8639205311
+Lambda: 0.97458373688208
+Score (-lnL): 4160.6424408928
+Lambda: 0.95820417827902
+Score (-lnL): 4160.0618011793
+Lambda: 0.9254450610729
+Score (-lnL): 4159.6675740925
+Lambda: 0.90906550246984
+Score (-lnL): 4159.8639205311
+Lambda: 0.91725528177137
+Score (-lnL): 4159.7374074411
+Lambda: 0.93363484037443
+Score (-lnL): 4159.6671708051
+Lambda: 0.94182461967596
+Score (-lnL): 4159.7330664728
+Lambda: 0.9377297300252
+Score (-lnL): 4159.6917399951
+Lambda: 0.92953995072367
+Score (-lnL): 4159.6588586906
+Lambda: 0.9254450610729
+Score (-lnL): 4159.6675740925
+Lambda: 0.92749250589829
+Score (-lnL): 4159.6610559997
+Lambda: 0.93158739554905
+Score (-lnL):  4159.660954884
+Lambda: 0.92749250589829
+Score (-lnL): 4159.6610559997
+Lambda: 0.92851622831098
+Score (-lnL): 4159.6594189564
+Lambda: 0.93056367313636
+Score (-lnL): 4159.6593717972
+Lambda: 0.92851622831098
+Score (-lnL): 4159.6594189564
+Lambda: 0.92902808951732
+Score (-lnL): 4159.6590044396
+Lambda: 0.93005181193001
+Score (-lnL): 4159.6589812843
+Lambda: 0.92902808951732
+Score (-lnL): 4159.6590044396
+Lambda: 0.9292840201205
+Score (-lnL): 4159.6588979956
+Lambda: 0.92979588132684
+Score (-lnL): 4159.6588864713
+Lambda: 0.9292840201205
+Score (-lnL): 4159.6588979956
+Lambda: 0.92941198542208
+Score (-lnL): 4159.6588699541
+Lambda: 0.92966791602525
+Score (-lnL): 4159.6588641986
+Lambda: 0.92941198542208
+Score (-lnL): 4159.6588699541
+Lambda: 0.92947596807287
+Score (-lnL): 4159.6588622255
+Lambda: 0.92960393337446
+Score (-lnL): 4159.6588593486
+Lambda: 0.92947596807287
+Score (-lnL): 4159.6588622255
+Lambda: 0.92950795939827
+Score (-lnL): 4159.6588599339
+Lambda: 0.92957194204906
+Score (-lnL): 4159.6588584956
+Lambda: 0.92960393337446
+Score (-lnL): 4159.6588593486
+Lambda: 0.92958793771176
+Score (-lnL): 4159.6588587911
+Lambda: 0.92955594638637
+Score (-lnL): 4159.6588584621
+
+Completed 26 iterations
+Time: 0H 0M 19S
+Best match is: 0.92955594638637
+Final -lnL: 4159.6588584621
+
+57 values were attempted (0% rejected)
+
+Inferring processes for Base model
+Score (-lnL): 4159.6588584621
+Maximum possible lambda for this topology: 1
+Computing pvalues...
+done!
+
+Starting reconstruction processes for Base model
+Done!
+

@@ -161,7 +161,6 @@ hr_table <- cazy_summarized %>% pivot_wider(names_from=family,values_from=n,valu
 
 write.table(hr_table, "summarized_outputs/cazy_summarized.txt", sep='\t',quote = F, row.names = F, col.names = T)
 
-
 ## 7. make a list of genes for each genome -------
 
 # make a function to pull names of AA9, 11, 13 and 14 genes for each genome
@@ -239,9 +238,18 @@ cazyme_matrix_t <- cazyme_matrix_t %>%
   dplyr::arrange(General_Activity) %>%
   dplyr::relocate(General_Activity, .after = CAZyme_family) %>%
   dplyr::relocate(origin, .after = CAZyme_family)
+
+#######make a table for CAFE########
+hr_table_for_CAFE <- cazyme_matrix_t %>% select (-origin) %>% relocate(General_Activity)
+colnames(hr_table_for_CAFE)[1] <- "Desc"
+colnames(hr_table_for_CAFE)[2] <- "Family ID"
+
+write.table(hr_table_for_CAFE, "summarized_outputs/cazy_summarized_CAFE.txt", sep='\t',quote = F, row.names = F, col.names = T)
+
+
+# back to heatmap
 row.names(cazyme_matrix_t) = cazyme_matrix_t$CAZyme_family
 cazyme_matrix_t <- cazyme_matrix_t %>% select(-CAZyme_family)
-
 
 
 

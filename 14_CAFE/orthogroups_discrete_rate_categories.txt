@@ -1,0 +1,20 @@
+orthogroups_singlelambda_k1
+Model Base Final Likelihood (-lnL): 115429
+orthogroups_singlelambda_k2
+Model Gamma Final Likelihood (-lnL): 95397.2
+orthogroups_singlelambda_k3
+Model Gamma Final Likelihood (-lnL): 93961
+orthogroups_singlelambda_k4
+Model Gamma Final Likelihood (-lnL): 93413.5
+orthogroups_singlelambda_k5
+Model Gamma Final Likelihood (-lnL): 97118.2
+orthogroups_singlelambda_k6
+Model Gamma Final Likelihood (-lnL): 93968.1
+orthogroups_singlelambda_k7
+Model Gamma Final Likelihood (-lnL): 93410.6
+orthogroups_singlelambda_k8
+Model Gamma Final Likelihood (-lnL): 93509.7
+orthogroups_singlelambda_k9
+Model Gamma Final Likelihood (-lnL): 93609.1
+orthogroups_singlelambda_k10
+Model Gamma Final Likelihood (-lnL): 94301.8

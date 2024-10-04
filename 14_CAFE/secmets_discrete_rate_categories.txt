@@ -1,0 +1,20 @@
+secmets_singlelambda_k1_2
+Model Base Final Likelihood (-lnL): 280.253
+secmets_singlelambda_k2_2
+Model Gamma Final Likelihood (-lnL): 272.812
+secmets_singlelambda_k3_2
+Model Gamma Final Likelihood (-lnL): 274.583
+secmets_singlelambda_k4_2
+Model Gamma Final Likelihood (-lnL): 273.037
+secmets_singlelambda_k5_2
+Model Gamma Final Likelihood (-lnL): 273.74
+secmets_singlelambda_k6_2
+Model Gamma Final Likelihood (-lnL): 274.533
+secmets_singlelambda_k7_2
+Model Gamma Final Likelihood (-lnL): 276.145
+secmets_singlelambda_k8_2
+Model Gamma Final Likelihood (-lnL): 275.562
+secmets_singlelambda_k9_2
+Model Gamma Final Likelihood (-lnL): 275.782
+secmets_singlelambda_k10_2
+Model Gamma Final Likelihood (-lnL): 276.454

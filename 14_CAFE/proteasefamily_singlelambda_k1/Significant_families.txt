@@ -1,0 +1,8 @@
+#FamilyID	pvalue	Significant at 0.05
+S33	0	y
+M20D	0	y
+S09X	0	y
+A01A	0.005	y
+S09C	0	y
+S12	0	y
+S08A	0	y

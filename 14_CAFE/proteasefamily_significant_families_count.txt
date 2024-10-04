@@ -1,0 +1,13 @@
+proteasefamily_singlelambda_k1
+8
+proteasefamily_singlelambda_k2
+9
+proteasefamily_singlelambda_k3
+9
+proteasefamily_singlelambda_k4
+proteasefamily_singlelambda_k5
+proteasefamily_singlelambda_k6
+proteasefamily_singlelambda_k7
+proteasefamily_singlelambda_k8
+proteasefamily_singlelambda_k9
+proteasefamily_singlelambda_k10

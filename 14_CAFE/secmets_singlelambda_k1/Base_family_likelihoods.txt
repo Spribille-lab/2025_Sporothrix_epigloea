@@ -1,0 +1,7 @@
+#FamilyID	Likelihood of Family
+RiPP	-65.4573
+NRPS	-65.0869
+other	-45.7046
+T1PKS	-48.5353
+T3PKS	-14.2916
+terpene	-41.1776

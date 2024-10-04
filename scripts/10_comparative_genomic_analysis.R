@@ -362,6 +362,11 @@ group = c(rep("other_sporothrix",17), rep("epigloea",3), rep("other_sporothrix",
 CAZyme <- CAZyme %>% mutate(group = group) %>% filter(!group %in% c("outgroup"))
 CAZyme_tidy <- CAZyme %>% gather("AA", "CBM", "CE", "GH", "GT", "PL", key = "CAZyme_class", value = "n")
 
+wilcox.test(AA ~ group, data = CAZyme)
+wilcox.test(CBM ~ group, data = CAZyme)
+wilcox.test(CE ~ group, data = CAZyme)
+wilcox.test(GH ~ group, data = CAZyme)
+wilcox.test(GT ~ group, data = CAZyme)
 wilcox.test(PL ~ group, data = CAZyme)
 
 CAZyme_stats <- CAZyme_tidy %>%
@@ -376,7 +381,7 @@ write.table(CAZyme_stats, "funannotate/increase_decrease_stats/CAZyme.sporothrix
 
 secmets <- secmets %>% mutate(group = group) %>% filter(!group %in% c("outgroup"))
 colnames(secmets) = c("NRPS", "T1PKS", "T3PKS", "terpene", "RiPP", "other", "group")
-secmets_tidy <- secmets %>% gather("NRPS", "T1PKS", "T3PKS", "terpene", "fungal-RiPP-like", "other", key = "BGC_class", value = "n")
+secmets_tidy <- secmets %>% gather("NRPS", "T1PKS", "T3PKS", "terpene", "RiPP", "other", key = "BGC_class", value = "n")
 secmets_stats <- secmets_tidy %>%
   group_by(BGC_class) %>%
   group_by(group, .add = TRUE) %>%
@@ -386,7 +391,12 @@ secmets_stats <- secmets_tidy %>%
 
 write.table(secmets_stats, "funannotate/increase_decrease_stats/secmets.sporothrix.percent.txt", sep='\t', quote = F, row.names = F)
 
+wilcox.test(NRPS ~ group, data = secmets)
+wilcox.test(T1PKS ~ group, data = secmets)
+wilcox.test(T3PKS ~ group, data = secmets)
+wilcox.test(terpene ~ group, data = secmets)
 wilcox.test(RiPP ~ group, data = secmets)
+wilcox.test(other ~ group, data = secmets)
 
 merops <- merops %>% mutate(group = group) %>% filter(!group %in% c("outgroup"))
 merops_tidy <- merops %>% gather("A", "C", "G", "M", "N", "P", "S", "T", "I", key = "protease_class", value = "n")
@@ -398,4 +408,13 @@ merops_stats <- merops_tidy %>%
 
 write.table(merops_stats, "funannotate/increase_decrease_stats/merops.sporothrix.percent.txt", sep='\t', quote = F, row.names = F)
 
+wilcox.test(A ~ group, data = merops)
+wilcox.test(C ~ group, data = merops)
+wilcox.test(G ~ group, data = merops)
+wilcox.test(M ~ group, data = merops)
+wilcox.test(N ~ group, data = merops)
+wilcox.test(P ~ group, data = merops)
+wilcox.test(S ~ group, data = merops)
 wilcox.test(T ~ group, data = merops)
+wilcox.test(I ~ group, data = merops)
+

@@ -1,0 +1,46 @@
+FamilyID	TaxonID	Count	Change	Pvalue	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+OG0000000	43	0	-4	5.03627e-06	None	None	IPR018535	Domain Domain of unknown function DUF1996	PF09362	Domain of unknown function (DUF1996)
+OG0000001	43	0	-4	5.03627e-06	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR010573	Family Major facilitator transporter Str1/Tri12-like	PF06609	Fungal trichothecene efflux pump (TRI12)
+OG0000004	43	0	-3	0.000161556	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000006	43	0	-3	0.000161556	None	None	IPR010839	Family Acyclic terpene utilisation	PF07287	Acyclic terpene utilisation family protein AtuA
+OG0000010	43	0	-3	0.000161556	GO:0006629	lipid metabolic process 	IPR002641	Domain Patatin-like phospholipase domain	PF01734	Patatin-like phospholipase
+OG0000016	43	0	-3	0.000161556	GO:0004497;GO:0005506;GO:0016705;GO:0020037	monooxygenase activity ;iron ion binding ;oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen ;heme binding 	IPR001128	Family Cytochrome P450	PF00067	Cytochrome P450
+OG0000019	43	0	-3	0.000161556	GO:0003824;GO:0016787	catalytic activity ;hydrolase activity 	IPR003692;IPR002821;IPR008040	Domain Hydantoinase B/oxoprolinase;Domain Hydantoinase A/oxoprolinase;Domain Hydantoinase/oxoprolinase, N-terminal	PF02538;PF01968;PF05378;PF19278	Hydantoinase B/oxoprolinase;Hydantoinase/oxoprolinase;Hydantoinase/oxoprolinase N-terminal region;Hydantoinase/oxoprolinase C-terminal domain
+OG0000005	43	0	-2	0.00187739	None	None	IPR008775	Family Phytanoyl-CoA dioxygenase-like	PF05721	Phytanoyl-CoA dioxygenase (PhyH)
+OG0000009	43	0	-2	0.00187739	GO:0071949	FAD binding 	IPR002938;IPR003953	Domain FAD-binding domain;Domain FAD-dependent oxidoreductase 2, FAD binding domain	PF01494;PF00890	FAD binding domain;FAD binding domain
+OG0000011	43	0	-2	0.00187739	None	None	IPR003615	Domain HNH nuclease	PF13391	HNH endonuclease
+OG0000012	43	0	-2	0.00187739	None	None	None	None	None	None
+OG0000015	43	0	-2	0.00187739	GO:0004336;GO:0006683	galactosylceramidase activity ;galactosylceramide catabolic process 	IPR033452;IPR001286	Domain Glycosyl hydrolase family 30, beta sandwich domain;Family Glycoside hydrolase, family 59	PF17189;PF02057	Glycosyl hydrolase family 30 beta sandwich domain;Glycosyl hydrolase family 59
+OG0000018	43	0	-2	0.00187739	None	None	IPR035396;IPR013737;IPR008902;IPR035398	Domain Alpha-L-rhamnosidase, six-hairpin glycosidase domain;Domain Bacterial alpha-L-rhamnosidase N-terminal;Domain Alpha-L-rhamnosidase, concanavalin-like domain;Domain Alpha-L-rhamnosidase C-terminal domain	PF17389;PF08531;PF05592;PF17390	Bacterial alpha-L-rhamnosidase 6 hairpin glycosidase domain;Alpha-L-rhamnosidase N-terminal domain;Bacterial alpha-L-rhamnosidase concanavalin-like domain;Bacterial alpha-L-rhamnosidase C-terminal domain
+OG0000020	43	0	-2	0.00187739	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000021	43	0	-2	0.00187739	GO:0004553;GO:0005975	hydrolase activity, hydrolyzing O-glycosyl compounds ;carbohydrate metabolic process 	IPR002772;IPR001764;IPR026891;IPR011658	Domain Glycoside hydrolase family 3 C-terminal domain;Domain Glycoside hydrolase, family 3, N-terminal;Domain Fibronectin type III-like domain;Domain PA14 domain	PF01915;PF00933;PF14310;PF07691	Glycosyl hydrolase family 3 C-terminal domain;Glycosyl hydrolase family 3 N terminal domain;Fibronectin type III-like domain;PA14 domain
+OG0000022	43	0	-2	0.00187739	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000030	43	0	-2	0.00187739	GO:0008484	sulfuric ester hydrolase activity 	IPR000917	Domain Sulfatase, N-terminal	PF00884	Sulfatase
+OG0000037	43	0	-2	0.00187739	GO:0016491;GO:0050660	oxidoreductase activity ;flavin adenine dinucleotide binding 	IPR012951;IPR006094	Domain Berberine/berberine-like;Domain FAD linked oxidase, N-terminal	PF08031;PF01565	Berberine and berberine like ;FAD binding domain 
+OG0000040	43	0	-2	0.00187739	None	None	IPR002347	Family Short-chain dehydrogenase/reductase SDR	PF00106	short chain dehydrogenase
+OG0000047	43	0	-2	0.00187739	None	None	None	None	None	None
+OG0000048	43	0	-2	0.00187739	None	None	IPR023631	Domain Amidase signature domain	PF01425	Amidase
+OG0000049	43	0	-2	0.00187739	GO:0005975	carbohydrate metabolic process 	IPR001223;IPR029226;IPR018392	Domain Glycoside hydrolase family 18, catalytic domain;Domain Ecp2 effector protein-like;Domain LysM domain	PF00704;PF14856;PF01476	Glycosyl hydrolases family 18;Pathogen effector; putative necrosis-inducing factor;LysM domain
+OG0000050	43	0	-2	0.00187739	GO:0004499;GO:0050660;GO:0050661	N,N-dimethylaniline monooxygenase activity ;flavin adenine dinucleotide binding ;NADP binding 	IPR020946	Family Flavin monooxygenase-like	PF00743	Flavin-binding monooxygenase-like
+OG0000051	43	0	-2	0.00187739	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000053	43	0	-2	0.00187739	None	None	IPR003615	Domain HNH nuclease	PF13391	HNH endonuclease
+OG0000054	43	0	-2	0.00187739	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR010573	Family Major facilitator transporter Str1/Tri12-like	PF06609	Fungal trichothecene efflux pump (TRI12)
+OG0000055	43	0	-2	0.00187739	None	None	IPR002018	Domain Carboxylesterase, type B	PF00135	Carboxylesterase family
+OG0000056	43	0	-2	0.00187739	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000060	43	0	-2	0.00187739	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000073	43	0	-2	0.00187739	None	None	IPR011118	Family Tannase/feruloyl esterase	PF07519	Tannase and feruloyl esterase
+OG0000077	43	0	-2	0.00187739	GO:0016787	hydrolase activity 	IPR013094	Domain Alpha/beta hydrolase fold-3	PF07859	alpha/beta hydrolase fold
+OG0000084	43	0	-2	0.00187739	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000087	43	0	-2	0.00187739	None	None	IPR046676	Family Protein of unknown function DUF6546	PF20183	Family of unknown function (DUF6546)
+OG0000092	43	0	-2	0.00187739	None	None	IPR003615	Domain HNH nuclease	PF13391	HNH endonuclease
+OG0000094	43	0	-2	0.00187739	None	None	IPR018392;IPR024535	Domain LysM domain;Domain Rhamnogalacturonase A/B/Epimerase-like, pectate lyase domain	PF01476;PF12708	LysM domain;Pectate lyase superfamily protein
+OG0000101	43	0	-2	0.00187739	GO:0005975;GO:0008061	carbohydrate metabolic process ;chitin binding 	IPR001223;IPR001002	Domain Glycoside hydrolase family 18, catalytic domain;Domain Chitin-binding, type 1	PF00704;PF00187	Glycosyl hydrolases family 18;Chitin recognition protein
+OG0000161	43	0	-2	0.00187739	GO:0071949	FAD binding 	IPR002938	Domain FAD-binding domain	PF01494	FAD binding domain
+OG0000175	43	0	-2	0.00187739	GO:0016705	oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen 	IPR011251	Domain Luciferase-like domain	PF00296	Luciferase-like monooxygenase
+OG0000185	43	0	-2	0.00187739	GO:0050660;GO:0003824	flavin adenine dinucleotide binding ;catalytic activity 	IPR006094;IPR004113	Domain FAD linked oxidase, N-terminal;Domain FAD-binding oxidoreductase/transferase, type 4, C-terminal	PF01565;PF02913	FAD binding domain ;FAD linked oxidases, C-terminal domain
+OG0000205	43	0	-2	0.00187739	GO:0016491	oxidoreductase activity 	IPR015590	Domain Aldehyde dehydrogenase domain	PF00171	Aldehyde dehydrogenase family
+OG0000208	43	0	-2	0.00187739	GO:0004061;GO:0019441	arylformamidase activity ;tryptophan catabolic process to kynurenine 	IPR007325	Family Kynurenine formamidase/cyclase-like	PF04199	Putative cyclase
+OG0000220	43	0	-2	0.00187739	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000265	43	0	-2	0.00187739	None	None	IPR023631	Domain Amidase signature domain	PF01425	Amidase
+OG0005542	43	0	-2	0.00187739	None	None	IPR003615	Domain HNH nuclease	PF13391	HNH endonuclease
+OG0000008	43	1	-2	0.00499583	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter

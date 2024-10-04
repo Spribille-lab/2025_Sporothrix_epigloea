@@ -1,0 +1,13 @@
+proteasefamily_singlelambda_k1
+Model Base Final Likelihood (-lnL): 2676.62
+proteasefamily_singlelambda_k2
+Model Gamma Final Likelihood (-lnL): 2197.07
+proteasefamily_singlelambda_k3
+Model Gamma Final Likelihood (-lnL): 2211.5
+proteasefamily_singlelambda_k4
+proteasefamily_singlelambda_k5
+proteasefamily_singlelambda_k6
+proteasefamily_singlelambda_k7
+proteasefamily_singlelambda_k8
+proteasefamily_singlelambda_k9
+proteasefamily_singlelambda_k10

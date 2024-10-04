@@ -1,0 +1,18 @@
+cazymefamily_singlelambda_k1_2
+Model Base Final Likelihood (-lnL): 4159.66
+cazymefamily_singlelambda_k2_2
+Model Gamma Final Likelihood (-lnL): 4169.97
+cazymefamily_singlelambda_k3_2
+Model Gamma Final Likelihood (-lnL): 3689.65
+cazymefamily_singlelambda_k4_2
+Model Gamma Final Likelihood (-lnL): 3696.09
+cazymefamily_singlelambda_k5_2
+Model Gamma Final Likelihood (-lnL): 3703.56
+cazymefamily_singlelambda_k6_2
+Model Gamma Final Likelihood (-lnL): 3709.3
+cazymefamily_singlelambda_k7_2
+Model Gamma Final Likelihood (-lnL): 3757.02
+cazymefamily_singlelambda_k8_2
+Model Gamma Final Likelihood (-lnL): 3719.52
+cazymefamily_singlelambda_k9_2
+cazymefamily_singlelambda_k10_2

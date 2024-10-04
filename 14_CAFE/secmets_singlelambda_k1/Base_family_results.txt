@@ -1,0 +1,7 @@
+#FamilyID	pvalue	Significant at 0.05
+RiPP	0.079	n
+NRPS	0.255	n
+other	0.538	n
+T1PKS	0.948	n
+T3PKS	0.638	n
+terpene	0.877	n

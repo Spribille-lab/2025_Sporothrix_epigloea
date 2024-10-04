@@ -1,0 +1,14 @@
+#FamilyID	pvalue	Significant at 0.05
+GH3	0	y
+GH7	0.004	y
+GH18	0	y
+AA7	0	y
+AA9	0	y
+CE1	0	y
+GH2	0	y
+CE8	0.001	y
+GH28	0.006	y
+GH78	0	y
+GH55_2	0.005	y
+CBM67	0	y
+AA4	0.004	y

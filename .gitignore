@@ -10,6 +10,8 @@
 R_markdown/*.html
 09_orthology/OrthoFinder/Results_Aug07/gained_and_lost/*.xls
 09_orthology/OrthoFinder/Results_Aug07/gained_and_lost/KEGG/
+09_orthology/OrthoFinder/KinFin/kinfin_results/all/
+09_orthology/OrthoFinder/KinFin/kinfin_results/out/
 10_annotations/antiSMASH/
 10_annotations/dbcan3/
 10_annotations/funannotate/
@@ -20,9 +22,14 @@ R_markdown/*.html
 10_annotations/fastas/
 10_annotations/dbcan4/
 10_annotations/figures/
+10_annotations/kegg/kegg_output/*
+10_annotations/kegg/kos/*
+10_annotations/kegg/mf/*
 11_LPMO_trees/AA14/Fungi/
 11_LPMO_trees/AA14/Fungi_March2024/itol/just_Hypocreales/
 11_LPMO_trees/AA14/Sordariomycetes/
 12_starfish/gff3/
 13_dnds/*
+14_CAFE/orthogroups_singlelambda_k1_cafeplotter/gene_family/*
+14_CAFE/orthogroups_singlelambda_k1/Base_*
 manuscript/
