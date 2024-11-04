@@ -1,13 +1,10 @@
 #!/bin/bash
-#SBATCH --account=def-tspribi
+#SBATCH --account=def-xxxxxxxx
 #SBATCH --time=2-0:0
 #SBATCH --cpus-per-task=8
 #SBATCH --job-name=array
 #SBATCH --output=busco.run2.script.out
 #SBATCH --mem=100G
-#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
 
 bin_folder=$1
 

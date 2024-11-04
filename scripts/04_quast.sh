@@ -1,14 +1,11 @@
 #!/bin/bash
 
-#SBATCH --account=def-tspribi
+#SBATCH --account=def-xxxxxxx
 #SBATCH --time=1-0:0
 #SBATCH --cpus-per-task=32
 #SBATCH --mem=300G
 #SBATCH --job-name=quast
 #SBATCH --output=quast.script.logs.out
-#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
 
 SAMPLENAME="$1" #ca202112
 

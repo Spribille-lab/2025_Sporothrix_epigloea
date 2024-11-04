@@ -1,13 +1,11 @@
 #!/bin/bash
-#SBATCH --account=def-tspribi
+#SBATCH --account=def-xxxxxxx
 #SBATCH --time=3-0:00
 #SBATCH --cpus-per-task=64
 #SBATCH --job-name=ortho_msa
 #SBATCH --output=orthofinder.script.core.Aug7.logs.out
 #SBATCH --mem=249G
-#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
+
 
 module load StdEnv/2020
 module load apptainer/1.1.8

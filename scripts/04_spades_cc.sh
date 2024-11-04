@@ -1,13 +1,11 @@
 #!/bin/bash
-#SBATCH --account=def-tspribi
+#SBATCH --account=def-xxxxxxx
 #SBATCH --time=3-0:0
 #SBATCH --cpus-per-task=64
 #SBATCH --mem=2000G
 #SBATCH --job-name=SPAdes
 #SBATCH --output=spades_2000G.script.logs.out
-#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
+
 
 module load StdEnv/2020
 module load spades/3.15.4

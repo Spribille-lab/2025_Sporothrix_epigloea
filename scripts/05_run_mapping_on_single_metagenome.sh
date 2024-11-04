@@ -1,13 +1,11 @@
 #!/bin/bash
-#SBATCH --account=def-tspribi
+#SBATCH --account=def-xxxxxx
 #SBATCH --time=2-0:0
 #SBATCH --cpus-per-task=32
 #SBATCH --job-name=mapping
 #SBATCH --mem=250G
 #SBATCH --output=mapping.script.logs.out
-#SBATCH --mail-user=w6p9c9j6t9c6a2i6@spribillelabworkspace.slack.com
-#SBATCH --mail-type=BEGIN
-#SBATCH --mail-type=END
+
 
 module load StdEnv/2020
 module load gcc/9.3.0
