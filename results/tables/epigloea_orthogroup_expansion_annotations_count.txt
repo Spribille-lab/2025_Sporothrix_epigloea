@@ -1,0 +1,19 @@
+IPR_domain_description	n
+None	5
+Family Major facilitator superfamily	4
+Domain Aminoglycoside phosphotransferase	1
+Domain Cytidine and deoxycytidylate deaminase domain	1
+Domain F-box domain	1
+Domain HNH nuclease	1
+Domain Peptidase S53, activation domain	1
+Domain Peptidase family A1 domain	1
+Family Amino acid/polyamine transporter I	1
+Family Aminotransferase class-III	1
+Family Glucose-repressible protein Grg1	1
+Family Haloacid dehalogenase-like hydrolase	1
+Family Kinetochore Sim4 complex subunit Fta4	1
+Family Major facilitator, sugar transporter-like	1
+Family Oligopeptide transporter, OPT superfamily	1
+Family Purine-cytosine permease	1
+Family Squalene/phytoene synthase	1
+Family Uncharacterised protein family UPF0390	1

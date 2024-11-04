@@ -1,0 +1,25 @@
+cluster_id	change_node43	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+OG0000013	9	None	None	IPR003615	Domain HNH nuclease	PF13391	HNH endonuclease
+OG0000080	5	GO:0035673	oligopeptide transmembrane transporter activity 	IPR004813	Family Oligopeptide transporter, OPT superfamily	PF03169	OPT oligopeptide transporter protein
+OG0000119	3	None	None	None	None	None	None
+OG0000246	3	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000038	2	GO:0005515	protein binding 	IPR001810	Domain F-box domain	PF00646	F-box domain
+OG0000135	2	GO:0008236	serine-type peptidase activity 	IPR015366	Domain Peptidase S53, activation domain	PF09286	Pro-kumamolisin, activation domain 
+OG0000032	1	None	None	IPR002575	Domain Aminoglycoside phosphotransferase	PF01636	Phosphotransferase enzyme family
+OG0000121	1	None	None	None	None	None	None
+OG0000147	1	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000159	1	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR001248	Family Purine-cytosine permease	PF02133	Permease for cytosine/purines, uracil, thiamine, allantoin
+OG0000239	1	None	None	None	None	None	None
+OG0000242	1	None	None	IPR033121	Domain Peptidase family A1 domain	PF00026	Eukaryotic aspartyl protease
+OG0000275	1	None	None	None	None	None	None
+OG0000325	1	GO:0031511	Mis6-Sim4 complex 	IPR019034;IPR025207	Family Uncharacterised protein family UPF0390;Family Kinetochore Sim4 complex subunit Fta4	PF09495;PF13093	Protein of unknown function (DUF2462);Kinetochore complex Fta4 of Sim4 subunit, or CENP-50
+OG0000339	1	GO:0009058	biosynthetic process 	IPR002060	Family Squalene/phytoene synthase	PF00494	Squalene/phytoene synthase
+OG0000340	1	None	None	None	None	None	None
+OG0000378	1	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0000381	1	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR002293	Family Amino acid/polyamine transporter I	PF13520	Amino acid permease
+OG0000384	1	GO:0016020;GO:0022857;GO:0055085	membrane ;transmembrane transporter activity ;transmembrane transport 	IPR005828	Family Major facilitator, sugar transporter-like	PF00083	Sugar (and other) transporter
+OG0000385	1	None	None	IPR002125	Domain Cytidine and deoxycytidylate deaminase domain	PF00383	Cytidine and deoxycytidylate deaminase zinc-binding region
+OG0000395	1	None	None	IPR041492	Family Haloacid dehalogenase-like hydrolase	PF13419	Haloacid dehalogenase-like hydrolase
+OG0000397	1	None	None	IPR020100	Family Glucose-repressible protein Grg1	PF11034	Glucose-repressible protein Grg1 
+OG0000402	1	GO:0022857;GO:0055085	transmembrane transporter activity ;transmembrane transport 	IPR011701	Family Major facilitator superfamily	PF07690	Major Facilitator Superfamily
+OG0006321	1	GO:0008483;GO:0030170	transaminase activity ;pyridoxal phosphate binding 	IPR005814	Family Aminotransferase class-III	PF00202	Aminotransferase class-III

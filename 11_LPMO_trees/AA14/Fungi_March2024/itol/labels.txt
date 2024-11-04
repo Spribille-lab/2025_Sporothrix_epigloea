@@ -54,4 +54,4 @@ SIZE_FACTOR	6
 
 DATA
 #Examples
-I1107	S. epigloea	-1	#FF00FF	bold-italic	2	0
+I164	S. epigloea	-1	#FF00FF	bold-italic	2	0

@@ -1,0 +1,151 @@
+DATASET_COLORSTRIP
+#lines starting with a hash are comments and ignored during parsing
+#select the separator which is used to delimit the data below (TAB,SPACE or COMMA).This separator must be used throught this file (except in the SEPARATOR line, which uses space).
+
+SEPARATOR TAB
+#SEPARATOR SPACE
+#SEPARATOR COMMA
+
+#label is used in the legend table (can be changed later)
+DATASET_LABEL	Sordariomycetes
+
+#dataset color (can be changed later)
+COLOR	#ff0000
+
+#optional settings
+
+#all other optional settings can be set or changed later in the web interface (under 'Datasets' tab)
+COLOR_BRANCHES	0
+#maximum width
+STRIP_WIDTH	60
+
+#left margin, used to increase/decrease the spacing to the next dataset. Can be negative, causing datasets to overlap.
+MARGIN	0
+
+#border width; if set above 0, a black border of specified width (in pixels) will be drawn around the color strip 
+BORDER_WIDTH	1
+BORDER_COLOR	#FFFFFF
+
+#show internal values; if set, values associated to internal nodes will be displayed even if these nodes are not collapsed. It could cause overlapping in the dataset display.
+SHOW_INTERNAL	0
+
+LEGEND_TITLE	Sordariomycetes orders
+LEGEND_SHAPES	1	1	1	1	1	1	1
+LEGEND_COLORS	#005A32	#238B45	#41AB5D	#74C476	#A1D99B	#C7E9C0	#EDF8E9
+LEGEND_LABELS	Chaetosphaeriales	Coniochaetales	Glomerellales	Hypocreales	Ophiostomatales	Sordariales	Xylariales
+
+
+#In colored strip charts, each ID is associated to a color. Color can be specified in hexadecimal, RGB or RGBA notation
+#Internal tree nodes can be specified using IDs directly, or using the 'last common ancestor' method described in iTOL help pages
+#Actual data follows after the "DATA" keyword
+DATA
+KAH8897803.1_Thozetella_sp._PMI_491	#005A32
+KAB5511574.1_Coniochaeta_sp._2T2.1	#238B45
+KAB5571716.1_Coniochaeta_sp._2T2.1	#238B45
+KAG7042770.1_Colletotrichum_scovillei	#41AB5D
+XP_036579548.1_Colletotrichum_truncatum	#41AB5D
+KAK1451422.1_Colletotrichum_melonis	#41AB5D
+KAK1457265.1_Colletotrichum_cuscutae	#41AB5D
+KAH6670960.1_Plectosphaerella_plurivora	#41AB5D
+KAH7361844.1_Plectosphaerella_cucumerina	#41AB5D
+CAH0017991.1_Clonostachys_rhizophaga	#74C476
+Crosea671predictedgene_008663_T1_18_292_AA14	#74C476
+Crosea671predictedgene_010899_T1_23_287_AA14	#74C476
+XP_014543483.1_Metarhizium_brunneum_ARSEF3297	#74C476
+OAQ97907.1_Akanthomyces_lecanii	#74C476
+OAA71978.1_Akanthomyces_lecanii_RCEF1005	#74C476
+TQV92291.1_Cordyceps_javanica	#74C476
+KAJ3498061.1_Lecanicillium_saksenae	#74C476
+KAJ2971520.1_Lecanicillium_fungicola	#74C476
+KAJ2978305.1_Lecanicillium_fungicola	#74C476
+CEJ80690.1_Torrubiella__hemipterigena	#74C476
+KAK5998284.1_Cladobotryum_mycophilum	#74C476
+KAK5989550.1_Cladobotryum_mycophilum	#74C476
+CprotrCCMJ2080predictedgene_004813_T1_17_292_AA14	#74C476
+CprotrCCMJ2080predictedgene_007053_T1_13_276_AA14	#74C476
+CprotrCCMJ2080predictedgene_010340_T1_18_284_AA14	#74C476
+HperniHP10predictedgene_009641_T1_18_289_AA14	#74C476
+RFU82186.1_Trichoderma_arundinaceum	#74C476
+XP_024748296.1_Trichoderma_citrinoviride	#74C476
+KAH8127734.1_Trichoderma_asperelloides	#74C476
+XP_062756707.1_Trichoderma_aggressivum_f.europaeum	#74C476
+XP_013954691.1_Trichoderma_virens_Gv29_8	#74C476
+TatrovIMI206040predictedgene_004141_T1_25_287_AA14	#74C476
+TatrovIMI206040predictedgene_006201_T1_18_286_AA14	#74C476
+TharziCBS22695predictedgene_003080_T1_24_286_AA14	#74C476
+TharziCBS22695predictedgene_010450_T1_18_285_AA14	#74C476
+TpararCBS125925predictedgene_000587_T1_18_285_AA14	#74C476
+TpararCBS125925predictedgene_002265_T1_25_287_AA14	#74C476
+TreeseQM6apredictedgene_002638_T1_18_285_AA14	#74C476
+TvirenSpredictedgene_003033_T1_25_287_AA14	#74C476
+TvirenSpredictedgene_009646_T1_18_286_AA14	#74C476
+KAH7131555.1_Dactylonectria_estremocensis	#74C476
+KAH7146787.1_Dactylonectria_estremocensis	#74C476
+KAF5712587.1_Fusarium_globosum	#74C476
+RSL86941.1_Fusarium_floridanum	#74C476
+KAH6994015.1_Fusarium_venenatum	#74C476
+KAI6773850.1_Fusarium_graminearum	#74C476
+KAH7241287.1_Fusarium_tricinctum	#74C476
+KAF4473112.1_Fusarium_albosuccineum	#74C476
+RGP70849.1_Fusarium_longipes	#74C476
+KAF4996308.1_Fusarium_graminum	#74C476
+RKL24452.1_Fusarium_oxysporum	#74C476
+KAH6957632.1_Ilyonectria_sp._MPI_CAGE_AT_0026	#74C476
+KAI5458749.1_Mariannaea_sp._PMI_226	#74C476
+KPM37038.1_Neonectria_ditissima	#74C476
+KAF7562633.1_Stylonectria_norvegica	#74C476
+XP_018183102.1_Purpureocillium_lilacinum	#74C476
+OAQ86421.1_Purpureocillium_lilacinum	#74C476
+KAJ6444104.1_Purpureocillium_lavendulum	#74C476
+KAI9148106.1_Paramyrothecium_foliicola	#74C476
+KAH7304735.1_Stachybotrys_elegans	#74C476
+KFH41721.1_Hapsidospora_chrysogenum_ATCC11550	#74C476
+SEPCBS119000_003998_T1_17_172_AA14	#A1D99B
+SEPCBS119000_004000_T1_17_291_AA14	#A1D99B
+SEPCBS119000_004001_T1_17_291_AA14	#A1D99B
+SEPCBS119000_006086_T1_17_291_AA14	#A1D99B
+SEPCBS119000_006698_T1_17_291_AA14	#A1D99B
+SEPCBS57363_006798_T1_7_167_AA14	#A1D99B
+SEPTF4163_004982_T1_17_290_AA14	#A1D99B
+SEPTF4163_006711_T1_17_172_AA14	#A1D99B
+KAK0636799.1_Bombardia_bombarda	#C7E9C0
+KAK3353235.1_Lasiosphaeria_hispida	#C7E9C0
+KAK0715594.1_Lasiosphaeris_hirsuta	#C7E9C0
+KAK4207403.1_Rhypophila_decipiens	#C7E9C0
+KAK4161707.1_Cladorrhinum_sp._PSN259	#C7E9C0
+KAK3997737.1_Cladorrhinum_sp._PSN332	#C7E9C0
+KAK4231908.1_Podospora_fimiseda	#C7E9C0
+KAK3390723.1_Podospora_didyma	#C7E9C0
+KAK4184928.1_Podospora_australis	#C7E9C0
+XP_062764634.1_Podospora_pseudopauciseta	#C7E9C0
+KAJ4385058.1_Neurospora_sp._IMI360204	#C7E9C0
+KAI1255708.1_Eutypa_lata	#EDF8E9
+KAI1455606.1_Annulohypoxylon_moriforme	#EDF8E9
+KAI1442607.1_Annulohypoxylon_stygium	#EDF8E9
+XP_047814482.1_Annulohypoxylon_maeteangense	#EDF8E9
+ASPSEMC78_008126_T1_20_177_AA14	#EDF8E9
+AstygiMG137predictedgene_010173_T1_20_294_AA14	#EDF8E9
+AtruncCBS140778predictedgene_010579_T1_20_177_AA14	#EDF8E9
+OTB14934.1_Daldinia_sp._EC12	#EDF8E9
+XP_049154505.1_Daldinia_loculata	#EDF8E9
+KAI0376862.1_Hypomontagnella_monticulosa	#EDF8E9
+XP_051315023.1_Hypoxylon_trugodes	#EDF8E9
+KAI1136309.1_Hypoxylon_sp._FL0543	#EDF8E9
+OTA98336.1_Hypoxylon_sp._CI_4A	#EDF8E9
+OTA89157.1_Hypoxylon_sp._CO27_5	#EDF8E9
+KAI0842323.1_Hypoxylon_sp._FL0890	#EDF8E9
+KAI0155446.1_Hypoxylon_sp._FL1284	#EDF8E9
+KAI1770593.1_Hypoxylon_cercidicola	#EDF8E9
+KAI1408390.1_Hypoxylon_sp._FL1857	#EDF8E9
+KAI1404206.1_Hypoxylon_fuscum	#EDF8E9
+KAI1098482.1_Jackrogersella_minutella	#EDF8E9
+KAH8652406.1_Xylariales_sp._PMI_506	#EDF8E9
+CAJ2512527.1_Anthostomella_pinea	#EDF8E9
+KAI0593011.1_Biscogniauxia_sp._FL1348	#EDF8E9
+KAI1187396.1_Nemania_serpens	#EDF8E9
+KAI1174144.1_Nemania_sp._FL0916	#EDF8E9
+KAI1158901.1_Nemania_serpens	#EDF8E9
+KAI1111157.1_Nemania_sp._NC0429	#EDF8E9
+KAI1193918.1_Nemania_serpens	#EDF8E9
+KAI1077968.1_Whalleya_microplaca	#EDF8E9
+KAH9992699.1_Xylariaceae_sp._FL0662B	#EDF8E9

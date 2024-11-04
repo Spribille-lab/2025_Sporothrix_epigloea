@@ -1,0 +1,9 @@
+FamilyID	TaxonID	Count	Change	Pvalue	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+S09X	54	15	-23	4.25566e-20	NA	NA	NA	NA	NA	NA
+S12	54	1	-6	2.18048e-07	NA	NA	NA	NA	NA	NA
+S08A	54	1	-6	2.18048e-07	NA	NA	NA	NA	NA	NA
+S09C	54	3	-4	0.000245939	NA	NA	NA	NA	NA	NA
+A01A	54	11	-4	0.00399403	NA	NA	NA	NA	NA	NA
+S33	54	21	-5	0.00483214	NA	NA	NA	NA	NA	NA
+S09X	55	12	-3	0.00879748	NA	NA	NA	NA	NA	NA
+S09X	Sporothrix_epigloea_CBS119000	12	-3	0.0305832	NA	NA	NA	NA	NA	NA

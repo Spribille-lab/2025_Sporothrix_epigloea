@@ -1,0 +1,659 @@
+IPR_domain_description	n
+None	952
+Domain Zn(2)Cys(6) fungal-type DNA-binding domain	182
+Domain Transcription factor domain, fungi	164
+Family Major facilitator superfamily	156
+Family Major facilitator, sugar transporter-like	113
+Family Short-chain dehydrogenase/reductase SDR	73
+Family Cytochrome P450	58
+Domain Alcohol dehydrogenase-like, N-terminal	54
+Domain Alcohol dehydrogenase-like, C-terminal	49
+Domain FAD-binding domain	44
+Family Fungal transcription factor	42
+Domain NADP-dependent oxidoreductase domain	28
+Domain Alpha/beta hydrolase fold-3	26
+Family Flavin monooxygenase-like	26
+Domain Alpha/beta hydrolase fold-1	25
+Family Major facilitator transporter Str1/Tri12-like	24
+Domain Carboxylesterase, type B	22
+Domain AMP-dependent synthetase/ligase domain	21
+Domain Heterokaryon incompatibility	21
+Domain Aldehyde dehydrogenase domain	20
+Domain Aminoglycoside phosphotransferase	19
+Domain Amidase signature domain	18
+Domain TauD/TfdA-like domain	18
+Domain FAD linked oxidase, N-terminal	17
+Domain Gfo/Idh/MocA-like oxidoreductase, N-terminal	17
+Domain NmrA-like domain	16
+Domain Amidohydrolase-related	15
+Domain Glycoside hydrolase, family 3, N-terminal	15
+Family Kynurenine formamidase/cyclase-like	15
+Domain Glycoside hydrolase family 3 C-terminal domain	14
+Domain Beta-lactamase-related	13
+Domain Fibronectin type III-like domain	13
+Domain Isopenicillin N synthase-like, Fe(2+) 2OG dioxygenase domain	13
+Domain Non-haem dioxygenase N-terminal domain	13
+Family Protein of unknown function DUF3425	13
+Repeat Ankyrin repeat	13
+Domain AMP-binding enzyme, C-terminal domain	12
+Domain Protein kinase domain	12
+Domain ATPase, AAA-type, core	11
+Domain Auxiliary Activity family 9, catalytic domain	11
+Domain Cupin 2, conserved barrel	11
+Domain D-isomer specific 2-hydroxyacid dehydrogenase, NAD-binding domain	11
+Domain Gfo/Idh/MocA-like oxidoreductase, C-terminal	11
+Domain Glycoside hydrolase family 18, catalytic domain	11
+Domain LysM domain	11
+Domain Peptidase S8/S53 domain	11
+Domain Peptidase family A1 domain	11
+Domain Phosphopantetheine binding ACP domain	11
+Family Purine-cytosine permease	11
+Domain ABC transporter-like, ATP-binding domain	10
+Domain Cellobiose dehydrogenase, cytochrome domain	10
+Domain EthD domain	10
+Domain Isochorismatase-like	10
+Domain NAD-dependent epimerase/dehydratase	10
+Domain ABC transporter type 1, transmembrane domain	9
+Domain Calcineurin-like phosphoesterase domain, ApaH type	9
+Domain Glutathione S-transferase, N-terminal	9
+Domain SET domain	9
+Domain Sulfatase, N-terminal	9
+Family Glycoside hydrolase, family 43	9
+Family Oligopeptide transporter, OPT superfamily	9
+Domain FAD dependent oxidoreductase	8
+Domain Ferric reductase transmembrane component-like domain	8
+Domain Glucose-methanol-choline oxidoreductase, C-terminal	8
+Domain Glucose-methanol-choline oxidoreductase, N-terminal	8
+Domain Metallo-beta-lactamase	8
+Family Amino acid/polyamine transporter I	8
+Family DapA-like	8
+Family Glycoside hydrolase, family 28	8
+Family Peptidase M20	8
+Family Phytanoyl-CoA dioxygenase-like	8
+Domain 3-hydroxyisobutyrate dehydrogenase-like, NAD-binding domain	7
+Domain 6-phosphogluconate dehydrogenase, NADP-binding	7
+Domain Berberine/berberine-like	7
+Domain CENP-V/GFA domain	7
+Domain Carboxymuconolactone decarboxylase-like	7
+Domain D-isomer specific 2-hydroxyacid dehydrogenase, catalytic domain	7
+Domain Extracellular membrane protein, CFEM domain	7
+Domain Fumarylacetoacetase-like, C-terminal	7
+Domain GNAT domain	7
+Domain Glutathione S-transferase, C-terminal	7
+Domain Glycoside hydrolase, family 5	7
+Domain Multicopper oxidase, C-terminal	7
+Domain NACHT nucleoside triphosphatase	7
+Domain NB-ARC	7
+Domain Peptidase M20, dimerisation domain	7
+Domain SGNH hydrolase-type esterase domain	7
+Domain Shikimate dehydrogenase substrate binding, N-terminal	7
+Family Esterase, PHB depolymerase	7
+Domain 2EXR domain	6
+Domain Acyl-CoA dehydrogenase/oxidase, C-terminal	6
+Domain Acyl-CoA oxidase/dehydrogenase, middle domain	6
+Domain Beta-xylosidase, C-terminal Concanavalin A-like domain	6
+Domain Class II aldolase/adducin N-terminal	6
+Domain Dienelactone hydrolase	6
+Domain F-box domain	6
+Domain FAD-binding 8	6
+Domain FAD/NAD(P)-binding domain	6
+Domain FMN-dependent dehydrogenase	6
+Domain Fatty acyl-coenzyme A reductase-like, NAD-binding domain	6
+Domain Ferric reductase, NAD binding domain	6
+Domain Glycoside hydrolase family 16	6
+Domain Glycoside hydrolase, family 2, immunoglobulin-like beta-sandwich	6
+Domain HpcH/HpaI aldolase/citrate lyase domain	6
+Domain Intradiol ring-cleavage dioxygenase, C-terminal	6
+Domain Multicopper oxidase, second cupredoxin domain	6
+Domain Multicopper oxidase-like, N-terminal	6
+Domain NodB homology domain	6
+Domain Phenol hydroxylase-like, C-terminal dimerisation domain	6
+Domain SMP-30/Gluconolactonase/LRE-like region	6
+Domain SnoaL-like domain	6
+Domain Thiolase, C-terminal	6
+Domain Zinc finger C2H2-type	6
+Family Acyclic terpene utilisation	6
+Family Aminotransferase class-III	6
+Family Lactonase, 7-bladed beta propeller	6
+Family Mycotoxin biosynthesis protein UstYa-like	6
+Family RTA-like protein	6
+Domain Acyl-CoA dehydrogenase/oxidase, N-terminal	5
+Domain Alcohol dehydrogenase, iron-type/glycerol dehydrogenase GldA	5
+Domain Alpha-L-rhamnosidase, six-hairpin glycosidase domain	5
+Domain Cation-transporting P-type ATPase, N-terminal	5
+Domain Cellulose-binding domain, fungal	5
+Domain Glycoside hydrolase family 31, TIM barrel domain	5
+Domain Glycosyl transferase CAP10 domain	5
+Domain NADH:flavin oxidoreductase/NADH oxidase, N-terminal	5
+Domain Oxidoreductase FAD/NAD(P)-binding	5
+Domain PA14 domain	5
+Domain Peptidase S9, prolyl oligopeptidase, catalytic domain	5
+Domain Thiolase, N-terminal	5
+Domain Xylose isomerase-like, TIM barrel domain	5
+Family Arylsulfotransferase-like	5
+Family CoA-transferase family III	5
+Family Enoyl-CoA hydratase/isomerase	5
+Family Ion channel regulatory protein, UNC-93	5
+Family Tannase/feruloyl esterase	5
+Domain Amino acid permease/ SLC12A domain	4
+Domain Aminotransferase, class I/classII, large domain	4
+Domain Antibiotic biosynthesis monooxygenase domain	4
+Domain BTB/POZ domain	4
+Domain Beta-glucuronidase, C-terminal	4
+Domain Carbon-nitrogen hydrolase	4
+Domain Catechol dioxygenase, N-terminal	4
+Domain Cation-transporting P-type ATPase, C-terminal	4
+Domain Chitin-binding, type 1	4
+Domain Cytochrome b5-like heme/steroid binding domain	4
+Domain DNA2/NAM7 helicase, helicase domain	4
+Domain DNA2/NAM7 helicase-like, C-terminal	4
+Domain DhaK domain	4
+Domain DhaL domain	4
+Domain Enolase C-terminal domain-like	4
+Domain Extradiol ring-cleavage dioxygenase, class III enzyme, subunit B	4
+Domain FAD-binding oxidoreductase/transferase, type 4, C-terminal	4
+Domain FAD-dependent oxidoreductase 2, FAD binding domain	4
+Domain Glycoside hydrolase family 2, catalytic domain	4
+Domain Glycosyl hydrolases family 2, sugar binding domain	4
+Domain Glyoxalase/fosfomycin resistance/dioxygenase domain	4
+Domain HNH nuclease	4
+Domain MmgE/PrpD, C-terminal	4
+Domain MmgE/PrpD, N-terminal	4
+Domain NAD(P)-binding domain	4
+Domain NWD NACHT-NTPase, N-terminal	4
+Domain Peptidase S53, activation domain	4
+Domain Prolyl 4-hydroxylase alpha subunit, Fe(2+) 2OG dioxygenase domain	4
+Domain Quinate/shikimate 5-dehydrogenase/glutamyl-tRNA reductase	4
+Domain Rhamnogalacturonase A/B/Epimerase-like, pectate lyase domain	4
+Domain SNF2, N-terminal	4
+Domain Thiamine pyrophosphate enzyme, N-terminal TPP-binding domain	4
+Domain Thiamine pyrophosphate enzyme, TPP-binding	4
+Domain Thioesterase domain	4
+Domain Xaa-Pro dipeptidyl-peptidase, C-terminal	4
+Domain Xaa-Pro dipeptidyl-peptidase-like domain	4
+Family Fructose-bisphosphate aldolase, class-II	4
+Family Gig2-like	4
+Family Glycoside hydrolase, family 7	4
+Family Putative amidoligase enzyme	4
+N/A	4
+Repeat WD40-like beta propeller	4
+Domain ATP-citrate synthase/succinyl-CoA ligase, C-terminal domain	3
+Domain Acyl transferase domain	3
+Domain Amine oxidase	3
+Domain Bacterial alpha-L-rhamnosidase N-terminal	3
+Domain Beta-galactosidase jelly roll domain	3
+Domain Beta-ketoacyl synthase, C-terminal	3
+Domain Beta-ketoacyl synthase-like, N-terminal	3
+Domain C5a peptidase/Subtilisin-like protease SBT2-like, Fn3-like domain	3
+Domain Catalase core domain	3
+Domain Clr5 domain	3
+Domain Cyanovirin-N	3
+Domain Dynamin, N-terminal	3
+Domain Fumarylacetoacetase, N-terminal	3
+Domain Glycoside hydrolase 35, catalytic domain	3
+Domain Glycoside hydrolase, family 45	3
+Domain Gylcosyl hydrolase 115 C-terminal domain	3
+Domain HD domain	3
+Domain Helicase, C-terminal domain-like	3
+Domain Homogentisate 1,2-dioxygenase, C-terminal domain	3
+Domain Homogentisate 1,2-dioxygenase, N-terminal domain	3
+Domain Isopropylmalate dehydrogenase-like domain	3
+Domain MaoC-like dehydratase domain	3
+Domain Marvel domain	3
+Domain O-methyltransferase domain	3
+Domain Pectinesterase, catalytic	3
+Domain Phospholipase/carboxylesterase/thioesterase	3
+Domain Polyketide synthase, dehydratase domain	3
+Domain Polyketide synthase, ketoreductase domain	3
+Domain Rieske [2Fe-2S] iron-sulphur domain	3
+Domain Serine aminopeptidase, S33	3
+Domain Thiamine pyrophosphate enzyme, central domain	3
+Domain Tyrosinase copper-binding domain	3
+Domain Yeast cell wall synthesis Kre9/Knh1-like, N-terminal	3
+Domain Zinc finger, MYND-type	3
+Family 3-dehydroquinate dehydratase type I	3
+Family Carotenoid oxygenase	3
+Family GDSL lipase/esterase	3
+Family Glycosyl hydrolase family 115	3
+Family Glycosyl hydrolase, family 88	3
+Family Haem-dependent oxidative N-demethylase, alpha subunit-like	3
+Family Histidine phosphatase superfamily, clade-2	3
+Family Lipase, secreted	3
+Family Metal-independent alpha-mannosidase	3
+Family Phosphatidylethanolamine-binding protein	3
+Family Phosphoesterase	3
+Family Protein of unknown function DUF3176	3
+Family Protein of unknown function DUF4360	3
+Family Protein of unknown function DUF4419	3
+Family Shikimate kinase/gluconokinase	3
+Family Transaldolase/Fructose-6-phosphate aldolase	3
+Family Uncharacterised conserved protein UCP014753	3
+Family YjgF/YER057c/UK114 family	3
+Repeat WD40 repeat	3
+Domain 3-beta hydroxysteroid dehydrogenase/isomerase	2
+Domain 3-hydroxyacyl-CoA dehydrogenase, C-terminal	2
+Domain 3-hydroxyacyl-CoA dehydrogenase, NAD binding	2
+Domain ATPase, BadF/BadG/BcrA/BcrD type	2
+Domain Aconitase/3-isopropylmalate dehydratase large subunit, alpha/beta/alpha domain	2
+Domain Alkyl sulfatase dimerisation domain	2
+Domain Alkyl sulfatase, C-terminal	2
+Domain Alpha galactosidase, C-terminal beta sandwich domain	2
+Domain Alpha-L-arabinofuranosidase, C-terminal	2
+Domain Alpha-L-rhamnosidase C-terminal domain	2
+Domain Alpha-L-rhamnosidase, concanavalin-like domain	2
+Domain Anticodon-binding	2
+Domain Beta galactosidase small chain/ domain 5	2
+Domain Beta-galactosidase, domain 2	2
+Domain Beta-galactosidase, domain 3	2
+Domain Beta-galactosidase, domain 4	2
+Domain Biotin carboxylase, C-terminal	2
+Domain Biotin carboxylase-like, N-terminal domain	2
+Domain Biotin/lipoyl attachment	2
+Domain CAP domain	2
+Domain Carbamoyl-phosphate synthetase large subunit-like, ATP-binding domain	2
+Domain Carbohydrate-binding WSC	2
+Domain Catalase immune-responsive domain	2
+Domain Cellulose/chitin-binding protein, N-terminal	2
+Domain CoA-binding	2
+Domain Cobalamin-independent methionine synthase MetE, C-terminal/archaeal	2
+Domain Copper acquisition factor BIM1-like domain	2
+Domain Cupin 1	2
+Domain DEAD/DEAH box helicase domain	2
+Domain Domain of unknown function DUF1996	2
+Domain Domain of unknown function DUF6606	2
+Domain FAS1 domain	2
+Domain Flavodoxin/nitric oxide synthase	2
+Domain Flavoprotein pyridine nucleotide cytochrome reductase-like, FAD-binding domain	2
+Domain Fringe-like, glycosyltransferase domain	2
+Domain GLEYA adhesin domain	2
+Domain Glutaminase A, N-terminal domain	2
+Domain Glutaminase A, central domain	2
+Domain Glutamyl/glutaminyl-tRNA synthetase, class Ib, anti-codon binding domain	2
+Domain Glutamyl/glutaminyl-tRNA synthetase, class Ib, catalytic domain	2
+Domain Glycoside hydrolase 131, catalytic N-terminal	2
+Domain Glycoside hydrolase family 10 domain	2
+Domain Glycoside hydrolase family 31, N-terminal domain	2
+Domain Glycosyl hydrolase family 92	2
+Domain Glycosyl hydrolase family 92 N-terminal domain	2
+Domain Glycosyl hydrolase, family 13, catalytic domain	2
+Domain Haem peroxidase	2
+Domain Hemerythrin-like	2
+Domain Hydantoinase A/oxoprolinase	2
+Domain Hydantoinase B/oxoprolinase	2
+Domain Hydantoinase/oxoprolinase, N-terminal	2
+Domain IBR domain	2
+Domain Luciferase-like domain	2
+Domain Lysophospholipase, catalytic domain	2
+Domain ML-like domain	2
+Domain Mandelate racemase/muconate lactonizing enzyme, N-terminal domain	2
+Domain Methyltransferase domain 25	2
+Domain NACHT-NTPase and P-loop NTPases, N-terminal domain	2
+Domain NADAR	2
+Domain Neutral/alkaline non-lysosomal ceramidase, N-terminal	2
+Domain Nitronate monooxygenase	2
+Domain Non-reducing end beta-L-arabinofuranosidase-like, GH127 catalytic domain	2
+Domain PEP-utilising enzyme, mobile domain	2
+Domain Patatin-like phospholipase domain	2
+Domain Peptidase C2, calpain, catalytic domain	2
+Domain Peptidase S12, Pab87-related, C-terminal	2
+Domain Polyketide synthase, C-terminal extension	2
+Domain Pyrroline-5-carboxylate reductase, catalytic, N-terminal	2
+Domain Pyruvate phosphate dikinase, AMP/ATP-binding	2
+Domain Rhodanese-like domain	2
+Domain Ribonuclease H domain	2
+Domain SDH, C-terminal	2
+Domain SIS domain	2
+Domain Spastin/Vps4, C-terminal	2
+Domain SsuA/THI5-like	2
+Domain Stress responsive alpha-beta barrel	2
+Domain Sulfite reductase [NADPH] flavoprotein alpha-component-like, FAD-binding	2
+Domain T6SS, Phospholipase effector Tle1-like, catalytic domain	2
+Domain TRP, C-terminal	2
+Domain Thioredoxin domain	2
+Domain Transketolase, C-terminal domain	2
+Domain Transketolase, N-terminal	2
+Domain Transketolase-like, pyrimidine-binding domain	2
+Domain Ulp1 protease family, C-terminal catalytic domain	2
+Family Acetate transporter GPR1/Ato2/SatP-like	2
+Family Aldose 1-/Glucose-6-phosphate 1-epimerase	2
+Family Alpha-mannosyltransferase	2
+Family Aminotransferase class IV	2
+Family Anhydro-N-acetylmuramic acid kinase	2
+Family Class I-like SAM-dependent O-methyltransferase	2
+Family Dehydroquinase, class II	2
+Family Dihydroxy-acid/6-phosphogluconate dehydratase	2
+Family Egh16-like virulence factor	2
+Family Esterase-like	2
+Family GDP-fucose protein O-fucosyltransferase	2
+Family Glycoside hydrolase family 47	2
+Family Glycoside hydrolase, family 76	2
+Family Glycosyltransferase 61	2
+Family Kinetochore Sim4 complex subunit Fta2	2
+Family Mannosyltransferase 1, CMT1	2
+Family Mg2+ transporter protein, CorA-like/Zinc transport protein ZntB	2
+Family OTT_1508-like deaminase	2
+Family Oxopyrrolidines biosynthesis cluster protein G	2
+Family Peptidase S10, serine carboxypeptidase	2
+Family Peptidase S28	2
+Family Phosphate transporter	2
+Family Protein of unknown function DUF1993	2
+Family Protein of unknown function DUF3433	2
+Family Protein of unknown function DUF3500	2
+Family Protein of unknown function DUF4387	2
+Family Protein of unknown function DUF6601	2
+Family Proton-dependent oligopeptide transporter family	2
+Family Questin oxidase-like	2
+Family Sodium/solute symporter	2
+Family Sugar-phosphate isomerase, RpiB/LacA/LacB family	2
+Family UDP-glucuronosyl/UDP-glucosyltransferase	2
+Family Ureidoglycolate lyase	2
+Family Ureohydrolase	2
+Repeat Mitochondrial substrate/solute carrier	2
+Domain (S)-ureidoglycine aminohydrolase, cupin domain	1
+Domain 5'-Nucleotidase, C-terminal	1
+Domain AAA ATPase, AAA+ lid domain	1
+Domain ABC transporter family G domain	1
+Domain ABC-2 type transporter, transmembrane domain	1
+Domain ATP synthase, alpha subunit, C-terminal	1
+Domain ATP-grasp fold, succinyl-CoA synthetase-type	1
+Domain ATPase, F1/V1/A1 complex, alpha/beta subunit, nucleotide-binding domain	1
+Domain Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	1
+Domain Aconitase A/isopropylmalate dehydratase small subunit, swivel domain	1
+Domain Acyltransferase 3 domain	1
+Domain Aflatoxin regulatory protein	1
+Domain Alginate lyase domain	1
+Domain Alkyl hydroperoxide reductase subunit C/ Thiol specific antioxidant	1
+Domain Alpha carbonic anhydrase domain	1
+Domain Alpha glucuronidase, N-terminal	1
+Domain Alpha-L-arabinofuranosidase B, arabinose-binding domain	1
+Domain Alpha-L-arabinofuranosidase B, catalytic	1
+Domain Amidohydrolase 3	1
+Domain Amino acid transporter, transmembrane domain	1
+Domain Aminotransferase class V domain	1
+Domain Ammonium transporter AmtB-like domain	1
+Domain Argonaute, linker 1 domain	1
+Domain Aromatic-ring-hydroxylating dioxygenase, alpha subunit, C-terminal domain	1
+Domain Arrestin-like, N-terminal	1
+Domain Asparaginase/glutaminase, C-terminal	1
+Domain BCS1, N-terminal	1
+Domain BFD-like [2Fe-2S]-binding domain	1
+Domain Beta-hexosaminidase, bacterial type, N-terminal	1
+Domain Beta-mannosidase, Ig-fold domain	1
+Domain Biotin and thiamin synthesis-associated domain	1
+Domain CDR ABC transporter	1
+Domain Capsule synthesis protein, CapA	1
+Domain Carbohydrate binding X2 domain	1
+Domain Carbohydrate kinase PfkB	1
+Domain Carbohydrate-binding module family 19	1
+Domain Carbohydrate-binding, CenC-like	1
+Domain Carboxyltransferase domain, subdomain A and B	1
+Domain Carboxyltransferase domain, subdomain C and D	1
+Domain Cation/H+ exchanger	1
+Domain CbbX, AAA lid domain	1
+Domain Cellulose-binding Sde182, nucleoside hydrolase-like domain	1
+Domain Centromere DNA-binding protein complex CBF3 subunit B, C-terminal	1
+Domain Chromo domain	1
+Domain Class II Histidinyl-tRNA synthetase (HisRS)-like catalytic core domain	1
+Domain Coagulation factor 5/8, C-terminal domain	1
+Domain CobW/HypB/UreG, nucleotide-binding domain	1
+Domain Condensation domain	1
+Domain Copper amine oxidase, N2-terminal	1
+Domain Copper amine oxidase, catalytic domain	1
+Domain D-3-phosphoglycerate dehydrogenase, ASB domain	1
+Domain DAPG hydrolase, PhiG domain	1
+Domain DJ-1/PfpI	1
+Domain Domain of unknown function DUF1989	1
+Domain Domain of unknown function DUF3533	1
+Domain Domain of unknown function DUF3638	1
+Domain Domain of unknown function DUF3645	1
+Domain Domain of unknown function DUF4964	1
+Domain Domain of unknown function DUF4978	1
+Domain Domain of unknown function DUF4982	1
+Domain Domain of unknown function DUF5597	1
+Domain Domain of unknown function DUF6536	1
+Domain Domain of unknown function DUF6594	1
+Domain Domain of unknown function DUF6604	1
+Domain EH domain	1
+Domain ER-bound oxygenase mpaB/mpaB'/Rubber oxygenase, catalytic domain	1
+Domain Ecp2 effector protein-like	1
+Domain Endonuclease/exonuclease/phosphatase	1
+Domain Enolase, C-terminal TIM barrel domain	1
+Domain Enolase, N-terminal	1
+Domain Epoxide hydrolase, N-terminal	1
+Domain Ester hydrolase C11orf54, Domain of unknown function DUF1907	1
+Domain Exo-beta-D-glucosaminidase, Ig-fold domain	1
+Domain Fido domain	1
+Domain Flavin reductase like domain	1
+Domain Four-carbon acid sugar kinase, N-terminal domain	1
+Domain Four-carbon acid sugar kinase, nucleotide binding domain	1
+Domain GPI ethanolamine phosphate transferase 2, C-terminal	1
+Domain GTP binding domain	1
+Domain Gamma-glutamylcyclotransferase, AIG2-like domain	1
+Domain Gelsolin-like domain	1
+Domain Globin	1
+Domain Glucosamine/galactosamine-6-phosphate isomerase	1
+Domain Glucose receptor Git3, N-terminal	1
+Domain Glutamine amidotransferase	1
+Domain Glutamine synthetase, catalytic domain	1
+Domain Glycoside hydrolase 64	1
+Domain Glycoside hydrolase family 2, domain 5	1
+Domain Glycoside hydrolase family 20, catalytic domain	1
+Domain Glycoside hydrolase, family 42, N-terminal	1
+Domain Glycoside hydrolase, family 49, C-terminal	1
+Domain Glycoside hydrolase, family 49, N-terminal domain	1
+Domain Glycosyl hydrolase 36, catalytic domain	1
+Domain Glycosyl hydrolase 94	1
+Domain Glycosyl hydrolase family 30, beta sandwich domain	1
+Domain Glycosyl hydrolase family 32, C-terminal	1
+Domain Glycosyl hydrolase family 32, N-terminal	1
+Domain Glycosyl hydrolase family 67, C-terminal	1
+Domain Glycosyl hydrolase family 67, catalytic domain	1
+Domain Glycosyl hydrolase family 95, N-terminal domain	1
+Domain Glycosyl hydrolases family 11 (GH11) domain	1
+Domain Glycosyltransferase 2-like	1
+Domain Glycosyltransferase family 28, N-terminal domain	1
+Domain HTH CenpB-type DNA-binding domain	1
+Domain Heavy metal-associated domain, HMA	1
+Domain Hexokinase, C-terminal	1
+Domain Hexokinase, N-terminal	1
+Domain Inosine/uridine-preferring nucleoside hydrolase domain	1
+Domain Inositolphosphotransferase Aur1/Ipt1	1
+Domain Iron/zinc purple acid phosphatase-like C-terminal domain	1
+Domain Ketopantoate reductase, C-terminal domain	1
+Domain Ketopantoate reductase, N-terminal domain	1
+Domain KxDL domain	1
+Domain L-asparaginase, N-terminal	1
+Domain Large catalase, C-terminal domain	1
+Domain LicD/FKTN/FKRP, nucleotidyltransferase domain	1
+Domain Linalool dehydratase/isomerase	1
+Domain MJ1316 RNA cyclic group end recognition domain	1
+Domain Manganese/iron superoxide dismutase, C-terminal	1
+Domain Manganese/iron superoxide dismutase, N-terminal	1
+Domain Mannosidase Ig/CBM-like domain	1
+Domain Methyltransferase domain	1
+Domain Methyltransferase type 11	1
+Domain Methyltransferase type 12	1
+Domain Moybdenum cofactor oxidoreductase, dimerisation	1
+Domain Myc-type, basic helix-loop-helix (bHLH) domain	1
+Domain N,N-dimethylformamidase beta subunit-like, C-terminal	1
+Domain N-sulphoglucosamine sulphohydrolase, C-terminal	1
+Domain NADH:ubiquinone oxidoreductase-like, 20kDa subunit	1
+Domain NADPH-dependent FMN reductase-like domain	1
+Domain Neutral/alkaline non-lysosomal ceramidase, C-terminal	1
+Domain Nitrite/Sulfite reductase ferredoxin-like domain	1
+Domain Nitrite/sulphite reductase 4Fe-4S domain	1
+Domain Nitroreductase	1
+Domain Oxidoreductase, molybdopterin-binding domain	1
+Domain PA domain	1
+Domain PAN/Apple domain	1
+Domain PAZ domain	1
+Domain PEP-utilising enzyme, C-terminal	1
+Domain PPM-type phosphatase-like domain	1
+Domain PdxS/SNZ N-terminal domain	1
+Domain Peptidase C19, ubiquitin carboxyl-terminal hydrolase	1
+Domain Peptidase C45, hydrolase domain	1
+Domain Peptidase M14, carboxypeptidase A	1
+Domain Peptidase M24	1
+Domain Peptidase M28	1
+Domain Peptidase S33 tripeptidyl aminopeptidase-like, C-terminal	1
+Domain Peptidase S8 propeptide/proteinase inhibitor I9	1
+Domain Peptidase S9A, N-terminal domain	1
+Domain Phosphatidate phosphatase APP1, catalytic domain	1
+Domain Phosphogluconate dehydrogenase, NAD-binding, putative, C-terminal	1
+Domain Piwi domain	1
+Domain Poly(A) polymerase, central domain	1
+Domain Poly(ADP-ribose) polymerase, catalytic domain	1
+Domain Potassium channel domain	1
+Domain Prion-inhibition and propagation, HeLo domain	1
+Domain Protein argonaute, N-terminal	1
+Domain Purple acid phosphatase, N-terminal	1
+Domain Pyridoxamine 5'-phosphate oxidase, putative	1
+Domain Pyridoxine 5'-phosphate oxidase, dimerisation, C-terminal	1
+Domain Pyrroline-5-carboxylate reductase, dimerisation domain	1
+Domain Pyruvate carboxyltransferase	1
+Domain RNA 3'-terminal phosphate cyclase domain	1
+Domain RNA recognition motif domain	1
+Domain Radical SAM	1
+Domain RelA/SpoT	1
+Domain Ricin B, lectin domain	1
+Domain RlpA-like protein, double-psi beta-barrel domain	1
+Domain SAF domain	1
+Domain SANT/Myb domain	1
+Domain SLC26A/SulP transporter domain	1
+Domain SRR1-like domain	1
+Domain STAS domain	1
+Domain Serine hydrolase domain	1
+Domain Serine-threonine/tyrosine-protein kinase, catalytic domain	1
+Domain Sialidase	1
+Domain Sodium/calcium exchanger membrane region	1
+Domain Starter unit:ACP transacylase	1
+Domain Superoxide dismutase, copper/zinc binding domain	1
+Domain Telomerase ribonucleoprotein complex - RNA-binding domain	1
+Domain Thioesterase	1
+Domain Thiolase-like protein type 1, additional C-terminal domain	1
+Domain Threonylcarbamoyl-AMP synthase-like domain	1
+Domain Transcription regulator Rua1, C-terminal	1
+Domain Tuberculosis necrotizing toxin	1
+Domain Ubiquitin-conjugating enzyme E2	1
+Domain Ubiquitin-like domain	1
+Domain V-ATPase proteolipid subunit C-like domain	1
+Domain YCII-related	1
+Domain Zinc chaperone CobW-like, C-terminal	1
+Domain Zinc finger, C3HC4 RING-type	1
+Domain Zinc finger, CHY-type	1
+Domain Zinc finger, PHD-finger	1
+Domain Zinc finger, ZZ-type	1
+Family 1, 4-beta cellobiohydrolase	1
+Family ADP-ribosylation/Crystallin J1	1
+Family ATPase expression protein 2, mitochondrial	1
+Family Acetate kinase EutQ	1
+Family Acetoacetate decarboxylase	1
+Family AdipoR/Haemolysin-III-related	1
+Family Aliphatic aldoxime/phenylacetaldoxime dehydratase	1
+Family Alkaline phosphatase	1
+Family Archaeal/bacterial/fungal rhodopsins	1
+Family Aromatic amino acid lyase	1
+Family Autophagy-related protein 22-like	1
+Family Bestrophin-like	1
+Family Biogenesis of lysosome-related organelles complex 1 subunit 1	1
+Family C-5 cytosine methyltransferase	1
+Family Carbonic anhydrase	1
+Family CidB/LrgB family	1
+Family Citrate synthase	1
+Family Coenzyme A transferase family I	1
+Family Corrinoid adenosyltransferase PduO/GlcC-like	1
+Family Ctr copper transporter	1
+Family Cutinase/acetylxylan esterase	1
+Family Cytochrome c oxidase copper chaperone	1
+Family D-glutamate cyclase	1
+Family DeoC/FbaB/LacD aldolase	1
+Family Dyp-type peroxidase	1
+Family Ecdysteroid kinase-like	1
+Family Glycoside hydrolase family 1	1
+Family Glycoside hydrolase family 12	1
+Family Glycoside hydrolase family 71	1
+Family Glycoside hydrolase, family 27	1
+Family Glycoside hydrolase, family 29	1
+Family Glycoside hydrolase, family 59	1
+Family Glycoside hydrolase, family 62, arabinosidase	1
+Family Glycosyl hydrolase family 53	1
+Family Glycosyl transferase, family 25	1
+Family Glycosyltransferase WbsX	1
+Family Guanine-specific ribonuclease N1-like	1
+Family Haem peroxidase, animal-type	1
+Family Histidinol dehydrogenase	1
+Family Increased loss of mitochondrial DNA protein 1	1
+Family Initiation factor 2B-related	1
+Family Inositol monophosphatase-like	1
+Family Interferon alpha-inducible protein IFI6/IFI27-like	1
+Family Iron permease FTR1/Fip1/EfeU	1
+Family Isocitrate lyase	1
+Family L-lysine 6-monooxygenase/L-ornithine 5-monooxygenase	1
+Family LamB/YcsF/PxpA-like	1
+Family Large ribosomal subunit protein bL32	1
+Family Large ribosomal subunit protein bL33	1
+Family Large ribosomal subunit protein eL29	1
+Family Large ribosomal subunit protein eL39	1
+Family Low affinity iron permease, Fet4	1
+Family LrgA/CidA family	1
+Family MOB kinase activator family	1
+Family Maleate isomerase/Arylmalonate decarboxylase	1
+Family Mannoside phosphorylase	1
+Family Mature-T-Cell Proliferation I type	1
+Family Mitochondrial export protein Som1	1
+Family Molybdate-anion transporter	1
+Family Monooxygenase af470-like	1
+Family Mpv17/PMP22	1
+Family Multi antimicrobial extrusion protein	1
+Family Necrosis inducing protein	1
+Family Nucleobase cation symporter 2 family	1
+Family Oleate hydratase	1
+Family Oligosaccaryltransferase	1
+Family Oligosaccharyltransferase complex subunit	1
+Family OsmC/Ohr family	1
+Family Oxysterol-binding protein	1
+Family PLAC8 motif-containing protein	1
+Family PcRGLX/YetA-like	1
+Family Peptidase G1	1
+Family Peptidase M19	1
+Family Peptidase S58, DmpA	1
+Family Peptidase T2, asparaginase 2	1
+Family Peptidase family M49	1
+Family Phenazine biosynthesis PhzF-like	1
+Family Phosphatidylserine decarboxylase-related	1
+Family Pma1 stabilization in the Golgi protein 1	1
+Family Potassium transporter	1
+Family Protein Hri1	1
+Family Protein of unknown function DUF1223	1
+Family Protein of unknown function DUF1348	1
+Family Protein of unknown function DUF1365	1
+Family Protein of unknown function DUF3405	1
+Family Protein of unknown function DUF3431	1
+Family Protein of unknown function DUF3435	1
+Family Protein of unknown function DUF3716	1
+Family Protein of unknown function DUF3723	1
+Family Protein of unknown function DUF4246	1
+Family Protein of unknown function DUF4267	1
+Family Protein of unknown function DUF6546	1
+Family PrpF-like	1
+Family Pyridoxal 5'-phosphate synthase subunit PdxT/SNO	1
+Family Pyridoxamine 5'-phosphate oxidase-related	1
+Family SAP30-binding protein	1
+Family Scytalone dehydratase	1
+Family Sin3 associated polypeptide p18	1
+Family Spherulation-specific family 4	1
+Family Steryl acetyl hydrolase 1-like	1
+Family Succinylglutamate desuccinylase/aspartoacylase	1
+Family Sulfotransferase, S. mansonii-type	1
+Family TATA-box binding protein	1
+Family Type I phosphodiesterase/nucleotide pyrophosphatase/phosphate transferase	1
+Family Tyrosine/serine-protein phosphatase IphP-type	1
+Family Zinc/iron permease	1
+Repeat Collagen triple helix repeat	1
+Repeat Dextranase, beta solenoid repeat	1
+Repeat Isopullulanase beta-solenoid repeat	1
+Repeat PQ-loop repeat	1
+Repeat PT repeat	1
+Repeat Protein of unknown function DUF3659	1
+Repeat Pyrrolo-quinoline quinone repeat	1
+Repeat Regulator of chromosome condensation, RCC1	1

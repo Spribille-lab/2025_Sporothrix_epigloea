@@ -1,0 +1,2073 @@
+IQ-TREE multicore version 2.2.3 COVID-edition for Linux 64-bit built Aug 13 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    debary-vm1 (AVX2, FMA3, 236 GB RAM)
+Command: iqtree -s Fungi_AA14_alignment_trimmed.phy -nt AUTO -m MFP -B 1000 -o PRP77934.1_Planoprotostelium_fungivorum,PRP85073.1_Planoprotostelium_fungivorum,PRP85061.1_Planoprotostelium_fungivorum,PRP85059.1_Planoprotostelium_fungivorum -pre AA14_Fungi_outgroup1
+Seed:    279550 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Oct 22 15:21:35 2024
+Kernel:  AVX+FMA - auto-detect threads (32 CPU cores detected)
+
+Reading alignment file Fungi_AA14_alignment_trimmed.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Constructing alignment: done in 0.00580811 secs using 2019% CPU
+Alignment has 1367 sequences with 408 columns, 408 distinct patterns
+407 parsimony-informative, 1 singleton sites, 0 constant sites
+                                                        Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.0225799 secs using 2886% CPU
+   1  ABIH97_003209_T1_17_285_AA14                             34.80%    passed     95.19%
+   2  XP_007327029.1_Agaricus_bisporus_burnettii               11.27%    passed     66.88%
+   3  KAF9446568.1_Macrolepiota_fuliginosa_MF_IS2              15.20%    passed     97.09%
+   4  KAF5349572.1_Leucoagaricus_leucothites                    9.56%    passed     67.39%
+   5  KAG2021178.1_Coprinopsis_cinerea_AmutBmutpab1_1           8.58%    passed     65.19%
+   6  TFK35491.1_Crucibulum_laeve                               6.62%    failed      0.00%
+   7  KAF8889795.1_Infundibulicybe_gibba                       37.50%    passed     96.00%
+   8  RDB19405.1_Hypsizygus_marmoreus                           8.33%    failed      3.46%
+   9  KAF9009666.1_Cyathus_striatus                            40.69%    passed     96.57%
+  10  PFH53538.1_Amanita_thiersii_Skay4041                     26.72%    passed     98.71%
+  11  KAF9464509.1_Collybia_nuda                               11.76%    passed     44.88%
+  12  KAG5644957.1_Asterophora_parasitica                      33.09%    passed     63.22%
+  13  KAG5642766.1_Asterophora_parasitica                      17.40%    passed     31.86%
+  14  KAG5640879.1_Asterophora_parasitica                      32.35%    passed     38.03%
+  15  KAF5386713.1_Tricholomella_constricta                     9.80%    passed     57.49%
+  16  KAF8643391.1_Volvariella_volvacea_WC439                   6.37%    passed      8.54%
+  17  TFK24631.1_Coprinopsis_marcescibilis                     29.41%    passed     59.19%
+  18  KAF8646686.1_Volvariella_volvacea_WC439                  21.81%    passed     58.20%
+  19  KAF9555468.1_Agrocybe_pediades                            7.35%    passed     45.96%
+  20  KAF8172110.1_Pholiota_molesta                            10.54%    passed     11.29%
+  21  KAF9481334.1_Pholiota_conissans                          30.15%    passed     86.20%
+  22  KAF8959707.1_Flammula_alnicola                           31.37%    passed     74.67%
+  23  CAA7260964.1_Cyclocybe_aegerita                          10.05%    failed      0.22%
+  24  KAJ3517287.1_Agrocybe_chaxingu                            9.80%    failed      0.04%
+  25  KIM49751.1_Hebeloma_cylindrosporum_h7                    31.62%    passed     44.70%
+  26  PPQ91790.1_Psilocybe_cyanescens                           6.62%    failed      1.20%
+  27  KJA19114.1_Hypholoma_sublateritium_FD_334SS_4            10.78%    failed      4.31%
+  28  KDR82083.1_Galerina_marginata_CBS339.88                  27.45%    passed     94.64%
+  29  XP_001878077.1_Laccaria_bicolor_S238N_H82                34.31%    passed     78.78%
+  30  KIK01335.1_Laccaria_amethystina_LaAM_08_1                31.37%    passed     71.87%
+  31  GLB35639.1_Lyophyllum_shimeji                            12.50%    passed     88.82%
+  32  PPR05141.1_Gymnopilus_dilepis                            10.29%    failed      4.93%
+  33  KIY46248.1_Fistulina_hepatica_ATCC64428                  30.88%    passed     66.76%
+  34  KIL68458.1_Amanita_muscaria_KoideBX008                   30.39%    passed     80.13%
+  35  KIL67972.1_Amanita_muscaria_KoideBX008                   30.64%    passed     83.18%
+  36  KAF4578295.1_Pleurotus_pulmonarius                       25.74%    passed     63.43%
+  37  KAJ8699157.1_Pleurotus_ostreatus                         25.49%    passed     65.55%
+  38  XP_036637151.1_Pleurotus_ostreatus                       25.74%    passed     63.40%
+  39  KAG9225718.1_Pleurotus_cornucopiae                       57.35%    passed     53.16%
+  40  KAF8061794.1_Lyophyllum_atratum                           9.80%    passed     68.80%
+  41  ESK91302.1_Moniliophthora_roreri_MCA2997                 25.25%    passed     65.86%
+  42  TFK65698.1_Pluteus_cervinus                              31.86%    passed     97.35%
+  43  KAF8801887.1_Phlegmacium_glaucopus                       13.97%    passed     68.51%
+  44  THU92255.1_Dendrothele_bispora_CBS962.96                 30.15%    passed     76.97%
+  45  KAF5348338.1_Tetrapyrgos_nigripes                         8.82%    passed      6.61%
+  46  KAF8162702.1_Crassisporium_funariophilum                 10.29%    failed      3.57%
+  47  KAF5318169.1_Psilocybe_cf._subviscida                     6.37%    failed      0.69%
+  48  KAF8638893.1_Amanita_inopinata_Kibby_2008                23.77%    passed     98.09%
+  49  KAJ7592659.1_Mycena_floridula                            16.18%    passed     48.35%
+  50  KAF9003575.1_Cyathus_striatus                            30.39%    passed     51.16%
+  51  KAF8237042.1_Tricholoma_matsutake_945                    20.10%    passed     63.78%
+  52  KAJ2924699.1_Candolleomyces_eurysporus                    7.35%    passed     36.57%
+  53  RXW19564.1_Candolleomyces_aberdarensis                    6.13%    passed     19.04%
+  54  KAJ2912036.1_Candolleomyces_efflorescens                  7.35%    failed      0.63%
+  55  TEB24653.1_Coprinellus_micaceus                          27.70%    passed     96.95%
+  56  KAF6758275.1_Tulosesus_angulatus                         11.52%    passed     26.51%
+  57  KAF6758555.1_Tulosesus_angulatus                         17.16%    passed     39.39%
+  58  KAF7353871.1_Mycena_venus                                26.47%    passed     97.05%
+  59  KAJ7348836.1_Mycena_albidolilacea                         9.80%    passed     70.08%
+  60  KAJ7490931.1_Mycena_latifolia                            13.48%    passed     63.63%
+  61  KAJ6567126.1_Mycena_capillaripes                          9.56%    failed      1.31%
+  62  KAJ7891382.1_Mycena_olivaceomarginata                    24.51%    passed     89.17%
+  63  KAJ7071801.1_Mycena_belliae                              11.27%    passed     51.96%
+  64  KAJ7119105.1_Mycena_epipterygia                           8.82%    passed      7.99%
+  65  KAJ6606041.1_Mycena_vulgaris                             31.62%    passed     93.93%
+  66  KAJ7041973.1_Mycena_alexandri                            10.05%    passed     54.65%
+  67  KAJ7765721.1_Mycena_metata                                9.80%    passed     76.32%
+  68  KAJ7142133.1_Mycena_crocata                              12.25%    passed     73.41%
+  69  KAJ7700703.1_Mycena_rosella                              12.01%    passed     64.25%
+  70  KAJ7184571.1_Mycena_filopes                               9.56%    passed     43.91%
+  71  KAJ6630341.1_Mycena_sp._CBHHK59/15                        8.09%    failed      0.00%
+  72  XP_037215895.1_Mycena_indigotica                         12.50%    passed     19.17%
+  73  KAJ7063711.1_Mycena_amicta                               14.71%    passed     77.13%
+  74  KAJ7197001.1_Mycena_pura                                 50.49%    passed     92.13%
+  75  KAJ7684356.1_Mycena_polygramma                           11.76%    passed     31.89%
+  76  KAJ7500432.1_Mycena_galericulata                         17.89%    passed     99.15%
+  77  KAJ7494287.1_Mycena_galericulata                         12.01%    passed     90.67%
+  78  KAJ7718950.1_Mycena_maculata                             12.01%    passed     65.53%
+  79  KAJ7237708.1_Mycena_haematopus                           14.22%    passed     94.12%
+  80  KAF7359076.1_Mycena_sanguinolenta                        11.27%    passed     39.65%
+  81  KAJ6500795.1_Mycena_sanguinolenta                        18.87%    passed     73.60%
+  82  KAF8191670.1_Mycena_galopus_ATCC62051                    19.12%    passed     68.65%
+  83  CAK5275406.1_Mycena_citricolor                           10.54%    passed     41.75%
+  84  KAF7298383.1_Mycena_kentingensis__nom.inval._            12.75%    passed     14.42%
+  85  KAJ7612109.1_Roridomyces_roridus                          8.58%    failed      1.16%
+  86  KAJ7819796.1_Mycena_olivaceomarginata                    15.44%    passed     85.31%
+  87  KAJ7290212.1_Mycena_rebaudengoi                           8.09%    passed     12.94%
+  88  KAF7323432.1_Mycena_chlorophos                            7.84%    failed      4.04%
+  89  KAF7323333.1_Mycena_chlorophos                            7.84%    passed     21.22%
+  90  TFK24632.1_Coprinopsis_marcescibilis                     12.01%    passed      8.86%
+  91  KDQ12702.1_Botryobasidium_botryosum_FD_172SS1            31.37%    passed     53.74%
+  92  KDQ07356.1_Botryobasidium_botryosum_FD_172SS1            31.62%    passed     51.16%
+  93  KDQ08649.1_Botryobasidium_botryosum_FD_172SS1            31.13%    passed      5.52%
+  94  KDQ08700.1_Botryobasidium_botryosum_FD_172SS1            31.13%    passed     75.06%
+  95  KDQ08703.1_Botryobasidium_botryosum_FD_172SS1            31.13%    passed     62.69%
+  96  KDQ19064.1_Botryobasidium_botryosum_FD_172SS1            30.64%    passed     86.64%
+  97  KAF9506578.1_Hydnum_rufescens_UP504                      31.13%    passed     61.56%
+  98  KAF9519655.1_Hydnum_rufescens_UP504                      31.62%    passed     49.53%
+  99  KAF9505295.1_Hydnum_rufescens_UP504                      32.84%    passed     91.44%
+ 100  KAI0063966.1_Artomyces_pyxidatus                          9.07%    passed     68.51%
+ 101  KAI0063967.1_Artomyces_pyxidatus                         30.15%    passed     76.33%
+ 102  CAG7847402.1_Serendipita_indica_DSM11827                 20.59%    passed     24.13%
+ 103  CCA68159.1_Serendipita_indica_DSM11827                   20.83%    passed     32.70%
+ 104  KIM34148.1_Serendipita_vermifera_MAFF305830               8.58%    passed     65.63%
+ 105  PVG03262.1_Serendipita_vermifera                         28.43%    passed     27.33%
+ 106  OJA15941.1_Rhizopogon_vesiculosus                        11.03%    passed     71.22%
+ 107  OAX34821.1_Rhizopogon_vinicolor_AM_OR11_026              31.37%    passed     90.31%
+ 108  KAG2047998.1_Suillus_hirtellus                           29.66%    passed     99.21%
+ 109  XP_041152707.1_Suillus_plorans                            7.84%    passed     35.43%
+ 110  XP_041305035.1_Suillus_bovinus                           11.03%    passed     43.64%
+ 111  XP_041203492.1_Suillus_clintonianus                      25.74%    passed     99.99%
+ 112  KAG1729006.1_Suillus_lakei                                8.82%    passed     25.86%
+ 113  KAG2341603.1_Suillus_weaverae                            14.46%    passed     90.82%
+ 114  XP_041189731.1_Suillus_subaureus                          7.84%    passed     12.08%
+ 115  XP_041240031.1_Suillus_subalutaceus                       9.56%    passed     17.57%
+ 116  KAG1883922.1_Suillus_subluteus                           32.35%    passed     89.57%
+ 117  KAG2038753.1_Suillus_americanus                           9.56%    passed     38.63%
+ 118  KAG2122434.1_Suillus_cothurnatus                         28.19%    passed     99.88%
+ 119  KAG2745013.1_Suillus_brevipes_Sb2                        10.05%    passed     85.89%
+ 120  KAG2361954.1_Suillus_spraguei                             9.07%    passed     86.79%
+ 121  KAG2068216.1_Suillus_decipiens                           25.98%    passed     78.81%
+ 122  KAG0696927.1_Suillus_ampliporus                          28.19%    passed     94.29%
+ 123  XP_041176807.1_Suillus_paluster                          10.54%    passed     41.09%
+ 124  KAG1771890.1_Suillus_placidus                            22.30%    passed     77.56%
+ 125  KAJ8587088.1_Rhizopogon_salebrosus_TDB_379               25.49%    passed     98.99%
+ 126  KAJ8587089.1_Rhizopogon_salebrosus_TDB_379               29.41%    passed     99.23%
+ 127  XP_007319142.1_Serpula_lacrymans_lacrymans               26.72%    passed     89.81%
+ 128  KAI6028045.1_Pisolithus_microcarpus                      10.29%    passed     25.41%
+ 129  KAI6125828.1_Pisolithus_croceorrhizus                     9.07%    passed     16.25%
+ 130  KAI6124350.1_Pisolithus_croceorrhizus                    32.84%    passed     62.32%
+ 131  KAI6096263.1_Pisolithus_croceorrhizus                    11.03%    failed      2.50%
+ 132  KAI6144734.1_Pisolithus_tinctorius                        9.07%    passed     13.21%
+ 133  XP_051594525.1_Pisolithus_orientalis                     42.40%    passed     85.33%
+ 134  KIN97737.1_Pisolithus_tinctorius_Marx270                 31.86%    passed     83.18%
+ 135  KIM60443.1_Scleroderma_citrinum_FougA                    27.45%    passed     98.60%
+ 136  KAI6101922.1_Pisolithus_sp._B1                           28.43%    passed     80.23%
+ 137  KAI5989970.1_Pisolithus_albus                            29.90%    passed     91.40%
+ 138  KIN97736.1_Pisolithus_tinctorius_Marx270                 28.19%    passed     89.72%
+ 139  XP_051594526.1_Pisolithus_orientalis                     28.19%    passed     93.28%
+ 140  KAI6014656.1_Pisolithus_marmoratus                       29.66%    passed     97.66%
+ 141  KAG6333709.1_Astraeus_odoratus                           48.04%    passed     78.77%
+ 142  KIM60444.1_Scleroderma_citrinum_FougA                     8.09%    passed     59.55%
+ 143  KIM60439.1_Scleroderma_citrinum_FougA                    28.19%    passed     95.09%
+ 144  KAI6101950.1_Pisolithus_sp._B1                           31.86%    passed     97.34%
+ 145  XP_051594527.1_Pisolithus_orientalis                     32.60%    passed     98.74%
+ 146  KIN97734.1_Pisolithus_tinctorius_Marx270                 32.84%    passed     99.25%
+ 147  KAI6014658.1_Pisolithus_marmoratus                       32.60%    passed     94.87%
+ 148  KAH7910501.1_Hygrophoropsis_aurantiaca                   25.74%    passed     98.86%
+ 149  KAH7927685.1_Leucogyrophana_mollusca                     25.74%    passed     94.91%
+ 150  KIJ59037.1_Hydnomerulius_pinastri_MD_312                 10.29%    passed      8.90%
+ 151  KAG6889154.1_Termitomyces_sp._Mi166_008                   7.84%    passed     75.74%
+ 152  KAG6909396.1_Tephrocybe_rancida                          27.94%    passed     23.95%
+ 153  KAG6816493.1_Tephrocybe_sp._NHM501043                    36.52%    passed     66.31%
+ 154  KNZ77897.1_Termitomyces_sp._J132                         15.93%    passed     61.95%
+ 155  KAG6818885.1_Arthromyces_matolae                         13.73%    passed     56.42%
+ 156  KAG6811037.1_Tricholoma_furcatifolium                    22.55%    passed     84.52%
+ 157  KAF8227927.1_Tricholoma_matsutake_945                    26.72%    failed      4.64%
+ 158  KAF4617821.1_Agrocybe_pediades                           30.64%    passed     82.32%
+ 159  KAF9525849.1_Crepidotus_variabilis                       37.25%    passed     96.59%
+ 160  KAF5317676.1_Psilocybe_cf._subviscida                    36.52%    passed     24.99%
+ 161  KJA14486.1_Hypholoma_sublateritium_FD_334SS_4            26.47%    passed     98.78%
+ 162  KAF9046145.1_Panaeolus_papilionaceus                     37.01%    passed     42.42%
+ 163  KAF9528239.1_Crepidotus_variabilis                        6.13%    passed     36.96%
+ 164  KAJ4475502.1_Lentinula_aciculospora                       7.35%    passed      9.05%
+ 165  XP_046091232.1_Lentinula_edodes                          26.23%    passed     59.80%
+ 166  GAW03004.1_Lentinula_edodes                               6.62%    failed      3.42%
+ 167  KAJ4471107.1_Lentinula_edodes                            32.60%    passed     76.12%
+ 168  KAJ3806350.1_Lentinula_aff._lateritia                    30.64%    passed     91.43%
+ 169  KAJ3785498.1_Lentinula_aff._detonsa                       6.86%    failed      2.05%
+ 170  KAJ3983323.1_Lentinula_detonsa                           31.86%    passed     71.83%
+ 171  KAJ3777251.1_Lentinula_raphanica                          8.09%    failed      1.43%
+ 172  KAJ3832812.1_Lentinula_raphanica                         30.39%    passed     94.52%
+ 173  KAF9056913.1_Rhodocollybia_butyracea                      7.84%    failed      0.12%
+ 174  KAE9405808.1_Gymnopus_androsaceus_JB14                   28.43%    passed     79.93%
+ 175  KAE9409025.1_Gymnopus_androsaceus_JB14                   30.64%    passed     79.92%
+ 176  KAF5369151.1_Collybiopsis_confluens                       7.11%    passed      5.11%
+ 177  KIK64405.1_Collybiopsis_luxurians_FD_317M1               28.43%    passed     54.54%
+ 178  KIK64418.1_Collybiopsis_luxurians_FD_317M1               30.39%    passed     48.14%
+ 179  KIK64461.1_Collybiopsis_luxurians_FD_317M1               33.58%    passed     61.30%
+ 180  KAF9056912.1_Rhodocollybia_butyracea                     28.19%    passed     51.53%
+ 181  KAF8823650.1_Lentinula_edodes                            30.88%    passed     26.81%
+ 182  GAW03005.1_Lentinula_edodes                              24.26%    passed     42.02%
+ 183  KAJ3914703.1_Lentinula_edodes                            33.58%    passed     24.21%
+ 184  XP_046091231.1_Lentinula_edodes                          21.57%    passed     19.44%
+ 185  KAJ3900912.1_Lentinula_edodes                            26.23%    passed     22.85%
+ 186  KAJ3932041.1_Lentinula_lateritia                         36.76%    passed     53.70%
+ 187  KAJ3812088.1_Lentinula_aff._lateritia                    31.86%    passed     48.66%
+ 188  KAJ4471106.1_Lentinula_edodes                            34.56%    passed     39.71%
+ 189  KAJ4475503.1_Lentinula_aciculospora                      23.28%    passed     61.95%
+ 190  KAJ3983325.1_Lentinula_detonsa                           23.04%    passed     88.72%
+ 191  KAJ3996981.1_Lentinula_boryana                           22.06%    passed     73.17%
+ 192  KAJ3828043.1_Lentinula_raphanica                         20.34%    passed     87.87%
+ 193  KAJ3966635.1_Lentinula_raphanica                         27.94%    passed     89.42%
+ 194  KAJ3759476.1_Lentinula_raphanica                         34.31%    passed     80.32%
+ 195  KAE9405803.1_Gymnopus_androsaceus_JB14                   24.26%    passed     85.60%
+ 196  KAE9409026.1_Gymnopus_androsaceus_JB14                   23.28%    passed      8.86%
+ 197  PBL04133.1_Armillaria_gallica                            29.17%    passed     99.18%
+ 198  SJK99699.1_Armillaria_ostoyae                            29.17%    passed     99.16%
+ 199  KAF8912290.1_Mucidula_mucida                             30.15%    passed     45.70%
+ 200  KIY46927.1_Fistulina_hepatica_ATCC64428                  29.66%    passed     20.37%
+ 201  KIY46262.1_Fistulina_hepatica_ATCC64428                  27.45%    passed     73.80%
+ 202  KIY46497.1_Fistulina_hepatica_ATCC64428                  33.09%    passed     77.75%
+ 203  KAH8830497.1_Flagelloscypha_sp._PMI_526                  15.69%    passed     59.07%
+ 204  KAJ7932728.1_Mycena_leptocephala                         17.65%    passed     82.53%
+ 205  PPQ99173.1_Panaeolus_cyanescens                           9.80%    failed      0.37%
+ 206  KAF9032945.1_Panaeolus_papilionaceus                     31.37%    passed     12.59%
+ 207  KAI3612457.1_Moniliophthora_roreri                       12.50%    passed     15.26%
+ 208  EEB93106.1_Moniliophthora_perniciosa_FA553               33.82%    passed     15.62%
+ 209  KAF5361158.1_Tetrapyrgos_nigripes                        18.87%    passed     98.79%
+ 210  THU95040.1_Dendrothele_bispora_CBS962.96                 31.86%    passed     19.65%
+ 211  KAF5372097.1_Tetrapyrgos_nigripes                        37.75%    passed     19.89%
+ 212  KAJ8093962.1_Marasmius_tenuissimus                       11.27%    passed     17.07%
+ 213  KAF9261836.1_Marasmius_fiardii_PR_910                    30.88%    passed      7.57%
+ 214  XP_043002673.1_Marasmius_oreades                         12.25%    failed      3.47%
+ 215  KAJ7284688.1_Mycena_rebaudengoi                          24.51%    passed     24.08%
+ 216  KAJ7721732.1_Mycena_maculata                             22.55%    passed      7.10%
+ 217  KAJ7510330.1_Mycena_galericulata                         23.28%    passed     13.29%
+ 218  KAJ7678558.1_Mycena_rosella                              26.23%    passed     47.52%
+ 219  KAJ6570235.1_Mycena_vulgaris                             24.75%    passed     47.97%
+ 220  KAJ7454823.1_Mycena_latifolia                            24.75%    passed     47.86%
+ 221  KAJ7116367.1_Mycena_epipterygia                          24.51%    failed      4.43%
+ 222  KAJ7086052.1_Mycena_belliae                              32.11%    passed     51.36%
+ 223  KAJ7178764.1_Mycena_crocata                              37.50%    passed     70.64%
+ 224  KAJ6612269.1_Mycena_sp._CBHHK59/15                       25.25%    passed     25.06%
+ 225  KAJ7746606.1_Mycena_metata                               26.72%    passed     46.94%
+ 226  KAJ7039542.1_Mycena_alexandri                            33.09%    passed     32.88%
+ 227  KAJ7914883.1_Mycena_leptocephala                         25.49%    passed     65.77%
+ 228  KAJ7671654.1_Mycena_polygramma                           26.47%    passed     65.47%
+ 229  KAJ6577336.1_Mycena_capillaripes                         25.00%    passed     17.00%
+ 230  KAJ7352486.1_Mycena_albidolilacea                        24.75%    passed     52.42%
+ 231  KAJ7242755.1_Mycena_haematopus                           24.75%    passed     45.66%
+ 232  KAJ6448877.1_Mycena_sanguinolenta                        30.64%    passed     50.40%
+ 233  KAF7375133.1_Mycena_sanguinolenta                        25.74%    passed     69.94%
+ 234  KAJ6622531.1_Mycena_sp._CBHHK59/15                       24.02%    passed     81.78%
+ 235  KAJ6611719.1_Mycena_sp._CBHHK59/15                       38.97%    passed     56.12%
+ 236  KAJ7174185.1_Mycena_crocata                              28.68%    passed     21.57%
+ 237  KAJ7290046.1_Mycena_rebaudengoi                          24.75%    passed     52.83%
+ 238  KAJ6592766.1_Mycena_capillaripes                         21.81%    passed     67.83%
+ 239  KAJ7445091.1_Mycena_latifolia                            22.30%    passed     75.60%
+ 240  KAJ7133345.1_Mycena_epipterygia                          21.08%    passed     77.03%
+ 241  KAJ7022571.1_Mycena_alexandri                            22.55%    passed     69.08%
+ 242  KAJ7160373.1_Mycena_filopes                              32.84%    passed     27.86%
+ 243  KAJ7723815.1_Mycena_metata                               32.84%    passed     47.38%
+ 244  KAJ6530987.1_Mycena_vulgaris                             22.30%    passed     80.87%
+ 245  KAJ6517256.1_Mycena_vitilis                              22.30%    passed     90.66%
+ 246  KAJ7806866.1_Mycena_olivaceomarginata                    23.53%    passed     61.37%
+ 247  KAF7368474.1_Mycena_venus                                23.04%    passed     82.01%
+ 248  KAJ7174151.1_Mycena_crocata                              41.91%    passed     36.74%
+ 249  KAJ7685992.1_Mycena_rosella                              21.57%    passed     82.89%
+ 250  KAJ7482982.1_Mycena_galericulata                         22.06%    passed     72.11%
+ 251  KAJ7742353.1_Mycena_maculata                             29.41%    passed     22.16%
+ 252  KAJ7078020.1_Mycena_belliae                              22.55%    passed     60.79%
+ 253  KAJ7923841.1_Mycena_leptocephala                         24.02%    passed     85.02%
+ 254  KAJ7048201.1_Mycena_amicta                               21.57%    passed     38.57%
+ 255  KAF8207216.1_Mycena_galopus_ATCC62051                    23.53%    passed     88.69%
+ 256  CAK5270783.1_Mycena_citricolor                           19.36%    passed      5.01%
+ 257  CAK5271662.1_Mycena_citricolor                           18.87%    passed      7.46%
+ 258  KAJ7630228.1_Roridomyces_roridus                         20.10%    passed     37.54%
+ 259  KAJ6611709.1_Mycena_sp._CBHHK59/15                       24.51%    passed     68.26%
+ 260  XP_037217290.1_Mycena_indigotica                         26.47%    passed     66.32%
+ 261  KAF7291758.1_Mycena_chlorophos                           23.28%    passed     37.70%
+ 262  GAT49547.1_Mycena_chlorophos                             23.28%    passed     57.65%
+ 263  SJL08015.1_Armillaria_ostoyae                            25.74%    passed     88.73%
+ 264  PBK84224.1_Armillaria_gallica                            32.60%    passed     62.43%
+ 265  XP_043039020.1_Guyanagaster_necrorhizus_MCA3950          24.75%    passed     99.45%
+ 266  KAF7300191.1_Mycena_kentingensis__nom.inval._            15.44%    failed      4.40%
+ 267  KAF8646397.1_Volvariella_volvacea_WC439                  25.98%    passed     56.25%
+ 268  KAF9465322.1_Collybia_nuda                               18.63%    passed     90.14%
+ 269  KAF5377935.1_Tricholomella_constricta                    21.32%    passed     99.40%
+ 270  GLB38693.1_Lyophyllum_shimeji                            21.81%    passed     96.50%
+ 271  KAF8074005.1_Lyophyllum_atratum                          21.08%    passed     88.86%
+ 272  RDB14866.1_Hypsizygus_marmoreus                          19.36%    passed     68.27%
+ 273  KAF8228797.1_Tricholoma_matsutake_945                    21.81%    passed     54.64%
+ 274  KAE9400358.1_Gymnopus_androsaceus_JB14                   19.12%    passed      8.66%
+ 275  KIK60325.1_Collybiopsis_luxurians_FD_317M1               18.87%    passed     21.41%
+ 276  KAJ4473776.1_Lentinula_aciculospora                      18.87%    passed     32.48%
+ 277  XP_046090202.1_Lentinula_edodes                          18.87%    passed     15.80%
+ 278  KAJ4496300.1_Lentinula_edodes                            18.87%    passed     13.33%
+ 279  KAJ3905760.1_Lentinula_edodes                            27.94%    passed     46.82%
+ 280  GAW09987.1_Lentinula_edodes                              14.71%    failed      3.07%
+ 281  KAJ3731801.1_Lentinula_guzmanii                          32.60%    passed     79.94%
+ 282  KAJ4494186.1_Lentinula_lateritia                         23.53%    passed     13.23%
+ 283  KAJ3923070.1_Lentinula_edodes                            22.79%    passed     10.70%
+ 284  KAJ3765688.1_Lentinula_raphanica                         20.10%    passed     63.56%
+ 285  KAJ3755099.1_Lentinula_raphanica                         32.60%    passed     40.19%
+ 286  KAF9078041.1_Rhodocollybia_butyracea                     20.59%    passed     13.43%
+ 287  KAF9013080.1_Cyathus_striatus                            19.85%    passed     93.97%
+ 288  TEB28860.1_Coprinellus_micaceus                          24.75%    passed     33.11%
+ 289  TEB28861.1_Coprinellus_micaceus                          19.36%    passed      9.83%
+ 290  KAJ2917948.1_Candolleomyces_efflorescens                 38.48%    failed      1.40%
+ 291  KDR69809.1_Galerina_marginata_CBS339.88                  26.96%    passed     88.18%
+ 292  PPQ96400.1_Gymnopilus_dilepis                            22.30%    passed     39.98%
+ 293  KAF8901889.1_Gymnopilus_junonius                         22.79%    passed     74.83%
+ 294  CAA7260299.1_Cyclocybe_aegerita                          23.53%    passed     90.35%
+ 295  KAJ3514775.1_Agrocybe_chaxingu                           28.92%    passed     65.85%
+ 296  PPQ91155.1_Psilocybe_cyanescens                          20.83%    passed     92.51%
+ 297  KAF9476867.1_Pholiota_conissans                          22.30%    passed     58.77%
+ 298  KAF8959239.1_Flammula_alnicola                           22.30%    passed     80.76%
+ 299  KAF9524967.1_Crepidotus_variabilis                       22.55%    passed     53.51%
+ 300  KAF8906344.1_Mucidula_mucida                             33.82%    passed     74.22%
+ 301  KAF9023588.1_Hymenopellis_radicata                       26.96%    passed      8.70%
+ 302  KAF9028369.1_Hymenopellis_radicata                       20.34%    passed     58.73%
+ 303  KIY71843.1_Cylindrobasidium_torrendii_FP15055ss_10       19.12%    passed     53.42%
+ 304  KAF9552647.1_Agrocybe_pediades                           21.81%    passed     81.36%
+ 305  KAF5320701.1_Psilocybe_cf._subviscida                    22.30%    passed     66.10%
+ 306  KAF6743405.1_Tulosesus_angulatus                         15.93%    passed     32.51%
+ 307  KAF9493581.1_Pleurotus_eryngii                           18.87%    passed     64.37%
+ 308  KDQ25667.1_Pleurotus_ostreatus_PC15                      32.11%    passed     53.89%
+ 309  KAF4580251.1_Pleurotus_pulmonarius                       20.83%    passed     31.00%
+ 310  KAJ8469013.1_Pleurotus_djamor                            29.66%    passed      6.83%
+ 311  KAJ7584546.1_Mycena_floridula                            21.32%    passed     83.79%
+ 312  TFK64060.1_Pluteus_cervinus                              25.00%    passed     63.82%
+ 313  KAF9047830.1_Panaeolus_papilionaceus                     22.06%    passed     63.82%
+ 314  PPQ98999.1_Panaeolus_cyanescens                          32.11%    passed     73.64%
+ 315  KIY51548.1_Fistulina_hepatica_ATCC64428                  30.39%    passed     10.42%
+ 316  XP_001877230.1_Laccaria_bicolor_S238N_H82                31.37%    passed     20.02%
+ 317  KAF8157899.1_Crassisporium_funariophilum                 31.37%    passed     89.48%
+ 318  TFK34779.1_Crucibulum_laeve                              20.10%    passed     35.05%
+ 319  CAF1679081.1_Rotaria_magnacalcarata                      31.37%    passed      6.12%
+ 320  CAF0957659.1_Rotaria_sordida                             21.81%    failed      2.56%
+ 321  CAF1415161.1_Rotaria_sordida                             43.87%    passed     68.23%
+ 322  CAF1068498.1_Didymodactylos_carnosus                     38.73%    passed     20.98%
+ 323  CAF4112418.1_Rotaria_sp._Silwood2                        31.37%    passed     13.82%
+ 324  CAF1597006.1_Rotaria_sp._Silwood1                        21.81%    passed      8.09%
+ 325  CAF1047116.1_Adineta_steineri                            31.62%    passed      7.26%
+ 326  CAF0980966.1_Rotaria_sordida                             33.58%    passed      9.22%
+ 327  CAF1097575.1_Adineta_steineri                            40.20%    passed     28.07%
+ 328  CAF1158396.1_Didymodactylos_carnosus                     40.20%    passed     64.77%
+ 329  KAH8925420.1_Atractiella_rhizophila                      27.21%    passed     41.01%
+ 330  XP_007768205.1_Coniophora_puteana_RWD_64_598SS2          25.74%    passed     70.48%
+ 331  CAG7848880.1_Serendipita_indica_DSM11827                 28.68%    passed     90.10%
+ 332  CCA68158.1_Serendipita_indica_DSM11827                   16.67%    passed     72.08%
+ 333  CAG7847400.1_Serendipita_indica_DSM11827                 16.67%    passed     72.08%
+ 334  CCA72555.1_Serendipita_indica_DSM11827                   29.41%    passed     59.53%
+ 335  KAG8749374.1_Serendipita_sp._396                         47.06%    passed     26.97%
+ 336  PVF99774.1_Serendipita_vermifera                         30.15%    passed     15.13%
+ 337  TFL00990.1_Pterula_gracilis                              30.64%    passed     27.44%
+ 338  EJD54502.1_Auricularia_subglabra_TFB_10046SS5            31.62%    passed     64.88%
+ 339  KZW00468.1_Exidia_glandulosa_HHB12029                    30.39%    passed     26.72%
+ 340  KZW00469.1_Exidia_glandulosa_HHB12029                    34.56%    passed     24.77%
+ 341  KAF8308935.1_Clavulina_sp._PMI_390                       30.64%    passed     64.88%
+ 342  KZV97738.1_Exidia_glandulosa_HHB12029                    19.12%    passed     74.86%
+ 343  KAJ3561740.1_Leucocoprinus_birnbaumii                    25.25%    passed     68.82%
+ 344  KAF9451834.1_Macrolepiota_fuliginosa_MF_IS2              38.73%    passed     83.74%
+ 345  KAJ7671653.1_Mycena_polygramma                           28.19%    passed     99.89%
+ 346  KAJ6460359.1_Mycena_vitilis                              25.25%    passed     93.33%
+ 347  XP_043002583.1_Marasmius_oreades                         32.35%    passed     28.08%
+ 348  KAF9256181.1_Marasmius_fiardii_PR_910                    33.09%    passed     14.73%
+ 349  KAK1218116.1_Marasmius_sp._AFHP31                        32.84%    passed     12.83%
+ 350  KAF9263160.1_Marasmius_fiardii_PR_910                     8.33%    passed     54.44%
+ 351  KAJ3524414.1_Coprinellus_aureogranulatus                 19.61%    failed      0.10%
+ 352  KAH6917100.1_Coprinopsis_sp._MPI_PUGE_AT_0042            14.46%    passed      5.86%
+ 353  XP_001835509.1_Coprinopsis_cinerea_okayama7_130          31.62%    failed      0.95%
+ 354  XP_001835502.2_Coprinopsis_cinerea_okayama7_130          31.62%    passed     26.92%
+ 355  TFK27566.1_Coprinopsis_marcescibilis                     29.90%    passed     47.68%
+ 356  KAH6912658.1_Coprinopsis_sp._MPI_PUGE_AT_0042            31.62%    passed     10.23%
+ 357  TFK26683.1_Coprinopsis_marcescibilis                     21.32%    passed      6.42%
+ 358  XP_001829371.2_Coprinopsis_cinerea_okayama7_130          22.30%    passed     66.82%
+ 359  KAG8754232.1_Serendipita_sp._396                         20.83%    passed     91.02%
+ 360  KAG9058880.1_Serendipita_sp._407                         20.83%    passed     91.94%
+ 361  KAG8836044.1_Serendipita_sp._399                         26.72%    passed     76.75%
+ 362  KAH6919310.1_Coprinopsis_sp._MPI_PUGE_AT_0042            19.12%    passed     20.88%
+ 363  KAH6899228.1_Coprinopsis_sp._MPI_PUGE_AT_0042            13.97%    passed     22.31%
+ 364  KAJ8519244.1_Pleurotus_djamor                            35.54%    passed     92.74%
+ 365  KAG6375213.1_Boletus_reticuloceps                        25.74%    passed     89.10%
+ 366  KAF8436810.1_Boletus_edulis_BED1                         30.15%    passed     60.09%
+ 367  KAF8554672.1_Imleria_badia                               23.53%    passed     97.43%
+ 368  KAI9460394.1_Boletus_coccyginus                          23.28%    passed      8.40%
+ 369  ASPSEMC78_008126_T1_20_177_AA14                          63.97%    passed     97.04%
+ 370  KAI1455606.1_Annulohypoxylon_moriforme                   31.37%    passed     58.53%
+ 371  AtruncCBS140778predictedgene_010579_T1_20_177_AA14       63.97%    passed     92.06%
+ 372  AstygiMG137predictedgene_010173_T1_20_294_AA14           35.54%    passed     39.38%
+ 373  KAI1442607.1_Annulohypoxylon_stygium                     31.37%    passed     56.41%
+ 374  XP_047814482.1_Annulohypoxylon_maeteangense              36.52%    passed     68.54%
+ 375  KAI1098482.1_Jackrogersella_minutella                    33.58%    passed     94.42%
+ 376  XP_051315023.1_Hypoxylon_trugodes                        31.13%    passed     94.68%
+ 377  KAI1136309.1_Hypoxylon_sp._FL0543                        31.86%    passed     90.95%
+ 378  KAI0842323.1_Hypoxylon_sp._FL0890                        34.56%    passed     62.43%
+ 379  KAI1408390.1_Hypoxylon_sp._FL1857                        31.86%    passed     68.03%
+ 380  OTA89157.1_Hypoxylon_sp._CO27_5                          31.62%    passed     92.97%
+ 381  KAI0155446.1_Hypoxylon_sp._FL1284                        31.13%    passed     84.94%
+ 382  KAI1770593.1_Hypoxylon_cercidicola                       31.13%    passed     65.62%
+ 383  OTA98336.1_Hypoxylon_sp._CI_4A                           31.13%    passed     89.58%
+ 384  KAI1404206.1_Hypoxylon_fuscum                            31.37%    passed     59.63%
+ 385  CAJ2512527.1_Anthostomella_pinea                         32.60%    passed     67.10%
+ 386  KAI0376862.1_Hypomontagnella_monticulosa                 31.62%    passed     47.86%
+ 387  OTB14934.1_Daldinia_sp._EC12                             31.13%    passed     95.45%
+ 388  XP_049154505.1_Daldinia_loculata                         31.37%    passed     95.81%
+ 389  KAH9992699.1_Xylariaceae_sp._FL0662B                     31.62%    passed     80.90%
+ 390  KAI1077968.1_Whalleya_microplaca                         31.62%    passed     96.42%
+ 391  KAI0593011.1_Biscogniauxia_sp._FL1348                    32.35%    passed     41.32%
+ 392  KAI1255708.1_Eutypa_lata                                 31.37%    passed     96.46%
+ 393  KAH8652406.1_Xylariales_sp._PMI_506                      19.85%    passed     62.63%
+ 394  CprotrCCMJ2080predictedgene_010340_T1_18_284_AA14        35.78%    passed     12.92%
+ 395  KAK5989550.1_Cladobotryum_mycophilum                     31.62%    passed     10.60%
+ 396  TatrovIMI206040predictedgene_006201_T1_18_286_AA14       35.54%    passed     13.57%
+ 397  KAH8127734.1_Trichoderma_asperelloides                   31.37%    passed      5.87%
+ 398  TharziCBS22695predictedgene_010450_T1_18_285_AA14        35.78%    passed     43.12%
+ 399  XP_062756707.1_Trichoderma_aggressivum_f.europaeum       31.37%    passed     45.98%
+ 400  TpararCBS125925predictedgene_000587_T1_18_285_AA14       35.78%    passed     17.89%
+ 401  TreeseQM6apredictedgene_002638_T1_18_285_AA14            35.78%    passed     17.36%
+ 402  XP_024748296.1_Trichoderma_citrinoviride                 31.37%    passed     34.42%
+ 403  RFU82186.1_Trichoderma_arundinaceum                      31.37%    passed      7.46%
+ 404  TvirenSpredictedgene_009646_T1_18_286_AA14               35.54%    passed     52.53%
+ 405  XP_013954691.1_Trichoderma_virens_Gv29_8                 29.41%    passed     66.73%
+ 406  CEJ80690.1_Torrubiella__hemipterigena                    32.11%    failed      4.37%
+ 407  KAJ3498061.1_Lecanicillium_saksenae                      31.86%    passed     17.06%
+ 408  TQV92291.1_Cordyceps_javanica                             9.80%    passed     53.22%
+ 409  OAQ97907.1_Akanthomyces_lecanii                          42.40%    passed     71.27%
+ 410  XP_014543483.1_Metarhizium_brunneum_ARSEF3297            31.37%    passed     20.39%
+ 411  KAJ2971520.1_Lecanicillium_fungicola                     31.62%    passed     14.82%
+ 412  HperniHP10predictedgene_009641_T1_18_289_AA14            35.54%    passed     65.62%
+ 413  KAH8897803.1_Thozetella_sp._PMI_491                      31.37%    passed     89.10%
+ 414  OAA71978.1_Akanthomyces_lecanii_RCEF1005                 31.62%    passed     35.06%
+ 415  XP_020055253.1_Aspergillus_aculeatus_ATCC16872           32.35%    passed     74.30%
+ 416  XP_025548269.1_Aspergillus_homomorphus_CBS101889         31.86%    passed     84.92%
+ 417  KAF5864617.1_Aspergillus_burnettii                       31.86%    passed     90.51%
+ 418  KAF7592268.1_Aspergillus_hancockii                       31.37%    passed     95.75%
+ 419  KAB8070115.1_Aspergillus_leporis                         31.86%    passed     85.09%
+ 420  XP_024706806.1_Aspergillus_steynii_IBT23096              31.37%    passed     48.48%
+ 421  XP_045944498.1_Aspergillus_melleus                       31.86%    passed     39.29%
+ 422  KAF4257329.1_Aspergillus_fumigatus                       31.62%    passed     77.73%
+ 423  XP_024682144.1_Aspergillus_novofumigatus_IBT16806        37.75%    passed     81.86%
+ 424  XP_056545860.1_Penicillium_canariense                    31.62%    passed     59.31%
+ 425  XP_056937525.1_Penicillium_macrosclerotiorum             30.64%    passed     75.36%
+ 426  KAI1834739.1_Penicillium_roqueforti                      31.86%    passed     53.92%
+ 427  KAI3149179.1_Penicillium_roqueforti                      46.81%    passed     84.84%
+ 428  XP_057129150.1_Penicillium_samsonianum                   31.62%    passed     28.94%
+ 429  CRL20539.1_Penicillium_camemberti                        37.01%    passed     37.41%
+ 430  OQE15725.1_Penicillium_steckii                           31.62%    passed     15.36%
+ 431  KAK5789619.1_Penicillium_citrinum                        33.09%    passed     13.31%
+ 432  KAJ5585960.1_Penicillium_hetheringtonii                  48.53%    passed     13.43%
+ 433  KEY82804.1_Aspergillus_fumigatus                         36.03%    passed     64.58%
+ 434  CAG8364638.1_Penicillium_salamii                         37.25%    passed     68.96%
+ 435  CAG8934941.1_Penicillium_salamii                         31.62%    passed     67.06%
+ 436  KAK2768260.1_Arachnomyces_sp._PD_36                       9.80%    passed     22.36%
+ 437  XP_013332110.1_Rasamsonia_emersonii_CBS393.64            33.33%    passed     56.73%
+ 438  KAF2498640.1_Lophium_mytilinum                           26.96%    passed     53.66%
+ 439  XP_033573878.1_Mytilinidion_resinicola                   39.46%    passed     92.85%
+ 440  OCK96932.1_Cenococcum_geophilum_1.58                     30.64%    passed     15.48%
+ 441  XP_046077471.1_Talaromyces_proteolyticus                 31.37%    passed     47.44%
+ 442  XP_035345895.1_Talaromyces_rugulosus                     31.37%    passed     66.14%
+ 443  CEN61973.1_Aspergillus_calidoustus                       18.63%    passed      5.68%
+ 444  KIM95301.1_Oidiodendron_maius_Zn                         31.13%    passed     64.57%
+ 445  KFY94807.1_Pseudogymnoascus_sp.                          31.62%    passed     69.50%
+ 446  KIM93034.1_Oidiodendron_maius_Zn                         32.84%    passed     33.84%
+ 447  KFZ20368.1_Pseudogymnoascus_sp.                          20.59%    failed      4.34%
+ 448  RFU30388.1_Scytalidium_lignicola                         12.01%    passed     80.54%
+ 449  KAH8817193.1_Xylogone_sp._PMI_703                        31.86%    passed     46.29%
+ 450  RFU34718.1_Scytalidium_lignicola                         31.13%    passed     44.80%
+ 451  KAH8821320.1_Xylogone_sp._PMI_703                        31.37%    passed     23.83%
+ 452  KAI1187396.1_Nemania_serpens                             16.18%    passed     62.29%
+ 453  KAI1158901.1_Nemania_serpens                             13.24%    passed      7.49%
+ 454  KAI1193918.1_Nemania_serpens                             12.75%    passed     11.24%
+ 455  KAI1111157.1_Nemania_sp._NC0429                          13.24%    failed      1.03%
+ 456  KAI1174144.1_Nemania_sp._FL0916                          31.37%    passed     81.01%
+ 457  RFU24608.1_Scytalidium_lignicola                         27.45%    passed     70.79%
+ 458  KAF2436172.1_Tothia_fuscella                             33.09%    passed     23.81%
+ 459  MCJ1445427.1_Stictis_urceolata                           31.86%    passed     70.00%
+ 460  XP_016242373.1_Cladophialophora_immunda                  13.73%    passed     29.83%
+ 461  XP_016630521.1_Fonsecaea_multimorphosa_CBS102226         12.25%    passed      7.36%
+ 462  XP_016620042.1_Cladophialophora_bantiana_CBS173.52       12.50%    passed     26.22%
+ 463  XP_018688207.1_Fonsecaea_erecta                          12.75%    passed     18.71%
+ 464  XP_022512448.1_Fonsecaea_monophora                       15.20%    passed     31.64%
+ 465  XP_013271081.1_Rhinocladiella_mackenziei_CBS650.93       13.48%    passed     78.44%
+ 466  KAK5050381.1_Exophiala_bonariae                          17.65%    passed     85.30%
+ 467  XP_013257070.1_Exophiala_aquamarina_CBS119918            15.69%    passed     84.19%
+ 468  KIW62805.1_Phialophora_macrospora                        12.50%    passed     85.68%
+ 469  XP_008731148.1_Cladophialophora_carrionii_CBS160.54      12.25%    passed     62.14%
+ 470  KAJ9614367.1_Cladophialophora_chaetospira                12.50%    passed     19.29%
+ 471  KAF2100874.1_Rhizodiscina_lignyota                       32.84%    passed     55.27%
+ 472  KAF4303386.1_Botryosphaeria_dothidea                     31.86%    passed     92.25%
+ 473  KAH7053392.1_Macrophomina_phaseolina                     31.62%    passed     80.73%
+ 474  TAQ89180.1_Chlorociboria_aeruginascens                   17.40%    passed      5.32%
+ 475  KAG0645601.1_Hyphodiscus_hymeniophilus                   40.69%    passed     92.10%
+ 476  XP_021967733.1_Folsomia_candida                          32.35%    passed     55.97%
+ 477  OXA43169.1_Folsomia_candida                              11.27%    passed     50.86%
+ 478  XP_035701239.1_Folsomia_candida                          32.84%    passed     96.85%
+ 479  KAI9731217.1_Cirrosporium_novae_zelandiae                16.18%    passed     11.11%
+ 480  CprotrCCMJ2080predictedgene_004813_T1_17_292_AA14        35.54%    passed     35.96%
+ 481  KAK5998284.1_Cladobotryum_mycophilum                     31.37%    passed     33.48%
+ 482  Crosea671predictedgene_008663_T1_18_292_AA14             35.05%    passed     34.31%
+ 483  CAH0017991.1_Clonostachys_rhizophaga                     17.89%    passed     51.96%
+ 484  SEPCBS119000_003998_T1_17_172_AA14                       63.97%    passed     31.61%
+ 485  SEPCBS119000_004001_T1_17_291_AA14                       35.05%    passed     14.88%
+ 486  SEPCBS119000_004000_T1_17_291_AA14                       35.05%    passed     17.46%
+ 487  SEPCBS119000_006086_T1_17_291_AA14                       35.05%    passed      8.46%
+ 488  SEPCBS119000_006698_T1_17_291_AA14                       35.05%    failed      1.55%
+ 489  SEPCBS57363_006798_T1_7_167_AA14                         61.27%    passed     25.29%
+ 490  SEPTF4163_004982_T1_17_290_AA14                          35.29%    passed     34.59%
+ 491  SEPTF4163_006711_T1_17_172_AA14                          63.97%    passed     30.10%
+ 492  XP_018183102.1_Purpureocillium_lilacinum                 31.37%    passed     27.64%
+ 493  OAQ86421.1_Purpureocillium_lilacinum                     12.75%    failed      0.38%
+ 494  KAJ6444104.1_Purpureocillium_lavendulum                  30.88%    passed     77.47%
+ 495  KAF5712587.1_Fusarium_globosum                           31.13%    passed      7.57%
+ 496  RKL24452.1_Fusarium_oxysporum                            40.69%    failed      3.86%
+ 497  KAH6994015.1_Fusarium_venenatum                          30.64%    passed     13.71%
+ 498  KAI6773850.1_Fusarium_graminearum                        15.93%    passed     32.44%
+ 499  RGP70849.1_Fusarium_longipes                             32.60%    passed     12.07%
+ 500  KPM37038.1_Neonectria_ditissima                          31.37%    passed     13.02%
+ 501  RSL86941.1_Fusarium_floridanum                           31.37%    passed     31.71%
+ 502  KAF4473112.1_Fusarium_albosuccineum                      33.82%    passed     34.51%
+ 503  KAH6957632.1_Ilyonectria_sp._MPI_CAGE_AT_0026            30.88%    passed     43.24%
+ 504  KAH7146787.1_Dactylonectria_estremocensis                39.95%    passed     45.68%
+ 505  KAH7131555.1_Dactylonectria_estremocensis                31.13%    passed     12.15%
+ 506  KAI5458749.1_Mariannaea_sp._PMI_226                      31.37%    passed     46.72%
+ 507  KAF4996308.1_Fusarium_graminum                           34.07%    failed      4.49%
+ 508  KAF7562633.1_Stylonectria_norvegica                      31.37%    passed     94.24%
+ 509  KAH7304735.1_Stachybotrys_elegans                        31.37%    passed     45.80%
+ 510  KAI9148106.1_Paramyrothecium_foliicola                   10.54%    passed     40.94%
+ 511  KFH41721.1_Hapsidospora_chrysogenum_ATCC11550            31.13%    failed      1.09%
+ 512  KAK0636799.1_Bombardia_bombarda                          31.37%    passed     55.28%
+ 513  KAK4207403.1_Rhypophila_decipiens                        31.37%    passed     43.78%
+ 514  KAK4161707.1_Cladorrhinum_sp._PSN259                     31.13%    passed     38.15%
+ 515  KAK3997737.1_Cladorrhinum_sp._PSN332                     10.29%    passed     57.72%
+ 516  KAK4231908.1_Podospora_fimiseda                          25.49%    passed     28.96%
+ 517  XP_062764634.1_Podospora_pseudopauciseta                 13.97%    passed     27.50%
+ 518  KAK4184928.1_Podospora_australis                         31.37%    passed     50.21%
+ 519  KAJ2978305.1_Lecanicillium_fungicola                     12.25%    passed      7.03%
+ 520  KAJ4385058.1_Neurospora_sp._IMI360204                    31.37%    passed     62.35%
+ 521  KAK0715594.1_Lasiosphaeris_hirsuta                       32.11%    passed     60.17%
+ 522  KAK3353235.1_Lasiosphaeria_hispida                       10.54%    passed     16.01%
+ 523  KAK3390723.1_Podospora_didyma                            10.78%    passed     73.76%
+ 524  KAF1969267.1_Bimuria_novae_zelandiae_CBS107.79           32.35%    passed     25.62%
+ 525  KAJ4299408.1_Kalmusia_sp._IMI367209                      30.64%    passed     14.57%
+ 526  XP_056068931.1_Didymosphaeria_variabile                  32.35%    passed     16.75%
+ 527  XP_018041978.1_Paraphaeosphaeria_sporulosa               37.01%    passed     42.85%
+ 528  XP_033685041.1_Trematosphaeria_pertusa                   26.96%    passed     13.60%
+ 529  CAI6334187.1_Periconia_digitata                          29.66%    passed     24.59%
+ 530  PVI04907.1_Periconia_macrospinosa                        30.39%    passed     57.64%
+ 531  KAF1950506.1_Byssothecium_circinans                      36.03%    passed     17.69%
+ 532  KAF2643637.1_Massarina_eburnea_CBS473.64                 32.11%    passed     63.14%
+ 533  ORY19831.1_Clohesyomyces_aquaticus                       32.11%    passed     35.45%
+ 534  KAF2186206.1_Zopfia_rhizophila_CBS207.26                 21.08%    failed      1.59%
+ 535  KAH7383770.1_Pyrenochaeta_sp._MPI_SDFR_AT_0127           17.89%    passed      6.08%
+ 536  KAH7082657.1_Paraphoma_chrysanthemicola                  17.65%    passed     24.53%
+ 537  KAH7093641.1_Paraphoma_chrysanthemicola                  17.89%    passed     30.85%
+ 538  KAF2027333.1_Setomelanomma_holmii                        18.14%    passed     93.98%
+ 539  KAF2832451.1_Ophiobolus_disseminans                      21.81%    passed     33.27%
+ 540  KAH4029569.1_Parastagonospora_nodorum                    11.27%    passed     19.89%
+ 541  OAL02191.1_Stagonospora_sp._SRC1lsM3a                    15.93%    passed     11.01%
+ 542  KAH7412256.1_Phaeosphaeria_sp._MPI_PUGE_AT_0046c         22.06%    passed     26.24%
+ 543  XP_040791407.1_Cucurbitaria_berberidis_CBS394.84         34.31%    passed     25.36%
+ 544  KAJ4373056.1_Neocucurbitaria_cava                        15.20%    passed     60.06%
+ 545  KAF2873919.1_Massariosphaeria_phaeospora                 25.25%    passed     22.01%
+ 546  OAL45637.1_Pyrenochaeta_sp._DS3sAY3a                     16.42%    passed     24.01%
+ 547  KAF2732325.1_Polyplosphaeria_fusca                       22.06%    passed     35.41%
+ 548  KAF2648640.1_Lophiostoma_macrostomum_CBS122681           38.48%    passed     22.71%
+ 549  KAH7130368.1_Dendryphion_nanum                           31.37%    failed      2.53%
+ 550  KAF2119327.1_Lophiotrema_nucula                          18.87%    failed      0.20%
+ 551  KAF2267182.1_Didymosphaeria_enalia                       12.25%    passed     82.60%
+ 552  KAF2704689.1_Pleomassaria_siparia_CBS279.74              25.98%    passed     31.04%
+ 553  KAF2799823.1_Melanomma_pulvis_pyrius_CBS109.77           36.52%    passed     29.48%
+ 554  KAF2006089.1_Amniculicola_lignicola_CBS123094            23.04%    passed     46.72%
+ 555  XP_033552308.1_Lindgomyces_ingoldianus                   16.91%    passed     15.94%
+ 556  PSN71810.1_Corynespora_cassiicola_Philippines            24.75%    passed     29.64%
+ 557  KAF2006787.1_Amniculicola_lignicola_CBS123094            23.28%    passed     36.89%
+ 558  XP_033388470.1_Aaosphaeria_arxii_CBS175.79                9.31%    failed      0.18%
+ 559  KAG7042770.1_Colletotrichum_scovillei                    32.11%    passed     39.55%
+ 560  XP_036579548.1_Colletotrichum_truncatum                  44.36%    passed     65.17%
+ 561  KAK1451422.1_Colletotrichum_melonis                      36.03%    passed     31.80%
+ 562  KAK1457265.1_Colletotrichum_cuscutae                     40.69%    passed     73.52%
+ 563  KAH6670960.1_Plectosphaerella_plurivora                  16.91%    passed     86.08%
+ 564  KAH7361844.1_Plectosphaerella_cucumerina                 18.87%    passed     89.08%
+ 565  KAH7241287.1_Fusarium_tricinctum                         17.40%    passed     68.71%
+ 566  KAF2459869.1_Lineolata_rhizophorae                       34.56%    passed     39.04%
+ 567  TMW59783.1_Pythium_oligandrum                            18.38%    passed     34.85%
+ 568  TMW59784.1_Pythium_oligandrum                            14.71%    passed     20.39%
+ 569  KAK3050975.1_Extremus_antarcticus                        28.92%    passed     51.85%
+ 570  KAK5166473.1_Saxophila_tyrrhenica                        28.43%    passed     13.46%
+ 571  KAK3113023.1_Teratosphaeriaceae_sp._CCFEE6253            16.67%    passed     52.92%
+ 572  KAK5735674.1_Elasticomyces_elasticus                     18.14%    passed     91.89%
+ 573  KAK3650682.1_Elasticomyces_elasticus                     28.43%    passed     39.63%
+ 574  KAJ9664715.1_Knufia_sp._JES_112                          12.50%    passed     60.16%
+ 575  KAK5945816.1_Knufia_obscura                              11.52%    failed      1.80%
+ 576  XP_017994742.1_Phialophora_attinorum                     12.01%    passed     93.10%
+ 577  KAK0510950.1_Cladonia_borealis                           25.98%    passed     74.49%
+ 578  KIN08100.1_Oidiodendron_maius_Zn                         33.82%    passed     10.49%
+ 579  KAB5511574.1_Coniochaeta_sp._2T2.1                        8.58%    passed     73.46%
+ 580  KAB5571716.1_Coniochaeta_sp._2T2.1                        9.56%    passed     86.23%
+ 581  TRM60588.1_Auriculariopsis_ampla                         32.11%    passed     16.03%
+ 582  KAH7101427.1_Auriculariales_sp._MPI_PUGE_AT_0066         10.54%    failed      0.69%
+ 583  KAF8315042.1_Clavulina_sp._PMI_390                       34.07%    passed     49.72%
+ 584  KAF8913300.1_Mucidula_mucida                              9.07%    passed      8.26%
+ 585  KAF9005326.1_Hymenopellis_radicata                       12.01%    passed      7.44%
+ 586  KAK0210072.1_Desarmillaria_ectypa                         7.84%    failed      0.05%
+ 587  PBK70101.1_Armillaria_solidipes                           9.07%    failed      0.00%
+ 588  KIY64670.1_Cylindrobasidium_torrendii_FP15055ss_10       10.29%    passed     33.62%
+ 589  KAH8824929.1_Flagelloscypha_sp._PMI_526                  21.81%    passed     73.51%
+ 590  KXN93349.1_Leucoagaricus_sp._SymC.cos                    16.18%    passed     51.71%
+ 591  KAJ3572613.1_Leucocoprinus_birnbaumii                    13.24%    passed     67.35%
+ 592  XP_047751169.1_Psilocybe_cubensis                        21.08%    passed     12.69%
+ 593  KAG5640954.1_Asterophora_parasitica                      27.21%    failed      3.95%
+ 594  KAG9316970.1_Chiua_virens                                12.75%    passed     58.30%
+ 595  KZV82398.1_Exidia_glandulosa_HHB12029                    27.94%    passed     24.40%
+ 596  EJD38255.1_Auricularia_subglabra_TFB_10046SS5            12.50%    passed     12.37%
+ 597  EJD40562.1_Auricularia_subglabra_TFB_10046SS5            21.08%    passed     16.26%
+ 598  EJD40561.1_Auricularia_subglabra_TFB_10046SS5            12.25%    passed     29.44%
+ 599  EJD40559.1_Auricularia_subglabra_TFB_10046SS5            22.06%    passed     41.08%
+ 600  EJD45963.1_Auricularia_subglabra_TFB_10046SS5            14.46%    passed      6.25%
+ 601  EJD40358.1_Auricularia_subglabra_TFB_10046SS5            17.65%    failed      1.38%
+ 602  KZV97371.1_Exidia_glandulosa_HHB12029                    30.39%    passed     32.29%
+ 603  KZV83782.1_Exidia_glandulosa_HHB12029                    19.85%    passed     88.70%
+ 604  KZV98356.1_Exidia_glandulosa_HHB12029                    28.19%    passed     86.29%
+ 605  KZV88442.1_Exidia_glandulosa_HHB12029                    13.97%    passed      8.18%
+ 606  KZV88440.1_Exidia_glandulosa_HHB12029                    13.97%    failed      3.71%
+ 607  KAH6717454.1_Leptodontidium_sp._MPI_SDFR_AT_0119         28.43%    passed     47.15%
+ 608  KAJ7580750.1_Mycena_floridula                            33.82%    passed     96.27%
+ 609  KAG5653756.1_Sphagnurus_paluster                         36.76%    passed     59.62%
+ 610  KZV99282.1_Exidia_glandulosa_HHB12029                    11.76%    passed     65.05%
+ 611  KAF7982487.1_Athelia_sp._TMB                             22.30%    passed     36.02%
+ 612  KAJ7789847.1_Mycena_olivaceomarginata                    12.99%    passed     23.16%
+ 613  TRM57028.1_Auriculariopsis_ampla                          8.58%    failed      3.08%
+ 614  KAI4525713.1_Schizophyllum_commune_LoenenD                8.82%    failed      0.54%
+ 615  KAH7096963.1_Auriculariales_sp._MPI_PUGE_AT_0066         13.48%    passed     11.53%
+ 616  KAH7096951.1_Auriculariales_sp._MPI_PUGE_AT_0066         22.55%    passed     68.70%
+ 617  KZV85461.1_Exidia_glandulosa_HHB12029                    20.10%    passed     21.19%
+ 618  KZV86197.1_Exidia_glandulosa_HHB12029                    21.08%    passed     13.48%
+ 619  KAH7099231.1_Auriculariales_sp._MPI_PUGE_AT_0066         26.72%    failed      3.04%
+ 620  XP_003035108.1_Schizophyllum_commune_H4_8                31.13%    passed      9.21%
+ 621  CprotrCCMJ2080predictedgene_007053_T1_13_276_AA14        41.18%    failed      3.36%
+ 622  TatrovIMI206040predictedgene_004141_T1_25_287_AA14       41.42%    passed     21.99%
+ 623  TharziCBS22695predictedgene_003080_T1_24_286_AA14        41.42%    passed     15.69%
+ 624  TvirenSpredictedgene_003033_T1_25_287_AA14               41.42%    passed     24.16%
+ 625  TpararCBS125925predictedgene_002265_T1_25_287_AA14       41.42%    passed     25.59%
+ 626  Crosea671predictedgene_010899_T1_23_287_AA14             40.93%    passed     54.63%
+ 627  ABIH97_004062_T1_863_1124_AA14                           37.75%    passed     34.38%
+ 628  KAF7776349.1_Agaricus_bisporus_var.burnettii             17.40%    passed     20.07%
+ 629  KAF5364158.1_Leucoagaricus_leucothites                   15.93%    passed     84.22%
+ 630  KAJ3576246.1_Leucocoprinus_birnbaumii                    21.57%    passed     67.00%
+ 631  KAF9450455.1_Macrolepiota_fuliginosa_MF_IS2              17.16%    passed     37.46%
+ 632  KXN89494.1_Leucoagaricus_sp._SymC.cos                    42.65%    passed     76.27%
+ 633  PCOBRFM310_007444_T1_1_127_AA14                          69.12%    passed     98.55%
+ 634  OSC99894.1_Trametes_coccinea_BRFM310                     19.85%    passed     99.85%
+ 635  KAJ3006596.1_Trametes_sanguinea                          33.58%    passed     91.43%
+ 636  KAI0349736.1_Trametes_cingulata                          19.12%    passed     92.45%
+ 637  KAI0775037.1_Trametes_elegans                            21.08%    passed     99.83%
+ 638  CDO76981.1_Trametes_cinnabarina                          18.63%    passed     98.92%
+ 639  KAI0663766.1_Cubamyces_menziesii                         21.81%    passed     95.62%
+ 640  KAI8982722.1_Trametes_punicea                            21.08%    passed     93.36%
+ 641  KAI0648944.1_Trametes_meyenii                            25.49%    passed     81.09%
+ 642  KAH9847529.1_Lenzites_betulinus                          21.57%    passed     96.52%
+ 643  KAI0833672.1_Trametes_gibbosa                            21.32%    passed     80.86%
+ 644  OJT14343.1_Trametes_pubescens                            22.30%    passed     69.63%
+ 645  KAI0636093.1_Trametes_polyzona                           21.32%    passed     88.82%
+ 646  PCOBRFM310_007446_T1_1_255_AA14                          38.97%    passed     44.87%
+ 647  OSC99896.1_Trametes_coccinea_BRFM310                     11.52%    passed     45.92%
+ 648  KAJ3000431.1_Trametes_sanguinea                           9.07%    passed     36.13%
+ 649  KAI9066335.1_Trametes_sanguinea                          10.05%    passed     44.65%
+ 650  CDO76983.1_Trametes_cinnabarina                           8.82%    passed     37.78%
+ 651  KAH9902607.1_Cubamyces_lactineus                         10.29%    passed     64.92%
+ 652  KAI0329316.1_Cubamyces_sp._BRFM1775                       8.82%    passed     56.11%
+ 653  KAI0663764.1_Cubamyces_menziesii                          8.82%    passed     62.24%
+ 654  KAI0833674.1_Trametes_gibbosa                             8.58%    failed      3.13%
+ 655  KAI8982720.1_Trametes_punicea                             8.82%    passed     69.24%
+ 656  KAH9847531.1_Lenzites_betulinus                           8.82%    passed      8.27%
+ 657  PCOBRFM310_007454_T1_19_281_AA14                         37.01%    passed     26.80%
+ 658  5NO7_A_Trametes_cinnabarina                              35.78%    passed     21.79%
+ 659  AUM86167.1_Trametes_coccinea                             13.48%    passed     92.94%
+ 660  CDO76990.1_Trametes_cinnabarina                          14.46%    passed     82.75%
+ 661  KAI8982711.1_Trametes_punicea                            16.18%    passed     91.27%
+ 662  KAI0366278.1_Pilatotrama_ljubarskyi                      17.89%    passed     88.15%
+ 663  KAI0329306.1_Cubamyces_sp._BRFM1775                      15.44%    passed     79.65%
+ 664  KAJ8496617.1_Trametes_cubensis                           17.16%    passed     58.95%
+ 665  KAI0636238.1_Trametes_polyzona                           14.46%    passed     88.96%
+ 666  KAI0648926.1_Trametes_meyenii                            18.38%    passed     72.90%
+ 667  XP_008039807.1_Trametes_versicolor_FP_101664SS1          15.44%    passed     75.30%
+ 668  KAH9847540.1_Lenzites_betulinus                          15.20%    passed     48.98%
+ 669  KAI0833684.1_Trametes_gibbosa                            14.71%    passed     73.81%
+ 670  KAI0636096.1_Trametes_polyzona                            9.80%    passed     45.84%
+ 671  KZT29895.1_Neolentinus_lepideus_HHB14362ss_1             10.05%    passed     40.82%
+ 672  XP_007867564.1_Gloeophyllum_trabeum_ATCC11539            31.62%    passed     80.14%
+ 673  TFK50100.1_Heliocybe_sulcata                             15.69%    passed     55.44%
+ 674  KAI0366266.1_Pilatotrama_ljubarskyi                      10.54%    passed     44.59%
+ 675  KAI0349734.1_Trametes_cingulata                          10.29%    passed     28.88%
+ 676  KAI0775035.1_Trametes_elegans                            11.76%    passed     85.68%
+ 677  OJT14345.1_Trametes_pubescens                            10.78%    passed     87.63%
+ 678  XP_008039347.1_Trametes_versicolor_FP_101664SS1           8.82%    passed     42.83%
+ 679  PRUSEMC34_004091_T1_21_283_AA14                          37.01%    passed     62.14%
+ 680  VDB86651.1_Peniophora_sp._CBMAI1063                      12.25%    passed     98.02%
+ 681  PRUSEMC34_004092_T1_19_281_AA14                          37.01%    passed     67.20%
+ 682  KZV68182.1_Peniophora_sp._CONT                           14.46%    passed     98.21%
+ 683  KZV68185.1_Peniophora_sp._CONT                           18.87%    passed     93.64%
+ 684  VDB86654.1_Peniophora_sp._CBMAI1063                      18.63%    passed     94.06%
+ 685  KAI0322548.1_Amylostereum_chailletii                     18.14%    passed     77.04%
+ 686  KAI0322552.1_Amylostereum_chailletii                     10.29%    passed     57.02%
+ 687  KAI0034574.1_Vararia_minispora_EC_137                    33.09%    passed     77.21%
+ 688  KAI0034577.1_Vararia_minispora_EC_137                    24.75%    passed     91.53%
+ 689  THH19240.1_Bondarzewia_mesenterica                       12.75%    passed     65.75%
+ 690  XP_009545122.1_Heterobasidion_irregulare_TC32_1          32.11%    passed     25.94%
+ 691  KAI0059243.1_Artomyces_pyxidatus                         12.01%    passed     62.33%
+ 692  KAI0051570.1_Auriscalpium_vulgare                        11.03%    passed     48.90%
+ 693  VWO99732.1_Ganoderma_boninense                           13.24%    passed     64.17%
+ 694  PIL29828.1_Ganoderma_sinense_ZZ0214_1                     8.82%    passed     32.38%
+ 695  KAI1797410.1_Ganoderma_leucocontextum                    10.78%    passed     94.83%
+ 696  XP_047883197.1_Epithele_typhae                           29.66%    passed     52.87%
+ 697  TBU33608.1_Dichomitus_squalens                            8.58%    passed     36.83%
+ 698  TFK46098.1_Heliocybe_sulcata                             20.34%    passed     84.82%
+ 699  XP_007867180.1_Gloeophyllum_trabeum_ATCC11539            36.76%    passed     13.56%
+ 700  KZT20429.1_Neolentinus_lepideus_HHB14362ss_1             30.88%    passed      7.39%
+ 701  KAI0078821.1_Panus_rudis_PR_1116ss_1                     13.97%    passed     78.17%
+ 702  KAI0671907.1_Trametes_maxima                              9.07%    passed     68.04%
+ 703  KAI0648942.1_Trametes_meyenii                             9.07%    passed     49.78%
+ 704  KAI0342939.1_Trametopsis_cervina                         14.46%    passed     57.03%
+ 705  KAI0806134.1_Irpex_lacteus                               14.71%    passed     92.54%
+ 706  KAI0090273.1_Irpex_rosettiformis                         14.71%    passed     66.96%
+ 707  KAI0703782.1_Cytidiella_melzeri                          22.79%    passed     61.37%
+ 708  KIP08019.1_Phlebiopsis_gigantea_11061_1CR5_6             14.95%    passed     96.06%
+ 709  PIL29826.1_Ganoderma_sinense_ZZ0214_1                    16.42%    passed     99.92%
+ 710  KAI1797408.1_Ganoderma_leucocontextum                    18.63%    passed     96.22%
+ 711  KAI0709939.1_Earliella_scabrosa                          16.42%    passed     55.65%
+ 712  KAI0787974.1_Fomes_fomentarius                           15.69%    passed     92.28%
+ 713  TFK91420.1_Polyporus_arcularius_HHB13444                 13.97%    passed     86.35%
+ 714  RPD61042.1_Lentinus_tigrinus_ALCF2SS1_6                  13.73%    passed     98.44%
+ 715  TDL17933.1_Rickenella_mellea                             24.51%    passed     57.56%
+ 716  XP_024335625.1_Postia_placenta_MAD_698_R_SB12            18.14%    passed     43.22%
+ 717  KZT73200.1_Daedalea_quercina_L_15889                      9.07%    passed     43.76%
+ 718  EPT05587.1_Fomitopsis_schrenkii                          29.66%    passed     56.16%
+ 719  KAI0734149.1_Fomitopsis_betulina                         17.16%    passed     91.02%
+ 720  XP_047888041.1_Neoantrodia_serialis                      16.91%    passed     58.21%
+ 721  XP_047780379.1_Rhodofomes_roseus                         16.42%    passed     53.47%
+ 722  KAI0926237.1_Antrodia_cinnamomea                          9.31%    passed     11.45%
+ 723  XP_040765321.1_Laetiporus_sulphureus_93_53               17.65%    passed     91.51%
+ 724  PCH42401.1_Wolfiporia_cocos_MD_104SS10                   16.42%    passed     20.97%
+ 725  KAH9948720.1_Amylocystis_lapponica                        9.80%    passed     30.52%
+ 726  KAF8824757.1_Lentinula_edodes                            19.12%    passed     35.81%
+ 727  GAW02271.1_Lentinula_edodes                              19.12%    passed     52.97%
+ 728  KAJ4463199.1_Lentinula_edodes                            36.27%    passed     76.39%
+ 729  XP_046082183.1_Lentinula_edodes                          25.00%    passed     63.51%
+ 730  KAJ3864028.1_Lentinula_novae_zelandiae                   27.94%    passed     61.72%
+ 731  KAJ4480214.1_Lentinula_aciculospora                      25.74%    passed     39.13%
+ 732  KAJ3795534.1_Lentinula_aff._detonsa                      21.57%    passed     39.61%
+ 733  KAJ3730937.1_Lentinula_guzmanii                          19.12%    passed     31.69%
+ 734  KAJ3978495.1_Lentinula_detonsa                           35.05%    passed     45.88%
+ 735  KAF9072642.1_Rhodocollybia_butyracea                     27.94%    passed     62.43%
+ 736  KAE9392064.1_Gymnopus_androsaceus_JB14                   27.21%    passed     56.72%
+ 737  KAE9382986.1_Gymnopus_androsaceus_JB14                   38.73%    passed     79.87%
+ 738  KAE9392068.1_Gymnopus_androsaceus_JB14                   27.21%    passed     73.02%
+ 739  KAJ3711352.1_Lentinula_raphanica                         22.79%    passed     50.44%
+ 740  KAJ3838340.1_Lentinula_raphanica                         25.74%    passed     62.37%
+ 741  KAJ3766909.1_Lentinula_raphanica                         18.14%    passed     49.43%
+ 742  KAJ3761609.1_Lentinula_raphanica                         24.26%    passed     69.12%
+ 743  KAJ3826743.1_Lentinula_raphanica                         22.55%    passed     58.33%
+ 744  KAF5353774.1_Collybiopsis_confluens                      21.08%    passed     77.41%
+ 745  KAF5393804.1_Collybiopsis_confluens                      19.85%    passed     74.62%
+ 746  KIK58046.1_Collybiopsis_luxurians_FD_317M1               36.76%    passed     91.94%
+ 747  TCD64057.1_Steccherinum_ochraceum                        12.99%    passed     97.32%
+ 748  THH29416.1_Antrodiella_citrinella                        13.73%    passed     87.03%
+ 749  KAH8100774.1_Cristinia_sonorae                           13.24%    passed     90.48%
+ 750  KAI0792777.1_Abortiporus_biennis                         20.10%    passed     85.85%
+ 751  THH29437.1_Antrodiella_citrinella                        24.51%    passed     29.08%
+ 752  KAI0792794.1_Abortiporus_biennis                          8.58%    passed     11.28%
+ 753  KAF8896670.1_Infundibulicybe_gibba                       17.40%    passed     83.01%
+ 754  THU83384.1_Dendrothele_bispora_CBS962.96                 15.69%    passed     58.34%
+ 755  KAF5341365.1_Tetrapyrgos_nigripes                        26.72%    passed     68.74%
+ 756  KAF8912293.1_Mucidula_mucida                             20.10%    passed     15.23%
+ 757  KAF9012227.1_Hymenopellis_radicata                       26.72%    passed     40.20%
+ 758  KAK0493907.1_Armillaria_luteobubalina                    15.69%    passed     17.71%
+ 759  PBK67694.1_Armillaria_solidipes                          24.51%    passed     44.22%
+ 760  SJK99683.1_Armillaria_ostoyae                            15.93%    passed     32.37%
+ 761  KAK0214006.1_Armillaria_fumosa                           30.39%    passed     27.61%
+ 762  KAJ7650958.1_Roridomyces_roridus                         26.47%    passed     82.58%
+ 763  KAJ7163891.1_Mycena_crocata                              23.28%    passed     61.23%
+ 764  KAJ7470766.1_Mycena_latifolia                            22.55%    passed     58.45%
+ 765  KAJ7672237.1_Mycena_polygramma                           22.55%    passed     64.95%
+ 766  KAJ7671480.1_Mycena_polygramma                           29.66%    passed     38.48%
+ 767  KAJ7036842.1_Mycena_alexandri                            50.49%    passed     65.70%
+ 768  KAJ7510539.1_Mycena_galericulata                         22.79%    passed     23.03%
+ 769  KAJ6549463.1_Mycena_sp._CBHHK59/15                       28.68%    passed     95.05%
+ 770  KAJ7895088.1_Mycena_leptocephala                         22.30%    passed     18.56%
+ 771  KAJ7082880.1_Mycena_belliae                              11.76%    passed     39.11%
+ 772  KAJ7116550.1_Mycena_epipterygia                          24.75%    passed     55.09%
+ 773  KAJ7881043.1_Mycena_olivaceomarginata                    25.74%    passed     38.27%
+ 774  KAF7330207.1_Mycena_venus                                26.72%    passed     35.60%
+ 775  KAJ6580574.1_Mycena_vulgaris                             24.51%    passed     20.19%
+ 776  XP_037224121.1_Mycena_indigotica                         20.83%    passed     29.48%
+ 777  KAJ7056729.1_Mycena_amicta                               20.59%    passed     92.52%
+ 778  KAF7317154.1_Mycena_chlorophos                           21.08%    passed     64.51%
+ 779  KAJ7183281.1_Mycena_filopes                              22.79%    passed      6.64%
+ 780  KAF7327407.1_Mycena_kentingensis__nom.inval._            23.53%    passed     21.00%
+ 781  CAK5269248.1_Mycena_citricolor                           20.34%    passed     50.65%
+ 782  PPQ95450.1_Gymnopilus_dilepis                            14.46%    passed     79.10%
+ 783  KAF8872926.1_Gymnopilus_junonius                         12.01%    passed     97.01%
+ 784  KIM39331.1_Hebeloma_cylindrosporum_h7                    14.71%    failed      3.94%
+ 785  KAF9471916.1_Pholiota_conissans                          12.01%    passed     27.35%
+ 786  KAF8181293.1_Pholiota_molesta                            28.19%    passed     37.09%
+ 787  KAF8960047.1_Flammula_alnicola                           11.52%    passed     39.85%
+ 788  KDR78641.1_Galerina_marginata_CBS339.88                  13.73%    passed     21.20%
+ 789  CAA7267535.1_Cyclocybe_aegerita                          12.99%    passed     64.18%
+ 790  KAF8813448.1_Phlegmacium_glaucopus                        9.31%    passed     18.59%
+ 791  KAF8150946.1_Crassisporium_funariophilum                 13.73%    passed     29.95%
+ 792  KJA20550.1_Hypholoma_sublateritium_FD_334SS_4             9.31%    passed      7.14%
+ 793  PPQ83501.1_Psilocybe_cyanescens                          12.50%    passed     13.80%
+ 794  XP_047749454.1_Psilocybe_cubensis                        17.16%    passed      6.69%
+ 795  KIK03019.1_Laccaria_amethystina_LaAM_08_1                14.71%    passed     47.00%
+ 796  XP_001885228.1_Laccaria_bicolor_S238N_H82                14.71%    passed     60.54%
+ 797  PPQ63558.1_Panaeolus_cyanescens                          10.54%    passed      9.78%
+ 798  TEB39952.1_Coprinellus_micaceus                          11.76%    passed     43.73%
+ 799  KAJ3538245.1_Coprinellus_aureogranulatus                 47.30%    passed     98.29%
+ 800  RXW25490.1_Candolleomyces_aberdarensis                   10.78%    passed     51.09%
+ 801  KAJ2924869.1_Candolleomyces_eurysporus                   24.02%    passed     34.98%
+ 802  TFK35612.1_Crucibulum_laeve                              11.27%    passed     65.18%
+ 803  KAF9048809.1_Panaeolus_papilionaceus                      9.31%    passed     87.84%
+ 804  KAF9007501.1_Cyathus_striatus                            12.25%    passed     47.94%
+ 805  RDB17711.1_Hypsizygus_marmoreus                           9.80%    passed     37.49%
+ 806  KAF9460320.1_Collybia_nuda                                9.80%    passed     44.84%
+ 807  KAG6833342.1_Tephrocybe_sp._NHM501043                    19.36%    passed     12.99%
+ 808  KAG6839967.1_Blastosporella_zonata                       27.70%    passed     43.98%
+ 809  KAG6917405.1_Tephrocybe_rancida                          29.41%    passed     19.99%
+ 810  KAH0580539.1_Termitomyces_sp.__cryptogamus_              20.83%    failed      1.14%
+ 811  KNZ78922.1_Termitomyces_sp._J132                         29.41%    passed     24.58%
+ 812  KAG5338821.1_Termitomyces_sp._Mn162                      50.25%    passed      6.47%
+ 813  EMD31282.1_Gelatoporia_subvermispora_B                    8.09%    failed      0.49%
+ 814  OCH94830.1_Obba_rivulosa                                  8.33%    failed      0.01%
+ 815  KAF5375958.1_Tricholomella_constricta                    15.20%    passed     42.88%
+ 816  KAF8063324.1_Lyophyllum_atratum                          13.97%    passed     31.69%
+ 817  KAF8057592.1_Lyophyllum_atratum                          17.16%    passed     31.65%
+ 818  KAG5650519.1_Sphagnurus_paluster                         51.96%    passed     11.34%
+ 819  KAG5645302.1_Asterophora_parasitica                      12.99%    passed     30.27%
+ 820  OBZ72041.1_Grifola_frondosa                              19.36%    passed     62.18%
+ 821  OBZ72040.1_Grifola_frondosa                               8.33%    passed     78.78%
+ 822  TFK73268.1_Pluteus_cervinus                              15.69%    passed     82.80%
+ 823  PFH47251.1_Amanita_thiersii_Skay4041                     14.46%    passed     78.72%
+ 824  TFK98191.1_Pterula_gracilis                              26.96%    passed     40.07%
+ 825  XP_001836582.1_Coprinopsis_cinerea_okayama7_130           9.80%    passed      7.16%
+ 826  KAF9522148.1_Crepidotus_variabilis                       11.76%    passed     60.12%
+ 827  KAF8344731.1_Amanita_rubescens                           11.76%    passed     49.22%
+ 828  KAF8726126.1_Amanita_brunnescens_KoideBX004              10.78%    passed     96.96%
+ 829  KAF8622851.1_Amanita_polypyramis_BW_CC                   17.16%    passed     49.91%
+ 830  KAK2467259.1_Amanita_phalloides                          12.25%    passed     49.46%
+ 831  KAF9550173.1_Agrocybe_pediades                           15.44%    passed     27.25%
+ 832  KIM84967.1_Piloderma_croceum_F1598                       17.65%    passed     41.73%
+ 833  KAA1467126.1_Dentipellis_sp._KUC8613                      8.58%    passed     90.89%
+ 834  TFY61724.1_Dentipellis_fragilis                           8.33%    passed     85.44%
+ 835  KAI9566880.1_Boletus_coccyginus                          12.75%    passed     68.69%
+ 836  KAH0833490.1_Lanmaoa_asiatica                            12.50%    passed     73.25%
+ 837  KIM57407.1_Scleroderma_citrinum_FougA                    14.22%    passed     53.07%
+ 838  KAF9238557.1_Melanogaster_broomeanus                     11.27%    passed     87.87%
+ 839  KIJ62866.1_Hydnomerulius_pinastri_MD_312                 10.78%    passed     76.34%
+ 840  KAF9223310.1_Gyrodon_lividus                             10.29%    passed     79.26%
+ 841  KAF8839535.1_Paxillus_ammoniavirescens                   11.76%    passed     87.15%
+ 842  KIK94802.1_Paxillus_rubicundulus_Ve08.2h10               12.50%    passed     74.75%
+ 843  KAF8553904.1_Imleria_badia                                9.80%    passed     60.24%
+ 844  KAH7925687.1_Leucogyrophana_mollusca                     11.52%    passed      7.25%
+ 845  KAH7904207.1_Hygrophoropsis_aurantiaca                    9.56%    passed     33.31%
+ 846  KAH7884798.1_Phlebopus_sp._FC_14                         14.46%    passed     33.47%
+ 847  XP_007318871.1_Serpula_lacrymans_lacrymans               12.50%    passed     75.69%
+ 848  KAH7884632.1_Phlebopus_sp._FC_14                         27.21%    passed     87.32%
+ 849  KAF8841240.1_Paxillus_ammoniavirescens                   27.21%    passed     83.61%
+ 850  KIJ66712.1_Hydnomerulius_pinastri_MD_312                 29.90%    passed     69.69%
+ 851  XP_041180079.1_Suillus_paluster                          25.49%    passed     93.16%
+ 852  KAG0708221.1_Suillus_ampliporus                          25.49%    passed     69.44%
+ 853  KAG1872112.1_Suillus_tomentosus                          25.74%    passed     25.60%
+ 854  XP_041158511.1_Suillus_plorans                           25.74%    passed     33.93%
+ 855  KAG2123946.1_Suillus_cothurnatus                         25.49%    passed     42.25%
+ 856  XP_007318869.1_Serpula_lacrymans_lacrymans               31.86%    passed     64.81%
+ 857  KII89670.1_Plicaturopsis_crispa_FD_325SS_3               26.23%    passed     76.46%
+ 858  KAF8150927.1_Crassisporium_funariophilum                 20.83%    passed     96.49%
+ 859  XP_007388801.1_Punctularia_strigosozonata_HHB_11173SS5   12.50%    passed     79.41%
+ 860  KAI0806135.1_Irpex_lacteus                                8.09%    passed     80.56%
+ 861  KAI0090274.1_Irpex_rosettiformis                          8.33%    passed     54.65%
+ 862  XP_027619462.1_Sparassis_crispa                           8.09%    failed      0.00%
+ 863  XP_027620905.1_Sparassis_crispa                          21.57%    passed     64.61%
+ 864  RDX43818.1_Polyporus_brumalis                            17.65%    passed     55.27%
+ 865  RPD75106.1_Lentinus_tigrinus_ALCF2SS1_7                  18.38%    passed     65.14%
+ 866  KAI0787987.1_Fomes_fomentarius                           17.40%    passed     75.10%
+ 867  KAI0749839.1_Daedaleopsis_nitida                         18.87%    passed      5.69%
+ 868  KAI0709927.1_Earliella_scabrosa                          22.06%    passed      8.95%
+ 869  TBU33600.1_Dichomitus_squalens                           16.91%    passed     81.79%
+ 870  KAI1797418.1_Ganoderma_leucocontextum                    11.27%    passed      5.23%
+ 871  PIL29836.1_Ganoderma_sinense_ZZ0214_1                    12.75%    passed      5.99%
+ 872  XP_007362490.1_Dichomitus_squalens_LYAD_421SS1           17.16%    passed     66.06%
+ 873  KAI0787978.1_Fomes_fomentarius                            8.82%    passed     91.87%
+ 874  RPD61040.1_Lentinus_tigrinus_ALCF2SS1_6                   8.33%    passed     31.68%
+ 875  RDX43827.1_Polyporus_brumalis                             8.33%    passed     64.06%
+ 876  TFK91418.1_Polyporus_arcularius_HHB13444                 38.97%    passed     85.99%
+ 877  KAI0694646.1_Cerioporus_squamosus                        11.03%    passed     59.16%
+ 878  KAI0709937.1_Earliella_scabrosa                           8.33%    passed      7.94%
+ 879  KAI0749827.1_Daedaleopsis_nitida                         11.52%    passed     67.41%
+ 880  VWO99737.1_Ganoderma_boninense                           22.06%    passed     57.08%
+ 881  KAI0749618.1_Daedaleopsis_nitida                         15.93%    passed     66.21%
+ 882  XP_047883199.1_Epithele_typhae                           24.51%    passed     70.80%
+ 883  KAJ3555051.1_Phlebia_brevispora                           9.31%    passed      9.03%
+ 884  KAF7796025.1_Pleurotus_ostreatoroseus                    18.87%    passed     63.51%
+ 885  PSR74247.1_Hermanssonia_centrifuga                       21.81%    passed     32.83%
+ 886  KIP08026.1_Phlebiopsis_gigantea_11061_1CR5_6             10.29%    passed     37.64%
+ 887  XP_007393138.1_Phanerochaete_carnosa_HHB_10118_sp        22.79%    passed     83.95%
+ 888  GJE85547.1_Phanerochaete_sordida                         11.27%    passed     78.80%
+ 889  KAI0703781.1_Cytidiella_melzeri                          13.24%    passed     60.33%
+ 890  KAF9790725.1_Thelephora_terrestris                       20.10%    passed     87.99%
+ 891  KAF9647895.1_Thelephora_ganbajun                         20.83%    passed     63.27%
+ 892  KAI0076161.1_Panus_rudis_PR_1116ss_1                      9.80%    passed     53.74%
+ 893  KAH8100776.1_Cristinia_sonorae                           14.95%    passed     72.76%
+ 894  TCD64054.1_Steccherinum_ochraceum                         9.07%    failed      3.23%
+ 895  KDQ59091.1_Jaapia_argillacea_MUCL33604                   28.92%    passed     68.06%
+ 896  KAI0342938.1_Trametopsis_cervina                          8.09%    passed     16.64%
+ 897  KAI0775016.1_Trametes_elegans                            11.52%    passed     72.02%
+ 898  KII89650.1_Plicaturopsis_crispa_FD_325SS_3               10.54%    passed     80.72%
+ 899  KAF8442202.1_Boletus_edulis_BED1                         17.89%    passed     99.58%
+ 900  KAG6369337.1_Boletus_reticuloceps                        23.53%    passed     93.44%
+ 901  KAG9316126.1_Chiua_virens                                 9.07%    passed     84.97%
+ 902  KAJ3480565.1_Physisporinus_lineatus                      14.71%    passed     48.48%
+ 903  XP_007388810.1_Punctularia_strigosozonata_HHB_11173SS5   14.22%    passed     20.05%
+ 904  KAJ7056730.1_Mycena_amicta                               63.24%    passed     66.36%
+ 905  KAF9790380.1_Thelephora_terrestris                        8.82%    passed     32.15%
+ 906  KAF9648927.1_Thelephora_ganbajun                         11.03%    passed     16.31%
+ 907  PFH51108.1_Amanita_thiersii_Skay4041                     27.94%    passed     58.11%
+ 908  KAF8731085.1_Amanita_brunnescens_KoideBX004              24.02%    passed     60.22%
+ 909  KZP23879.1_Fibularhizoctonia_sp._CBS109695               13.48%    passed     24.71%
+ 910  KZP23875.1_Fibularhizoctonia_sp._CBS109695               41.18%    passed     23.22%
+ 911  KAF7977165.1_Athelia_sp._TMB                             13.48%    passed     77.21%
+ 912  KAF7977061.1_Athelia_sp._TMB                             20.83%    passed     86.21%
+ 913  KAG8212930.1_Butyriboletus_roseoflavus                   13.48%    passed     28.66%
+ 914  KAG8212936.1_Butyriboletus_roseoflavus                   12.75%    failed      0.19%
+ 915  KAF8324378.1_Amanita_rubescens                           25.98%    passed     99.73%
+ 916  PCOBRFM310_001991_T1_22_284_AA14                         37.50%    failed      4.79%
+ 917  AUM86166.1_Trametes_coccinea                             15.44%    passed     64.36%
+ 918  KAI9060680.1_Trametes_sanguinea                          15.69%    passed     24.41%
+ 919  KAJ3019167.1_Trametes_sanguinea                          11.03%    passed     55.76%
+ 920  CDO75550.1_Trametes_cinnabarina                          12.25%    passed     48.12%
+ 921  KAI8980162.1_Trametes_punicea                             9.80%    passed     49.83%
+ 922  KAI0327799.1_Cubamyces_sp._BRFM1775                      11.03%    passed     74.12%
+ 923  KAH9902992.1_Cubamyces_lactineus                         16.18%    passed     46.36%
+ 924  KAI0661695.1_Cubamyces_menziesii                         13.73%    passed     98.21%
+ 925  KAI0368587.1_Pilatotrama_ljubarskyi                      13.48%    passed     49.27%
+ 926  KAI0359907.1_Trametes_cingulata                          14.22%    passed     36.99%
+ 927  KAH9850354.1_Lenzites_betulinus                          14.46%    passed     72.43%
+ 928  KAI0833448.1_Trametes_gibbosa                            13.97%    passed     50.64%
+ 929  KAI0635898.1_Trametes_polyzona                           10.29%    passed     57.90%
+ 930  XP_008039133.1_Trametes_versicolor_FP_101664SS1          16.42%    passed     79.31%
+ 931  OJT10915.1_Trametes_pubescens                            15.20%    passed     75.07%
+ 932  KAI0649146.1_Trametes_meyenii                             9.80%    passed     50.78%
+ 933  KAI0671704.1_Trametes_maxima                              9.80%    passed     30.43%
+ 934  KAI1797154.1_Ganoderma_leucocontextum                    10.78%    passed     24.50%
+ 935  PIL35611.1_Ganoderma_sinense_ZZ0214_1                    12.75%    passed     39.36%
+ 936  TBU26201.1_Dichomitus_squalens                           15.93%    passed     78.82%
+ 937  RPD60039.1_Lentinus_tigrinus_ALCF2SS1_6                  15.93%    passed     96.61%
+ 938  RDX57331.1_Polyporus_brumalis                            16.91%    passed     79.28%
+ 939  KAI0714260.1_Cerioporus_squamosus                        17.16%    passed     72.17%
+ 940  KAI0787686.1_Fomes_fomentarius                           15.93%    passed     81.51%
+ 941  KAI0707394.1_Earliella_scabrosa                          15.44%    passed     84.23%
+ 942  KAI0749347.1_Daedaleopsis_nitida                         15.93%    passed     88.95%
+ 943  XP_047883428.1_Epithele_typhae                           14.95%    passed     15.61%
+ 944  KAI0926218.1_Antrodia_cinnamomea                          9.56%    passed     29.40%
+ 945  PCH42354.1_Wolfiporia_cocos_MD_104SS10                   16.91%    passed     76.88%
+ 946  XP_040765330.1_Laetiporus_sulphureus_93_53               31.86%    passed     57.51%
+ 947  KAF9815808.1_Postia_placenta                             24.51%    passed     85.45%
+ 948  XP_012183613.1_Fibroporia_radiculosa                     24.26%    passed     93.29%
+ 949  EPT05591.1_Fomitopsis_schrenkii                          11.52%    passed     67.53%
+ 950  EPT05590.1_Fomitopsis_schrenkii                          26.72%    passed     82.84%
+ 951  KAI0734152.1_Fomitopsis_betulina                         26.72%    passed     78.45%
+ 952  KZT73202.1_Daedalea_quercina_L_15889                     32.11%    passed     60.76%
+ 953  XP_047780377.1_Rhodofomes_roseus                         25.98%    passed     92.36%
+ 954  TFY54514.1_Rhodofomes_roseus                             25.49%    passed     87.46%
+ 955  XP_047888039.1_Neoantrodia_serialis                      36.76%    passed     91.13%
+ 956  XP_027619473.1_Sparassis_crispa                          11.03%    passed     17.20%
+ 957  KAI0071994.1_Panus_rudis_PR_1116ss_1                     11.03%    passed     31.51%
+ 958  EMD34047.1_Gelatoporia_subvermispora_B                   11.52%    passed     50.63%
+ 959  OCH95365.1_Obba_rivulosa                                 10.29%    passed     23.14%
+ 960  KAH9948617.1_Amylocystis_lapponica                       10.05%    passed     28.07%
+ 961  KAJ3534747.1_Phlebia_brevispora                          14.95%    passed     45.14%
+ 962  THG96211.1_Hermanssonia_centrifuga                       21.57%    failed      3.28%
+ 963  PSR74237.1_Hermanssonia_centrifuga                       33.09%    failed      0.32%
+ 964  KAF7796010.1_Pleurotus_ostreatoroseus                    22.79%    passed     40.74%
+ 965  GJE96238.1_Phanerochaete_sordida                         14.95%    passed     32.76%
+ 966  XP_007393767.1_Phanerochaete_carnosa_HHB_10118_sp        15.20%    passed     53.04%
+ 967  KIP10435.1_Phlebiopsis_gigantea_11061_1CR5_6             22.06%    passed     21.41%
+ 968  KAI0784517.1_Abortiporus_biennis                          9.31%    passed     47.55%
+ 969  KAI0703797.1_Cytidiella_melzeri                          12.99%    passed     81.23%
+ 970  KAI0346057.1_Trametopsis_cervina                         11.52%    failed      0.63%
+ 971  KAH8100765.1_Cristinia_sonorae                           12.50%    passed     31.57%
+ 972  THH29424.1_Antrodiella_citrinella                        11.03%    passed     69.47%
+ 973  TCD61917.1_Steccherinum_ochraceum                        19.85%    passed      9.80%
+ 974  PRUSEMC34_000324_T1_1_259_AA14                           39.71%    passed     38.92%
+ 975  KZV69208.1_Peniophora_sp._CONT                           29.41%    passed     82.34%
+ 976  VDC02569.1_Peniophora_sp._CBMAI1063                      29.17%    passed     73.04%
+ 977  PRUSEMC34_012454_T1_21_286_AA14                          37.99%    passed     18.41%
+ 978  VDB84992.1_Peniophora_sp._CBMAI1063                      16.67%    passed     18.75%
+ 979  KZV72373.1_Peniophora_sp._CONT                           34.56%    passed     37.91%
+ 980  KAI0026658.1_Vararia_minispora_EC_137                    38.48%    passed     76.58%
+ 981  KAI0036026.1_Vararia_minispora_EC_137                    29.17%    passed     10.25%
+ 982  KAI0316452.1_Amylostereum_chailletii                     22.06%    passed     45.61%
+ 983  XP_007306950.1_Stereum_hirsutum_FP_91666SS1               9.07%    failed      0.30%
+ 984  THH19259.1_Bondarzewia_mesenterica                       21.57%    passed     70.00%
+ 985  XP_009545121.1_Heterobasidion_irregulare_TC32_1          32.11%    passed     53.43%
+ 986  KAA1467091.1_Dentipellis_sp._KUC8613                     29.41%    passed     85.04%
+ 987  TFY69232.1_Dentipellis_fragilis                          23.28%    passed     55.03%
+ 988  TFY82132.1_Hericium_alpestre                             11.03%    passed     68.11%
+ 989  XP_007299807.1_Stereum_hirsutum_FP_91666SS1              23.53%    passed     63.80%
+ 990  KAI0059260.1_Artomyces_pyxidatus                         25.00%    passed     91.37%
+ 991  KAH9058370.1_Lactarius_vividus                           11.52%    passed     11.61%
+ 992  KAH9037881.1_Lactarius_pseudohatsudake                   10.05%    passed      6.04%
+ 993  KAH8994869.1_Lactarius_akahatsu                          12.01%    passed      6.07%
+ 994  KAH9002898.1_Lactarius_hatsudake                         21.57%    failed      3.79%
+ 995  KAH9178272.1_Lactarius_sanguifluus                       14.71%    passed     18.39%
+ 996  KAI9440050.1_Lactarius_indigo                            11.03%    passed      8.25%
+ 997  KAH9068331.1_Lactarius_deliciosus                        20.59%    failed      2.18%
+ 998  KAI0303823.1_Multifurca_ochricompacta                    33.58%    passed     88.65%
+ 999  KAI9461708.1_Lactarius_psammicola                        12.75%    passed     17.78%
+1000  KAI0001502.1_Russula_compacta                            17.65%    passed     41.13%
+1001  KAI0279744.1_Russula_aff._rugulosaBPL654                 10.05%    passed     51.41%
+1002  KAF8501713.1_Russula_emetica                             19.61%    passed     32.63%
+1003  KAF8501716.1_Russula_emetica                             30.15%    passed     12.73%
+1004  KAI0279745.1_Russula_aff._rugulosaBPL654                 20.59%    passed     33.18%
+1005  KAI9512042.1_Russula_earlei                               8.33%    passed      9.60%
+1006  KAH9986247.1_Russula_vinacea                             28.43%    passed     34.87%
+1007  KAF8486165.1_Russula_ochroleuca                          22.06%    passed     87.92%
+1008  KAF8486164.1_Russula_ochroleuca                          10.29%    passed     11.81%
+1009  KAI0046343.1_Auriscalpium_vulgare                         9.31%    failed      0.00%
+1010  KAI0264500.1_Gloeopeniophorella_convolvens               15.20%    passed     25.81%
+1011  KAI0250269.1_Lactifluus_subvellereus                      9.80%    failed      2.33%
+1012  KAH9972789.1_Lactifluus_volemus                          41.18%    passed     47.27%
+1013  KAF8269563.1_Lactarius_quietus                           10.05%    passed     17.36%
+1014  KIY68736.1_Cylindrobasidium_torrendii_FP15055ss_10       17.40%    failed      0.56%
+1015  KAH8830708.1_Flagelloscypha_sp._PMI_526                  20.59%    passed     40.71%
+1016  CAE6457632.1_Rhizoctonia_solani                          12.01%    passed     68.75%
+1017  CAE6337121.1_Rhizoctonia_solani                          11.52%    passed     79.11%
+1018  EUC64931.1_Rhizoctonia_solani_AG_3Rhs1AP                 47.55%    passed     43.62%
+1019  CAE6446852.1_Rhizoctonia_solani                          12.25%    passed     69.71%
+1020  CAE6433407.1_Rhizoctonia_solani                          11.76%    passed     59.71%
+1021  KDN50638.1_Rhizoctonia_solani_AG_8WAC10335               14.71%    passed     64.37%
+1022  CAE7224843.1_Rhizoctonia_solani                          12.25%    passed     32.11%
+1023  KAJ1307380.1_Rhizoctonia_solani                          11.03%    passed     89.65%
+1024  CAE6532806.1_Rhizoctonia_solani                          12.99%    passed     34.04%
+1025  KAG8714139.1_Ceratobasidium_sp._423                      12.50%    passed     88.35%
+1026  CAE6522514.1_Rhizoctonia_solani                          11.03%    passed     25.25%
+1027  CAE6400146.1_Rhizoctonia_solani                          11.76%    passed     69.94%
+1028  CUA75968.1_Rhizoctonia_solani                            52.45%    passed     15.24%
+1029  KAG8705004.1_Ceratobasidium_sp._394                      16.67%    passed     52.96%
+1030  KAG9090867.1_Ceratobasidium_sp._UAMH11750                60.29%    passed     92.52%
+1031  KAG8727884.1_Ceratobasidium_sp._428                      72.55%    passed     61.99%
+1032  KAG9122696.1_Ceratobasidium_sp._392                      16.67%    passed     33.64%
+1033  KAF8606550.1_Ceratobasidium_sp._AG_I                     12.25%    passed     31.74%
+1034  KAB5596145.1_Ceratobasidium_theobromae                   12.25%    passed     95.87%
+1035  CAE6451815.1_Rhizoctonia_solani                          12.99%    passed     93.93%
+1036  CAE6426536.1_Rhizoctonia_solani                          11.52%    passed     91.79%
+1037  CEL55274.1_Rhizoctonia_solani_AG_1IB                     12.99%    passed     93.77%
+1038  CCO30796.1_Rhizoctonia_solani_AG_1IB                     45.10%    passed     46.85%
+1039  ELU37011.1_Rhizoctonia_solani_AG_1IA                     15.44%    passed     74.01%
+1040  KAG8749125.1_Ceratobasidium_sp._428                      43.38%    passed     44.24%
+1041  KAG8696633.1_Ceratobasidium_sp._395                      51.72%    passed     51.74%
+1042  KAG8689289.1_Ceratobasidium_sp._395                      49.26%    passed     46.22%
+1043  QRV75229.1_Ceratobasidium_sp._AG_Ba                      22.30%    passed     54.87%
+1044  QRW04140.1_Ceratobasidium_sp._AG_Ba                      22.30%    passed      5.14%
+1045  XP_007301417.1_Stereum_hirsutum_FP_91666SS1               8.58%    passed      8.12%
+1046  XP_007765609.1_Coniophora_puteana_RWD_64_598SS2          11.76%    passed     72.16%
+1047  KDQ15932.1_Botryobasidium_botryosum_FD_172SS1            10.78%    passed     50.87%
+1048  CAE6537060.1_Rhizoctonia_solani                          14.46%    passed     76.45%
+1049  KAG8708896.1_Ceratobasidium_sp._423                      20.10%    passed     71.66%
+1050  CAE6448901.1_Rhizoctonia_solani                          16.67%    passed     99.20%
+1051  CAE6446984.1_Rhizoctonia_solani                          14.22%    passed     94.36%
+1052  KDN48575.1_Rhizoctonia_solani_AG_8WAC10335               16.42%    passed     94.32%
+1053  CAE6424438.1_Rhizoctonia_solani                          14.71%    passed     96.56%
+1054  CAE6414618.1_Rhizoctonia_solani                          17.16%    passed     80.71%
+1055  CAE6384342.1_Rhizoctonia_solani                          14.22%    passed     91.46%
+1056  KAJ1307903.1_Rhizoctonia_solani                          17.65%    passed     95.30%
+1057  CAE6340628.1_Rhizoctonia_solani                          18.87%    passed     97.49%
+1058  CEL55761.1_Rhizoctonia_solani_AG_1IB                     17.40%    passed     97.38%
+1059  CAE6493006.1_Rhizoctonia_solani                          26.96%    passed     99.66%
+1060  ELU44209.1_Rhizoctonia_solani_AG_1IA                     24.02%    passed     94.21%
+1061  XP_043178519.1_Rhizoctonia_solani                        20.34%    passed     80.54%
+1062  KAG9098080.1_Ceratobasidium_sp._370                      18.14%    passed     67.04%
+1063  KAG8773011.1_Ceratobasidium_sp._428                      17.89%    passed     82.64%
+1064  KAG8775486.1_Ceratobasidium_sp._428                      58.09%    passed     71.24%
+1065  KAG8702013.1_Ceratobasidium_sp._394                      18.87%    passed     81.76%
+1066  KAG8746514.1_Ceratobasidium_sp._414                      23.53%    passed     85.93%
+1067  KAG9125644.1_Ceratobasidium_sp._392                      25.49%    passed     94.87%
+1068  KAB5593995.1_Ceratobasidium_theobromae                   21.81%    passed     96.50%
+1069  QRW03805.1_Ceratobasidium_sp._AG_Ba                      11.27%    passed     81.34%
+1070  KAF8606538.1_Ceratobasidium_sp._AG_I                     13.97%    passed     64.50%
+1071  KDQ11515.1_Botryobasidium_botryosum_FD_172SS1            29.66%    failed      3.64%
+1072  KAF5327621.1_Psilocybe_cf._subviscida                     9.80%    passed     33.85%
+1073  KAF6759800.1_Tulosesus_angulatus                         12.99%    passed     34.98%
+1074  TFY52325.1_Rhodofomes_roseus                             15.44%    failed      0.04%
+1075  KAG9033390.1_Tulasnella_sp._JGI_2019a                    12.25%    failed      3.00%
+1076  KAG9033081.1_Tulasnella_sp._JGI_2019a                    33.09%    passed     63.45%
+1077  KAG9007623.1_Tulasnella_sp._JGI_2019a                    39.71%    passed     37.93%
+1078  KAG9006702.1_Tulasnella_sp._JGI_2019a                    55.88%    passed     73.57%
+1079  KAG8884257.1_Tulasnella_sp._331                          24.75%    failed      2.20%
+1080  XP_047883450.1_Epithele_typhae                           16.67%    passed     58.44%
+1081  KAI0775034.1_Trametes_elegans                             8.33%    passed     76.90%
+1082  KAI4517777.1_Schizophyllum_commune_LoenenD                9.80%    passed      6.48%
+1083  TRM67874.1_Auriculariopsis_ampla                          9.80%    failed      4.84%
+1084  KAG8935386.1_Tulasnella_sp._418                          12.50%    failed      1.73%
+1085  KAG8962101.1_Tulasnella_sp._419                          31.62%    passed      5.19%
+1086  KAG9044909.1_Tulasnella_sp._UAMH9824                     12.75%    passed      5.71%
+1087  KAG8914120.1_Tulasnella_sp._408                          39.71%    passed     31.52%
+1088  KAG8948042.1_Tulasnella_sp._424                          13.48%    passed     17.13%
+1089  KIO31600.1_Tulasnella_calospora_MUT4182                  19.61%    passed     69.13%
+1090  KAG8911118.1_Tulasnella_sp._417                          54.90%    failed      0.00%
+1091  KAG8979806.1_Tulasnella_sp._427                          33.82%    failed      0.54%
+1092  KAG9007349.1_Tulasnella_sp._427                          58.33%    failed      0.00%
+1093  KAI5117029.1_Coniferiporia_weirii                        11.27%    passed     72.25%
+1094  KAH8109897.1_Phellopilus_nigrolimitatus                  28.43%    passed     73.81%
+1095  XP_007262604.1_Fomitiporia_mediterranea_MF3/22           14.71%    passed     84.84%
+1096  PAV16729.1_Pyrrhoderma_noxium                            12.25%    passed     51.44%
+1097  OCB85755.1_Sanghuangporus_baumii                          8.33%    failed      0.06%
+1098  THH09276.1_Phellinidium_pouzarii                         20.83%    passed     37.23%
+1099  TFK22737.1_Coprinopsis_marcescibilis                     10.29%    failed      1.19%
+1100  KAH6909257.1_Coprinopsis_sp._MPI_PUGE_AT_0042            17.89%    passed      8.09%
+1101  KAF5359754.1_Leucoagaricus_leucothites                   12.50%    passed     36.60%
+1102  KAJ3568658.1_Leucocoprinus_birnbaumii                    12.50%    passed     52.02%
+1103  KXN84873.1_Leucoagaricus_sp._SymC.cos                    16.18%    passed     77.47%
+1104  KAF9443302.1_Macrolepiota_fuliginosa_MF_IS2              15.44%    passed     99.24%
+1105  KDQ59092.1_Jaapia_argillacea_MUCL33604                   12.01%    failed      1.35%
+1106  KAF9790728.1_Thelephora_terrestris                       10.54%    failed      0.39%
+1107  KAF9647898.1_Thelephora_ganbajun                         14.46%    passed     31.64%
+1108  XP_012181508.1_Fibroporia_radiculosa                     16.91%    passed     69.98%
+1109  KAI0295903.1_Multifurca_ochricompacta                    15.69%    passed     29.06%
+1110  KAJ3480567.1_Physisporinus_lineatus                      25.74%    passed     38.09%
+1111  OBZ72245.1_Grifola_frondosa                               7.60%    failed      0.23%
+1112  KAF8321095.1_Clavulina_sp._PMI_390                       14.71%    passed     57.12%
+1113  XP_038916845.1_Cantharellus_anzutake                     12.75%    passed     31.39%
+1114  KAF9518919.1_Hydnum_rufescens_UP504                      19.36%    passed      9.29%
+1115  KZT40257.1_Sistotremastrum_suecicum_HHB10207ss_3         12.99%    failed      0.01%
+1116  KZS91941.1_Sistotremastrum_niveocremeum_HHB9708          10.78%    failed      0.10%
+1117  KAF9511918.1_Hydnum_rufescens_UP504                      25.98%    passed     78.93%
+1118  XP_038920064.1_Cantharellus_anzutake                      8.82%    failed      0.00%
+1119  CgattiWM276predictedgene_000949_T1_20_277_AA14           39.46%    passed     46.33%
+1120  KIR67208.1_Cryptococcus_bacillisporus_CA1873             13.73%    passed     94.03%
+1121  KIR33729.1_Cryptococcus_deuterogattii_MMRL2647           49.51%    passed     35.29%
+1122  CneofoV31predictedgene_000132_T1_20_277_AA14             39.46%    passed     15.38%
+1123  OXG24631.1_Cryptococcus_neoformans_grubii                14.95%    passed     90.77%
+1124  XP_778151.1Cryptococcus_neoformans_neoformans            13.73%    passed     90.01%
+1125  KAK4683791.1_Tremellales_sp._Uapishka_1                  17.16%    passed     72.95%
+1126  ODN88337.1_Cryptococcus_depauperatus_CBS7841             19.12%    passed     96.52%
+1127  WVQ82351.1_Cryptococcus_sp._DSM104549                    13.48%    passed     91.09%
+1128  WVR07021.1_Kwoniella_sp._DSM27419                        25.25%    passed     88.52%
+1129  KAK1924239.1_Papiliotrema_laurentii                      34.31%    passed     57.95%
+1130  WVQ99392.1_Kwoniella_sp._CBS9459                         13.24%    passed     80.23%
+1131  OCF42898.1_Kwoniella_heveanensis_CBS569                  14.22%    passed     80.11%
+1132  XP_018263097.1_Kwoniella_dejecticola_CBS10117            12.01%    passed     91.07%
+1133  XP_019007301.1_Kwoniella_mangroviensis_CBS8507           13.97%    passed     87.79%
+1134  XP_019046288.1_Kwoniella_bestiolae_CBS10118              13.24%    passed     85.96%
+1135  XP_062791081.1_Kwoniella_shivajii                        12.01%    passed     75.28%
+1136  KIMNRRLY17943_003714_T1_20_275_AA14                      39.71%    passed     19.69%
+1137  XP_021870732.1_Kockovaella_imperatae                     48.04%    passed     24.66%
+1138  XP_031863238.1_Kwoniella_shandongensis                   12.75%    passed     65.32%
+1139  HCOJCM1743_004749_T1_19_270_AA14                         40.93%    passed     63.27%
+1140  XP_019010940.1_Kwoniella_pini_CBS10737                   12.01%    failed      0.02%
+1141  Tfuciftr26predictedgene_004055_T1_24_275_AA14            39.95%    passed     34.94%
+1142  TFUNBRC9317_002271_T1_24_275_AA14                        39.95%    passed     21.23%
+1143  TFUSEMC49_000639_T1_24_275_AA14                          39.95%    passed     21.23%
+1144  TYONBRC100148_001237_T1_24_275_AA14                      39.95%    passed     19.59%
+1145  ORY34011.1_Naematelia_encephala                          13.24%    passed     77.51%
+1146  WVQ72577.1_Cryptococcus_sp._DSM104548                    12.75%    passed      7.27%
+1147  XP_018994656.1_Cryptococcus_amylolentus_CBS6039          11.76%    passed     13.18%
+1148  ODO08084.1_Cryptococcus_amylolentus_CBS6273              22.79%    passed     18.98%
+1149  XP_019035688.1_Cryptococcus_wingfieldii_CBS7118          22.79%    passed     12.39%
+1150  WVQ72578.1_Cryptococcus_sp._DSM104548                    33.09%    passed     72.42%
+1151  XP_019035686.1_Cryptococcus_wingfieldii_CBS7118          33.58%    passed     93.74%
+1152  TMESEMC45_003358_T1_20_274_AA14                          39.46%    passed     40.45%
+1153  TmesenATCC28783predictedgene_006932_T1_20_274_AA14       39.46%    failed      2.63%
+1154  TmesenDSM1558predictedgene_002888_T1_20_274_AA14         39.46%    failed      2.63%
+1155  RXK34920.1_Tremella_mesenterica                          25.25%    passed     25.43%
+1156  XP_007003269.1_Tremella_mesenterica_DSM1558              45.34%    passed     10.31%
+1157  CAD6572736.1_Tremellales_sp._Tagirdzhanova_0007          13.73%    passed     81.66%
+1158  XP_052949572.1_Dioszegia_hungarica                       26.23%    passed     91.11%
+1159  GFZ43948.1_Saitozyma_sp._JCM24511                        22.55%    passed     56.36%
+1160  XP_046036810.1_Filobasidium_floriforme                   12.01%    passed     22.64%
+1161  KAJ9114318.1_Naganishia_vaughanmartiniae                 18.14%    passed     47.93%
+1162  KAJ9096401.1_Naganishia_friedmannii                      13.24%    passed     23.35%
+1163  KAJ9127419.1_Naganishia_onofrii                          25.25%    passed     75.85%
+1164  KAJ9106717.1_Naganishia_cerealis                         24.02%    passed      9.05%
+1165  GHJ86888.1_Naganishia_liquefaciens                       12.75%    passed     42.74%
+1166  KAI5452378.1_Naganishia_albida                           13.24%    failed      3.96%
+1167  KAJ9105892.1_Naganishia_adeliensis                       50.74%    passed     48.62%
+1168  GMK54331.1_Cutaneotrichosporon_spelunceum                12.99%    passed     36.19%
+1169  XP_018279493.1_Cutaneotrichosporon_oleaginosum           40.44%    failed      3.07%
+1170  TXT11790.1_Cutaneotrichosporon_oleaginosum               19.85%    passed     45.52%
+1171  XP_060453079.1_Cutaneotrichosporon_cavernicola           12.50%    passed     14.16%
+1172  XP_028476602.1_Apiotrichum_porosum                       15.44%    passed     60.75%
+1173  XP_028474799.1_Apiotrichum_porosum                       14.22%    passed     10.47%
+1174  XP_062626010.1_Vanrija_pseudolonga                       14.71%    failed      4.70%
+1175  TXT04286.1_Vanrija_humicola                              17.89%    failed      3.00%
+1176  XP_028472728.1_Apiotrichum_porosum                       15.20%    failed      0.00%
+1177  GMK58657.1_Cutaneotrichosporon_spelunceum                21.08%    failed      3.04%
+1178  XP_060456902.1_Cutaneotrichosporon_cavernicola           17.40%    failed      1.49%
+1179  BEJ14676.1_Cutaneotrichosporon_sp._HIS471                20.34%    passed     35.48%
+1180  XP_018280093.1_Cutaneotrichosporon_oleaginosum           15.44%    failed      1.70%
+1181  XP_062631925.1_Vanrija_pseudolonga                       11.52%    passed      5.12%
+1182  TXT07101.1_Vanrija_humicola                              17.40%    failed      4.25%
+1183  EKD01731.1_Trichosporon_asahii_asahii                    12.99%    passed     15.20%
+1184  XP_014181917.1_Trichosporon_asahii_asahii                13.73%    failed      0.53%
+1185  GMK55144.1_Cutaneotrichosporon_spelunceum                18.14%    passed     59.69%
+1186  TXT10245.1_Cutaneotrichosporon_oleaginosum               18.87%    passed     19.39%
+1187  XP_018282730.1_Cutaneotrichosporon_oleaginosum           42.40%    passed     16.41%
+1188  KZT57664.1_Calocera_cornea_HHB12733                      14.22%    passed      5.92%
+1189  KZO90691.1_Calocera_viscosa_TUFC12733                    14.22%    passed     11.47%
+1190  XP_040629811.1_Dacryopinax_primogenitus                  43.14%    failed      1.45%
+1191  XP_040631690.1_Dacryopinax_primogenitus                  15.93%    passed     17.35%
+1192  KZT57666.1_Calocera_cornea_HHB12733                      13.24%    passed     35.36%
+1193  KZO90689.1_Calocera_viscosa_TUFC12733                    14.22%    passed     12.93%
+1194  XP_040631691.1_Dacryopinax_primogenitus                  17.40%    passed     82.68%
+1195  Tfuciftr26predictedgene_003872_T1_20_290_AA14            40.93%    passed     49.11%
+1196  TFUNBRC9317_003942_T1_302_571_AA14                       41.18%    passed     46.87%
+1197  TFUSEMC49_000083_T1_844_1113_AA14                        41.18%    passed     46.87%
+1198  TYONBRC100148_003196_T1_228_497_AA14                     41.18%    passed     48.48%
+1199  TMESEMC45_002104_T1_18_282_AA14                          42.16%    passed     29.83%
+1200  TmesenATCC28783predictedgene_005285_T1_19_251_AA14       50.00%    passed     19.17%
+1201  RXK36788.1_Tremella_mesenterica                          42.40%    passed      8.96%
+1202  TmesenDSM1558predictedgene_001497_T1_19_282_AA14         42.40%    passed     55.93%
+1203  XP_007001773.1_Tremella_mesenterica_DSM1558              42.65%    passed     35.57%
+1204  KAK1921139.1_Papiliotrema_laurentii                      34.07%    passed     66.70%
+1205  WVQ80688.1_Cryptococcus_sp._DSM104549                    32.84%    passed     82.65%
+1206  XP_031864295.1_Kwoniella_shandongensis                   26.47%    passed     33.34%
+1207  ORY31423.1_Naematelia_encephala                          17.40%    passed     25.47%
+1208  KAK1925801.1_Papiliotrema_laurentii                      31.86%    passed     37.30%
+1209  ORY25660.1_Naematelia_encephala                          27.70%    passed     17.00%
+1210  ORY25065.1_Naematelia_encephala                          18.38%    failed      0.32%
+1211  Tfuciftr26predictedgene_003873_T1_9_261_AA14             44.61%    passed     25.26%
+1212  TFUNBRC9317_003942_T1_3_261_AA14                         43.38%    passed     35.41%
+1213  TFUSEMC49_000083_T1_536_804_AA14                         41.18%    passed     44.15%
+1214  TYONBRC100148_003196_T1_4_188_AA14                       59.07%    passed     28.77%
+1215  RSH91054.1_Saitozyma_podzolica                           21.08%    passed     16.90%
+1216  GFZ45114.1_Saitozyma_sp._JCM24511                        21.81%    passed     26.49%
+1217  KAK1924488.1_Papiliotrema_laurentii                      15.69%    passed     34.25%
+1218  XP_019043154.1_Kwoniella_bestiolae_CBS10118              13.24%    failed      4.43%
+1219  XP_019000045.1_Kwoniella_mangroviensis_CBS8507           14.22%    failed      1.04%
+1220  OCF77674.1_Kwoniella_mangroviensis_CBS8886               31.86%    failed      0.45%
+1221  XP_062793024.1_Kwoniella_shivajii                        12.01%    failed      3.69%
+1222  XP_019007932.1_Kwoniella_pini_CBS10737                   12.25%    failed      1.72%
+1223  XP_018260028.1_Kwoniella_dejecticola_CBS10117            12.25%    failed      2.07%
+1224  OCF58383.1_Kwoniella_mangroviensis_CBS10435              10.78%    failed      0.04%
+1225  XP_019051361.1_Kwoniella_bestiolae_CBS10118              17.16%    failed      2.89%
+1226  WVQ97816.1_Kwoniella_sp._CBS9459                         12.25%    passed     13.49%
+1227  XP_052948210.1_Dioszegia_hungarica                       43.63%    passed     91.87%
+1228  GFZ47836.1_Saitozyma_sp._JCM24511                        11.52%    failed      0.00%
+1229  KAK4687237.1_Tremellales_sp._Uapishka_1                  31.86%    passed     34.05%
+1230  KAH9959614.1_Russula_dissimulans                         24.75%    passed     28.26%
+1231  KAH9959610.1_Russula_dissimulans                         18.63%    failed      0.74%
+1232  XP_038920063.1_Cantharellus_anzutake                     11.52%    failed      0.00%
+1233  TMEMel28_009271_T1_12_213_AA14                           52.21%    failed      3.82%
+1234  KAG0137833.1_Tuber_indicum                               24.75%    passed      6.87%
+1235  KAG0636262.1_Tuber_brumale                               24.51%    failed      0.45%
+1236  CUS15635.1_Tuber_aestivum                                24.26%    passed     25.25%
+1237  PUU81429.1_Tuber_borchii                                 24.75%    passed     12.36%
+1238  RPA98525.1_Choiromyces_venosus_120613_1                  28.43%    failed      1.31%
+1239  PWW74733.1_Tuber_magnatum                                24.75%    failed      3.26%
+1240  XP_045975601.1_Morchella_importuna                       26.23%    failed      3.81%
+1241  XP_051334511.1_Tricharina_praecox                        28.92%    passed     13.93%
+1242  KAA8892561.1_Sphaerosporella_brunnea                     22.79%    passed     43.33%
+1243  KAF8470832.1_Kalaharituber_pfeilii                       24.51%    passed     11.55%
+1244  KAF8455147.1_Terfezia_claveryi                           30.64%    failed      1.78%
+1245  KAF8423366.1_Tirmania_nivea                              27.94%    passed      5.91%
+1246  RPA80138.1_Ascobolus_immersus_RN42                       40.93%    passed     76.05%
+1247  KAI5803377.1_Peziza_echinospora                          35.29%    failed      0.20%
+1248  KAI5806802.1_Peziza_echinospora                          19.85%    failed      0.02%
+1249  KAF8460521.1_Kalaharituber_pfeilii                       44.12%    failed      0.69%
+1250  RPB24591.1_Terfezia_boudieri_ATCCMYA_4762                44.12%    failed      0.03%
+1251  KAF8429570.1_Tirmania_nivea                              39.22%    failed      0.01%
+1252  KAI5808220.1_Peziza_echinospora                          39.46%    failed      1.12%
+1253  KAF8471114.1_Kalaharituber_pfeilii                       30.64%    failed      0.05%
+1254  RPB29031.1_Terfezia_boudieri_ATCCMYA_4762                42.89%    passed     10.87%
+1255  KAI5782680.1_Geopyxis_carbonaria                         19.12%    passed     19.36%
+1256  KAI5797814.1_Geopyxis_carbonaria                         15.93%    passed     10.02%
+1257  RPA78095.1_Ascobolus_immersus_RN42                       61.76%    passed     61.49%
+1258  KAI0090264.1_Irpex_rosettiformis                         11.27%    passed     22.57%
+1259  KAI0806128.1_Irpex_lacteus                                9.31%    passed     21.98%
+1260  XP_028476473.1_Apiotrichum_porosum                       14.95%    passed     48.96%
+1261  XP_028476511.1_Apiotrichum_porosum                       16.91%    passed     55.47%
+1262  KAI0775242.1_Trametes_elegans                            12.99%    passed     37.81%
+1263  CAF0828144.1_Didymodactylos_carnosus                     36.52%    passed     31.49%
+1264  XP_051442884.1_Umbelopsis_ramanniana_AG                  33.82%    failed      0.06%
+1265  KAH8552452.1_Umbelopsis_sp._PMI_123                      30.15%    failed      0.06%
+1266  KAI8064513.1_Gongronella_butleri                         40.20%    failed      0.02%
+1267  KAG2173165.1_Umbelopsis_isabellina                       33.58%    failed      0.06%
+1268  XP_045966199.1_Morchella_importuna                       30.15%    passed     76.40%
+1269  RPA95384.1_Choiromyces_venosus_120613_1                  40.44%    passed     86.60%
+1270  XP_051342713.1_Tricharina_praecox                        27.21%    passed     65.29%
+1271  KAI5778531.1_Geopyxis_carbonaria                         28.68%    passed     43.22%
+1272  KAK2765626.1_Arachnomyces_sp._PD_36                      37.50%    passed     52.72%
+1273  KAF8476807.1_Kalaharituber_pfeilii                       36.52%    passed     57.38%
+1274  KAI5779968.1_Peziza_echinospora                          28.68%    passed     85.75%
+1275  KAF8426953.1_Tirmania_nivea                              26.72%    passed      9.85%
+1276  KAF8454024.1_Terfezia_claveryi                           52.45%    passed     86.28%
+1277  PRP86693.1_Planoprotostelium_fungivorum                  18.38%    passed     13.26%
+1278  PRP74785.1_Planoprotostelium_fungivorum                  18.87%    passed     64.32%
+1279  PRP74787.1_Planoprotostelium_fungivorum                  17.16%    passed     69.36%
+1280  PRP74784.1_Planoprotostelium_fungivorum                  17.65%    passed     78.78%
+1281  PRP74056.1_Planoprotostelium_fungivorum                  17.89%    passed     96.14%
+1282  CAF4149748.1_Rotaria_sp._Silwood2                        17.89%    failed      2.33%
+1283  PRP86646.1_Planoprotostelium_fungivorum                  16.91%    passed     27.57%
+1284  PRP87496.1_Planoprotostelium_fungivorum                  19.61%    passed     15.12%
+1285  PRP89596.1_Planoprotostelium_fungivorum                  12.25%    passed     79.22%
+1286  PRP84537.1_Planoprotostelium_fungivorum                  16.91%    passed     94.71%
+1287  PRP84539.1_Planoprotostelium_fungivorum                  12.99%    passed     92.03%
+1288  XP_019002112.1_Kwoniella_mangroviensis_CBS8507           19.61%    failed      0.00%
+1289  XP_019042384.1_Kwoniella_bestiolae_CBS10118              19.12%    failed      0.50%
+1290  XP_018263708.1_Kwoniella_dejecticola_CBS10117            18.87%    failed      0.00%
+1291  XP_019013667.1_Kwoniella_pini_CBS10737                   26.96%    failed      0.04%
+1292  XP_052942074.1_Dioszegia_hungarica                       30.64%    failed      0.16%
+1293  KAK1921150.1_Papiliotrema_laurentii                      22.30%    passed     60.65%
+1294  XP_052949098.1_Dioszegia_hungarica                       25.25%    passed     38.54%
+1295  XP_046038248.1_Filobasidium_floriforme                   33.33%    passed     50.42%
+1296  KAG7528919.1_Filobasidium_floriforme                     19.61%    failed      3.27%
+1297  KAF8519414.1_Gautieria_morchelliformis                   26.23%    passed     41.77%
+1298  KAF8591349.1_Ramaria_rubella                             26.23%    passed     51.02%
+1299  KAF8591350.1_Ramaria_rubella                             27.45%    passed     41.44%
+1300  KAF8524302.1_Hysterangium_stoloniferum                   26.23%    passed     30.03%
+1301  KAF8519415.1_Gautieria_morchelliformis                   26.72%    passed     31.59%
+1302  KIJ36911.1_Sphaerobolus_stellatus_SS14                   12.75%    passed     71.40%
+1303  KIJ36910.1_Sphaerobolus_stellatus_SS14                   50.25%    passed     40.46%
+1304  KAI0287995.1_Russula_brevipes                            18.14%    failed      0.00%
+1305  KAI0280328.1_Russula_brevipes                            42.89%    passed     45.90%
+1306  KAI0287991.1_Russula_brevipes                            16.67%    failed      0.00%
+1307  KAG6830510.1_Tricholoma_furcatifolium                    23.04%    failed      1.28%
+1308  KAI0287778.1_Russula_brevipes                            14.95%    passed     29.91%
+1309  CDZ98792.1_Phaffia_rhodozyma                             27.45%    passed     75.94%
+1310  CDZ98469.1_Phaffia_rhodozyma                             32.35%    passed     54.97%
+1311  CDZ98793.1_Phaffia_rhodozyma                             38.24%    failed      0.62%
+1312  CDZ98532.1_Phaffia_rhodozyma                             11.52%    passed      7.95%
+1313  XP_060459898.1_Cutaneotrichosporon_cavernicola           32.60%    passed     79.52%
+1314  XP_018275525.1_Cutaneotrichosporon_oleaginosum           32.84%    passed     46.22%
+1315  XP_040762919.1_Laetiporus_sulphureus_93_53               73.53%    failed      0.01%
+1316  TGZ81715.1_Ascodesmis_nigricans                          16.91%    passed     41.43%
+1317  PRQ71199.1_Rhodotorula_toruloides                        20.10%    passed      6.20%
+1318  KAK4330533.1_Rhodotorula_toruloides                      19.36%    failed      3.78%
+1319  XP_016271225.1_Rhodotorula_toruloides_NP11               22.30%    passed      9.61%
+1320  PRQ76063.1_Rhodotorula_toruloides                        19.85%    passed     17.66%
+1321  CDR41535.1_Rhodotorula_toruloides                        20.34%    passed     31.67%
+1322  KWU44348.1_Rhodotorula_sp._JG_1b                         21.57%    passed     28.08%
+1323  ORY88298.1_Leucosporidium_creatinivorum                  20.83%    passed      9.84%
+1324  ORY91521.1_Leucosporidium_creatinivorum                  12.75%    failed      0.51%
+1325  KAK4055531.1_Microbotryomycetes_sp._JL201                12.01%    failed      2.16%
+1326  KAK4057941.1_Microbotryomycetes_sp._JL221                14.95%    passed     10.72%
+1327  SGY79428.1_Microbotryum_silenes_dioicae                  14.71%    failed      0.01%
+1328  SCV70878.1_Microbotryum_intermedium                      11.76%    failed      0.03%
+1329  ORY89679.1_Leucosporidium_creatinivorum                  11.76%    failed      0.05%
+1330  KAK4054129.1_Microbotryomycetes_sp._JL201                16.67%    failed      0.08%
+1331  KAK4054346.1_Microbotryomycetes_sp._JL221                15.20%    failed      0.17%
+1332  KAK4703993.1_Phenoliferia_sp._Uapishka_3                 26.72%    passed     33.52%
+1333  GJN89692.1_Rhodotorula_paludigena                        17.16%    failed      0.09%
+1334  TNY21244.1_Rhodotorula_diobovata                         14.95%    failed      0.12%
+1335  XP_016275300.1_Rhodotorula_toruloides_NP11               12.75%    failed      2.77%
+1336  GEM07994.1_Rhodotorula_toruloides                        16.42%    passed     42.76%
+1337  POY71101.1_Rhodotorula_taiwanensis                       31.37%    passed     57.99%
+1338  KAG0656832.1_Rhodotorula_mucilaginosa                    13.48%    passed     21.13%
+1339  KWU44477.1_Rhodotorula_sp._JG_1b                         29.17%    passed     44.49%
+1340  TNY20361.1_Rhodotorula_diobovata                         19.61%    passed     82.18%
+1341  GJN91262.1_Rhodotorula_paludigena                        12.50%    failed      0.04%
+1342  KAI5474854.1_Pseudohyphozyma_bogoriensis                 25.49%    passed     44.67%
+1343  KAI5474857.1_Pseudohyphozyma_bogoriensis                 25.00%    passed     24.14%
+1344  ORY79724.1_Leucosporidium_creatinivorum                  39.46%    passed     85.64%
+1345  KAK4704433.1_Phenoliferia_sp._Uapishka_3                 28.19%    passed      9.60%
+1346  ORY51762.1_Leucosporidium_creatinivorum                  21.08%    failed      0.53%
+1347  CCA71530.1_Serendipita_indica_DSM11827                   40.69%    passed     11.73%
+1348  KDE05902.1_Microbotryum_lychnidis_dioicae_p1A1Lamole     18.38%    failed      0.02%
+1349  SCZ94805.1_Microbotryum_saponariae                       16.67%    failed      0.06%
+1350  TXT15888.1_Vanrija_humicola                              36.76%    passed     34.24%
+1351  XP_062623941.1_Vanrija_pseudolonga                       41.91%    passed      9.22%
+1352  XP_014180075.1_Trichosporon_asahii_asahii                30.88%    passed     29.89%
+1353  XP_014180074.1_Trichosporon_asahii_asahii                34.80%    passed     40.74%
+1354  BEJ11580.1_Cutaneotrichosporon_sp._HIS471                35.54%    passed     85.69%
+1355  XP_018280384.1_Cutaneotrichosporon_oleaginosum           41.91%    passed     68.87%
+1356  GMK56416.1_Cutaneotrichosporon_spelunceum                35.54%    passed     55.63%
+1357  KAH9986246.1_Russula_vinacea                              7.84%    failed      0.00%
+1358  PRP81433.1_Planoprotostelium_fungivorum                  15.20%    passed     59.39%
+1359  PRP88488.1_Planoprotostelium_fungivorum                  24.51%    passed     17.00%
+1360  PRP81476.1_Planoprotostelium_fungivorum                  21.32%    passed      9.06%
+1361  KAJ3744529.1_Lentinula_raphanica                         61.03%    passed     19.96%
+1362  KAH9948719.1_Amylocystis_lapponica                       61.27%    failed      1.33%
+1363  PRP77934.1_Planoprotostelium_fungivorum                  24.02%    passed     53.19%
+1364  PRP85073.1_Planoprotostelium_fungivorum                  22.79%    passed     51.07%
+1365  PRP85061.1_Planoprotostelium_fungivorum                  22.79%    passed     42.95%
+1366  PRP85059.1_Planoprotostelium_fungivorum                  22.79%    passed     56.13%
+1367  XP_038920062.1_Cantharellus_anzutake                     49.02%    failed      0.01%
+WARNING: 29 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                    23.03%  160 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: CAG7847400.1_Serendipita_indica_DSM11827 is identical to CCA68158.1_Serendipita_indica_DSM11827 but kept for subsequent analysis
+NOTE: TFUSEMC49_000639_T1_24_275_AA14 is identical to TFUNBRC9317_002271_T1_24_275_AA14 but kept for subsequent analysis
+NOTE: TmesenDSM1558predictedgene_002888_T1_20_274_AA14 is identical to TmesenATCC28783predictedgene_006932_T1_20_274_AA14 but kept for subsequent analysis
+NOTE: TFUSEMC49_000083_T1_844_1113_AA14 is identical to TFUNBRC9317_003942_T1_302_571_AA14 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.0160877 secs using 2670% CPU
+
+Creating fast initial parsimony tree by random order stepwise addition...
+278.816 seconds, parsimony score: 79820 (based on 408 sites)
+Measuring multi-threading efficiency up to 32 CPU cores
+Increase to 10 rounds for branch lengths
+2 trees examined
+Threads: 1 / Time: 34.482 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -744375
+Threads: 2 / Time: 26.952 sec / Speedup: 1.279 / Efficiency: 64% / LogL: -744375
+Threads: 3 / Time: 24.100 sec / Speedup: 1.431 / Efficiency: 48% / LogL: -744375
+Determining AUTO threadcount: done in 85.6264 secs using 183.9% CPU
+BEST NUMBER OF THREADS: 2
+
+Perform fast likelihood tree search using LG+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 40.4924 secs using 195.5% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -391313.649
+Optimal log-likelihood: -391312.670
+Gamma shape alpha: 0.954
+Parameters optimization took 1 rounds (3.819 sec)
+Time for fast ML tree search: 60.151 seconds
+
+NOTE: ModelFinder requires 905 MB RAM!
+ModelFinder will test up to 616 protein models (sample size: 408) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  LG            413784.475   2731 833030.951   15755214.951 843985.721
+  2  LG+G4         391312.642   2732 788089.284   15721201.284 799048.066
+  3  LG+R2         396605.674   2733 798677.348   15742721.348 809640.141
+  4  LG+R3         392314.309   2735 790098.617   15756018.617 801069.433
+  5  LG+R4         391255.224   2737 787984.447   15775796.447 798963.285
+  6  LG+R5         390557.204   2739 786592.408   15796312.408 797579.269
+  7  LG+R6         390298.515   2741 786079.030   15817723.030 797073.913
+  8  LG+R7         390185.881   2743 785857.763   15839441.763 796860.669
+  9  LG+R8         390079.094   2745 785648.188   15861188.188 796659.117
+ 10  LG+R9         389971.336   2747 785436.672   15882948.672 796455.623
+ 11  LG+R10        389941.441   2749 785380.882   15904880.882 796407.855
+ 22  LG+F+R10      391217.219   2768 787970.437   16117154.437 799073.625
+ 33  WAG+R10       388567.921   2749 782633.843   15902133.843 793660.816
+ 44  WAG+F+R10     388944.223   2768 783424.446   16112608.446 794527.633
+ 55  JTT+R10       391336.548   2749 788171.096   15907671.096 799198.070
+ 66  JTT+F+R10     393310.085   2768 792156.170   16121340.170 803259.357
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 77  Q.pfam+R10    388893.850   2749 783285.700   15902785.700 794312.674
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 88  Q.pfam+F+R10  390818.390   2768 787172.780   16116356.780 798275.967
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+ 99  Q.bird+R10    402661.987   2749 810821.973   15930321.973 821848.947
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+110  Q.bird+F+R10  405469.217   2768 816474.434   16145658.434 827577.621
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+121  Q.mammal+R10  397827.493   2749 801152.987   15920652.987 812179.960
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+132  Q.mammal+F+R10 400702.666   2768 806941.331   16136125.331 818044.519
+143  Q.insect+R10  391129.122   2749 787756.243   15907256.243 798783.217
+154  Q.insect+F+R10 393537.921   2768 792611.843   16121795.843 803715.030
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+165  Q.plant+R10   395279.638   2749 796057.276   15915557.276 807084.249
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+176  Q.plant+F+R10 397788.961   2768 801113.923   16130297.923 812217.110
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+187  Q.yeast+R10   390702.529   2749 786903.058   15906403.058 797930.031
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+198  Q.yeast+F+R10 392688.498   2768 790912.996   16120096.996 802016.183
+209  JTTDCMut+R10  391192.963   2749 787883.926   15907383.926 798910.900
+220  JTTDCMut+F+R10 393093.851   2768 791723.702   16120907.702 802826.889
+231  DCMut+R10     392675.901   2749 790849.802   15910349.802 801876.775
+242  DCMut+F+R10   393830.861   2768 793197.722   16122381.722 804300.910
+253  VT+R10        389137.993   2749 783773.986   15903273.986 794800.960
+264  VT+F+R10      389930.475   2768 785396.949   16114580.949 796500.137
+275  PMB+R10       392103.231   2749 789704.461   15909204.461 800731.435
+286  PMB+F+R10     390763.657   2768 787063.315   16116247.315 798166.502
+297  Blosum62+R10  393277.441   2749 792052.881   15911552.881 803079.855
+308  Blosum62+F+R10 391156.241   2768 787848.482   16117032.482 798951.670
+319  Dayhoff+R10   392695.278   2749 790888.555   15910388.555 801915.529
+330  Dayhoff+F+R10 393862.754   2768 793261.509   16122445.509 804364.696
+341  mtREV+R10     411245.423   2749 827988.846   15947488.846 839015.819
+352  mtREV+F+R10   401636.925   2768 808809.851   16137993.851 819913.038
+363  mtART+R10     420651.480   2749 846800.961   15966300.961 857827.934
+374  mtART+F+R10   409770.702   2768 825077.404   16154261.404 836180.591
+385  mtZOA+R10     409410.038   2749 824318.075   15943818.075 835345.049
+396  mtZOA+F+R10   403120.776   2768 811777.552   16140961.552 822880.739
+407  mtMet+R10     412866.007   2749 831230.014   15950730.014 842256.987
+418  mtMet+F+R10   402195.222   2768 809926.444   16139110.444 821029.631
+429  mtVer+R10     416218.463   2749 837934.926   15957434.926 848961.900
+440  mtVer+F+R10   408550.270   2768 822636.540   16151820.540 833739.728
+451  mtInv+R10     413489.310   2749 832476.619   15951976.619 843503.593
+462  mtInv+F+R10   397602.224   2768 800740.447   16129924.447 811843.635
+473  mtMAM+R10     425718.725   2749 856935.451   15976435.451 867962.424
+484  mtMAM+F+R10   414029.648   2768 833595.295   16162779.295 844698.483
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+495  FLAVI+R10     414129.260   2749 833756.520   15953256.520 844783.493
+WARNING: Normalizing state frequencies so that sum of them equals to 1
+506  FLAVI+F+R10   413093.449   2768 831722.897   16160906.897 842826.085
+517  HIVb+R10      407435.097   2749 820368.193   15939868.193 831395.167
+528  HIVb+F+R10    406056.171   2768 817648.342   16146832.342 828751.530
+539  HIVw+R10      423704.459   2749 852906.919   15972406.919 863933.892
+550  HIVw+F+R10    416070.573   2768 837677.147   16166861.147 848780.334
+561  FLU+R10       400776.045   2749 807050.089   15926550.089 818077.063
+572  FLU+F+R10     396656.963   2768 798849.927   16128033.927 809953.114
+583  rtREV+R10     392879.716   2749 791257.431   15910757.431 802284.405
+594  rtREV+F+R10   393354.536   2768 792245.073   16121429.073 803348.260
+605  cpREV+R10     393217.614   2749 791933.227   15911433.227 802960.201
+616  cpREV+F+R10   392973.308   2768 791482.616   16120666.616 802585.804
+Akaike Information Criterion:           WAG+R10
+Corrected Akaike Information Criterion: LG+G4
+Bayesian Information Criterion:         WAG+R10
+Best-fit model: WAG+R10 chosen according to BIC
+
+All model information printed to AA14_Fungi_outgroup1.model.gz
+CPU time for ModelFinder: 183452.021 seconds (50h:57m:32s)
+Wall-clock time for ModelFinder: 89189.030 seconds (24h:46m:29s)
+Generating 1000 samples for ultrafast bootstrap (seed: 279550)...
+
+NOTE: 905 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -388567.921
+Optimal log-likelihood: -388567.921
+Site proportion and rates:  (0.083,0.070) (0.082,0.181) (0.107,0.306) (0.100,0.464) (0.099,0.635) (0.108,0.800) (0.079,1.086) (0.101,1.399) (0.180,2.022) (0.062,2.574)
+Parameters optimization took 1 rounds (10.398 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 257.482 secs using 198.2% CPU
+Computing ML distances took 257.488544 sec (of wall-clock time) 510.322315 sec (of CPU time)
+WARNING: Some pairwise ML distances are too long (saturated)
+Setting up auxiliary I and S matrices: done in 0.115963 secs using 198.1% CPU
+Constructing RapidNJ tree: done in 89.1559 secs using 84.61% CPU
+Computing RapidNJ tree took 89.272105 sec (of wall-clock time) 75.668639 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -394507.191
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 227.264 second
+Computing log-likelihood of 98 initial trees ... 326.645 seconds
+Current best score: -388567.921
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 39.709 secs using 196.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -388418.432
+Optimizing NNI: done in 121.6 secs using 196.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -387806.829
+Optimizing NNI: done in 98.3466 secs using 197.1% CPU
+Optimizing NNI: done in 97.1158 secs using 196.4% CPU
+Optimizing NNI: done in 96.0555 secs using 196% CPU
+Optimizing NNI: done in 105.11 secs using 197% CPU
+Optimizing NNI: done in 117.703 secs using 196.6% CPU
+Optimizing NNI: done in 120.655 secs using 196.9% CPU
+Optimizing NNI: done in 112.267 secs using 197.1% CPU
+Optimizing NNI: done in 109.541 secs using 195.9% CPU
+Iteration 10 / LogL: -388365.437 / Time: 0h:35m:30s
+Optimizing NNI: done in 107.077 secs using 196.4% CPU
+Optimizing NNI: done in 107.479 secs using 196.1% CPU
+Optimizing NNI: done in 117.878 secs using 197.4% CPU
+Optimizing NNI: done in 116.735 secs using 196.3% CPU
+Optimizing NNI: done in 116.798 secs using 197.1% CPU
+Optimizing NNI: done in 106.798 secs using 197.4% CPU
+Optimizing NNI: done in 108.515 secs using 196.8% CPU
+Optimizing NNI: done in 133.69 secs using 197.2% CPU
+Optimizing NNI: done in 133.959 secs using 197.2% CPU
+Optimizing NNI: done in 121.377 secs using 197.1% CPU
+Iteration 20 / LogL: -388468.177 / Time: 0h:55m:6s
+Finish initializing candidate tree set (20)
+Current best tree score: -387806.829 / CPU time: 2890.470
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 80.3413 secs using 197.4% CPU
+Optimizing NNI: done in 80.0283 secs using 196.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 22: -387707.440
+Optimizing NNI: done in 74.643 secs using 196.6% CPU
+Optimizing NNI: done in 85.8931 secs using 197.7% CPU
+Optimizing NNI: done in 86.1068 secs using 197.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 25: -387635.295
+Optimizing NNI: done in 85.045 secs using 197.1% CPU
+Optimizing NNI: done in 86.6218 secs using 194.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -387557.432
+Optimizing NNI: done in 85.9378 secs using 194.5% CPU
+Optimizing NNI: done in 81.1483 secs using 196.8% CPU
+Optimizing NNI: done in 82.223 secs using 197.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -387530.056
+Iteration 30 / LogL: -387530.056 / Time: 1h:13m:48s (4h:14m:29s left)
+Optimizing NNI: done in 84.6399 secs using 197.2% CPU
+Optimizing NNI: done in 79.6837 secs using 197.2% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 32: -387460.529
+Optimizing NNI: done in 73.7486 secs using 196.9% CPU
+Optimizing NNI: done in 85.4093 secs using 196.8% CPU
+Optimizing NNI: done in 78.1447 secs using 196.8% CPU
+Optimizing NNI: done in 84.6033 secs using 197.1% CPU
+Optimizing NNI: done in 76.3407 secs using 197.7% CPU
+Optimizing NNI: done in 81.7313 secs using 196.9% CPU
+Optimizing NNI: done in 80.5546 secs using 195.8% CPU
+Optimizing NNI: done in 82.3412 secs using 195.6% CPU
+Iteration 40 / LogL: -387545.732 / Time: 1h:28m:13s (3h:28m:7s left)
+Optimizing NNI: done in 82.0816 secs using 196.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 41: -387385.612
+Optimizing NNI: done in 69.7635 secs using 197.7% CPU
+Optimizing NNI: done in 82.4372 secs using 194.6% CPU
+Optimizing NNI: done in 75.4412 secs using 196.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 44: -387372.701
+Optimizing NNI: done in 103.618 secs using 194.9% CPU
+Optimizing NNI: done in 78.4152 secs using 195.9% CPU
+Optimizing NNI: done in 74.3467 secs using 196.3% CPU
+Optimizing NNI: done in 75.2677 secs using 196.5% CPU
+Optimizing NNI: done in 80.3406 secs using 196.9% CPU
+Optimizing NNI: done in 71.8524 secs using 196.5% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 50: -387368.826
+Iteration 50 / LogL: -387368.826 / Time: 1h:43m:34s (3h:31m:22s left)
+Log-likelihood cutoff on original alignment: -387645.658
+Optimizing NNI: done in 76.0397 secs using 197% CPU
+Optimizing NNI: done in 87.7867 secs using 196.4% CPU
+Optimizing NNI: done in 74.2187 secs using 195.5% CPU
+Optimizing NNI: done in 74.1457 secs using 196.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 54: -387307.937
+Optimizing NNI: done in 82.9075 secs using 196.4% CPU
+Optimizing NNI: done in 79.5484 secs using 196.8% CPU
+Optimizing NNI: done in 76.142 secs using 197.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -387300.026
+Optimizing NNI: done in 75.1268 secs using 197.2% CPU
+Optimizing NNI: done in 73.7317 secs using 197.3% CPU
+Optimizing NNI: done in 75.1621 secs using 197.3% CPU
+Iteration 60 / LogL: -387418.485 / Time: 1h:58m:55s (3h:15m:31s left)
+Optimizing NNI: done in 78.0886 secs using 197.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 61: -387296.682
+Optimizing NNI: done in 72.3345 secs using 196.2% CPU
+Optimizing NNI: done in 83.43 secs using 196.4% CPU
+Optimizing NNI: done in 75.8739 secs using 195.9% CPU
+Optimizing NNI: done in 76.6515 secs using 196.8% CPU
+Optimizing NNI: done in 78.9784 secs using 196.8% CPU
+Optimizing NNI: done in 79.0252 secs using 196.9% CPU
+Optimizing NNI: done in 86.721 secs using 195.9% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 68: -387272.316
+Optimizing NNI: done in 75.4447 secs using 195.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -387223.896
+Optimizing NNI: done in 76.0941 secs using 196.5% CPU
+Iteration 70 / LogL: -387279.548 / Time: 2h:15m:50s (3h:14m:54s left)
+Optimizing NNI: done in 84.5509 secs using 195.8% CPU
+Optimizing NNI: done in 74.0188 secs using 196.5% CPU
+Optimizing NNI: done in 79.4623 secs using 196.9% CPU
+Optimizing NNI: done in 75.8114 secs using 196.9% CPU
+Optimizing NNI: done in 79.9795 secs using 196.7% CPU
+Optimizing NNI: done in 74.4526 secs using 197.2% CPU
+Optimizing NNI: done in 77.256 secs using 196.2% CPU
+Optimizing NNI: done in 78.7177 secs using 196.7% CPU
+Optimizing NNI: done in 82.3181 secs using 197.2% CPU
+Optimizing NNI: done in 77.1622 secs using 196.6% CPU
+Iteration 80 / LogL: -387267.835 / Time: 2h:29m:4s (2h:47m:56s left)
+Optimizing NNI: done in 79.0003 secs using 195.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 81: -387194.519
+Optimizing NNI: done in 77.8449 secs using 197% CPU
+Optimizing NNI: done in 73.0295 secs using 198.1% CPU
+Optimizing NNI: done in 77.7839 secs using 197.1% CPU
+Optimizing NNI: done in 77.1547 secs using 195.2% CPU
+Optimizing NNI: done in 76.0438 secs using 197% CPU
+Optimizing NNI: done in 80.0794 secs using 197.1% CPU
+Optimizing NNI: done in 76.3721 secs using 197.2% CPU
+Optimizing NNI: done in 88.9166 secs using 196.9% CPU
+Optimizing NNI: done in 79.1176 secs using 196.8% CPU
+Iteration 90 / LogL: -387251.544 / Time: 2h:43m:21s (2h:47m:2s left)
+Optimizing NNI: done in 88.3118 secs using 196.7% CPU
+Optimizing NNI: done in 65.3208 secs using 197.4% CPU
+Optimizing NNI: done in 78.606 secs using 195.3% CPU
+Optimizing NNI: done in 78.9794 secs using 197% CPU
+Optimizing NNI: done in 107.06 secs using 196.7% CPU
+Optimizing NNI: done in 85.5588 secs using 195.5% CPU
+Optimizing NNI: done in 79.3441 secs using 197.1% CPU
+Optimizing NNI: done in 69.0674 secs using 196.2% CPU
+Optimizing NNI: done in 82.4546 secs using 196.9% CPU
+Optimizing NNI: done in 79.3655 secs using 197.1% CPU
+Iteration 100 / LogL: -387253.447 / Time: 2h:57m:6s (2h:24m:54s left)
+Log-likelihood cutoff on original alignment: -387612.381
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.880
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 76.8906 secs using 193.7% CPU
+Optimizing NNI: done in 77.3562 secs using 196.9% CPU
+Optimizing NNI: done in 79.8348 secs using 196.8% CPU
+Optimizing NNI: done in 82.0216 secs using 197.2% CPU
+Optimizing NNI: done in 80.595 secs using 196.5% CPU
+Optimizing NNI: done in 76.2599 secs using 197.2% CPU
+Optimizing NNI: done in 79.8358 secs using 196.8% CPU
+Optimizing NNI: done in 76.386 secs using 197.1% CPU
+Optimizing NNI: done in 83.1031 secs using 197.1% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -387164.756
+Optimizing NNI: done in 77.1728 secs using 197.5% CPU
+Iteration 110 / LogL: -387195.233 / Time: 3h:11m:44s (2h:54m:8s left)
+Optimizing NNI: done in 75.5799 secs using 196.8% CPU
+Optimizing NNI: done in 80.157 secs using 197.1% CPU
+Optimizing NNI: done in 72.3988 secs using 196.9% CPU
+Optimizing NNI: done in 73.3748 secs using 196.2% CPU
+Optimizing NNI: done in 79.8246 secs using 196.5% CPU
+Optimizing NNI: done in 75.0932 secs using 197% CPU
+Optimizing NNI: done in 81.4777 secs using 196.5% CPU
+Optimizing NNI: done in 75.1591 secs using 195.7% CPU
+Optimizing NNI: done in 82.5933 secs using 197.2% CPU
+Optimizing NNI: done in 76.6065 secs using 195.5% CPU
+Iteration 120 / LogL: -387271.885 / Time: 3h:24m:46s (2h:33m:9s left)
+Optimizing NNI: done in 77.0242 secs using 197.6% CPU
+Optimizing NNI: done in 81.2604 secs using 196.9% CPU
+Optimizing NNI: done in 78.1526 secs using 196.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 123: -387159.772
+Optimizing NNI: done in 77.3981 secs using 197.3% CPU
+Optimizing NNI: done in 73.973 secs using 197.6% CPU
+Optimizing NNI: done in 77.2208 secs using 197.4% CPU
+Optimizing NNI: done in 69.1334 secs using 196.6% CPU
+Optimizing NNI: done in 76.7344 secs using 196.2% CPU
+Optimizing NNI: done in 74.1826 secs using 196.7% CPU
+Optimizing NNI: done in 74.5269 secs using 196.6% CPU
+Iteration 130 / LogL: -387243.994 / Time: 3h:38m:34s (2h:37m:34s left)
+Optimizing NNI: done in 78.3863 secs using 196.4% CPU
+Optimizing NNI: done in 71.3978 secs using 196.5% CPU
+Optimizing NNI: done in 75.115 secs using 196.6% CPU
+Optimizing NNI: done in 76.0537 secs using 196.9% CPU
+Optimizing NNI: done in 78.7818 secs using 196.5% CPU
+Optimizing NNI: done in 68.5124 secs using 197.4% CPU
+Optimizing NNI: done in 79.9823 secs using 197.8% CPU
+Optimizing NNI: done in 77.5757 secs using 196.2% CPU
+Optimizing NNI: done in 78.6611 secs using 197.3% CPU
+Optimizing NNI: done in 74.1588 secs using 196.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 140: -387137.030
+Iteration 140 / LogL: -387137.030 / Time: 3h:52m:38s (2h:47m:21s left)
+Optimizing NNI: done in 79.2853 secs using 195.5% CPU
+Optimizing NNI: done in 90.1471 secs using 196.9% CPU
+Optimizing NNI: done in 76.9603 secs using 197.2% CPU
+Optimizing NNI: done in 78.2358 secs using 196.8% CPU
+Optimizing NNI: done in 84.8283 secs using 196.9% CPU
+Optimizing NNI: done in 80.0557 secs using 195.3% CPU
+Optimizing NNI: done in 86.2574 secs using 196.6% CPU
+Optimizing NNI: done in 73.9112 secs using 197.6% CPU
+Optimizing NNI: done in 76.9564 secs using 196.8% CPU
+Optimizing NNI: done in 76.3351 secs using 196.2% CPU
+Iteration 150 / LogL: -387225.855 / Time: 4h:6m:11s (2h:28m:42s left)
+Log-likelihood cutoff on original alignment: -387413.762
+Optimizing NNI: done in 79.9261 secs using 195.6% CPU
+Optimizing NNI: done in 80.1801 secs using 197% CPU
+Optimizing NNI: done in 82.6483 secs using 196.7% CPU
+Optimizing NNI: done in 106.138 secs using 196.7% CPU
+Optimizing NNI: done in 81.297 secs using 196.8% CPU
+Optimizing NNI: done in 70.7759 secs using 197.2% CPU
+Optimizing NNI: done in 77.7639 secs using 196.2% CPU
+Optimizing NNI: done in 75.235 secs using 197% CPU
+Optimizing NNI: done in 80.8614 secs using 196.3% CPU
+Optimizing NNI: done in 74.564 secs using 196.4% CPU
+Iteration 160 / LogL: -387278.764 / Time: 4h:19m:59s (2h:10m:48s left)
+Optimizing NNI: done in 80.3187 secs using 196.6% CPU
+Optimizing NNI: done in 79.6586 secs using 196.5% CPU
+Optimizing NNI: done in 70.8693 secs using 196.8% CPU
+Optimizing NNI: done in 78.2913 secs using 197.4% CPU
+Optimizing NNI: done in 73.9421 secs using 195.8% CPU
+Optimizing NNI: done in 72.4094 secs using 197.2% CPU
+Optimizing NNI: done in 82.0229 secs using 197.5% CPU
+Optimizing NNI: done in 72.3548 secs using 197% CPU
+Optimizing NNI: done in 74.6672 secs using 197.2% CPU
+Optimizing NNI: done in 78.9219 secs using 197% CPU
+Iteration 170 / LogL: -387179.162 / Time: 4h:32m:53s (1h:53m:1s left)
+Optimizing NNI: done in 82.5498 secs using 196.1% CPU
+Optimizing NNI: done in 80.3297 secs using 196.8% CPU
+Optimizing NNI: done in 77.1301 secs using 197.6% CPU
+Optimizing NNI: done in 94.1223 secs using 196.7% CPU
+Optimizing NNI: done in 73.7274 secs using 196.5% CPU
+Optimizing NNI: done in 77.5724 secs using 196.8% CPU
+Optimizing NNI: done in 100.568 secs using 196.3% CPU
+Optimizing NNI: done in 80.2004 secs using 196.2% CPU
+Optimizing NNI: done in 71.3023 secs using 197.2% CPU
+Optimizing NNI: done in 84.9975 secs using 196.8% CPU
+Iteration 180 / LogL: -387205.761 / Time: 4h:46m:46s (1h:36m:7s left)
+Optimizing NNI: done in 76.9811 secs using 197.4% CPU
+Optimizing NNI: done in 84.3268 secs using 196.9% CPU
+Optimizing NNI: done in 103.235 secs using 196.7% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 183: -387134.045
+Optimizing NNI: done in 70.824 secs using 196.8% CPU
+Optimizing NNI: done in 73.7411 secs using 197% CPU
+Optimizing NNI: done in 74.7768 secs using 196.8% CPU
+Optimizing NNI: done in 74.9511 secs using 196.4% CPU
+Optimizing NNI: done in 104.032 secs using 195.4% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 188: -387125.479
+Optimizing NNI: done in 70.1901 secs using 197.1% CPU
+Optimizing NNI: done in 71.9373 secs using 197.5% CPU
+Iteration 190 / LogL: -387212.245 / Time: 5h:1m:59s (2h:36m:35s left)
+Optimizing NNI: done in 72.9709 secs using 197.3% CPU
+Optimizing NNI: done in 73.1598 secs using 199.4% CPU
+Optimizing NNI: done in 73.5794 secs using 199.5% CPU
+Optimizing NNI: done in 62.0336 secs using 199.5% CPU
+Optimizing NNI: done in 71.3895 secs using 199.4% CPU
+Optimizing NNI: done in 74.8316 secs using 199.5% CPU
+Optimizing NNI: done in 73.9608 secs using 199.5% CPU
+Optimizing NNI: done in 70.4482 secs using 199.5% CPU
+Optimizing NNI: done in 66.7821 secs using 199.5% CPU
+Optimizing NNI: done in 70.678 secs using 199.6% CPU
+Iteration 200 / LogL: -387189.915 / Time: 5h:13m:59s (2h:18m:51s left)
+Log-likelihood cutoff on original alignment: -387413.762
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.965
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 69.7429 secs using 199.5% CPU
+Optimizing NNI: done in 103.565 secs using 199.6% CPU
+Optimizing NNI: done in 72.067 secs using 199.6% CPU
+Optimizing NNI: done in 80.9539 secs using 199.5% CPU
+Optimizing NNI: done in 77.5647 secs using 199.5% CPU
+Optimizing NNI: done in 77.3462 secs using 199.6% CPU
+Optimizing NNI: done in 72.8407 secs using 199.6% CPU
+Optimizing NNI: done in 76.37 secs using 199.6% CPU
+Optimizing NNI: done in 100.755 secs using 199.7% CPU
+Optimizing NNI: done in 68.7334 secs using 199.7% CPU
+Iteration 210 / LogL: -387582.442 / Time: 5h:27m:37s (2h:21m:5s left)
+Optimizing NNI: done in 76.3966 secs using 199.5% CPU
+Optimizing NNI: done in 73.9163 secs using 199.5% CPU
+Optimizing NNI: done in 76.5192 secs using 199.5% CPU
+Optimizing NNI: done in 71.3846 secs using 199.5% CPU
+Optimizing NNI: done in 107.006 secs using 199.6% CPU
+Optimizing NNI: done in 75.7141 secs using 199.6% CPU
+Optimizing NNI: done in 69.7329 secs using 199.5% CPU
+Optimizing NNI: done in 72.8056 secs using 199.6% CPU
+Optimizing NNI: done in 94.5154 secs using 199.6% CPU
+Optimizing NNI: done in 77.309 secs using 199.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 220: -387122.337
+Iteration 220 / LogL: -387122.337 / Time: 5h:41m:59s (2h:36m:9s left)
+Optimizing NNI: done in 83.8548 secs using 199.5% CPU
+Optimizing NNI: done in 75.529 secs using 199.5% CPU
+Optimizing NNI: done in 72.3918 secs using 199.6% CPU
+Optimizing NNI: done in 65.2371 secs using 199.5% CPU
+Optimizing NNI: done in 99.9414 secs using 199.6% CPU
+Optimizing NNI: done in 78.3781 secs using 199.5% CPU
+Optimizing NNI: done in 72.3728 secs using 199.5% CPU
+Optimizing NNI: done in 71.4028 secs using 199.5% CPU
+Optimizing NNI: done in 66.1766 secs using 199.5% CPU
+Optimizing NNI: done in 71.7523 secs using 199.6% CPU
+Iteration 230 / LogL: -387255.542 / Time: 5h:54m:46s (2h:19m:25s left)
+Optimizing NNI: done in 72.7694 secs using 199.6% CPU
+Optimizing NNI: done in 73.0427 secs using 199.5% CPU
+Optimizing NNI: done in 75.2613 secs using 199.6% CPU
+Optimizing NNI: done in 77.4523 secs using 199.6% CPU
+Optimizing NNI: done in 76.1599 secs using 199.6% CPU
+Optimizing NNI: done in 76.3025 secs using 199.5% CPU
+Optimizing NNI: done in 71.9991 secs using 199.5% CPU
+Optimizing NNI: done in 80.1408 secs using 199.6% CPU
+Optimizing NNI: done in 70.6361 secs using 199.5% CPU
+Optimizing NNI: done in 77.2404 secs using 199.6% CPU
+Iteration 240 / LogL: -387199.494 / Time: 6h:7m:28s (2h:3m:0s left)
+Optimizing NNI: done in 102.296 secs using 199.6% CPU
+Optimizing NNI: done in 82.8767 secs using 199.5% CPU
+Optimizing NNI: done in 66.7773 secs using 199.5% CPU
+Optimizing NNI: done in 75.9242 secs using 199.5% CPU
+Optimizing NNI: done in 71.5754 secs using 199.5% CPU
+Optimizing NNI: done in 72.2448 secs using 199.6% CPU
+Optimizing NNI: done in 73.1146 secs using 199.5% CPU
+Optimizing NNI: done in 77.058 secs using 199.5% CPU
+Optimizing NNI: done in 73.9869 secs using 199.5% CPU
+Optimizing NNI: done in 68.7017 secs using 199.4% CPU
+Iteration 250 / LogL: -387245.766 / Time: 6h:20m:23s (1h:46m:56s left)
+Log-likelihood cutoff on original alignment: -387413.762
+Optimizing NNI: done in 79.4468 secs using 199.6% CPU
+Optimizing NNI: done in 69.5961 secs using 199.4% CPU
+Optimizing NNI: done in 77.2092 secs using 199.5% CPU
+Optimizing NNI: done in 73.9786 secs using 199.5% CPU
+Optimizing NNI: done in 92.9548 secs using 199.5% CPU
+Optimizing NNI: done in 80.4962 secs using 199.6% CPU
+Optimizing NNI: done in 68.8436 secs using 199.6% CPU
+Optimizing NNI: done in 74.0776 secs using 199.5% CPU
+Optimizing NNI: done in 69.4801 secs using 199.5% CPU
+Optimizing NNI: done in 76.3921 secs using 199.5% CPU
+Iteration 260 / LogL: -387179.765 / Time: 6h:33m:24s (1h:31m:8s left)
+Optimizing NNI: done in 72.4849 secs using 199.5% CPU
+Optimizing NNI: done in 79.7293 secs using 199.5% CPU
+Optimizing NNI: done in 73.2942 secs using 199.6% CPU
+Optimizing NNI: done in 69.614 secs using 199.6% CPU
+Optimizing NNI: done in 75.7946 secs using 199.6% CPU
+Optimizing NNI: done in 80.1613 secs using 199.6% CPU
+Optimizing NNI: done in 72.6364 secs using 199.5% CPU
+Optimizing NNI: done in 105.288 secs using 199.6% CPU
+Optimizing NNI: done in 80.9448 secs using 199.6% CPU
+Optimizing NNI: done in 77.0155 secs using 199.6% CPU
+Iteration 270 / LogL: -387150.642 / Time: 6h:46m:42s (1h:15m:35s left)
+Optimizing NNI: done in 68.0706 secs using 199.6% CPU
+Optimizing NNI: done in 68.5445 secs using 199.6% CPU
+Optimizing NNI: done in 72.299 secs using 199.5% CPU
+Optimizing NNI: done in 74.7008 secs using 199.6% CPU
+Optimizing NNI: done in 80.0669 secs using 199.5% CPU
+Optimizing NNI: done in 74.5117 secs using 199.5% CPU
+Optimizing NNI: done in 92.628 secs using 199.5% CPU
+Optimizing NNI: done in 79.1274 secs using 199.5% CPU
+Optimizing NNI: done in 71.9569 secs using 199.5% CPU
+Optimizing NNI: done in 72.943 secs using 199.6% CPU
+Iteration 280 / LogL: -387170.491 / Time: 6h:59m:28s (1h:0m:8s left)
+Optimizing NNI: done in 74.874 secs using 199.5% CPU
+Optimizing NNI: done in 71.7663 secs using 199.4% CPU
+Optimizing NNI: done in 81.7879 secs using 199.5% CPU
+Optimizing NNI: done in 80.01 secs using 199.5% CPU
+Optimizing NNI: done in 82.5791 secs using 199.6% CPU
+Optimizing NNI: done in 78.4284 secs using 199.5% CPU
+Optimizing NNI: done in 72.5681 secs using 199.5% CPU
+Optimizing NNI: done in 70.9533 secs using 199.5% CPU
+Optimizing NNI: done in 91.9642 secs using 199.6% CPU
+Optimizing NNI: done in 73.8263 secs using 199.6% CPU
+Iteration 290 / LogL: -387209.983 / Time: 7h:12m:38s (0h:44m:54s left)
+Optimizing NNI: done in 71.0563 secs using 199.6% CPU
+Optimizing NNI: done in 73.6461 secs using 199.5% CPU
+Optimizing NNI: done in 75.4501 secs using 199.6% CPU
+Optimizing NNI: done in 76.5212 secs using 199.5% CPU
+Optimizing NNI: done in 75.4345 secs using 199.4% CPU
+Optimizing NNI: done in 75.5676 secs using 199.5% CPU
+Optimizing NNI: done in 69.8894 secs using 199.5% CPU
+Optimizing NNI: done in 82.2376 secs using 199.7% CPU
+Optimizing NNI: done in 76.9345 secs using 199.5% CPU
+Optimizing NNI: done in 74.8152 secs using 199.5% CPU
+Iteration 300 / LogL: -387146.104 / Time: 7h:25m:21s (0h:29m:47s left)
+Log-likelihood cutoff on original alignment: -387413.762
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Optimizing NNI: done in 91.5512 secs using 199.6% CPU
+Optimizing NNI: done in 74.1902 secs using 199.5% CPU
+Optimizing NNI: done in 75.4148 secs using 199.5% CPU
+Optimizing NNI: done in 70.3291 secs using 199.5% CPU
+Optimizing NNI: done in 79.9317 secs using 199.4% CPU
+Optimizing NNI: done in 79.1783 secs using 199.5% CPU
+Optimizing NNI: done in 76.9659 secs using 199.6% CPU
+Optimizing NNI: done in 77.3862 secs using 199.6% CPU
+Optimizing NNI: done in 75.0981 secs using 199.5% CPU
+Optimizing NNI: done in 72.0866 secs using 199.5% CPU
+Iteration 310 / LogL: -387148.538 / Time: 7h:38m:33s (2h:13m:33s left)
+Optimizing NNI: done in 73.0448 secs using 199.5% CPU
+Optimizing NNI: done in 73.1455 secs using 199.5% CPU
+Optimizing NNI: done in 71.0055 secs using 199.5% CPU
+Optimizing NNI: done in 75.4241 secs using 199.4% CPU
+Optimizing NNI: done in 77.5262 secs using 199.5% CPU
+Optimizing NNI: done in 69.0774 secs using 199.5% CPU
+Optimizing NNI: done in 69.8217 secs using 199.5% CPU
+Optimizing NNI: done in 77.0856 secs using 199.6% CPU
+Optimizing NNI: done in 75.9662 secs using 199.4% CPU
+Optimizing NNI: done in 71.0343 secs using 199.5% CPU
+Iteration 320 / LogL: -387169.822 / Time: 7h:50m:58s (1h:58m:6s left)
+Optimizing NNI: done in 101.951 secs using 199.6% CPU
+Optimizing NNI: done in 80.5042 secs using 199.4% CPU
+Optimizing NNI: done in 72.7481 secs using 199.4% CPU
+Optimizing NNI: done in 72.2428 secs using 199.4% CPU
+Optimizing NNI: done in 76.047 secs using 199.5% CPU
+Optimizing NNI: done in 66.5878 secs using 199.5% CPU
+Optimizing NNI: done in 72.5331 secs using 199.5% CPU
+Optimizing NNI: done in 80.0158 secs using 199.5% CPU
+Optimizing NNI: done in 70.2933 secs using 199.4% CPU
+Optimizing NNI: done in 98.153 secs using 199.5% CPU
+Iteration 330 / LogL: -387206.376 / Time: 8h:4m:21s (1h:43m:3s left)
+Optimizing NNI: done in 73.0089 secs using 199.6% CPU
+Optimizing NNI: done in 74.3867 secs using 199.6% CPU
+Optimizing NNI: done in 75.8607 secs using 199.4% CPU
+Optimizing NNI: done in 75.9516 secs using 199.5% CPU
+Optimizing NNI: done in 76.7747 secs using 199.5% CPU
+Optimizing NNI: done in 78.7417 secs using 199.5% CPU
+Optimizing NNI: done in 79.9659 secs using 199.5% CPU
+Optimizing NNI: done in 74.9828 secs using 199.5% CPU
+Optimizing NNI: done in 68.8801 secs using 199.5% CPU
+Optimizing NNI: done in 70.6465 secs using 199.5% CPU
+Iteration 340 / LogL: -387172.188 / Time: 8h:17m:2s (1h:27m:58s left)
+Optimizing NNI: done in 72.3447 secs using 199.4% CPU
+Optimizing NNI: done in 69.8878 secs using 199.5% CPU
+Optimizing NNI: done in 87.1434 secs using 199.5% CPU
+Optimizing NNI: done in 71.7765 secs using 199.5% CPU
+Optimizing NNI: done in 70.0386 secs using 199.5% CPU
+Optimizing NNI: done in 76.5939 secs using 199.5% CPU
+Optimizing NNI: done in 78.5321 secs using 199.5% CPU
+Optimizing NNI: done in 70.9808 secs using 199.5% CPU
+Optimizing NNI: done in 74.313 secs using 199.5% CPU
+Optimizing NNI: done in 74.6676 secs using 199.5% CPU
+Iteration 350 / LogL: -387218.854 / Time: 8h:29m:40s (1h:13m:1s left)
+Log-likelihood cutoff on original alignment: -387413.762
+Optimizing NNI: done in 68.6403 secs using 199.4% CPU
+Optimizing NNI: done in 70.1553 secs using 199.5% CPU
+Optimizing NNI: done in 79.2037 secs using 199.4% CPU
+Optimizing NNI: done in 90.8839 secs using 199.6% CPU
+Optimizing NNI: done in 80.7206 secs using 199.4% CPU
+Optimizing NNI: done in 72.7314 secs using 199.5% CPU
+Optimizing NNI: done in 69.5963 secs using 199.5% CPU
+Optimizing NNI: done in 70.3281 secs using 199.6% CPU
+Optimizing NNI: done in 75.995 secs using 199.4% CPU
+Optimizing NNI: done in 82.551 secs using 199.6% CPU
+Iteration 360 / LogL: -387158.029 / Time: 8h:42m:41s (0h:58m:14s left)
+Optimizing NNI: done in 73.7901 secs using 199.4% CPU
+Optimizing NNI: done in 86.2596 secs using 199.5% CPU
+Optimizing NNI: done in 75.9535 secs using 199.5% CPU
+Optimizing NNI: done in 76.426 secs using 199.5% CPU
+Optimizing NNI: done in 98.5606 secs using 199.6% CPU
+Optimizing NNI: done in 66.0461 secs using 199.5% CPU
+Optimizing NNI: done in 81.2337 secs using 199.5% CPU
+Optimizing NNI: done in 79.1015 secs using 199.4% CPU
+Optimizing NNI: done in 80.4215 secs using 199.5% CPU
+Optimizing NNI: done in 76.1784 secs using 199.5% CPU
+Iteration 370 / LogL: -387139.814 / Time: 8h:56m:7s (0h:43m:35s left)
+Optimizing NNI: done in 65.2279 secs using 199.5% CPU
+Optimizing NNI: done in 81.3415 secs using 199.4% CPU
+Optimizing NNI: done in 80.0516 secs using 199.5% CPU
+Optimizing NNI: done in 71.3185 secs using 199.4% CPU
+Optimizing NNI: done in 73.4582 secs using 199.5% CPU
+Optimizing NNI: done in 69.3089 secs using 199.4% CPU
+Optimizing NNI: done in 81.1576 secs using 199.5% CPU
+Optimizing NNI: done in 69.8991 secs using 199.4% CPU
+Optimizing NNI: done in 71.5701 secs using 199.5% CPU
+Optimizing NNI: done in 78.2995 secs using 199.5% CPU
+Iteration 380 / LogL: -387189.138 / Time: 9h:8m:41s (0h:28m:57s left)
+Optimizing NNI: done in 76.0864 secs using 199.4% CPU
+Optimizing NNI: done in 85.744 secs using 199.5% CPU
+Optimizing NNI: done in 75.0469 secs using 199.5% CPU
+Optimizing NNI: done in 81.8517 secs using 199.4% CPU
+Optimizing NNI: done in 76.2115 secs using 199.4% CPU
+Optimizing NNI: done in 92.6197 secs using 199.5% CPU
+Optimizing NNI: done in 72.49 secs using 199.5% CPU
+Optimizing NNI: done in 70.7467 secs using 199.5% CPU
+Optimizing NNI: done in 69.1126 secs using 199.5% CPU
+Optimizing NNI: done in 79.8687 secs using 199.5% CPU
+Iteration 390 / LogL: -387181.306 / Time: 9h:21m:53s (0h:14m:26s left)
+Optimizing NNI: done in 75.7219 secs using 199.5% CPU
+Optimizing NNI: done in 96.9802 secs using 199.5% CPU
+Optimizing NNI: done in 71.2209 secs using 199.4% CPU
+Optimizing NNI: done in 67.8215 secs using 199.5% CPU
+Optimizing NNI: done in 73.8668 secs using 199.4% CPU
+Optimizing NNI: done in 72.2047 secs using 199.4% CPU
+Optimizing NNI: done in 100.32 secs using 199.5% CPU
+Optimizing NNI: done in 72.5195 secs using 199.5% CPU
+Optimizing NNI: done in 70.3301 secs using 199.4% CPU
+Optimizing NNI: done in 74.4266 secs using 199.6% CPU
+Iteration 400 / LogL: -387283.919 / Time: 9h:35m:1s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -387413.762
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.992
+TREE SEARCH COMPLETED AFTER 400 ITERATIONS / Time: 9h:35m:9s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -387122.337
+Optimal log-likelihood: -387122.330
+Site proportion and rates:  (0.084,0.070) (0.081,0.182) (0.111,0.307) (0.098,0.466) (0.096,0.632) (0.107,0.799) (0.072,1.073) (0.109,1.384) (0.179,2.026) (0.063,2.580)
+Parameters optimization took 1 rounds (9.994 sec)
+BEST SCORE FOUND : -387122.330
+Creating bootstrap support values...
+Split supports printed to NEXUS file AA14_Fungi_outgroup1.splits.nex
+Total tree length: 374.195
+
+Total number of iterations: 400
+CPU time used for tree search: 67117.086 sec (18h:38m:37s)
+Wall-clock time used for tree search: 34093.723 sec (9h:28m:13s)
+Total CPU time used: 67865.747 sec (18h:51m:5s)
+Total wall-clock time used: 34527.058 sec (9h:35m:27s)
+
+Computing bootstrap consensus tree...
+Reading input file AA14_Fungi_outgroup1.splits.nex...
+1367 taxa and 5960 splits.
+Consensus tree written to AA14_Fungi_outgroup1.contree
+Reading input trees file AA14_Fungi_outgroup1.contree
+Log-likelihood of consensus tree: -387104.010
+
+Analysis results written to: 
+  IQ-TREE report:                AA14_Fungi_outgroup1.iqtree
+  Maximum-likelihood tree:       AA14_Fungi_outgroup1.treefile
+  Likelihood distances:          AA14_Fungi_outgroup1.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          AA14_Fungi_outgroup1.splits.nex
+  Consensus tree:                AA14_Fungi_outgroup1.contree
+  Screen log file:               AA14_Fungi_outgroup1.log
+
+Date and Time: Thu Oct 24 01:44:04 2024

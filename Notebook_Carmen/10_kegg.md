@@ -165,4 +165,53 @@ M00010	Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate
 * calculate kegg module completeness and create heatmap using ggkegg `scripts/10_ggkegg.R`
 
 
+* 2024.10.16
+Try kofamscan with lower cutoffs
 
+
+# snakefile 
+* /data/ccallen/2023_02_Sporothrix/10_annotations
+```
+import glob
+import os
+import pandas as pd
+
+genome_ann = pd.read_table('genomes.txt').set_index("genome", drop=False)
+GENOMES_ANN = list(genome_ann['genome'])
+
+genome_dbcan = pd.read_table('genomes_dbcan.txt').set_index("genome", drop=False)
+GENOMES_DBCAN = list(genome_dbcan['genome'])
+
+rule all:
+        input:
+                expand("kegg_relaxed/{sample}/{sample}.kegg.mapper.txt", sample = GENOMES_ANN),
+                #expand("dbcan4/{sample}_dbcan/overview.txt", sample = GENOMES_DBCAN)
+        output: touch("touch")
+
+#rule dbcan:
+#    input: "protein_fasta_dbcan/{sample}.proteins.fa"
+#    output: "dbcan4/{sample}_dbcan/overview.txt"
+#    shell:
+#                "run_dbcan {input} protein --out_dir dbcan4/{wildcards.sample}_dbcan --db_dir /data/ccallen/bin/run_dbcan_4.0.0/db/ --use_signalP True"
+
+rule kofam_scan:
+        input: "protein_fasta/{sample}.proteins.fa"
+        output: 
+                o1="kegg_relaxed/{sample}/{sample}.kegg.mapper.txt",
+                o2="kegg_relaxed/{sample}/{sample}.ko.txt",
+        shell:
+                "/data/ccallen/bin/kofam_scan/exec_annotation -o {output.o2} -f detail-tsv -c /data/ccallen/bin/kofam_scan/config_euk.yml --threshold-scale=0.75 --tmp-dir kegg_relaxed/tmp_d_{wildcards.sample} {input};"
+                "/data/ccallen/bin/kofam_scan/exec_annotation -o {output.o1} -f mapper -c /data/ccallen/bin/kofam_scan/config_euk.yml --threshold-scale=0.75 --tmp-dir kegg_relaxed/tmp_m_{wildcards.sample} {input};"
+```
+
+cd /data/ccallen/2023_02_Sporothrix/10_annotations
+conda activate run_dbcan_4.0.0 #to get an environment with snakemake installed
+snakemake -n -r #to check
+snakemake --cores 8
+
+
+for file in $(cat genomes_with_partners.txt)
+do
+mkdir kegg_relaxed/kegg_output/"$file"
+scp ccallen@142.244.110.136:/data/ccallen/2023_02_Sporothrix/10_annotations/kegg_relaxed/"$file"/"$file".kegg.mapper.txt kegg_relaxed/kegg_output/"$file"/.
+done

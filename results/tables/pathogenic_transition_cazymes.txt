@@ -1,0 +1,7 @@
+FamilyID	TaxonID	Count	Change	Pvalue	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+GH78	Sporothrix_luriei_CBS93772	1	-3	0.000515644	NA	NA	NA	NA	NA	NA
+CE1	Sporothrix_brasiliensis_5110	3	-2	0.001254	NA	NA	NA	NA	NA	NA
+CBM67	Sporothrix_luriei_CBS93772	0	-2	0.00204056	NA	NA	NA	NA	NA	NA
+GH55_2	Sporothrix_globosa_CBS120340	8	2	0.0281312	NA	NA	NA	NA	NA	NA
+AA9	45	13	3	0.0363131	NA	NA	NA	NA	NA	NA
+CBM67	Sporothrix_globosa_CBS120340	3	1	0.0375272	NA	NA	NA	NA	NA	NA

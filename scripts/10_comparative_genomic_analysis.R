@@ -49,13 +49,15 @@ row.names(completeness) = completeness$genome
 completeness <- completeness %>% dplyr::select(-genome)
 completeness_matrix <- as.matrix(completeness)
 
+unannotated_genes <- read.delim("unannotated_genes.txt")
+
 genome_stats <-read.csv("funannotate/funannotate_compare_20230809/stats/genome.stats.summary.csv")
 row.names(genome_stats) = genome_stats$X
 genome_stats <- genome_stats %>% dplyr::select(-X)
 genome_stats <- as.data.frame(t(genome_stats)) #transpose
 rownames(genome_stats)
 genome_stats <- genome_stats %>% add_column(genome = rownames(genome_stats), .before = "isolate") #make new column with the row names
-genome_stats <- left_join(genome_df,genome_stats) 
+genome_stats <- genome_df %>% left_join(genome_stats) %>% left_join(unannotated_genes) %>% select(-genes)
 row.names(genome_stats) = genome_stats$genome
 genome_stats <- genome_stats %>% dplyr::select(-genome, -isolate, -locus_tag)
 genome_stats <- transform(genome_stats,
@@ -71,15 +73,23 @@ genome_stats <- transform(genome_stats,
                           Unique_Proteins = as.numeric(Unique_Proteins),
                           Prots_atleast_1_ortholog = as.numeric(Prots_atleast_1_ortholog),
                           Single_copy_orthologs = as.numeric(Single_copy_orthologs),
-                          Percent_masked_repeats = as.numeric(Percent_masked_repeats)
+                          Percent_masked_repeats = as.numeric(Percent_masked_repeats),
+                          unannotated = as.numeric(unannotated)
 )
 str(genome_stats)
 #write.table(genome_stats, "../01_funannotate/funannotate_compare_sporothrix_20220915/stats/genome.stats.summary_wide.txt", sep='\t', quote = F, row.names = T)
 genome_stats_matrix <- as.matrix(genome_stats)
 
+
+
+
 assembly_size_matrix <- genome_stats_matrix[,1]
 no_proteins_matrix <- genome_stats_matrix[,8]
 repeats_matrix <- genome_stats_matrix[,13]
+N50_matrix <- genome_stats_matrix[,5]
+scaffolds_matrix <- genome_stats_matrix[,4]
+unannotated_matrix <- genome_stats_matrix[,c(14,7)]
+proportion_annotated_matrix <- t(apply(unannotated_matrix, 1, function(x) x/sum(x)))
 
 secmets<-read.delim("antiSMASH/antismash.txt") %>% dplyr::select(genome, secondary_metabolite_type) %>%
   dplyr::group_by(genome) %>%
@@ -113,79 +123,14 @@ row.names(merops) = merops$genome
 merops <- merops %>% dplyr::select(-genome)
 merops_matrix <- as.matrix(merops)
 
-YR<-read.delim("~/Documents/2023_02_Sporothrix/12_starfish/tyrCount.txt")
-YR <- left_join(genome_df,YR)
-row.names(YR) = YR$genome
-YR <- YR %>% dplyr::select(-genome)
-YR_matrix <- as.matrix(YR)
+#YR<-read.delim("~/Documents/2023_02_Sporothrix/12_starfish/tyrCount.txt")
+#YR <- left_join(genome_df,YR)
+#row.names(YR) = YR$genome
+#YR <- YR %>% dplyr::select(-genome)
+#YR_matrix <- as.matrix(YR)
 
 # make heatmaps and annotations
 
-library(MetBrewer)
-met.brewer("Archambault", n=20, type="continuous")
-c <- met.brewer("Archambault", n=20, type="continuous")
-c[19]
-c[16]
-c[14]
-
-met.brewer("VanGogh1", n=10, type="continuous")
-c <- met.brewer("VanGogh1", n=10, type="continuous")
-c[2]
-c[10]
-
-met.brewer("Wissing", n=5, type="continuous")
-c <- met.brewer("Wissing", n=5, type="continuous")
-c[5]
-c[10]
-
-annotations <- rowAnnotation(
-  "compl" = anno_points((completeness_matrix),
-                        width = unit(2, "cm"),
-                        ylim = c(0, 100),
-                        pch = 1:2,
-                        axis_param = list(
-                          at = c(0, 50, 100), 
-                          labels = c("0", "50", "100")),
-                        #gp = gpar(col = 2:3),
-                        border = FALSE),
-  "bp" = anno_barplot((assembly_size_matrix),
-                      width = unit(1, "cm"),
-                      baseline = c(18000000),
-                      ylim = c(18000000, 44000000),
-                      axis_param = list(
-                        at = c(20000000, 42000000), 
-                        labels = c("20", "42")),
-                      border = FALSE,
-                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
-  "proteins" = anno_barplot((no_proteins_matrix),
-                            width = unit(1, "cm"),
-                            baseline = c(6000),
-                            ylim = c(6000, 11000),
-                            axis_param = list(
-                              at = c(7000, 10000), 
-                              labels = c("7k", "10k")),
-                            border = FALSE,
-                            gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
-  "repeats" = anno_barplot((repeats_matrix),
-                      width = unit(1, "cm"),
-                      baseline = c(0),
-                      ylim = c(0, 18),
-                      axis_param = list(
-                        at = c(0, 15), 
-                        labels = c("0", "15")),
-                      border = FALSE,
-                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
-  "YR" = anno_barplot((YR_matrix),
-                      width = unit(1, "cm"),
-                      baseline = c(0),
-                      ylim = c(0, 13),
-                      axis_param = list(
-                        at = c(0, 10), 
-                        labels = c("0", "10")),
-                      border = FALSE,
-                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
-  gap = unit(3, "mm"),
-  show_annotation_name = FALSE)
 
 row_labels = genome
 row_labels
@@ -220,13 +165,159 @@ names(row_labels) = c("S. euskadiensis VPRI43754",
                       "L. lundbergii CBS 138716")
 names(row_labels)
 
+
+
+
+annotations <- rowAnnotation(
+  "compl" = anno_points((completeness_matrix),
+                        width = unit(2, "cm"),
+                        ylim = c(0, 100),
+                        pch = 1:2,
+                        axis_param = list(
+                          at = c(0, 50, 100), 
+                          labels = c("0", "50", "100")),
+                        #gp = gpar(col = 2:3),
+                        border = FALSE),
+  "N50" = anno_text((N50_matrix),
+                         location = 0.5,
+                         just = "center",
+                         #width = unit(2, "cm"),
+                         #border = FALSE,
+                         gp = gpar(fontsize = 7, col = "black", border = "black", fill = "aliceblue"),
+                         width = max_text_width(N50_matrix)*1.05),
+  "contigs" = anno_text((scaffolds_matrix),
+                        location = 0.5,
+                        just = "center",
+                        #width = unit(2, "cm"),
+                        #border = FALSE,
+                        gp = gpar(fontsize = 7, col = "black", border = "black", fill = "cornsilk1"),
+                        width = max_text_width(scaffolds_matrix)*1.05),
+  "bp" = anno_barplot((assembly_size_matrix),
+                      width = unit(1, "cm"),
+                      baseline = c(18000000),
+                      ylim = c(18000000, 44000000),
+                      axis_param = list(
+                        at = c(20000000, 42000000), 
+                        labels = c("20", "42")),
+                      border = FALSE,
+                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
+  "proteins" = anno_barplot((no_proteins_matrix),
+                            width = unit(1, "cm"),
+                            baseline = c(6000),
+                            ylim = c(6000, 11000),
+                            axis_param = list(
+                              at = c(7000, 10000), 
+                              labels = c("7k", "10k")),
+                            border = FALSE,
+                            gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
+  "repeats" = anno_barplot((repeats_matrix),
+                      width = unit(1, "cm"),
+                      baseline = c(0),
+                      ylim = c(0, 18),
+                      axis_param = list(
+                        at = c(0, 15), 
+                        labels = c("0", "15")),
+                      border = FALSE,
+                      gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
+  "contigs" = anno_barplot((scaffolds_matrix),
+                           width = unit(2, "cm"),
+                           baseline = c(0),
+                           #ylim = c(0, 18),
+                          # axis_param = list(
+                          #   at = c(0, 15), 
+                           #  labels = c("0", "15")),
+                           border = FALSE,
+                           gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
+  gap = unit(4, "mm"),
+  show_annotation_name = FALSE)
+
+library(circlize)
+col_fun = colorRamp2(c(0, 1), c("white", "gray44"))
+col_fun(seq(0, 3))
+
+attributes_hm <- Heatmap(genome_attributes_lifestyle_matrix,
+                         name = "Attributes",
+                         column_title = "Association\n",
+                         column_title_gp = gpar(fontsize = 10),
+                         col = col_fun,
+                         cluster_rows = ML_dend,
+                         row_dend_width = unit(2, "cm"),
+                         column_names_gp = grid::gpar(fontsize = 8),
+                         row_names_side = "left",
+                         row_labels = names(row_labels),
+                         row_names_gp = grid::gpar(fontsize = 8),
+                         width = unit(3, "cm"),
+                         height = unit(9, "cm"),
+                         show_heatmap_legend = FALSE,
+                         show_column_dend = FALSE,
+                         right_annotation = annotations)
+
+attributes_hm 
+
+#write to pdf
+pdf(file="~/Documents/2023_02_Sporothrix/results/figures/sporothrix_assembly_details.pdf", width=10, height=8)
+attributes_hm
+decorate_annotation("compl", { 
+  grid.text("Assembly", y = unit(1, "npc") + unit(12, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+decorate_annotation("compl", { 
+  grid.text("completeness", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+
+decorate_annotation("bp", { 
+  grid.text("Mbp", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+
+decorate_annotation("proteins", { 
+  grid.text("Predicted", y = unit(1, "npc") + unit(12, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+decorate_annotation("proteins", { 
+  grid.text("proteins", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+decorate_annotation("repeats", { 
+  grid.text("repeats", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+decorate_annotation("N50", { 
+  grid.text("N50", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+decorate_annotation("contigs", { 
+  grid.text("Contigs", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+
+
+
+
+dev.off()
+
+
+
+class_annotations <- rowAnnotation(
+  "unannotated" = anno_barplot((unannotated_matrix[,1]),
+                            width = unit(1.5, "cm"),
+                            #baseline = c(6000),
+                            #ylim = c(6000, 11000),
+                            axis_param = list(
+                              at = c(1000, 2000), 
+                              labels = c("1k", "2k")),
+                            border = FALSE,
+                            gp = gpar(fill = "#2E3033", col = "#2E3033", lineend = "round")),
+  "proportion" = anno_barplot(proportion_annotated_matrix,
+                              width = unit(2, "cm"),
+                              gp = gpar(fill = c("#2E3033","lightgrey"), col = "#2E3033"),
+                              #bar_width = 2,
+                              #gap = unit(4, "mm")
+                              border = FALSE),
+  gap = unit(4, "mm"),
+  show_annotation_name = FALSE)
+
+
 library(circlize)
 col_fun = colorRamp2(c(0, max(unlist(CAZyme_matrix))), c("white", "darkorchid"))
 col_fun(seq(0, 3))
 cazyme_hm <- Heatmap(CAZyme_matrix,
                      name = "CAZymes",
                      column_title = "CAZyme\nclasses",
-                     column_title_gp = gpar(fontsize = 12),
+                     column_title_gp = gpar(fontsize = 10),
                      col = col_fun,
                      cluster_rows = ML_dend,
                      row_dend_width = unit(2, "cm"),
@@ -237,38 +328,18 @@ cazyme_hm <- Heatmap(CAZyme_matrix,
                      width = unit(3, "cm"),
                      height = unit(8, "cm"),
                      show_column_dend = FALSE,
-                     left_annotation = annotations,
-                     #left_annotation = rowAnnotation(
-                     #pathogen = genome_attributes_matrix[,"mammal_pathogen"],
-                     #soil = genome_attributes_matrix[,"soil"],
-                     #arthropod = genome_attributes_matrix[,"arthropod"],
-                     #wood = genome_attributes_matrix[,"wood"],
-                     #infructescence = genome_attributes_matrix[,"infructescence"],
-                     #macrofungus = genome_attributes_matrix[,"macrofungus"],
-                     #col = list(arthropod = c("1" = "black",
-                     #"NA" = "azure"),
-                     # pathogen = c("1" = "black",
-                     #"NA" = "white"),
-                     #soil = c("1" = "black",
-                     #"NA" = "white"),
-                     #wood = c("1" = "black",
-                     #"NA" = "white"),                                  
-                     #infructescence = c("1" = "black",
-                     #"NA" = "white"),                                  
-                     #macrofungus = c("1" = "black",
-                     #"NA" = "white")),
-                     #show_legend = FALSE),
+                     #right_annotation = class_annotations,
                      show_heatmap_legend = FALSE,
                      cell_fun = function(j, i, x, y, width, height, fill) {
                        grid.text(CAZyme_matrix[i, j], x, y, gp = gpar(fontsize = 6))})
 cazyme_hm
 
-col_fun = colorRamp2(c(0, max(unlist(secmets_matrix))), c("white", "deepskyblue4"))
+col_fun = colorRamp2(c(0, max(unlist(secmets_matrix))), c("white", "aquamarine4"))
 secmets_hm <- Heatmap(secmets_matrix,
                       name = "BGCs",
                       col = col_fun,
                       column_title = "Biosynthetic gene\nclusters",
-                      column_title_gp = gpar(fontsize = 12),
+                      column_title_gp = gpar(fontsize = 10),
                       cluster_rows = ML_dend,
                       row_dend_width = unit(2, "cm"),
                       column_names_gp = grid::gpar(fontsize = 8),
@@ -277,18 +348,18 @@ secmets_hm <- Heatmap(secmets_matrix,
                       row_names_gp = grid::gpar(fontsize = 8),
                       width = unit(3.5, "cm"),
                       height = unit(8, "cm"),
-                      #right_annotation = annotations,
+                      right_annotation = class_annotations,
                       show_heatmap_legend = FALSE,
                       show_column_dend = FALSE,
                       cell_fun = function(j, i, x, y, width, height, fill) {
                         grid.text(secmets_matrix[i, j], x, y, gp = gpar(fontsize = 6))})
 secmets_hm
 
-col_fun = colorRamp2(c(0, max(unlist(merops_matrix))), c("white", "aquamarine4"))
+col_fun = colorRamp2(c(0, max(unlist(merops_matrix))), c("white", "deepskyblue4"))
 merops_hm <- Heatmap(merops_matrix,
                      name = "proteases",
                      column_title = "Protease\nclasses",
-                     column_title_gp = gpar(fontsize = 12),
+                     column_title_gp = gpar(fontsize = 10),
                      col = col_fun,
                      cluster_rows = ML_dend,
                      row_dend_width = unit(2, "cm"),
@@ -298,62 +369,45 @@ merops_hm <- Heatmap(merops_matrix,
                      row_names_gp = grid::gpar(fontsize = 8),
                      width = unit(4.5, "cm"),
                      height = unit(8, "cm"),
-                     #right_annotation = annotations,
                      show_heatmap_legend = FALSE,
                      show_column_dend = FALSE,
                      cell_fun = function(j, i, x, y, width, height, fill) {
                        grid.text(merops_matrix[i, j], x, y, gp = gpar(fontsize = 6))})
 merops_hm
 
-library(circlize)
-col_fun = colorRamp2(c(0, 1), c("white", "grey"))
-col_fun(seq(0, 3))
-
-attributes_hm <- Heatmap(genome_attributes_lifestyle_matrix,
-                         name = "Attributes",
-                         column_title = "Association\n",
-                         column_title_gp = gpar(fontsize = 12),
-                         col = col_fun,
-                         cluster_rows = ML_dend,
-                         row_dend_width = unit(2, "cm"),
-                         column_names_gp = grid::gpar(fontsize = 8),
-                         row_names_side = "left",
-                         row_labels = names(row_labels),
-                         row_names_gp = grid::gpar(fontsize = 8),
-                         width = unit(3, "cm"),
-                         height = unit(8, "cm"),
-                         show_heatmap_legend = FALSE,
-                         show_column_dend = FALSE)
-attributes_hm 
-
-
 #write to pdf
-pdf(file="figures/sporothrix_overview.pdf", width=12, height=8)
-attributes_hm + cazyme_hm + secmets_hm + merops_hm
-decorate_annotation("compl", { 
-  grid.text("Assembly", y = unit(1, "npc") + unit(18, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
+pdf(file="~/Documents/2023_02_Sporothrix/results/figures/sporothrix_class_inventory.pdf", width=12, height=6)
+cazyme_hm + merops_hm + secmets_hm
+decorate_annotation("unannotated", { 
+  grid.text("counts", y = unit(1, "npc") + unit(2, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
 })
-decorate_annotation("compl", { 
-  grid.text("completeness", y = unit(1, "npc") + unit(13, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
+decorate_annotation("unannotated", { 
+  grid.text("Unannotated genes", y = unit(1, "npc") + unit(10, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
+})
+decorate_annotation("proportion", { 
+  grid.text("proportion\nof total", y = unit(1, "npc") + unit(3, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 10)) 
 })
 
-decorate_annotation("bp", { 
-  grid.text("Mbp", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
 
-decorate_annotation("proteins", { 
-  grid.text("Predicted", y = unit(1, "npc") + unit(18, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-decorate_annotation("proteins", { 
-  grid.text("proteins", y = unit(1, "npc") + unit(13, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-decorate_annotation("YR", { 
-  grid.text("YRs", y = unit(1, "npc") + unit(13, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
-decorate_annotation("repeats", { 
-  grid.text("% repeats", y = unit(1, "npc") + unit(7, "mm"), just = "bottom", rot = 0, gp = gpar(fontsize = 12)) 
-})
 dev.off()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ##########calculate the increase and decrease for epigloea##########
 

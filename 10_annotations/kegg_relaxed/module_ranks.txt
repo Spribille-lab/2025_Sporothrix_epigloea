@@ -1,0 +1,482 @@
+Module	cluster	Rank_3	Rank_2	Rank_1
+M00001	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00002	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00003	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00307	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00009	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00010	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00011	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00004	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00006	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00007	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00580	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00005	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00008	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00308	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00633	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00309	1	Central carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00014	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00630	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00631	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00061	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00081	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00632	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00552	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00129	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00114	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00550	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00854	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00855	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00565	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00549	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00554	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00892	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00909	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00761	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00012	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00373	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00740	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00532	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00013	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00741	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00968	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00130	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00131	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00132	2	Other carbohydrate metabolism	Carbohydrate metabolism	Pathway Modules
+M00165	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00168	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00169	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00172	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00171	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00170	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00173	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00376	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00375	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00374	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00377	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00579	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00620	3	Carbon fixation	Energy metabolism	Pathway Modules
+M00567	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00357	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00356	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00563	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00358	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00608	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00174	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00346	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00345	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00344	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00378	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00935	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00422	4	Methane metabolism	Energy metabolism	Pathway Modules
+M00175	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00531	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00530	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00529	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00528	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00804	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00973	5	Nitrogen metabolism	Energy metabolism	Pathway Modules
+M00176	6	Sulfur metabolism	Energy metabolism	Pathway Modules
+M00596	6	Sulfur metabolism	Energy metabolism	Pathway Modules
+M00595	6	Sulfur metabolism	Energy metabolism	Pathway Modules
+M00161	7	Photosynthesis	Energy metabolism	Pathway Modules
+M00163	7	Photosynthesis	Energy metabolism	Pathway Modules
+M00597	7	Photosynthesis	Energy metabolism	Pathway Modules
+M00598	7	Photosynthesis	Energy metabolism	Pathway Modules
+M00144	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00145	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00142	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00143	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00146	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00147	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00149	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00150	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00148	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00162	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00151	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00152	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00154	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00155	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00153	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00417	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00416	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00156	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00157	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00158	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00159	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00160	8	ATP synthesis	Energy metabolism	Pathway Modules
+M00082	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00083	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00873	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00874	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00085	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00415	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00086	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00087	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00861	9	Fatty acid metabolism	Lipid metabolism	Pathway Modules
+M00101	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00102	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00917	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00103	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00104	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00106	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00862	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00107	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00108	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00109	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00110	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00976	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00977	10	Sterol biosynthesis	Lipid metabolism	Pathway Modules
+M00088	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00089	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00098	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00090	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00091	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00092	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00093	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00094	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00066	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00067	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00099	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00100	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00113	11	Lipid metabolism	Lipid metabolism	Pathway Modules
+M00048	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00049	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00050	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00053	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00958	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00959	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00546	12	Purine metabolism	Nucleotide metabolism	Pathway Modules
+M00051	13	Pyrimidine metabolism	Nucleotide metabolism	Pathway Modules
+M00052	13	Pyrimidine metabolism	Nucleotide metabolism	Pathway Modules
+M00938	13	Pyrimidine metabolism	Nucleotide metabolism	Pathway Modules
+M00046	13	Pyrimidine metabolism	Nucleotide metabolism	Pathway Modules
+M00939	13	Pyrimidine metabolism	Nucleotide metabolism	Pathway Modules
+M00020	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00018	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00621	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00555	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00974	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00975	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00033	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00919	14	Serine and threonine metabolism	Amino acid metabolism	Pathway Modules
+M00021	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00338	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00609	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00017	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00034	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00035	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00368	15	Cysteine and methionine metabolism	Amino acid metabolism	Pathway Modules
+M00019	16	Branched-chain amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00535	16	Branched-chain amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00570	16	Branched-chain amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00432	16	Branched-chain amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00036	16	Branched-chain amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00016	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00525	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00526	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00527	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00030	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00433	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00031	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00032	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00956	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00957	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00960	17	Lysine metabolism	Amino acid metabolism	Pathway Modules
+M00028	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00763	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00844	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00845	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00029	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00015	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00970	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00972	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00047	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00879	18	Arginine and proline metabolism	Amino acid metabolism	Pathway Modules
+M00133	19	Polyamine biosynthesis	Amino acid metabolism	Pathway Modules
+M00134	19	Polyamine biosynthesis	Amino acid metabolism	Pathway Modules
+M00135	19	Polyamine biosynthesis	Amino acid metabolism	Pathway Modules
+M00136	19	Polyamine biosynthesis	Amino acid metabolism	Pathway Modules
+M00026	20	Histidine metabolism	Amino acid metabolism	Pathway Modules
+M00045	20	Histidine metabolism	Amino acid metabolism	Pathway Modules
+M00022	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00023	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00024	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00910	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00025	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00040	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00042	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00043	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00044	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00533	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00037	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00936	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00038	21	Aromatic amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00027	22	Other amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00369	22	Other amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00118	22	Other amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00947	22	Other amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00948	22	Other amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00949	22	Other amino acid metabolism	Amino acid metabolism	Pathway Modules
+M00055	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00072	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00073	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00074	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00075	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00056	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00872	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00065	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00070	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00071	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00068	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00069	23	Glycan biosynthesis	Glycan metabolism	Pathway Modules
+M00057	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00058	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00059	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00076	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00077	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00078	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00079	24	Glycosaminoglycan metabolism	Glycan metabolism	Pathway Modules
+M00060	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00866	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00867	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00063	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00064	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00922	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00923	25	Lipopolysaccharide metabolism	Glycan metabolism	Pathway Modules
+M00127	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00895	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00896	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00897	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00898	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00899	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00125	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00911	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00124	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00916	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00115	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00912	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00810	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00811	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00622	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00119	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00913	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00120	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00914	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00572	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00123	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00950	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00573	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00577	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00881	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00882	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00883	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00884	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00126	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00840	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00841	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00842	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00843	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00880	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00140	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00141	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00846	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00868	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00121	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00926	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00847	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00924	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00925	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00122	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00836	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00117	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00128	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00116	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00930	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00931	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00932	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00112	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00933	26	Cofactor and vitamin metabolism	Metabolism of cofactors and vitamins	Pathway Modules
+M00095	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00849	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00096	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00364	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00365	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00366	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00367	27	Terpenoid backbone biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00097	28	Plant terpenoid biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00372	28	Plant terpenoid biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00371	28	Plant terpenoid biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00927	28	Plant terpenoid biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00928	28	Plant terpenoid biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00929	28	Plant terpenoid biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00773	29	Macrolide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00934	29	Macrolide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00774	29	Macrolide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00775	29	Macrolide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00776	29	Macrolide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00777	29	Macrolide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00824	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00825	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00826	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00827	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00828	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00829	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00830	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00831	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00832	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00834	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00833	30	Enediyne biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00778	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00779	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00780	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00823	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00781	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00782	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00783	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00784	31	Type II polyketide biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00793	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00794	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00795	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00796	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00797	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00798	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00799	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00800	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00801	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00802	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00803	32	Polyketide sugar unit biosynthesis	Biosynthesis of terpenoids and polyketides	Pathway Modules
+M00039	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00137	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00940	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00138	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00941	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00942	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00966	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00967	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00962	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00963	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00964	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00965	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00943	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00944	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00945	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00946	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00961	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00370	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00900	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00971	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00894	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00953	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00952	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00902	33	Biosynthesis of phytochemical compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00672	34	Biosynthesis of beta-lactams	Biosynthesis of other secondary metabolites	Pathway Modules
+M00673	34	Biosynthesis of beta-lactams	Biosynthesis of other secondary metabolites	Pathway Modules
+M00675	34	Biosynthesis of beta-lactams	Biosynthesis of other secondary metabolites	Pathway Modules
+M00736	34	Biosynthesis of beta-lactams	Biosynthesis of other secondary metabolites	Pathway Modules
+M00674	34	Biosynthesis of beta-lactams	Biosynthesis of other secondary metabolites	Pathway Modules
+M00877	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00889	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00815	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00904	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00787	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00785	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00848	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00788	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00819	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00903	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00890	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00951	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00969	35	Biosynthesis of other antibiotics	Biosynthesis of other secondary metabolites	Pathway Modules
+M00661	36	Biosynthesis of other fungal compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00786	36	Biosynthesis of other fungal compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00937	36	Biosynthesis of other fungal compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00893	36	Biosynthesis of other fungal compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00891	36	Biosynthesis of other fungal compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00901	36	Biosynthesis of other fungal compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00814	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00789	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00790	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00805	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00808	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00835	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00837	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00838	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00921	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00905	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00876	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00875	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00918	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00906	37	Biosynthesis of other bacterial compounds	Biosynthesis of other secondary metabolites	Pathway Modules
+M00538	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00537	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00419	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00547	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00548	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00551	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00637	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00568	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00569	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00539	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00543	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00544	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00418	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00541	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00540	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00534	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00638	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00624	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00623	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00636	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00878	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00545	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00915	38	Aromatics degradation	Xenobiotics biodegradation	Pathway Modules
+M00852	39	Pathogenicity	Gene set	Signature Modules
+M00850	39	Pathogenicity	Gene set	Signature Modules
+M00542	39	Pathogenicity	Gene set	Signature Modules
+M00363	39	Pathogenicity	Gene set	Signature Modules
+M00853	39	Pathogenicity	Gene set	Signature Modules
+M00576	39	Pathogenicity	Gene set	Signature Modules
+M00856	39	Pathogenicity	Gene set	Signature Modules
+M00857	39	Pathogenicity	Gene set	Signature Modules
+M00575	39	Pathogenicity	Gene set	Signature Modules
+M00574	39	Pathogenicity	Gene set	Signature Modules
+M00564	39	Pathogenicity	Gene set	Signature Modules
+M00859	39	Pathogenicity	Gene set	Signature Modules
+M00860	39	Pathogenicity	Gene set	Signature Modules
+M00851	40	Drug resistance	Gene set	Signature Modules
+M00625	40	Drug resistance	Gene set	Signature Modules
+M00627	40	Drug resistance	Gene set	Signature Modules
+M00745	40	Drug resistance	Gene set	Signature Modules
+M00651	40	Drug resistance	Gene set	Signature Modules
+M00652	40	Drug resistance	Gene set	Signature Modules
+M00704	40	Drug resistance	Gene set	Signature Modules
+M00725	40	Drug resistance	Gene set	Signature Modules
+M00726	40	Drug resistance	Gene set	Signature Modules
+M00730	40	Drug resistance	Gene set	Signature Modules
+M00744	40	Drug resistance	Gene set	Signature Modules
+M00718	40	Drug resistance	Gene set	Signature Modules
+M00639	40	Drug resistance	Gene set	Signature Modules
+M00641	40	Drug resistance	Gene set	Signature Modules
+M00642	40	Drug resistance	Gene set	Signature Modules
+M00643	40	Drug resistance	Gene set	Signature Modules
+M00769	40	Drug resistance	Gene set	Signature Modules
+M00649	40	Drug resistance	Gene set	Signature Modules
+M00696	40	Drug resistance	Gene set	Signature Modules
+M00697	40	Drug resistance	Gene set	Signature Modules
+M00698	40	Drug resistance	Gene set	Signature Modules
+M00700	40	Drug resistance	Gene set	Signature Modules
+M00702	40	Drug resistance	Gene set	Signature Modules
+M00714	40	Drug resistance	Gene set	Signature Modules
+M00705	40	Drug resistance	Gene set	Signature Modules
+M00746	40	Drug resistance	Gene set	Signature Modules
+M00660	41	Plant pathogenicity	Gene set	Signature Modules
+M00664	42	Symbiosis	Gene set	Signature Modules
+M00611	43	Metabolic capacity	Module set	Signature Modules
+M00612	43	Metabolic capacity	Module set	Signature Modules
+M00613	43	Metabolic capacity	Module set	Signature Modules
+M00614	43	Metabolic capacity	Module set	Signature Modules
+M00617	43	Metabolic capacity	Module set	Signature Modules
+M00618	43	Metabolic capacity	Module set	Signature Modules
+M00615	43	Metabolic capacity	Module set	Signature Modules
+M00616	43	Metabolic capacity	Module set	Signature Modules

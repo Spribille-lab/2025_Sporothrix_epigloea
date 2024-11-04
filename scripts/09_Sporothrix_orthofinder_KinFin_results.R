@@ -514,4 +514,23 @@ p4
 
 dev.off()
 
+################## CAFE5 results ##########
+library(dplyr)
+
+all_annotations <- rbind(others_annotations,epigloea_annotations)
+
+epigloea_contractions <- read.delim("~/Documents/2023_02_Sporothrix/results/tables/orthogroup_decrease_epigloea_transition.txt", stringsAsFactors = F, sep = "\t") %>%
+  select(FamilyID)
+
+epigloea_contractions_ann <- others_annotations[others_annotations$Orthogroup %in% epigloea_contractions$FamilyID,]
+epigloea_contractions_ann <- epigloea_contractions_ann %>% arrange(Orthogroup)
+write.table(epigloea_contractions_ann, "~/Documents/2023_02_Sporothrix/results/tables/orthogroup_decrease_epigloea_transition_ann.txt", sep='\t', quote = F, row.names = F, col.names = T)
+
+
+epigloea_expansions <- read.delim("~/Documents/2023_02_Sporothrix/results/tables/orthogroup_increase_epigloea_transition.txt", stringsAsFactors = F, sep = "\t") %>%
+  select(FamilyID)
+
+epigloea_expansions_ann <- all_annotations[all_annotations$Orthogroup %in% epigloea_expansions$FamilyID,]
+epigloea_expansions_ann <- epigloea_expansions_ann %>% arrange(Orthogroup)
+write.table(epigloea_expansions_ann, "~/Documents/2023_02_Sporothrix/results/tables/orthogroup_increase_epigloea_transition_ann.txt", sep='\t', quote = F, row.names = F, col.names = T)
 

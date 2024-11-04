@@ -9,9 +9,9 @@ library(tidyverse)
 
 #genome = "Tremella_yokohamensis_S_CBS18117_GCA_963924285"
 
-setwd(paste0("~/Documents/2023_02_Sporothrix/10_annotations/kegg/kegg_output/",genome, sep=""))
+setwd(paste0("~/Documents/2023_02_Sporothrix/10_annotations/kegg_relaxed/kegg_output/",genome, sep=""))
 getwd()
-kegg_mapper <- read.delim(paste(genome,".kegg.mapper.txt", sep=""), header = F, na.strings='') %>%
+kegg_mapper <- read.delim(paste(genome,".kegg.mapper.txt", sep=""), header = F, na.strings='', col.names=c("V1", "V2")) %>%
   select(-V1) %>%
   filter(!is.na(V2)) %>%
   arrange(V2)

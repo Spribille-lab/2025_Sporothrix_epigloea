@@ -1,0 +1,7 @@
+FamilyID	TaxonID	Count	Change	Pvalue	GO_domain_ids	GO_domain_description	IPR_domain_ids	IPR_domain_description	Pfam_domain_ids	Pfam_domain_description
+S09C	47	8	2	0.00469434	NA	NA	NA	NA	NA	NA
+S09X	Sporothrix_globosa_CBS120340	41	4	0.0109908	NA	NA	NA	NA	NA	NA
+M20D	Sporothrix_schenckii_1099	4	1	0.0151711	NA	NA	NA	NA	NA	NA
+S09X	Sporothrix_luriei_CBS93772	33	-4	0.0156945	NA	NA	NA	NA	NA	NA
+S09X	Sporothrix_brasiliensis_5110	34	-2	0.0258252	NA	NA	NA	NA	NA	NA
+S12	Sporothrix_schenckii_1099	9	1	0.0403301	NA	NA	NA	NA	NA	NA

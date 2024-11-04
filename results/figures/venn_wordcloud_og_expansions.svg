@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="271.49542mm"
+   height="298.3364mm"
+   viewBox="0 0 271.49542 298.3364"
+   version="1.1"
+   id="svg3025"
+   inkscape:version="1.1 (c4e8f9e, 2021-05-24)"
+   sodipodi:docname="venn_wordcloud_og_expansions.svg"
+   inkscape:export-filename="/Users/carmenallen/Documents/2023_02_Sporothrix/results/figures/venn_wordcloud_og_expansions.png"
+   inkscape:export-xdpi="206.83"
+   inkscape:export-ydpi="206.83"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3027"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5"
+     inkscape:cx="-23"
+     inkscape:cy="478"
+     inkscape:window-width="2204"
+     inkscape:window-height="1120"
+     inkscape:window-x="133"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g948"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs3022">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1883">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1881" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1909">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1907" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1933">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1931" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1957">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1955" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1933-8">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1931-7" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1957-5">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1955-5" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath1909-0">
+      <path
+         d="M 0,436.28 H 167.56 V 611.8 H 0 Z"
+         id="path1907-7" />
+    </clipPath>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-111.56227,-27.50208)">
+    <g
+       id="g1927"
+       transform="matrix(0.66315884,0,0,-0.66315884,15.277374,491.5279)"
+       style="fill:#393939;fill-opacity:1">
+      <g
+         id="g1929-7"
+         clip-path="url(#clipPath1933-8)"
+         transform="translate(431.52917,-19.778278)"
+         style="fill:#393939;fill-opacity:1" />
+    </g>
+    <ellipse
+       style="opacity:0.396116;fill:none;fill-opacity:1;stroke:#666666;stroke-width:2.4;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="circle9889"
+       cx="281.51468"
+       cy="129.04527"
+       rx="100.343"
+       ry="100.34319" />
+    <g
+       id="g5315-2"
+       transform="matrix(0.35277777,0,0,-0.35277777,119.97652,392.10679)"
+       style="fill:#393939;fill-opacity:1">
+      <text
+         transform="scale(1,-1)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text5307-6"
+         x="97.803535"
+         y="-752.27216"><tspan
+           x="97.803535"
+           y="-752.27216"
+           sodipodi:role="line"
+           id="tspan5303-6">Pathogenic</tspan><tspan
+           x="97.803535"
+           y="-722.27216"
+           sodipodi:role="line"
+           id="tspan5305-7">clade</tspan></text>
+      <text
+         transform="scale(1,-1)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text5313-8"
+         x="99.022552"
+         y="-482.13687"><tspan
+           x="99.022552"
+           y="-482.13687"
+           sodipodi:role="line"
+           id="tspan5309-4"
+           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Italic';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">S. epigloea</tspan><tspan
+           x="99.022552"
+           y="-452.13687"
+           sodipodi:role="line"
+           id="tspan5311-1">clade</tspan></text>
+      <text
+         transform="scale(1,-1)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:32px;font-family:Helvetica;-inkscape-font-specification:'Helvetica, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#393939;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1564"
+         x="63.445457"
+         y="-998.34216"><tspan
+           x="63.445457"
+           y="-998.34216"
+           sodipodi:role="line"
+           id="tspan1562">Expansions</tspan></text>
+    </g>
+    <g
+       id="g7428"
+       transform="matrix(0.29336002,0,0,-0.32314026,176.11891,291.79979)">
+      <text
+         transform="matrix(1,0,0,-1,122.51,353.9)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text7432"><tspan
+           x="0 17.327999 30.672001 50.664001 64.008003 69.335999 82.68 89.351997 105.36 125.352 130.67999 144.024 157.368 170.71201 176.03999 188.03999 200.03999 213.384 225.384 230.71201 244.056 257.39999 264.07199 277.41599 290.76001 304.104 316.104 329.448 342.79199 356.13599 362.80801 370.56 383.90399 397.24799 409.24799 415.20001 428.54401 436.29599 449.64001 461.64001"
+           y="0"
+           sodipodi:role="line"
+           id="tspan7430">Domain Aminoglycoside phosphotransferase</tspan></text>
+    </g>
+    <g
+       id="g948"
+       transform="matrix(0.30789273,0,0,-0.30789273,172.74199,203.81554)">
+      <text
+         transform="matrix(1,0,0,-1,196.61,351.56)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text952"><tspan
+           x="0 17.327999 30.672001 50.664001 64.008003 69.335999 82.68 89.351997 105.36 113.352 126.696 133.368 146.71201 152.03999 165.384 172.056 184.056 189.384 202.728 216.07201 228.07201 241.416 248.088 261.43201 274.776 294.76801 308.112 313.44"
+           y="0"
+           sodipodi:role="line"
+           id="tspan950">Domain Protein kinase domain</tspan></text>
+      <text
+         transform="matrix(1,0,0,-1,179.28,335.99)"
+         style="font-variant:normal;font-weight:normal;font-size:22px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text956"><tspan
+           x="0 12.342 24.573999 42.900002 47.784 52.667999 63.667999 69.783997 88.110001 100.342 105.226 117.458 124.784 130.89999 136.356 148.588 159.588 164.472 169.356 174.24001 180.356 192.588 198.70399 210.936 218.26199 224.37801 235.37801 247.61 259.84201 272.07401 279.39999 284.85599 297.08801 315.414 320.298 325.18201"
+           y="0"
+           sodipodi:role="line"
+           id="tspan954">Family Major facilitator superfamily</tspan></text>
+      <text
+         transform="scale(1,-1)"
+         style="font-variant:normal;font-weight:normal;font-size:21px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#a6761d;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text960"
+         x="114.70797"
+         y="-374.32001"><tspan
+           x="114.70797 129.86996 141.54596 159.03896 170.71497 175.37695 187.05296 192.89096 205.72195 217.39796 224.39096 236.06696 243.05997 258.22205 268.72205 279.22205 286.21503 297.89102 304.88403 310.72205 316.56003 328.23602 339.91202 351.58804 363.26404 367.92603 380.19003 386.02805 396.52805 408.20404 419.88004 425.71805 440.88004 456.04205 470.04904 482.31305 493.98904 498.65103 510.32687 522.00287 526.66486 538.34088 550.01685 555.85486 567.53088 579.20685 596.69989 608.37585 613.03784"
+           y="-374.32001"
+           sodipodi:role="line"
+           id="tspan958">Domain Zn(2)Cys(6) fungal−type DNA−binding domain</tspan></text>
+      <text
+         transform="matrix(1,0,0,-1,210.39,394.37)"
+         style="font-variant:normal;font-weight:normal;font-size:19px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#e6ab02;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text964"><tspan
+           x="0 13.718 24.282 40.109001 50.673 54.890999 65.455002 70.737 80.066002 86.203003 96.766998 107.331 116.831 126.331 132.94299 137.161 147.72501 153.007 157.22501 167.789 178.353 183.63499 188.347 198.911 208.411 213.69299 224.257 230.584 235.866 246.42999 256.99399 272.82101 283.38501 287.603 298.16699 303.44901 308.73099 314.013 324.577 335.14099 345.70499"
+           y="0"
+           sodipodi:role="line"
+           id="tspan962">Domain Transcription factor domain, fungi</tspan></text>
+      <text
+         transform="scale(1,-1)"
+         style="font-variant:normal;font-weight:normal;font-size:17px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#e6ab02;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text968"
+         x="195.27551"
+         y="-317.39001"><tspan
+           x="195.27551 207.54951 217.00151 231.16252 240.61452 244.3885 253.84052 258.5665 269.9054 284.06625 287.84024 297.29214 306.74414 316.19614 319.97012 328.47015 336.97015 346.42215 354.92215 358.69614 368.14813 377.60013 382.32614 391.77814 401.23013 410.68213 419.18213 428.63412 438.08615 447.53815 452.26416 457.75516 467.20715 476.65915 485.15918 489.37518 498.82715 504.31815 513.7702 522.27032"
+           y="-317.39001"
+           sodipodi:role="line"
+           id="tspan966">Domain Aminoglycoside phosphotransferase</tspan></text>
+      <text
+         transform="scale(1,-1)"
+         style="font-variant:normal;font-weight:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#66a61e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text972"
+         x="240.73032"
+         y="-301.20999"><tspan
+           x="240.73032 249.70631 258.60229 271.93018 275.48215 279.03412 287.03403 291.48199 304.80988 313.70581 317.25778 326.15369 331.48166 335.92963 339.89764 348.79364 356.79364 360.34564 363.89764 367.44965 371.89764 380.79364 385.24164 394.13763 398.66565 403.11365 407.56165 415.56165 424.45764 433.35364 442.24963 447.57764 452.02563 456.47363 461.64163 470.53763 479.43362 487.43362 496.32965 505.22565 511.19363 515.64172 524.5379 529.86597 539.21014 542.76221 546.31427 553.99438"
+           y="-301.20999"
+           sodipodi:role="line"
+           id="tspan970">Family Major facilitator, sugar transporter−like</tspan></text>
+      <text
+         transform="matrix(1,0,0,-1,328.19,415.48)"
+         style="font-variant:normal;font-weight:normal;font-size:16px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#66a61e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text976"><tspan
+           x="0 11.552 20.448 29.344 38.240002 47.136002 51.584 56.032001 66.704002 75.599998 83.599998 91.599998 97.167999 100.72 109.616 114.064 119.392 128.28799 137.18401 146.08 154.976"
+           y="0"
+           sodipodi:role="line"
+           id="tspan974">Repeat Ankyrin repeat</tspan></text>
+      <text
+         transform="matrix(1,0,0,-1,211.19,428.88)"
+         style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#e7298a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text980"><tspan
+           x="0 10.108 17.892 29.554001 37.338001 40.445999 48.23 52.122002 61.459999 70.797997 80.905998 84.797997 88.690002 93.211998 100.996 108.78 115.78 123.564 131.34801 136.57001 140.46201 148.246 152.908 161.084 164.192 167.3 174.02 181.59399 185.48599 189.37801 197.036 205.59 214.92799 223.104 230.888 233.996 241.78 249.564 252.672 260.45599 268.23999 272.13199 279.91599 287.70001 299.362 307.146 310.254"
+           y="0"
+           sodipodi:role="line"
+           id="tspan978">Domain ABC transporter−like, ATP−binding domain</tspan></text>
+      <text
+         transform="scale(1,-1)"
+         style="font-variant:normal;font-weight:normal;font-size:14px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#e7298a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text984"
+         x="218.67827"
+         y="-286.98001"><tspan
+           x="218.67827 228.78627 236.57027 248.23225 256.01627 259.12424 266.90817 270.80014 281.69205 284.80002 291.79996 298.7999 306.58383 313.58377 316.69174 324.47568 332.2597 336.1517 343.51569 350.51569 358.29968 362.9617 370.7457 373.8537 381.6377 388.6377 396.42169 400.31369 403.78571 411.5697 423.23169 426.33969 429.44769 436.44769 440.33969 448.12369 455.90768 459.79968 463.69171 470.69171 478.47571 482.36771 490.1517 493.2597 500.2597 504.1517 507.25974 514.25977 518.15179 525.93597 533.72009 545.38232 553.16644 556.27448"
+           y="-286.98001"
+           sodipodi:role="line"
+           id="tspan982">Domain Glycoside hydrolase family 18, catalytic domain</tspan></text>
+      <text
+         transform="matrix(1,0,0,-1,278.76,439.5)"
+         style="font-variant:normal;font-weight:normal;font-size:13px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#7570b3;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text988"><tspan
+           x="0 9.3859997 16.614 27.443001 34.671001 37.556999 44.785 48.398998 55.301998 63.973 73.359001 76.973 79.859001 82.745003 89.973 96.212997 103.441 110.669 114.283 121.121 127.621 130.507 137.735 144.963 151.463 158.496 162.11 165.724 175.11 182.702 186.31599 193.54401 198.198 209.02699 211.91299 219.14101 226.369"
+           y="0"
+           sodipodi:role="line"
+           id="tspan986">Domain FAD linked oxidase, N−terminal</tspan></text>
+    </g>
+    <g
+       id="g1234"
+       transform="matrix(0.30851439,0,0,-0.30851439,168.54182,359.19725)">
+      <text
+         transform="matrix(1,0,0,-1,176.63,353.83)"
+         style="font-variant:normal;font-weight:normal;font-size:24px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#666666;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text1238"><tspan
+           x="0 13.464 26.808001 46.799999 52.127998 57.456001 69.456001 76.127998 96.120003 109.464 114.792 128.136 136.12801 142.8 148.752 162.09599 174.09599 179.424 184.752 190.08 196.752 210.09599 216.76801 230.112 238.104 244.776 256.776 270.12 283.46399 296.80801 304.79999 310.75201 324.09601 344.08801 349.41599 354.74399"
+           y="0"
+           sodipodi:role="line"
+           id="tspan1236">Family Major facilitator superfamily</tspan></text>
+    </g>
+    <ellipse
+       style="opacity:0.396116;fill:none;fill-opacity:1;stroke:#666666;stroke-width:2.4;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1;stop-color:#000000"
+       id="ellipse1409"
+       cx="281.51468"
+       cy="224.29527"
+       rx="100.343"
+       ry="100.34319" />
+  </g>
+</svg>

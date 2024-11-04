@@ -1,10 +1,9 @@
-# Gene loss in *Sporothrix epigloea* accompanied a shift to life in the *Tremella* fungal heteropolymer matrix
+# Massive gene loss in *Sporothrix epigloea* accompanied a shift to life in a glucuronoxylomannan-based *Tremella* microhabitat
 
-This repository contains scripts and intermediate results for the manuscript (Allen et al. 2024, <journal>)
+This repository contains scripts and intermediate results for the manuscript (Allen et al. 2025, <journal>)
 
 ## Abstract
-The unique microhabitat of *Sporothrix epigloea*—the extracellular matrix of *Tremella* jelly fungi—is rich with acidic glucuronoxylomannan (GXM) polysaccharides.  GXM polysaccharides are medically relevant both as a pharmaceutical extracted from *Tremella* fruiting bodies and as a critical virulence factor involved in cryptococcosis caused by the tremelloid fungus *Cryptococcus*.  Using a comparative genomics approach, we surveyed the genome assemblies of *Sporothrix* species through the evolutionary lifestyle transition from soil or bark beetle associate to life on a GXM-rich fungal fruiting body.  In addition, we inferred protein orthogroups across core *Sporothrix* genomes to identify gene families that were either lost or derived in the divergence of *S. epigloea*.  We found that *S. epigloea* genomes were smaller than any other *Sporothrix* genome and reduced in carbohydrate active enzymes (CAZymes), proteases, biosynthetic gene clusters, and sugar transporters.  The suite of CAZyme families degrading both plant and fungal cell wall components were reduced in *S. epigloea*.  At the same time, a lytic polysaccharide monooxygenase (LPMO) with no previously established activity or substrate specificity, appears to have been uniquely acquired in *S. epigloea*.  This result calls for further investigation in the substrate activity of these enzymes and if they play a role in degrading GXM in *Tremella* fruiting bodies.
-
+Glucuronoxylomannan (GXM)-based gel matrices are widely produced by fungi in nature and though they are of key interest in medicine and pharmaceuticals, their biodegradation is poorly understood. Though some organisms are adapted to life in and on GXM-like matrices in nature, they are almost entirely unstudied, and it is unknown if they are involved in matrix degradation, or what adaptations they possess. *Sporothrix epigloea* is an ascomycete fungus that completes its life cycle entirely in the short-lived secreted polysaccaride matrix of a white jelly fungus, *Tremella fuciformis*. To gain insight into how *S. epigloea* adapted to life in this unusual microhabitat, we compared the predicted protein composition of *S. epigloea* to that of 21 other *Sporothrix* species. We found that the genome of *S. epigloea* is smaller than that of any other sampled *Sporothrix*, with widespread functional gene loss, including in serine proteases and the predicted ability to synthesize biotin. In addition, a large number of predicted CAZymes degrading both plant and fungal cell wall components were lost, while a lytic polysaccharide monooxygenase (LPMO) with no previously established activity or substrate specificity, appears to have been gained. Phenotype assays suggest narrow use of mannans and other oligosaccharides as carbon sources. Taken together, the results suggest a narrow and streamlined machinery, including potential carbon sourcing from GXM building blocks, facilitates the hyperspecialized ecology of *S. epigloea* in the GXM-like milieu.
 
 ## Overview
 ```
@@ -16,7 +15,8 @@ project
 ├── 09_orthology
 ├── 10_annotations		
 ├── 11_LPMO_trees
-├── 12_starfish			
+├── 12_starfish
+├── 14_CAFE 		
 └── Notebook 			# temp log files for various parts of the analysis; the cleaned-up version of the same logs is in this file
 └── results 			# results included in the manuscript
     ├── figures 		# figures
@@ -34,10 +34,10 @@ Isolates:
 * *Sporothrix eucalyptigena* CBS 140593
 * *Sporothrix thermara* CBS 139747
 * *Annulohypoxylon annulatum* CBS 149473
-* *Tremella yokohamensis* CBS 18117
+* *Tremella fuciformis s.lat.* CBS 18117
 
 Environmental sample:
-* *Tremella yokohamensis* sporocarp TF4-1
+* *Tremella fuciformis* sporocarp TF4-1
 
 Software used:
 * metaWRAP pipeline v.1.3.2 (Uritskiy et al. 2018)
@@ -407,7 +407,7 @@ cd /Users/carmenallen/Documents/2023_02_Sporothrix/10_annotations/kegg
 wget https://rest.kegg.jp/list/module
 ```
 
-* get the module files from the KEGG API
+* get module files from the KEGG API
 ```
 cd mf
 while IFS=$'\t' read -r v1 v2; do wget https://rest.kegg.jp/get/"$v1"; sleep 1; done < ../module
@@ -415,12 +415,12 @@ while IFS=$'\t' read -r v1 v2; do wget https://rest.kegg.jp/get/"$v1"; sleep 1; 
 
 * run kofamscan
 ```
-/data/ccallen/bin/kofam_scan/exec_annotation -o kegg/{sample}/{sample}.ko.txt protein_fasta/{sample}.proteins.fa -f detail-tsv --tmp-dir tmp_d_{wildcards.sample}
-/data/ccallen/bin/kofam_scan/exec_annotation -o kegg/{sample}/{sample}.kegg.mapper.txt protein_fasta/{sample}.proteins.fa -f mapper --tmp-dir tmp_m_{wildcards.sample}
+/data/ccallen/bin/kofam_scan/exec_annotation -o kegg_relaxed/{sample}/{sample}.ko.txt -f detail-tsv --threshold-scale=0.75 --tmp-dir tmp_d_{wildcards.sample} protein_fasta/{sample}.proteins.fa
+/data/ccallen/bin/kofam_scan/exec_annotation -o kegg_relaxed/{sample}/{sample}.kegg.mapper.txt -f mapper --threshold-scale=0.75 --tmp-dir tmp_m_{wildcards.sample} protein_fasta/{sample}.proteins.fa
 ```
 * counted the number of KOs per genome using `scripts/10_KEGG_count_identifiers.R`
-* calculate kegg module completeness and create heatmap and wordcloud annotations using ggkegg `scripts/10_ggkegg.R`
-* results in `10_annotations/kegg`
+* calculate kegg module completeness using ggkegg, create heatmap and completeness figure `scripts/10_ggkegg_with_partners_v2.R`.  Script was modified from Tagirdzhanova et al. (2024).
+* results in `10_annotations/kegg_relaxed`
 
 ### 5.5 merged annotations from funannotate, DeepLoc, Orthofinder, and KEGG
 
@@ -444,6 +444,8 @@ Software used:
     * phytools 2.3-0 (Revell, 2024)
     * treeio 1.26.0 (Wang et al., 2020)
     * tidytree 0.4.6 (Yu, 2022)
+    * ggVennDiagram (Gao & Dusa, 2024)
+    * cowplot v1.1.3 (Wilke et al., 2024)
 * IQ-TREE 2.0.7 (Minh et al., 2020)
     * ModelFinder (Kalyaanamoorthy et al., 2017)
     * ultrafast bootstraps (Hoang et al., 2017)
@@ -589,6 +591,7 @@ cafeplotter -i $cafe_folder -o $output --format png --fig_width 20 --fig_height 
 ```
 * also visualized the results with a custom R script found at `scripts/14_CAFE.R`
 * the significant expansion and contraction events at the *S. epigloea* tips and two transition nodes were parsed in `scripts/14_CAFE.R` and presented in Supplementary Tables S5 and S6.
+* annotations for significant contraction events were extracted from annotation tables using `scripts/09_Sporothrix_orthofinder_KinFin_results.R`
 
 ## 7. LPMO gene trees
 Software used:
@@ -645,7 +648,7 @@ Sporothrix_schenckii_S_1099_GCA_000961545
 Sporothrix_thermara_S_CBS139747_GCA_XXXXXXXXX
 Sporothrix_variecibatus_S_CBS121961_GCA_021396255
 Tremella_fuciformis_S_NBRC9317_GCA_024343405
-Tremella_yokohamensis_S_SEMC49_GCA_944472115
+Tremella_fuciformis_S_SEMC49_GCA_944472115
 Tremella_fuciformis_S_tr26_GCA_000987905
 Tremella_mesenterica_S_ATCC28783_GCA_004117975
 Tremella_mesenterica_S_DSM1558_GCA_000271645

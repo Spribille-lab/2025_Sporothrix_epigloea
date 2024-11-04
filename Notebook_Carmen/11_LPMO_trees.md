@@ -190,7 +190,11 @@ trimal -in Fungi_AA14_alignment.phy -out Fungi_AA14_alignment_trimmed.phy -gappy
 conda activate iqtree2-env
 cd /data/ccallen/2023_02_Sporothrix/11_LPMO_trees/AA14/Fungi_March2024
 iqtree -s Fungi_AA14_alignment_trimmed.phy -nt AUTO -m MFP -B 1000 -pre AA14_Fungi
-```
+
+#trees with outgroup specified
+iqtree -s Fungi_AA14_alignment_trimmed.phy -nt AUTO -m MFP -B 1000 -o PRP77934.1_Planoprotostelium_fungivorum,PRP85073.1_Planoprotostelium_fungivorum,PRP85061.1_Planoprotostelium_fungivorum,PRP85059.1_Planoprotostelium_fungivorum -pre AA14_Fungi_outgroup1
+iqtree -s Fungi_AA14_alignment_trimmed.phy -nt AUTO -m MFP -B 1000 -o PRP86693.1_Planoprotostelium_fungivorum,PRP74785.1_Planoprotostelium_fungivorum,PRP74787.1_Planoprotostelium_fungivorum,PRP74784.1_Planoprotostelium_fungivorum,PRP74056.1_Planoprotostelium_fungivorum,PRP81433.1_Planoprotostelium_fungivorum,PRP88488.1_Planoprotostelium_fungivorum,PRP81476.1_Planoprotostelium_fungivorum,PRP86646.1_Planoprotostelium_fungivorum,PRP87496.1_Planoprotostelium_fungivorum,PRP89596.1_Planoprotostelium_fungivorum,PRP84537.1_Planoprotostelium_fungivorum,PRP84539.1_Planoprotostelium_fungivorum -pre AA14_Fungi_outgroup2
+````
 
 * extracted taxonomic information using taxize 0.9.100
 2024.03.13
