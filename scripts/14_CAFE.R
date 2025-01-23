@@ -128,33 +128,33 @@ str(tree_data)
 tree_labels <- data.frame(label = ML_tree$tip.label,
                           label2 = c("S. euskadiensis VPRI43754",
                                      "S. pseudoabietina VPRI43531",
-                                     "S. variecibatus CBS121961",
-                                     "S. protearum_CBS116654",
-                                     "S. humicola CBS118129",
-                                     "S. pallida CBS13156",
-                                     "S. mexicana CBS120341",
+                                     "S. variecibatus CBS 121961",
+                                     "S. protearum CBS 116654",
+                                     "S. humicola CBS 118129",
+                                     "S. pallida CBS 131.56",
+                                     "S. mexicana CBS 120341",
                                      "S. brasiliensis 5110",
-                                     "S. schenckii 1099",
-                                     "S. globosa CBS120340",
-                                     "S. luriei CBS93772",
-                                     "S. phasma CBS119721",
-                                     "S. dimorphospora CBS55374",
-                                     "S. inflata CBS23968",
-                                     "S. bragantina CBS47491",
-                                     "S. curviconia CBS95973",
-                                     "S. thermara CBS139747MAG",
-                                     "S. epigloea CBS57363",
-                                     "S. epigloea TF4163",
-                                     "S. epigloea CBS119000",
-                                     "S. eucalyptigena CBS139899",
-                                     "S. eucalyptigena CBS140593",
+                                     "S. schenckii 1099-18",
+                                     "S. globosa CBS 120340",
+                                     "S. luriei CBS 937.72",
+                                     "S. phasma CBS 119721",
+                                     "S. dimorphospora CBS 553.74",
+                                     "S. inflata CBS 239.68",
+                                     "S. bragantina CBS 474.91",
+                                     "S. curviconia CBS 959.73",
+                                     "S. thermara CBS 139747 MAG",
+                                     "S. epigloea CBS 573.63",
+                                     "S. epigloea TF4-1_63 MAG",
+                                     "S. epigloea CBS 119000",
+                                     "S. eucalyptigena CBS 139899",
+                                     "S. eucalyptigena CBS 140593",
                                      "S. nigrograna VPRI43755",
-                                     "O. novoulmi H327",
+                                     "O. novo-ulmi H327",
                                      "O. ips VPRI43529",
-                                     "S. brunneoviolacea CBS124561",
+                                     "S. brunneoviolacea CBS 124561",
                                      "O. fasciatum VPRI43845",
                                      "S. insectorum RCEF264",
-                                     "L. lundbergii CBS138716"))
+                                     "L. lundbergii CBS 138716"))
 
 tree_data <- left_join(tree_data, tree_labels, by = 'label')
 #child(tree_data, 51)
@@ -259,7 +259,7 @@ plot_CAFE_increase <- function(target_tree, target_data, target_group, xlim, tar
     theme_tree() +
     ggplot2::xlim(0, xlim) +
     vexpand(.05, direction = -1) +
-    geom_point(aes(size = Increase), colour="khaki3", alpha=0.5) +
+    geom_point(aes(size = Increase), colour="antiquewhite4", alpha=0.5) +
     scale_size(range = c(0, 11)) +
     ggtitle(paste("Expansions - ",target_group,sep = "")) +
     theme(plot.title = element_text(hjust = 0.5))
@@ -309,7 +309,7 @@ orthogroups_increase <- plot_CAFE_increase("~/Documents/2023_02_Sporothrix/09_or
 library(cowplot)
 
 pdf(file="~/Documents/2023_02_Sporothrix/results/figures/families_expansion_contraction.pdf", width=10, height=10)
-plot_grid(cazyme_decrease, protease_decrease, cazyme_increase, protease_increase, ncol = 2)
+plot_grid(cazyme_decrease, cazyme_increase, protease_decrease, protease_increase, ncol = 2)
 dev.off()
 
 

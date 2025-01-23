@@ -735,12 +735,13 @@ iqtree \
 -nt auto \
 -m MFP \
 -B 1000 \
--pre AA14_Fungi
+-o PRP77934.1_Planoprotostelium_fungivorum,PRP85073.1_Planoprotostelium_fungivorum,PRP85061.1_Planoprotostelium_fungivorum,PRP85059.1_Planoprotostelium_fungivorum \
+-pre AA14_Fungi_outgroup1
 ```
 
 * alignment and results in `11_LPMO_trees/AA14/Fungi_March2024`
 * used `scripts/11_taxize.R` to pull taxonomy for each tip and generate helper files for iTOL (Letunic & Bork 2019).
-* text files used to annotate tree in `11_LPMO_trees/AA14/Fungi_March2024/itol`
+* text files used to annotate tree in `11_LPMO_trees/AA14/Fungi_March2024/itol20241022`
 
 ## 8. Phenotype arrays
 
