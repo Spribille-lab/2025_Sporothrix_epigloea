@@ -14,7 +14,6 @@ project
 ├── 09_orthology
 ├── 10_annotations		
 ├── 11_LPMO_trees
-├── 12_starfish
 ├── 14_CAFE 		
 └── Notebook 			# temp log files for various parts of the analysis; the cleaned-up version of the same logs is in this file
 └── results 			# results included in the manuscript
