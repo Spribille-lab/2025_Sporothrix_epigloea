@@ -8,7 +8,7 @@ Fungi are well known for their ability to both produce and catabolize complex ca
 ```
 project
 ├── README.md			# this doc; description of the repo and the project log
-├── scripts				# all scripts generated for the analysis, with the exception of snakemake pipelines
+├── scripts			# all scripts generated for the analysis, with the exception of snakemake pipelines
 ├── 04_assemblies		
 ├── 08_GC_coverage		
 ├── 09_orthology
